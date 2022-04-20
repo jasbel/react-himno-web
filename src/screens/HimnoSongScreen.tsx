@@ -8,6 +8,21 @@ import { responsive } from "../res/responsive";
 import { opacityColor } from "../helpers/helper";
 import { Songs } from "../types/types";
 
+import star from "../assets/images/star.png";
+import unstar from "../assets/images/unstar-white.png";
+import { useLocation } from "react-router-dom";
+
+
+/* const getIconStar = () => {
+  if (isFavorite) {
+    return "../assets/images/star.png";
+  }
+
+  if (!isFavorite) {
+    return "../assets/images/unstar-white.png";
+  }
+}; */
+
 const widthScreen = 1440;
 
 const initialValues = {
@@ -16,10 +31,10 @@ const initialValues = {
 };
 
 const initHimno: IHimno = {
-  id: "",
-  num_song: "",
-  title_es: "",
-  description_es: "",
+  id: "lorem ipsum",
+  num_song: "lorem ipsum",
+  title_es: "lorem ipsum",
+  description_es: "lorem ipsum",
   musicalNote: "_",
   paragraphs: [],
   chorus: [],
@@ -35,10 +50,12 @@ interface IHimno extends Songs {
 interface Props {}
 
 const HimnoSongScreen = (props: Props) => {
+  const {state} = useLocation() as {state: {himno: Songs}};
+  console.log({props, state})
   // const { route, navigation } = props;
   const [isFavorite, setIsFavorite] = useState(false);
   // const [himno, setHimno] = useState(route.params.himno);
-  const [himno, setHimno] = useState(initHimno as IHimno);
+  const [himno, setHimno] = useState({...initHimno, ...state.himno} as IHimno);
   const { paragraphs, chorus } = himno;
   const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
 
@@ -90,7 +107,7 @@ const HimnoSongScreen = (props: Props) => {
 
   /* TODO: mejorar la respuesta de indefinido , array vacio, o string vacio en choir y chorus */
   const verses = paragraphs.map((item: any, i: number) => {
-    let choir = "";
+    let choir = "lorem ipsum";
 
     let filter;
     if (chorus !== undefined) {
@@ -118,16 +135,6 @@ const HimnoSongScreen = (props: Props) => {
         )
       : filter[0].choir;
   }
-
-  const getIconStar = () => {
-    if (isFavorite) {
-      return "../assets/images/star.png";
-    }
-
-    if (!isFavorite) {
-      return "../assets/images/unstar-white.png";
-    }
-  };
 
   const onPressFontSize = (valueFontSize: number) => {
     setCustomFontSize((cFontSize: any) => cFontSize + valueFontSize);
@@ -188,6 +195,8 @@ const HimnoSongScreen = (props: Props) => {
         })}
       </div>
 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis doloribus eius neque ipsa beatae ipsum dolorem repellat laudantium iste in quia, saepe itaque molestiae. Vel possimus ratione adipisci mollitia.</p>
+
       <button
         onClick={() => toggleFavorite()}
         style={{
@@ -195,7 +204,7 @@ const HimnoSongScreen = (props: Props) => {
           ...fav,
         }}
       >
-        <img style={styles.iconStar} src={getIconStar()} />
+        <img style={styles.iconStar} src={isFavorite ? star : unstar} />
       </button>
     </div>
   );

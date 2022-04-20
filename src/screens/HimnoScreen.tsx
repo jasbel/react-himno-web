@@ -9,6 +9,7 @@ import Storage from "../libs/storage";
 import { removeAccents } from "../res/removeAccents";
 import { Songs } from "../types/types";
 import { responsive } from "../res/responsive";
+import { useNavigate } from "react-router-dom";
 
 interface Props {}
 
@@ -18,6 +19,7 @@ const HimnoScreen = (props: Props) => {
   const [favorites, setFavorites] = useState([] as any);
   const [modeSearch, setModeSearch] = useState(false);
   const [dataMap, setDataMap] = useState(songs as any[]);
+  const navigate = useNavigate();
 
   const getHimnos = async () => {
     try {
@@ -43,6 +45,9 @@ const HimnoScreen = (props: Props) => {
   const handlePress = (himno: Songs) => {
     /* props.navigation.navigate("HimnoSongScreen", { himno }); */
     setModeSearch(false);
+    // console.log("TODO: manda a HimnoSongScreen", { himno });
+    // navigate("/himno-song", { replace: true, state: {a: 'asbel'}});
+    navigate("/himno-song", { state: { himno }});
   };
 
   const handleSearch = (query: string) => {

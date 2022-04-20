@@ -10,7 +10,7 @@ interface Props {
 
 const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
   const getIconChoir = () => {
-    return "../../assets/images/verse.png";
+    return "../assets/images/verse.png";
   };
 
   return (
