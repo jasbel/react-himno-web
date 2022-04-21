@@ -38,7 +38,7 @@ const HimnoScreen = (props: Props) => {
       setFavorites(cFavorites);
       setNoFavoriteData(dataNotFavorite);
     } catch (error) {
-      console.log("Get Favorites Err", error);
+      console.error("Get Favorites Err", error);
     }
   };
 

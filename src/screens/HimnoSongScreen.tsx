@@ -11,6 +11,7 @@ import { Songs } from "../types/types";
 import star from "../assets/images/star.png";
 import unstar from "../assets/images/unstar-white.png";
 import { useLocation } from "react-router-dom";
+import Hero from "../components/Hero";
 
 
 /* const getIconStar = () => {
@@ -25,8 +26,8 @@ import { useLocation } from "react-router-dom";
 
 const widthScreen = 1440;
 
-const initialValues = {
-  fontSize: responsive(28, 23, widthScreen),
+export const initialValues = {
+  fontSize: responsive(80, 60, widthScreen),
   fontSizeIncremental: 1,
 };
 
@@ -51,13 +52,31 @@ interface Props {}
 
 const HimnoSongScreen = (props: Props) => {
   const {state} = useLocation() as {state: {himno: Songs}};
-  console.log({props, state})
+  
+  // console.log({props, state})
   // const { route, navigation } = props;
   const [isFavorite, setIsFavorite] = useState(false);
   // const [himno, setHimno] = useState(route.params.himno);
   const [himno, setHimno] = useState({...initHimno, ...state.himno} as IHimno);
-  const { paragraphs, chorus } = himno;
   const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
+  
+  const { paragraphs, chorus, title_es} = state.himno;
+  /* TODO: mejorar la respuesta de indefinido , array vacio, o string vacio en choir y chorus */
+  const verses = paragraphs.map((item, i) => {
+    let choir = "lorem ipsum";
+
+    let filter;
+    if (chorus !== undefined) {
+      filter = chorus.filter((choirItem: { chorus_position_ignore: any }) =>
+        compareArrayIgnore(choirItem.chorus_position_ignore, i + 1)
+      );
+      choir = filter.length && joinChoirs(filter);
+    }
+
+    choir = choir || "";
+
+    return { ...item, choir };
+  });
 
   const toggleFavorite = () => {
     if (isFavorite) {
@@ -101,26 +120,11 @@ const HimnoSongScreen = (props: Props) => {
         setIsFavorite(true);
       }
     } catch (error) {
-      console.log(" Get Favorite Error:  ", error);
+      console.error(" Get Favorite Error:  ", error);
     }
   };
 
-  /* TODO: mejorar la respuesta de indefinido , array vacio, o string vacio en choir y chorus */
-  const verses = paragraphs.map((item: any, i: number) => {
-    let choir = "lorem ipsum";
-
-    let filter;
-    if (chorus !== undefined) {
-      filter = chorus.filter((choirItem: { chorus_position_ignore: any }) =>
-        compareArrayIgnore(choirItem.chorus_position_ignore, i + 1)
-      );
-      choir = filter.length && joinChoirs(filter);
-    }
-
-    choir = choir || "";
-
-    return { ...item, choir };
-  });
+  
 
   function compareArrayIgnore(arr: any[], val: any) {
     return arr.find((arrValue: any) => arrValue === val) ? false : true;
@@ -136,9 +140,6 @@ const HimnoSongScreen = (props: Props) => {
       : filter[0].choir;
   }
 
-  const onPressFontSize = (valueFontSize: number) => {
-    setCustomFontSize((cFontSize: any) => cFontSize + valueFontSize);
-  };
 
   const getInit = () => {
     // navigation.setOptions({
@@ -148,18 +149,7 @@ const HimnoSongScreen = (props: Props) => {
     //   },
     //   headerTintColor: Colors.txtWhite,
     //   headerRight: () => (
-    //     <div style={styles.headerRightContainer}>
-    //       <button
-    //         color={Colors.bkgTransparentPrimary}
-    //         onClick={() => onPressFontSize(-initialValues.fontSizeIncremental)}
-    //         title="-T"
-    //       />
-    //       <button
-    //         color={Colors.bkgTransparentPrimary}
-    //         onClick={() => onPressFontSize(initialValues.fontSizeIncremental)}
-    //         title="+T"
-    //       />
-    //     </div>
+
     //   ),
     // });
     setHimno(initHimno);
@@ -179,6 +169,7 @@ const HimnoSongScreen = (props: Props) => {
 
   return (
     <div style={styles.container}>
+      <Hero title={title_es} changeFontSize={(valueFontSize => setCustomFontSize((cFontSize: any) => cFontSize + valueFontSize))} />
       <div style={styles.spaceTop}>
         {/* <LinearGradient
           style={styles.spaceLinearGradient}
@@ -187,15 +178,13 @@ const HimnoSongScreen = (props: Props) => {
           colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}
         /> */}
       </div>
-      <div>
-        {verses.map((item, index: React.Key) => {
+      <div style={{minHeight: 'calc(100vh - 110px)'}}>
+        {verses.map((item, index) => {
           return (
             <ItemHimnoLetter key={index} item={item} isFinalVerse={verses.length - 1 === index} customFontSize={customFontSize} />
           );
         })}
       </div>
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis doloribus eius neque ipsa beatae ipsum dolorem repellat laudantium iste in quia, saepe itaque molestiae. Vel possimus ratione adipisci mollitia.</p>
 
       <button
         onClick={() => toggleFavorite()}
@@ -210,6 +199,8 @@ const HimnoSongScreen = (props: Props) => {
   );
 };
 
+export default HimnoSongScreen;
+
 const styles: { [key in any]: React.CSSProperties } = {
   container: {
     paddingLeft: 12,
@@ -217,9 +208,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     backgroundColor: Colors.bkgWhite,
     position: "relative",
   },
-  headerRightContainer: {
-    flexDirection: "row",
-  },
+
   spaceTop: {
     position: "absolute",
     top: 0,
@@ -277,5 +266,3 @@ const styles: { [key in any]: React.CSSProperties } = {
     height: 48,
   },
 };
-
-export default HimnoSongScreen;

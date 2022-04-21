@@ -12,14 +12,13 @@ const HimnoHomeScreen = ({}: Props) => {
   return (
     <div style={styles.container}>
       <img style={styles.logo} src={logo} alt="logo" />
-      <Link to="himno">
-        <div style={styles.button}>
-          <p style={styles.textButton}>Ingresar</p>
-        </div>
+
+      <Link to="himno" style={{ ...styles.button, ...styles.textButton }}>
+        Ingresar
       </Link>
 
       <div style={styles.footer}>
-        <p style={styles.textFooter}> Version 1.9.0. By JAsbel & Kairos </p>
+        <p style={styles.textFooter}> Version 1.0.0. By JAsbel & Kairos </p>
       </div>
     </div>
   );
@@ -27,25 +26,28 @@ const HimnoHomeScreen = ({}: Props) => {
 
 const styles: { [key in any]: React.CSSProperties } = {
   container: {
+    display: "flex",
+    flexDirection: 'column',
     backgroundColor: Colors.blueLight,
-    justifyContent: "center",
+    justifyContent: "space-between",
     alignItems: "center",
     flex: 1,
+    minHeight: '100vh'
   },
   logo: {
-    marginBottom: percent(25),
+    marginBottom: 30,
   },
   button: {
     backgroundColor: Colors.orangeDark,
-    padding: percent(2),
-    paddingLeft: percent(4.5),
-    paddingRight: percent(4.5),
-    borderRadius: percent(2.8),
-    marginBottom: percent(10),
+    padding: 36,
+    paddingLeft: 46,
+    paddingRight: 46,
+    borderRadius: 46,
+    marginBottom: 12,
   },
   textButton: {
     color: "white",
-    fontSize: percent(8.8),
+    fontSize: 50,
     letterSpacing: 2,
     textTransform: "uppercase",
     fontWeight: "bold",
@@ -57,12 +59,13 @@ const styles: { [key in any]: React.CSSProperties } = {
     // textShadowRadius: 5,
   },
   footer: {
-    position: "absolute",
+    // position: "absolute",
+    
     bottom: 12,
   },
   textFooter: {
-    color: Colors.txtDark,
-    fontSize: percent(2.5),
+    color: Colors.white,
+    fontSize: 18,
     fontWeight: "bold",
   },
 };

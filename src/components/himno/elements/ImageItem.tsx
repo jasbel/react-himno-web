@@ -25,7 +25,7 @@ const styles: { [key in any]: React.CSSProperties } = {
   numberHimno: {
     fontFamily: "sans-serif-condensed",
     fontSize: responsive(16, 15),
-    lineHeight: 15,
+    lineHeight: 1,
     fontWeight: "bold",
     position: "absolute",
     top: 3,

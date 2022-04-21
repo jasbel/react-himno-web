@@ -1,25 +1,30 @@
 import React from "react";
 import Colors from "../../res/colors";
 import { widthScreen } from "../../res/responsive";
+import iconChoir from  "../../assets/images/verse.png";
+
+interface ILetter {
+  choir: string;
+  paragraph: string;
+}
 
 interface Props {
-  item: any;
+  item: ILetter;
   isFinalVerse?: boolean;
   customFontSize?: number;
 }
 
 const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
-  const getIconChoir = () => {
-    return "../assets/images/verse.png";
-  };
+
+  console.log({item})
 
   return (
-    <div key={item.key}>
+    <div>
       <p
         style={{
           ...styles.paragraph,
           fontSize: customFontSize,
-          lineHeight: customFontSize,
+          lineHeight: 1,
         }}
       >
         {`${item.paragraph}`} {"\n"}
@@ -27,13 +32,13 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
       {item.choir !== "" && (
         <>
           <div style={styles.containerIconChoir}>
-            <img style={styles.iconChoir} src={getIconChoir()} />
+            <img style={styles.iconChoir} src={iconChoir} />
           </div>
           <p
             style={{
               ...styles.choir,
               fontSize: customFontSize,
-              lineHeight: customFontSize,
+              lineHeight: 1,
             }}
           >
             {item.choir} {"\n"}

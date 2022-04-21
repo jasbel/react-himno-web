@@ -15,7 +15,7 @@ const Favorites = ({ favorites }: Props) => {
 
   const handlePress = useCallback((himno: any) => {
     // navigation.navigate("HimnoSongScreen", { himno });
-    console.log("TODO: manda a HimnoSongScreen", {himno});
+    console.warn("TODO: manda a HimnoSongScreen", {himno});
     navigate("/himno-song", { replace: true });
   }, [navigate]);
 

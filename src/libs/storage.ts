@@ -7,7 +7,7 @@ class Storage {
             await localStorage.setItem(key, value);
             return true;
         } catch (e: any) {
-            console.log('Storage Error', e);
+            console.error('Storage Error', e);
             return false;
         }
     };
@@ -16,7 +16,7 @@ class Storage {
         try {
             return await localStorage.getItem(key);
         } catch (e: any) {
-            console.log('Storage get Error', e);
+            console.error('Storage get Error', e);
             throw Error(e);
         }
     };
@@ -26,7 +26,7 @@ class Storage {
             await localStorage.removeItem(key);
             return true;
         } catch (e: any) {
-            console.log('Storage remove Error', e);
+            console.error('Storage remove Error', e);
             return false;
         }
     };
@@ -35,7 +35,7 @@ class Storage {
         try {
             return await localStorage.multiGet(keys);
         } catch (e: any) {
-            console.log('Storage  multiGet Error', e);
+            console.error('Storage  multiGet Error', e);
             throw Error(e);
         }
     };
@@ -44,7 +44,7 @@ class Storage {
         try {
             return await localStorage.getAllKeys();
         } catch (e: any) {
-            console.log('Storage getAllKeys err', e);
+            console.error('Storage getAllKeys err', e);
             throw Error(e);
         }
     };

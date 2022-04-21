@@ -37,7 +37,7 @@ const HimnoItem = ({ item, onClick }: Props) => {
       <ImageItem id={id} isFavorite={isFavorite} />
 
       <div style={styles.content}>
-        <div style={{ flex: 1 }}>
+        <div style={{ display: 'flex', flex: 1 }}>
           <p style={{ ...styles.title, ...styles.oneLine }}> {title_es}</p>
           <p style={{ ...styles.description, ...styles.oneLine }}> {description_es}</p>
         </div>
@@ -50,11 +50,15 @@ const HimnoItem = ({ item, onClick }: Props) => {
 
 const styles: { [key in any]: React.CSSProperties } = {
   container: {
+    display: 'flex',
     flexDirection: "row",
     marginBottom: 12,
     justifyContent: "space-between",
+    flex: 1,
+    width: '100%'
   },
   content: {
+    display: 'flex',
     position: "relative",
     borderBottomWidth: 1,
     borderBottomColor: Colors.bkgLight,

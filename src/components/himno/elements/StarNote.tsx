@@ -26,7 +26,10 @@ const styles : { [key in any]: React.CSSProperties } ={
     // position: 'absolute',
     // top: 0,
     // right: 0,
-    alignItems: 'flex-end',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+
   },
   iconStar: {
     width: 25,
