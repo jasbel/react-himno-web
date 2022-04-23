@@ -1,7 +1,7 @@
 
-export const widthScreen = 1440;
+export const widthScreen = innerWidth;
 
-export const responsive = (maxValue: number, minValue: number, currentScreen: number = widthScreen, maxScreen = 1440, minScreen = 320) => {
+export const responsive = (maxValue: number, minValue: number, currentScreen: number = widthScreen, maxScreen = 1440, minScreen = 360) => {
 
     let currentValue;
 

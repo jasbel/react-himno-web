@@ -29,35 +29,22 @@ const HimnoSearch = ({onChange, modeSearch}: Props) => {
         placeholder={'Buscar...'}
         onChange={handleText}
         color={Colors.txtDark}
-        // placeholderTextColor={Colors.txtDark}
       />
-      {/* <LinearGradient
-        style={styles.spaceLinearGradient}
-        start={{x: 0, y: 0}}
-        end={{x: 0, y: 1.0}}
-        colors={[Colors.bkgWhite, '#F6F6F611']}
-      /> */}
     </div>
   );
 };
 
 const styles : { [key in any]: React.CSSProperties } ={
   container: {
-    paddingTop: 12,
-    paddingBottom: 8,
+    display: 'flex',
+    width: '100%',
     position: 'relative',
     borderBottomColor: opacityColor(Colors.bkgWhite, 0.5),
     borderBottomWidth: 4,
   },
-  spaceLinearGradient: {
-    height: 0,
-    width: '100%',
-    position: 'absolute',
-    paddingBottom: 6,
-    bottom: -6,
-    zIndex: 10,
-  },
   textInput: {
+    display: 'flex',
+    flex: 1,
     backgroundColor: Colors.grayLight,
     padding: 12,
     paddingLeft: 18,

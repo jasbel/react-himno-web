@@ -14,20 +14,9 @@ import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
 
 
-/* const getIconStar = () => {
-  if (isFavorite) {
-    return "../assets/images/star.png";
-  }
-
-  if (!isFavorite) {
-    return "../assets/images/unstar-white.png";
-  }
-}; */
-
-const widthScreen = 1440;
-
 export const initialValues = {
-  fontSize: responsive(80, 60, widthScreen),
+  fontSize: responsive(80, 20),
+  
   fontSizeIncremental: 1,
 };
 
@@ -41,22 +30,14 @@ const initHimno: IHimno = {
   chorus: [],
 };
 
-interface IHimno extends Songs {
-  // id: string;
-  // paragraphs: string[];
-  // chorus: string[];
-  // title_es: string;
-}
+interface IHimno extends Songs {}
 
 interface Props {}
 
 const HimnoSongScreen = (props: Props) => {
   const {state} = useLocation() as {state: {himno: Songs}};
   
-  // console.log({props, state})
-  // const { route, navigation } = props;
   const [isFavorite, setIsFavorite] = useState(false);
-  // const [himno, setHimno] = useState(route.params.himno);
   const [himno, setHimno] = useState({...initHimno, ...state.himno} as IHimno);
   const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
   
@@ -142,16 +123,6 @@ const HimnoSongScreen = (props: Props) => {
 
 
   const getInit = () => {
-    // navigation.setOptions({
-    //   title: initHimno.title_es,
-    //   headerStyle: {
-    //     backgroundColor: Colors.bkgDark,
-    //   },
-    //   headerTintColor: Colors.txtWhite,
-    //   headerRight: () => (
-
-    //   ),
-    // });
     setHimno(initHimno);
   };
 
@@ -171,12 +142,6 @@ const HimnoSongScreen = (props: Props) => {
     <div style={styles.container}>
       <Hero title={title_es} changeFontSize={(valueFontSize => setCustomFontSize((cFontSize: any) => cFontSize + valueFontSize))} />
       <div style={styles.spaceTop}>
-        {/* <LinearGradient
-          style={styles.spaceLinearGradient}
-          start={{x: 0, y: 0}}
-          end={{x: 0, y: 1.0}}
-          colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}
-        /> */}
       </div>
       <div style={{minHeight: 'calc(100vh - 110px)'}}>
         {verses.map((item, index) => {
@@ -212,7 +177,7 @@ const styles: { [key in any]: React.CSSProperties } = {
   spaceTop: {
     position: "absolute",
     top: 0,
-    width: widthScreen,
+    width: innerWidth,
     zIndex: 10,
     borderBottomColor: opacityColor(Colors.bkgWhite, 0.5),
     borderBottomWidth: 4,

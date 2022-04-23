@@ -4,12 +4,12 @@ import { initialValues } from "../screens/HimnoSongScreen";
 
 interface Props {
   title: string;
-  changeFontSize: (newSize: number) => void;
+  changeFontSize?: (newSize: number) => void;
 }
 
-const Hero = ({ title, changeFontSize}: Props) => {
+const Hero = ({ title, changeFontSize }: Props) => {
   const onPressFontSize = (valueFontSize: number) => {
-    changeFontSize(valueFontSize);
+    changeFontSize && changeFontSize(valueFontSize);
   };
 
   return (
@@ -21,26 +21,33 @@ const Hero = ({ title, changeFontSize}: Props) => {
         backgroundColor: Colors.bkgDark,
         marginLeft: -12,
         marginRight: -12,
-
       }}
     >
-      <h1 style={{color: Colors.txtWhite}}>{title}</h1>
-      <div>
-        <div style={styles.headerRightContainer}>
-          <button
-            color={Colors.bkgTransparentPrimary}
-            onClick={() => onPressFontSize(-initialValues.fontSizeIncremental)}
-            title="-T"
-            style={{fontSize: 20}}
-          >-T</button>
-          <button
-            color={Colors.bkgTransparentPrimary}
-            onClick={() => onPressFontSize(initialValues.fontSizeIncremental)}
-            title="+T"
-            style={{fontSize: 20}}
-          >+T</button>
+      <h1 style={{ color: Colors.txtWhite }}>{title}</h1>
+      {!!changeFontSize && (
+        <div>
+          <div style={styles.headerRightContainer}>
+            <button
+              color={Colors.bkgTransparentPrimary}
+              onClick={() =>
+                onPressFontSize(-initialValues.fontSizeIncremental)
+              }
+              title="-T"
+              style={{ fontSize: 20 }}
+            >
+              -T
+            </button>
+            <button
+              color={Colors.bkgTransparentPrimary}
+              onClick={() => onPressFontSize(initialValues.fontSizeIncremental)}
+              title="+T"
+              style={{ fontSize: 20 }}
+            >
+              +T
+            </button>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
