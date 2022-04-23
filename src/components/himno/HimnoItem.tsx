@@ -70,8 +70,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     fontWeight: "bold",
     fontSize: responsive(20, 18),
     color: Colors.txtPrimary,
-    // textShadowColor: Colors.txtBlack,
-    // textShadowRadius: 0.1,
+    textTransform: 'uppercase',
   },
   description: {
     fontSize: responsive(17, 16),
@@ -80,7 +79,6 @@ const styles: { [key in any]: React.CSSProperties } = {
   },
   oneLine: {
     textOverflow: "ellipsis",
-    // maxHeight: 19,
     overflow: "hidden",
     whiteSpace: "nowrap",
   },
