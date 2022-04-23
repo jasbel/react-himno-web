@@ -1,5 +1,9 @@
 // import localStorage from '@react-native-async-storage/async-storage';
 
+const MyStorage = () => {
+    
+}
+
 class Storage {
     static instance = new Storage()
     store = async (key: string, value: string) => {

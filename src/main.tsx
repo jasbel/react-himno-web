@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import HimnoStack from './navigate/HimnoStack'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+import { SongProvider } from "./state/SongContext";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <HimnoStack />
+    <SongProvider>
+      <App />
+    </SongProvider>
   </React.StrictMode>
-)
+);
