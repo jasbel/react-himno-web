@@ -109,7 +109,6 @@ const HimnoScreen = (props: Props) => {
             }}
           >
             {!favorites.length && <FavoriteEmptyState />}
-
             {favorites.map((item) => (
               <HimnoItem
                 key={item.id}

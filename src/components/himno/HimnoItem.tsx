@@ -37,7 +37,7 @@ const HimnoItem = ({ item, onClick }: Props) => {
       <ImageItem id={id} isFavorite={isFavorite} />
 
       <div style={styles.content}>
-        <div style={{ display: 'flex', flex: 1 }}>
+        <div style={{ display: 'flex', flex: 1 , justifyContent: 'space-between', alignItems: 'center'}}>
           <p style={{ ...styles.title, ...styles.oneLine }}> {title_es}</p>
           <p style={{ ...styles.description, ...styles.oneLine }}> {description_es}</p>
         </div>
@@ -76,10 +76,11 @@ const styles: { [key in any]: React.CSSProperties } = {
   description: {
     fontSize: responsive(17, 16),
     color: Colors.txtBlack,
+    paddingLeft: 8
   },
   oneLine: {
     textOverflow: "ellipsis",
-    maxHeight: 19,
+    // maxHeight: 19,
     overflow: "hidden",
     whiteSpace: "nowrap",
   },
