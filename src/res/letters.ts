@@ -1789,7 +1789,7 @@ en su poder me sostendré/.`,
     id: '40',
     num_song: '40',
     title_es: 'SUBLIME GRACIA',
-    description_es: 'Sublime gracia del Señor...',
+    description_es: 'Sublime gracia del Señor que aun infeliz salvo...',
     musicalNote: 'C|Do',
 
     paragraphs: [
@@ -1814,29 +1814,23 @@ Y me guiara feliz.`,
         paragraph: `Y cuando en Sion por siglos mil,
 Brillante este cual sol.
 Y aun cantare por siempre aquí
-//Su amor que me salvo//.`,
+Su amor que me salvo.`,
       },
     ],
 
     chorus: [
       {
         choir: `Ya libre soy Dios me salvo,
-Y mis cadenas ya Él rompió
-Y como un rio fluye el perdón
-Sublime gracia inmenso amor.`,
-        chorus_position_ignore: [1, 3],
+        Y mis cadenas ya Él rompió
+        Y como un rio fluye el perdón
+        Sublime gracia inmenso amor.`,
+        chorus_position_ignore: [1, 4],
       },
       {
-        choir: `/ Ya libre soy Dios me salvo,
-Y mis cadenas ya Él rompió
-Y como un rio fluye el perdón
-Sublime gracia inmenso amor. /`,
-        chorus_position_ignore: [1, 2, 4],
-      },
-      {
-        choir: `//Fue por amor, su gran amor.
-Su gracia me salvo//.
-Lo hizo por amor.`,
+        choir: `/Ya libre soy Dios me salvo,
+          Y mis cadenas ya Él rompió
+          Y como un rio fluye el perdón
+          Sublime gracia inmenso amor./`,
         chorus_position_ignore: [1, 2, 3],
       },
     ],
@@ -1935,11 +1929,25 @@ Tu fuerza me sustenta`,
 
     chorus: [
       {
-        choir: `Oh Cristo, en Ti me esconderé,
-ya no soy condenado
-Refugio tengo en Tu cruz
-y salvación encuentro.`,
-        chorus_position_ignore: [],
+        choir: `Oh Cristo, en ti me esconderé
+        Mi paz y mi consuelo
+        Nada es más grande que tu amor
+        Confortas mi tristeza`,
+        chorus_position_ignore: [2,3],
+      },
+      {
+        choir: `Oh Cristo, en ti me esconderé
+        Ya no soy condenado
+        Refugio tengo en tu cruz
+        Y salvación encuentro`,
+        chorus_position_ignore: [1,3],
+      },
+      {
+        choir: `/ Oh cristo, en ti me esconderé
+        Pues llevas tú mis cargas
+        Tus manos firmes me guiarán
+        Hasta llevarme al cielo /`,
+        chorus_position_ignore: [1,2],
       },
     ],
   },
@@ -2277,6 +2285,93 @@ Con todo mi corazón.
 De tu grande amor cantaré,
 Tu nombre alabaré//`,
         chorus_position_ignore: [1, 2, 3],
+      },
+    ],
+  },
+  {
+    id: '50',
+    num_song: '50',
+    title_es: 'El me sostendra',
+    description_es: 'Que todo lo que soy alabe...',
+    musicalNote: 'C|Do',
+
+    paragraphs: [
+      {
+        paragraph: `Si mi fe ha de caer,
+        Él me sostendrá;
+        En la tentación yo se,
+        Él me sostendrá.
+        No podría estar de pie
+        En la oscuridad,
+        Pues mi amor muy frágil es,
+        Él me sostendrá.`,
+      },
+      {
+        paragraph: `Él se goza en quien salvó,
+        Él me sostendrá;
+        Ante Él precioso soy,
+        Él me sostendrá.
+        Sus promesas fieles son,
+        Mi alma guardará;
+        Alto precio Él pagó, Él me sostendrá.`,
+      },
+      {
+        paragraph: `Él sufrió y por mí murió:
+        Él me sostendrá;
+        La justicia Él cumplió,
+        Él me sostendrá.
+        Vida eterna tengo en Él,
+        Él me sostendrá;
+        Hasta que le pueda ver;
+        ¡Él regresará!`,
+      },
+    ],
+
+    chorus: [
+      {
+        choir: `Él me sostendrá,
+        Él me sostendrá;
+        Pues ama tanto el Salvador,
+        Él me sostendrá.`,
+        chorus_position_ignore: [],
+      },
+    ],
+  },
+  {
+    id: '51',
+    num_song: '51',
+    title_es: 'Salmos 19 - La Ley de Jehova',
+    description_es: 'La ley de Jehová es perfecta, que convierte el alma...',
+    musicalNote: 'C|Do',
+
+    paragraphs: [
+      {
+        paragraph: `La ley de Jehová es perfecta,
+        que convierte el alma;
+        El testimonio de Jehová es fiel,
+        que hace sabio al sencillo.`,
+      },
+      {
+        paragraph: `Los mandamientos de Jehová son rectos,
+        que alegran el corazón;
+        El precepto de Jehová es puro,
+        que alumbra los ojos.`,
+      },
+      {
+        paragraph: `El temor de Jehová es limpio,
+        que permanece para siempre;
+        Los juicios de Jehová son verdad,
+        todos justos.`,
+      },
+    ],
+
+    chorus: [
+      {
+        choir: `Deseables son más que el oro,
+        y más que mucho oro afinado;
+        y dulces más que la miel,
+        la que destila del panal.`,
+        chorus_position_ignore: [],
       },
     ],
   },
