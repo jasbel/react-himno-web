@@ -1,5 +1,37 @@
 // import localStorage from '@react-native-async-storage/async-storage';
 
+const keyFav = 'song-favorites'
+
+export const setFavs = (favIds: string[]) => {
+    localStorage.setItem(keyFav, JSON.stringify(favIds))
+}
+export const getFavs =(): string[] => {
+    const sFavs = localStorage.getItem(keyFav)
+    if (!sFavs) return []
+    return JSON.parse(sFavs)
+}
+
+export const deleteFav = (id: string) => {
+    const favs = getFavs();
+    const currFavs = favs.filter(favId => favId!==id)
+    setFavs(currFavs)
+}
+
+export const findFav = (id: string) => {
+    const favs = getFavs();
+    const fav = favs.find(favId => favId === id)
+    return fav
+}
+
+export const addFav = (id: string) => {
+    const favs = getFavs();
+    const isInFav = findFav(id);
+    if (!isInFav) {
+        favs.push(id);
+        setFavs(favs);
+    }
+}
+
 class Storage {
     static instance = new Storage()
     store = async (key: string, value: string) => {

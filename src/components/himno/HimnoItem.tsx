@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Storage from "../../libs/storage";
+import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
 import { responsive } from "../../res/responsive";
 import { Songs } from "../../types/types";
@@ -16,12 +16,10 @@ const HimnoItem = ({ item, onClick }: Props) => {
 
   const { title_es, description_es, id, musicalNote } = item;
 
-  const getFavorite = async () => {
+  const getFavorite = () => {
     try {
-      const key = `favorite-${item.id}`;
-      const favStr = await Storage.instance.get(key);
-
-      if (favStr !== null) setIsFavorite(true);
+      const inFav = findFav(item.id)
+      setIsFavorite(!!inFav);
     } catch (error) {
       console.log(" Get Favorite Error:  ", error);
     }
