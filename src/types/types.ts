@@ -1,11 +1,11 @@
 
-interface Paragraphs {
+export interface Paragraphs {
   paragraph: string
 }
 
-interface Chorus {
+export interface Chorus {
   choir: string,
-  chorus_position_ignore: number[],
+  noPositions: number[],
 }
 
 export interface Songs {

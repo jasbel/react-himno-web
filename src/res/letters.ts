@@ -27,7 +27,7 @@ export const songs: Songs[] = [
           Plenitud incomparable don de Dios.
           Una cruz cubierta en sangre.
           Fue necesaria para nuestra redención.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -78,7 +78,7 @@ A todo aquel que confía en él`,
 Sus promesas cumple nuestro Dios
 Nos movemos solo por la fe en Él
 Vivir por fe y no por ver`,
-        chorus_position_ignore: [1, 3, 5],
+        noPositions: [1, 3, 5],
       },
       {
         choir: `/Sus promesas como rocas son,
@@ -86,7 +86,7 @@ Sus promesas cumple nuestro Dios
 Nos movemos solo por la fe en él
 Vivir por fe y no por ver./
 /Vivir por fe y no por ver./`,
-        chorus_position_ignore: [1, 2, 3, 4],
+        noPositions: [1, 2, 3, 4],
       },
     ],
   },
@@ -129,7 +129,7 @@ Jesús resucitó`,
 Derramaste allí tu amor
 Mi alma cantará Aleluya
 Gloria y honra a ti Señor`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
     ],
   },
@@ -166,14 +166,14 @@ El Rey de gloria y majestad`,
 Mi nombre ya grabado está
 Y mientras en el cielo esté
 / Nadie de Él me apartará /`,
-        chorus_position_ignore: [2, 3],
+        noPositions: [2, 3],
       },
       {
         choir: `Y por su muerte el Salvador
 Ya mi pecado perdonó
 Pues Dios, el Justo, aceptó
 / Su sacrificio hecho por mí /`,
-        chorus_position_ignore: [1, 3],
+        noPositions: [1, 3],
       },
       {
         choir: `/ Unido a Él no moriré
@@ -182,7 +182,7 @@ Mi vida escondida está
 En Cristo Dios, mi Salvador/
 
 /En Cristo Dios, mi Salvador/`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
     ],
   },
@@ -256,12 +256,12 @@ Ha triunfado y reina con poder.`,
       {
         choir: `//¡Reinaras por siempre!//
 //¡Que tu gloria brille hoy!//`,
-        chorus_position_ignore: [1, 2, 3],
+        noPositions: [1, 2, 3],
       },
       {
         choir: `Contempla a Dios, en su trono está venid y adoradle.
 Contempla al Rey, nadie es como Él venid y adoradle.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -295,19 +295,19 @@ Cordero vive hoy, cordero vive hoy.`,
 cuán grande eres Dios,
 todos cantarán
 cuán grande eres Dios.`,
-        chorus_position_ignore: [2],
+        noPositions: [2],
       },
       {
         choir: `//Cuán grande es Dios, sin igual,
 Cuán grande eres Dios, todos cantarán cuán grande eres Dios.//`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
       {
         choir: `Nombre sin igual
 eres digno de adorar
 siempre cantare
 cuán grande eres Dios.`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
     ],
   },
@@ -356,7 +356,7 @@ quiero dar Oh Cristo,
 quiero ser Oh Cristo como tu
 Al caído levantar al enfermo consolar
 A este mundo que agoniza tu remedio alcanzar`,
-        chorus_position_ignore: [1, 3],
+        noPositions: [1, 3],
       },
     ],
   },
@@ -384,7 +384,7 @@ Moldéame a tu imagen Señor./`,
 ver la vida como tú
 Satúrame de tu espíritu
 Y reflejar al mundo tu amor. //`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -418,7 +418,7 @@ Su palabra me asegura: todo obra para bien`,
         choir: `/Venga lo que venga, prevaleceré
 Dios es mi esperanza
 Su promesa es ﬁel/`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
       {
         choir: `De la mano soberana de mi Dios me sostendré
@@ -426,12 +426,12 @@ En Su sabia providencia yo paciente esperaré
 Porque eterna es Su justicia y perfecto Su poder
 Él ordena mis pasos y
 aﬁrmando está mi fe`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
       {
         choir: `Tú ordenas mis pasos
 y afirmando estás mi fe`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
     ],
   },
@@ -458,7 +458,7 @@ No hay otro Dios como el Señor
 No hay en los cielos,
 No hay en la tierra, no hay en el mar/
 Dios como el Señor.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -490,14 +490,14 @@ al que en el trono está`,
 Dios todopoderoso quien fue quien es y quien vendrá,
 La creación hoy canta y damos gloria a Él,
 tu eres digno por siempre y siempre`,
-        chorus_position_ignore: [2],
+        noPositions: [2],
       },
       {
         choir: `/ Santo, Santo, Santo,
 Dios todopoderoso quien fue quien es y quien vendrá,
 La creación hoy canta y damos gloria a Él,
 tu eres digno por siempre y siempre /`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
     ],
   },
@@ -538,7 +538,7 @@ Sólo Cristo redime, vida nueva te ofrece`,
 Bellas palabras de vida;
 Qué bellas son, qué bellas son!
 Bellas palabras de vida.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -590,7 +590,7 @@ Todo es de Él y para Él`,
     chorus: [
       {
         choir: `Nadie es como El, oh gran YO SOY`,
-        chorus_position_ignore: [1, 3, 4, 5],
+        noPositions: [1, 3, 4, 5],
       },
     ],
   },
@@ -635,7 +635,7 @@ Porque agradecido estoy
 por tu inmenso amor
 Te alabaré, te glorificaré
 Porque tu hijo soy, te alabaré`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
     ],
   },
@@ -680,11 +680,11 @@ El mismo Dios que los cielos formo.
 El mismo Dios que en la cruz murió.
 Nos llama con nombre hoy.
 Tu nos llamas por nombre hoy.`,
-        chorus_position_ignore: [4],
+        noPositions: [4],
       },
       {
         choir: `//Oohh….. Oohh… oohh…//`,
-        chorus_position_ignore: [1, 4],
+        noPositions: [1, 4],
       },
     ],
   },
@@ -729,14 +729,14 @@ Tu generoso amor.`,
 mi lugar Él tomó
 Mi castigo sufrió,
 En esa Cruz halle perdón`,
-        chorus_position_ignore: [4],
+        noPositions: [4],
       },
       {
         choir: `/El poder de la Cruz:
 Dios al hijo inmoló
 Que alto precio pagó,
 En esa Cruz halle perdón./`,
-        chorus_position_ignore: [1, 2, 3],
+        noPositions: [1, 2, 3],
       },
     ],
   },
@@ -841,7 +841,7 @@ Confiado esta mi corazón
 De ti dependeré
 Tu voz escuchare, Jesús
 Te seguiré, mi buen pastor`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -885,7 +885,7 @@ Muy corta para adorar`,
 Oh oh oh su sangre me compro
 Oh la gracia que me trajo a su redil
 Gracia que me trajo a su redil`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -921,7 +921,7 @@ tu me sostienes mi Señor,
       {
         choir: `Cristo salvador, digno de adorar,
 Cristo redentor digno de adorar.`,
-        chorus_position_ignore: [2],
+        noPositions: [2],
       },
     ],
   },
@@ -969,7 +969,7 @@ Y haz llover, muestra tu gloria,
 Te queremos ver
 Y al adorarte, exáltate
 Glorifícate.`,
-        chorus_position_ignore: [1, 3, 4, 5],
+        noPositions: [1, 3, 4, 5],
       },
       {
         choir: `Al cantar abre los cielos
@@ -977,7 +977,7 @@ Y haz llover, muestra tu gloria,
 Te queremos ver
 Y al adorarte, exáltate
 /Glorifícate/`,
-        chorus_position_ignore: [1, 2, 3, 5],
+        noPositions: [1, 2, 3, 5],
       },
       {
         choir: `//Glorifícate
@@ -988,7 +988,7 @@ Te queremos ver
 Y al adorarte, exáltate//
 
 //Glorifícate//`,
-        chorus_position_ignore: [1, 2, 3, 4],
+        noPositions: [1, 2, 3, 4],
       },
     ],
   },
@@ -1031,7 +1031,7 @@ Que por gracia salvo soy
 Aleluya, gloria sea a Cristo,
 por su sacrificio
 Declarado justo soy en Él.`,
-        chorus_position_ignore: [2],
+        noPositions: [2],
       },
       {
         choir: `Y cargo mi maldad sobre Él
@@ -1043,7 +1043,7 @@ Que por gracia salvo soy
 Aleluya, gloria sea a Cristo,
 por su sacrificio
 Declarado justo soy/ …en Él.`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
     ],
   },
@@ -1081,7 +1081,7 @@ en lugar sagrado.`,
 por darle a sufrir
 Y dejar su Espíritu
 tu obra aquí para cumplir`,
-        chorus_position_ignore: [3],
+        noPositions: [3],
       },
       {
         choir: `/ Gracias Padre mío
@@ -1091,7 +1091,7 @@ tu obra aquí para cumplir /
 
 Y dejar su Espíritu
 tu obra aquí para cumplir.`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
     ],
   },
@@ -1176,7 +1176,7 @@ Por lo que hiciste oh Dios`,
 Tu Hijo enviaste a morir.
 Mi vida dejaré atrás, para conocer
 la gloria de, la gloria de la cruz.`,
-        chorus_position_ignore: [1, 3, 5],
+        noPositions: [1, 3, 5],
       },
     ],
   },
@@ -1223,7 +1223,7 @@ ven y ponla a los pies del Señor.`,
 y clamé con el alma a Jesús.
 Y al instante la escena cambió,
 en la hermosa visión de la cruz.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -1273,14 +1273,14 @@ Todo tuyo quiero ser`,
 Límpiame de toda mi maldad.
 Traigo a ti mi vida para ser, Señor,
 Tuya por la eternidad.`,
-        chorus_position_ignore: [5],
+        noPositions: [5],
       },
       {
         choir: `Lávame en tu sangre, Salvador;
 Límpiame de toda mi maldad.
 / Traigo a ti mi vida para ser, Señor,
 Tuya por la eternidad. /`,
-        chorus_position_ignore: [1, 2, 3, 4],
+        noPositions: [1, 2, 3, 4],
       },
     ],
   },
@@ -1330,7 +1330,7 @@ y entrada al trono celestial.`,
       {
         choir: `¡Oh, maravilla de su amor,
 por mí murió el Salvador!`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -1369,7 +1369,7 @@ Y si las tinieblas militan
 Y nos quieran separar
 Con nuestros ojos en Cristo
 Marchemos a la unidad//.`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
     ],
   },
@@ -1403,14 +1403,14 @@ Desde tu trono fluye por siempre tu majestad.`,
         choir: `Él es Señor, por siempre reinarás
 Su creación en él se gozará
 //Es exaltado en lo alto exaltado es el Rey//`,
-        chorus_position_ignore: [2],
+        noPositions: [2],
       },
       {
         choir: `Alabad y exaltad el nombre de Cristo
 Magnificad y glorificad a Cristo el Rey.
 Majestad, te adoro majestad,
 //Aquel que murió y resucitó es Rey mi Señor//`,
-        chorus_position_ignore: [1],
+        noPositions: [1],
       },
     ],
   },
@@ -1453,7 +1453,7 @@ y abrir mi corazón al evangelio.`,
         choir: `//Mientras tenga aliento te alabare,
 Mientras viva te cantare,
 Mientras lata mi corazón te bendeciré//.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -1477,7 +1477,7 @@ hijos de Dios`,
       {
         choir: `///Para ser llamados
 hijos de Dios///`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -1524,14 +1524,14 @@ Para hacer tu voluntad/`,
 No hay otro, no hay otro
 Seguiremos el llamado de tu voz
 No hay otro, no hay otro`,
-        chorus_position_ignore: [1, 4],
+        noPositions: [1, 4],
       },
       {
         choir: `/Confesamos que tú eres nuestro Dios
 No hay otro, no hay otro
 Seguiremos el llamado de tu voz
 No hay otro, no hay otro./`,
-        chorus_position_ignore: [1, 2, 3],
+        noPositions: [1, 2, 3],
       },
     ],
   },
@@ -1569,7 +1569,7 @@ Temeré, no temeré`,
 Nunca en la lucha desmayar podré
 Mi sostén es Jesús el Señor
 nunca en la lucha desmayar podré`,
-        chorus_position_ignore: [3],
+        noPositions: [3],
       },
       {
         choir: `Alelu., alelu.,
@@ -1577,7 +1577,7 @@ nunca en la lucha desmayar podre
 
 / Alelu., aleluya,
 / nunca en la lucha desmayar podre / /`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
     ],
   },
@@ -1634,7 +1634,7 @@ Brotando está,
 Inmensurable eternal;
 Por las edades durará
 Inagotable raudal.`,
-        chorus_position_ignore: [1, 3, 5, 6],
+        noPositions: [1, 3, 5, 6],
       },
       {
         choir: `/¡Oh amor de Dios!
@@ -1642,7 +1642,7 @@ Brotando está,
 Inmensurable eternal;
 Por las edades durará
 Inagotable raudal./`,
-        chorus_position_ignore: [1, 2, 3, 4, 5],
+        noPositions: [1, 2, 3, 4, 5],
       },
     ],
   },
@@ -1681,7 +1681,7 @@ en cada momento
 Mi defensor
 Mi redentor
 Dios, te necesito`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -1717,7 +1717,7 @@ Tú satisfaces mi vida entera,
 Tú, mi porción y mi roca eterna.
 Lo que yo tengo lo doy por perdido,
 Si te tengo a Ti.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -1761,28 +1761,28 @@ mi vida yo a Él le doy.`,
 en el temor o adversidad.
 Consolador amigo fiel
 yo en su amor me sostendré.`,
-        chorus_position_ignore: [2, 3, 4],
+        noPositions: [2, 3, 4],
       },
       {
         choir: `En una cruz fue a morir
 Y Dios mostro su gracia ahí
 pues mi pecado Él llevo
 en su aflicción vida me dio.`,
-        chorus_position_ignore: [1, 3, 4],
+        noPositions: [1, 3, 4],
       },
       {
         choir: `Y al triunfar sobre el mal
 perdió el pecado potestad
 De Él suyo soy, Él mío es.
 Pues con su sangre me compró.`,
-        chorus_position_ignore: [1, 2, 4],
+        noPositions: [1, 2, 4],
       },
       {
         choir: `/Ningún poder ningún afán
 de Él me arrebatara.
 Hasta que Él venga otra vez
 en su poder me sostendré/.`,
-        chorus_position_ignore: [1, 2, 3],
+        noPositions: [1, 2, 3],
       },
     ],
   },
@@ -1825,14 +1825,14 @@ Su amor que me salvo.`,
         Y mis cadenas ya Él rompió
         Y como un rio fluye el perdón
         Sublime gracia inmenso amor.`,
-        chorus_position_ignore: [1, 4],
+        noPositions: [1, 4],
       },
       {
         choir: `/Ya libre soy Dios me salvo,
           Y mis cadenas ya Él rompió
           Y como un rio fluye el perdón
           Sublime gracia inmenso amor./`,
-        chorus_position_ignore: [1, 2, 3],
+        noPositions: [1, 2, 3],
       },
     ],
   },
@@ -1879,7 +1879,7 @@ Te doy gracias
 Por tu fidelidad, bondad y amor
 Te doy gracias
 Mi alma te bendice hoy`,
-        chorus_position_ignore: [1, 3, 4],
+        noPositions: [1, 3, 4],
       },
       {
         choir: `Tu demuestras que me amas y me cuidas
@@ -1888,7 +1888,7 @@ el pan de cada día
 Nada bueno tú retienes
 a tus hijos
 Eres mi proveedor`,
-        chorus_position_ignore: [1, 3, 4],
+        noPositions: [1, 3, 4],
       },
       {
         choir: `/Te doy gracias
@@ -1898,7 +1898,7 @@ Te doy gracias
 Por tu fidelidad, bondad y amor
 Te doy gracias
 Mi alma te bendice hoy/`,
-        chorus_position_ignore: [1, 2, 4],
+        noPositions: [1, 2, 4],
       },
     ],
   },
@@ -1934,21 +1934,21 @@ Tu fuerza me sustenta`,
         Mi paz y mi consuelo
         Nada es más grande que tu amor
         Confortas mi tristeza`,
-        chorus_position_ignore: [2, 3],
+        noPositions: [2, 3],
       },
       {
         choir: `Oh Cristo, en ti me esconderé
         Ya no soy condenado
         Refugio tengo en tu cruz
         Y salvación encuentro`,
-        chorus_position_ignore: [1, 3],
+        noPositions: [1, 3],
       },
       {
         choir: `/ Oh cristo, en ti me esconderé
         Pues llevas tú mis cargas
         Tus manos firmes me guiarán
         Hasta llevarme al cielo /`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
     ],
   },
@@ -2003,14 +2003,14 @@ Se lo debo todo a Él
 Siempre yo le alabaré
 El mis manchas ha lavado
 / Suyo siempre yo seré /`,
-        chorus_position_ignore: [1, 2, 3],
+        noPositions: [1, 2, 3],
       },
       {
         choir: `Todo lo pago quien por mi murió
 Y mis manchas él lavo
 
 / Con sangre carmesí /`,
-        chorus_position_ignore: [1, 2, 3, 4],
+        noPositions: [1, 2, 3, 4],
       },
     ],
   },
@@ -2037,7 +2037,7 @@ Dios tus palabras son para mi.`,
 te anhelo Señor…..
 Estoy….
 Perdido sin ti….`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -2066,7 +2066,7 @@ y mi deuda pagar.
 De la cruz a morir,
 de la muerte a tú trono;
 Tú nombre levantaré//.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -2116,11 +2116,11 @@ compara con la gloria que ha de venir.
 Se haga tu perfecta voluntad, en mí.
 Daré gloria a tu nombre a través de mi aflicción
 Dame tu gracia para ver: que vivir es Cristo.`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
       {
         choir: `…VIVIR ES CRISTO`,
-        chorus_position_ignore: [1, 2, 3, 4],
+        noPositions: [1, 2, 3, 4],
       },
     ],
   },
@@ -2168,7 +2168,7 @@ A todo aquel que confía en él`,
 Sus promesas cumple nuestro Dios
 Nos movemos solo por la fe en Él
 Vivir por fe y no por ver`,
-        chorus_position_ignore: [3],
+        noPositions: [3],
       },
       {
         choir: `/Sus promesas como rocas son,
@@ -2177,7 +2177,7 @@ Nos movemos solo por la fe en él
 Vivir por fe y no por ver./
 
 /Vivir por fe y no por ver./`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
     ],
   },
@@ -2229,12 +2229,12 @@ Poderoso, Dios eterno ,verdadero.
 YAHWEH, YAHWEH.
 Tú nombre permanecerá para siempre
 Ohhh YAHWEH`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
       {
         choir: `YAHWEH ES TU NOMBRE :YAHWEH.
 Ohhh ¡YAHWEH!`,
-        chorus_position_ignore: [1, 2],
+        noPositions: [1, 2],
       },
     ],
   },
@@ -2277,14 +2277,14 @@ Mi alma cantará de tu amor sin final.
 Con todo mi corazón.
 De tu grande amor cantaré,
 Tu nombre alabaré.`,
-        chorus_position_ignore: [4],
+        noPositions: [4],
       },
       {
         choir: `// Que todo lo que soy alabe al Señor,
 Con todo mi corazón.
 De tu grande amor cantaré,
 Tu nombre alabaré //`,
-        chorus_position_ignore: [1, 2, 3],
+        noPositions: [1, 2, 3],
       },
     ],
   },
@@ -2333,7 +2333,7 @@ Tu nombre alabaré //`,
         Él me sostendrá;
         Pues ama tanto el Salvador,
         Él me sostendrá.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },
@@ -2371,7 +2371,7 @@ Tu nombre alabaré //`,
         y más que mucho oro afinado;
         y dulces más que la miel,
         la que destila del panal.`,
-        chorus_position_ignore: [],
+        noPositions: [],
       },
     ],
   },

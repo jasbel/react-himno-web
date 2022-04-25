@@ -14,8 +14,9 @@ import { useSong } from "../hooks/useSong";
 const HimnoScreen = () => {
   const [songsSearch, setSongsSearch] = useState(songsAll);
   const [modeSearch, setModeSearch] = useState(false);
+  const [search, setSearch] = useState("");
   const navigate = useNavigate();
-  const  {songs, songFavorites} = useSong()
+  const { songs, songFavorites } = useSong();
 
   const handlePress = useCallback(
     (himno: Songs) => {
@@ -66,24 +67,24 @@ const HimnoScreen = () => {
             </>
           )}
 
-          <div
-            style={{
-              borderTopWidth: 1,
-              borderTopColor: Colors.bkgLight,
-              borderBottomColor: Colors.yellow,
-            }}
-          >
-            {!songFavorites.length && <FavoriteEmptyState />}
-            {songFavorites.map((item) => (
-              <HimnoItem
-                key={item.id}
-                item={item}
-                onClick={() => handlePress(item)}
-              />
-            ))}
-          </div>
           {!modeSearch && (
             <>
+              <div
+                style={{
+                  borderTopWidth: 1,
+                  borderTopColor: Colors.bkgLight,
+                  borderBottomColor: Colors.yellow,
+                }}
+              >
+                {!songFavorites.length && <FavoriteEmptyState />}
+                {songFavorites.map((item) => (
+                  <HimnoItem
+                    key={item.id}
+                    item={item}
+                    onClick={() => handlePress(item)}
+                  />
+                ))}
+              </div>
               {songs.map((item, index) => {
                 return (
                   <div key={index}>
