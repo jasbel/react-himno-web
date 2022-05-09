@@ -1,7 +1,7 @@
 import React from "react";
 import Colors from "../../res/colors";
 import { widthScreen } from "../../res/responsive";
-import iconChoir from  "../../assets/images/verse.png";
+import iconChoir from "../../assets/images/verse.png";
 
 interface ILetter {
   choir: string;
@@ -16,8 +16,6 @@ interface Props {
 
 const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
 
-  console.log({item})
-
   return (
     <div>
       <p
@@ -27,7 +25,7 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
           lineHeight: 1,
         }}
       >
-        {`${item.paragraph}`} {"\n"}
+        <span style={{ whiteSpace: "pre" }}>{item.paragraph}</span>
       </p>
       {item.choir !== "" && (
         <>
@@ -41,7 +39,7 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
               lineHeight: 1,
             }}
           >
-            {item.choir} {"\n"}
+            <span style={{ whiteSpace: "pre" }}>{item.choir}</span>
           </p>
         </>
       )}
