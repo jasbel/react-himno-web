@@ -2,6 +2,7 @@ import React from "react";
 import Colors from "../../res/colors";
 import { widthScreen } from "../../res/responsive";
 import iconChoir from "../../assets/images/verse.png";
+import { responsive } from "../../utils/responsive";
 
 interface ILetter {
   choir: string;
@@ -25,7 +26,8 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
           lineHeight: 1,
         }}
       >
-        <span style={{ whiteSpace: "pre" }}>{item.paragraph}</span>
+        <span style={{ whiteSpace: "break-spaces" }}>{item.paragraph}</span>
+        {/* <span style={{ whiteSpace: "pre" }}>{item.paragraph}</span> */}
       </p>
       {item.choir !== "" && (
         <>
@@ -39,8 +41,10 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
               lineHeight: 1,
             }}
           >
-            <span style={{ whiteSpace: "pre" }}>{item.choir}</span>
+            <span style={{ whiteSpace: "break-spaces" }}>{item.choir}</span>
           </p>
+          <br />
+
         </>
       )}
       {isFinalVerse && <div style={styles.spaceBottom} />}
@@ -51,45 +55,6 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
 export default ItemHimnoLetter;
 
 const styles: { [key in any]: React.CSSProperties } = {
-  container: {
-    paddingLeft: 12,
-    paddingRight: 12,
-    backgroundColor: Colors.bkgWhite,
-    position: "relative",
-  },
-  headerButton: {},
-  headerRightContainer: {
-    flexDirection: "row",
-  },
-  spaceTop: {
-    position: "absolute",
-    top: 0,
-    width: widthScreen,
-    zIndex: 10,
-  },
-  spaceLinearGradient: {
-    height: 18,
-    width: "100%",
-  },
-  containerFloat: {
-    position: "absolute",
-    bottom: 8,
-    right: 8,
-    backgroundColor: Colors.bkgTransparentPrimary,
-    borderRadius: 50,
-  },
-  containerFloatFavorite: {
-    backgroundColor: Colors.bkgTransparentDark,
-  },
-  iconStar: {
-    margin: 6,
-    width: 30,
-    height: 30,
-  },
-  content: {
-    paddingTop: 12,
-    paddingBottom: 12,
-  },
   paragraph: {
     fontFamily: "sans-serif-medium",
     textAlign: "center",
@@ -98,13 +63,16 @@ const styles: { [key in any]: React.CSSProperties } = {
   containerIconChoir: {
     marginLeft: "auto",
     marginRight: "auto",
-    marginTop: -15,
+    marginTop: 15,
     marginBottom: 15,
-    width: 170,
+    // width: responsive(1000, 170),
+    // textAlign: 'center',
+    // backgroundColor: 'red',
   },
   iconChoir: {
-    width: 170,
-    height: 15,
+    width: responsive(500, 170),
+    height: responsive(35, 17),
+    margin: "auto",
   },
   choir: {
     textAlign: "center",

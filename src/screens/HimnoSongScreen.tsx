@@ -104,7 +104,6 @@ const HimnoSongScreen = (props: Props) => {
           setCustomFontSize((cFontSize) => cFontSize + valueFontSize)
         }
       />
-      <div style={styles.spaceTop} />
       <div style={{ minHeight: "calc(100vh - 110px)" }}>
         {verses.map((item, index) => (
           <ItemHimnoLetter
