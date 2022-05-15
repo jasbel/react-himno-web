@@ -14,7 +14,6 @@ import { useSong } from "../hooks/useSong";
 const HimnoScreen = () => {
   const [songsSearch, setSongsSearch] = useState(songsAll);
   const [modeSearch, setModeSearch] = useState(false);
-  const [search, setSearch] = useState("");
   const navigate = useNavigate();
   const { songs, songFavorites } = useSong();
 
