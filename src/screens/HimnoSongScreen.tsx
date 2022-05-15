@@ -8,8 +8,7 @@ import { responsive } from "../res/responsive";
 import { opacityColor } from "../helpers/helper";
 import { Chorus, Songs } from "../types/types";
 
-
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import ButtonStar, { TypeStar } from "../components/ButtonStar";
 import { SongContext } from "../state/SongContext";
@@ -35,8 +34,9 @@ interface IHimno extends Songs {}
 interface Props {}
 
 const HimnoSongScreen = (props: Props) => {
-  const {addToFav, rmToFav} =  useContext(SongContext)
+  const { addToFav, rmToFav } = useContext(SongContext);
   const { state } = useLocation() as { state: { himno: Songs } };
+  const navigate = useNavigate();
 
   const [himno, setHimno] = useState({
     ...initHimno,
@@ -51,9 +51,7 @@ const HimnoSongScreen = (props: Props) => {
 
     let filter: Chorus[];
     if (chorus) {
-      filter = chorus.filter((choir) =>
-        compareArrayIgnore(choir.noPositions, i + 1)
-      );
+      filter = chorus.filter((choir) => compareArrayIgnore(choir.noPositions, i + 1));
       choir = filter.length ? joinChoirs(filter) : "";
     }
 
@@ -63,18 +61,18 @@ const HimnoSongScreen = (props: Props) => {
   });
 
   const toggleFavorite = (star: TypeStar) => {
-    if (star === 'star') addFavorite();
+    if (star === "star") addFavorite();
     else {
       if (window.confirm("Esta de acuerdo en Borrar... ?")) handleRemove();
     }
   };
 
   const addFavorite = async () => {
-    addToFav(himno.id)
+    addToFav(himno.id);
   };
 
   const handleRemove = () => {
-    rmToFav(himno.id)
+    rmToFav(himno.id);
   };
 
   function compareArrayIgnore(arr: number[], val: number) {
@@ -86,9 +84,7 @@ const HimnoSongScreen = (props: Props) => {
       filter.length >= 2
         ? filter.reduce(
             (accumulatorChoir, currentChoir, currentIndex) =>
-              accumulatorChoir +
-              currentChoir.choir +
-              (filter.length !== currentIndex + 1 ? "\n\n" : ""),
+              accumulatorChoir + currentChoir.choir + (filter.length !== currentIndex + 1 ? "\n\n" : ""),
             ""
           )
         : filter[0].choir;
@@ -97,26 +93,27 @@ const HimnoSongScreen = (props: Props) => {
   }
 
   return (
-    <div style={styles.container}>
+    <>
       <Hero
         title={title_es}
-        changeFontSize={(valueFontSize) =>
-          setCustomFontSize((cFontSize) => cFontSize + valueFontSize)
-        }
+        changeFontSize={(valueFontSize) => setCustomFontSize((cFontSize) => cFontSize + valueFontSize)}
+        hrefBefore={"/himno"}
       />
-      <div style={{ minHeight: "calc(100vh - 110px)" }}>
-        {verses.map((item, index) => (
-          <ItemHimnoLetter
-            key={index}
-            item={item}
-            isFinalVerse={verses.length - 1 === index}
-            customFontSize={customFontSize}
-          />
-        ))}
-      </div>
+      <div style={styles.container}>
+        <div style={{ minHeight: "calc(100vh - 110px)" }}>
+          {verses.map((item, index) => (
+            <ItemHimnoLetter
+              key={index}
+              item={item}
+              isFinalVerse={verses.length - 1 === index}
+              customFontSize={customFontSize}
+            />
+          ))}
+        </div>
 
-      <ButtonStar initStar={!!findFav(himno.id)} onToggle={toggleFavorite} />
-    </div>
+        <ButtonStar initStar={!!findFav(himno.id)} onToggle={toggleFavorite} />
+      </div>
+    </>
   );
 };
 

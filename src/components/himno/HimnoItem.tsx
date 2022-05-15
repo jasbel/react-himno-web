@@ -1,3 +1,4 @@
+import { Flex } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
@@ -18,7 +19,7 @@ const HimnoItem = ({ item, onClick }: Props) => {
 
   const getFavorite = () => {
     try {
-      const inFav = findFav(item.id)
+      const inFav = findFav(item.id);
       setIsFavorite(!!inFav);
     } catch (error) {
       console.log(" Get Favorite Error:  ", error);
@@ -35,10 +36,14 @@ const HimnoItem = ({ item, onClick }: Props) => {
       <ImageItem id={id} isFavorite={isFavorite} />
 
       <div style={styles.content}>
-        <div style={{ display: 'flex', flex: 1 , justifyContent: 'space-between', alignItems: 'center'}}>
+        <Flex
+          justifyContent={"space-between"}
+          alignItems={{ base: "start", md: "center" }}
+          flexDirection={{ base: "column", md: "row" }}
+        >
           <p style={{ ...styles.title, ...styles.oneLine }}> {title_es}</p>
           <p style={{ ...styles.description, ...styles.oneLine }}> {description_es}</p>
-        </div>
+        </Flex>
 
         <StarNote isFavorite={isFavorite} musicalNote={musicalNote} />
       </div>
@@ -48,15 +53,17 @@ const HimnoItem = ({ item, onClick }: Props) => {
 
 const styles: { [key in any]: React.CSSProperties } = {
   container: {
-    display: 'flex',
+    display: "flex",
     flexDirection: "row",
     marginBottom: 12,
     justifyContent: "space-between",
     flex: 1,
-    width: '100%'
+    width: "100%",
+    overflowX:'hidden'
+
   },
   content: {
-    display: 'flex',
+    display: "flex",
     position: "relative",
     borderBottomWidth: 1,
     borderBottomColor: Colors.bkgLight,
@@ -68,17 +75,19 @@ const styles: { [key in any]: React.CSSProperties } = {
     fontWeight: "bold",
     fontSize: responsive(20, 18),
     color: Colors.txtPrimary,
-    textTransform: 'uppercase',
+    textTransform: "uppercase",
   },
   description: {
     fontSize: responsive(17, 16),
     color: Colors.txtBlack,
-    paddingLeft: 8
+    paddingLeft: 8,
   },
   oneLine: {
-    textOverflow: "ellipsis",
-    overflow: "hidden",
+    maxWidth: responsive(300, 100),
+    display: "inline-block",
     whiteSpace: "nowrap",
+    overflow: "hidden !important",
+    textOverflow: "ellipsis",
   },
 };
 

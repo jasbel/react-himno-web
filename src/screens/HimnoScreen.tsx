@@ -30,12 +30,8 @@ const HimnoScreen = () => {
 
     const HimnosFiltered = songsAll.filter((himno) => {
       return (
-        removeAccents(himno.title_es)
-          .toLowerCase()
-          .includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.description_es)
-          .toLowerCase()
-          .includes(removeAccents(query).toLowerCase())
+        removeAccents(himno.title_es).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
+        removeAccents(himno.description_es).toLowerCase().includes(removeAccents(query).toLowerCase())
       );
     });
 
@@ -44,7 +40,7 @@ const HimnoScreen = () => {
 
   return (
     <>
-      <Hero title={titleApp} />
+      <Hero title={titleApp} hrefBefore = {'/'} />
 
       <div style={styles.container}>
         <HimnoSearch onChange={handleSearch} modeSearch={modeSearch} />
@@ -52,16 +48,8 @@ const HimnoScreen = () => {
         <div style={styles.contentItems}>
           {modeSearch && (
             <>
-              {songsSearch.map((item, index) => {
-                return (
-                  <div key={index}>
-                    <HimnoItem
-                      key={item.id}
-                      item={item}
-                      onClick={() => handlePress(item)}
-                    />
-                  </div>
-                );
+              {songsSearch.map((item) => {
+                return <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />;
               })}
             </>
           )}
@@ -77,23 +65,11 @@ const HimnoScreen = () => {
               >
                 {!songFavorites.length && <FavoriteEmptyState />}
                 {songFavorites.map((item) => (
-                  <HimnoItem
-                    key={item.id}
-                    item={item}
-                    onClick={() => handlePress(item)}
-                  />
+                  <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />
                 ))}
               </div>
-              {songs.map((item, index) => {
-                return (
-                  <div key={index}>
-                    <HimnoItem
-                      key={item.id}
-                      item={item}
-                      onClick={() => handlePress(item)}
-                    />
-                  </div>
-                );
+              {songs.map((item) => {
+                return <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />;
               })}
             </>
           )}

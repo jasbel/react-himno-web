@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import ButtonHero from "../elements/ButtonHero";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
@@ -7,13 +8,20 @@ import { initialValues } from "../screens/HimnoSongScreen";
 interface Props {
   title: string;
   changeFontSize?: (newSize: number) => void;
+  hrefBefore: string;
 }
 
-const Hero = ({ title, changeFontSize }: Props) => {
-  const [hover, setHover] = useState(false);
+const Hero = ({ title, changeFontSize, hrefBefore }: Props) => {
+  const navigate = useNavigate();
+
   const onPressFontSize = (valueFontSize: number) => {
     changeFontSize && changeFontSize(valueFontSize);
   };
+
+  const onPreBefore = () => {
+    navigate(hrefBefore);
+  };
+
   return (
     <div
       style={{
@@ -21,22 +29,22 @@ const Hero = ({ title, changeFontSize }: Props) => {
         alignItems: "center",
         justifyContent: "space-between",
         backgroundColor: Colors.bkgDark,
-        marginLeft: -12,
-        marginRight: -12,
+        paddingTop: 12,
+        paddingBottom: 12,
       }}
     >
-      <ButtonHero title="<-" onClick={() => console.log('TODO: volver atras')} />
+      <ButtonHero title="<<" onClick={() => onPreBefore()} />
 
-      <h1 style={{ color: Colors.txtWhite, fontSize: responsive(45, 22) }}>{title}</h1>
-      {!!changeFontSize && (
-        <div>
+      <h1 style={{ color: Colors.txtWhite, fontSize: responsive(45, 28) }}>{title}</h1>
+      <div>
+        {!!changeFontSize && (
           <div style={styles.headerRightContainer}>
-            <ButtonHero title="-T" onClick={() => onPressFontSize(-initialValues.fontSizeIncremental)} />
+            <ButtonHero title="-T" onClick={() => onPressFontSize(-initialValues.fontSizeIncremental * 3)} />
 
-            <ButtonHero title="+T" onClick={() => onPressFontSize(initialValues.fontSizeIncremental)} />
+            <ButtonHero title="+T" onClick={() => onPressFontSize(initialValues.fontSizeIncremental * 3)} />
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
