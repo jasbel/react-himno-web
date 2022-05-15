@@ -40,8 +40,9 @@ const HimnoItem = ({ item, onClick }: Props) => {
           justifyContent={"space-between"}
           alignItems={{ base: "start", md: "center" }}
           flexDirection={{ base: "column", md: "row" }}
+          textAlign='left'
         >
-          <p style={{ ...styles.title, ...styles.oneLine }}> {title_es}</p>
+          <p style={{ ...styles.title }}> {title_es}</p>
           <p style={{ ...styles.description, ...styles.oneLine }}> {description_es}</p>
         </Flex>
 
@@ -76,6 +77,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     fontSize: responsive(20, 18),
     color: Colors.txtPrimary,
     textTransform: "uppercase",
+    lineHeight: 1,
   },
   description: {
     fontSize: responsive(17, 16),
