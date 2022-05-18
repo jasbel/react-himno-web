@@ -32,27 +32,28 @@ const HimnoItem = ({ item, onClick }: Props) => {
   }, []);
 
   return (
-    <button style={styles.container} onClick={onClick}>
-      <ImageItem id={id} isFavorite={isFavorite} />
+    <Flex >
+      <button style={styles.container} onClick={onClick}>
+        <ImageItem id={id} isFavorite={isFavorite} />
 
-      <div style={styles.content}>
-        <Flex
-          justifyContent={"space-between"}
-          alignItems={{ base: "start", md: "center" }}
-          flexDirection={{ base: "column", md: "row" }}
-          textAlign="left"
-        >
-          <Text style={{ ...styles.title }} noOfLines={1}>
-            {title_es}
-          </Text>
-          <Text style={{ ...styles.description }} noOfLines={1}>
-            {description_es}
-          </Text>
-        </Flex>
-
-        <StarNote isFavorite={isFavorite} musicalNote={musicalNote} />
-      </div>
-    </button>
+        <div style={styles.content}>
+          <Flex
+            justifyContent={"space-between"}
+            alignItems={{ base: "start", md: "center" }}
+            flexDirection={{ base: "column", md: "row" }}
+            textAlign="left"
+          >
+            <Text style={{ ...styles.title }} noOfLines={1}>
+              {title_es}
+            </Text>
+            <Text style={{ ...styles.description }} noOfLines={1}>
+              {description_es}
+            </Text>
+          </Flex>
+        </div>
+      </button>
+      <StarNote isFavorite={isFavorite} musicalNote={musicalNote} songId={item.id} />
+    </Flex>
   );
 };
 
