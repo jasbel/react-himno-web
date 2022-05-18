@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { FC, useContext, useEffect, useState } from "react";
 
 // import LinearGradient from 'react-native-linear-gradient';
 import ItemHimnoLetter from "../components/himno/ItemHimnoLetter";
@@ -12,6 +12,10 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import ButtonStar, { TypeStar } from "../components/ButtonStar";
 import { SongContext } from "../state/SongContext";
+import { useSetting } from "../hooks/useSetting";
+import { Box, Flex } from "@chakra-ui/react";
+import ButtonHero from "../elements/ButtonHero";
+import { SettingContext } from "../state/SettingContext";
 
 export const initialValues = {
   fontSize: responsive(80, 20),
@@ -33,16 +37,15 @@ interface IHimno extends Songs {}
 
 interface Props {}
 
-const HimnoSongScreen = (props: Props) => {
+const HimnoSongScreen: FC<Props> = () => {
   const { addToFav, rmToFav } = useContext(SongContext);
   const { state } = useLocation() as { state: { himno: Songs } };
-  const navigate = useNavigate();
+  const { decrementFontSize, incrementFontSize } = useContext(SettingContext);
 
-  const [himno, setHimno] = useState({
+  const [himno] = useState({
     ...initHimno,
     ...state.himno,
   } as IHimno);
-  const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
 
   const { paragraphs, chorus, title_es } = state.himno;
   /* TODO: Mejorar la respuesta de indefinido, array vacio, o string vacio en choir y chorus */
@@ -94,45 +97,24 @@ const HimnoSongScreen = (props: Props) => {
 
   return (
     <>
-      <Hero
-        title={title_es}
-        changeFontSize={(valueFontSize) => setCustomFontSize((cFontSize) => cFontSize + valueFontSize)}
-        hrefBefore={"/himno"}
-      />
-      <div style={styles.container}>
+      <Hero title={title_es} hrefBefore={"/himno"} />
+      <Box p={1} py={6} bg={Colors.bkgWhite}>
         <div style={{ minHeight: "calc(100vh - 110px)" }}>
           {verses.map((item, index) => (
-            <ItemHimnoLetter
-              key={index}
-              item={item}
-              isFinalVerse={verses.length - 1 === index}
-              customFontSize={customFontSize}
-            />
+            <ItemHimnoLetter key={index} item={item} />
           ))}
         </div>
+      </Box>
+      <Box position={"sticky"} bottom={0}>
+        <Flex position={"absolute"} bottom={0} left={0} zIndex={1}>
+          <ButtonHero title="-T" onClick={() => decrementFontSize()} />
 
-        <ButtonStar initStar={!!findFav(himno.id)} onToggle={toggleFavorite} />
-      </div>
+          <ButtonHero title="+T" onClick={() => incrementFontSize()} />
+        </Flex>
+      </Box>
+      <ButtonStar initStar={!!findFav(himno.id)} onToggle={toggleFavorite} />
     </>
   );
 };
 
 export default HimnoSongScreen;
-
-const styles: { [key in any]: React.CSSProperties } = {
-  container: {
-    paddingLeft: 12,
-    paddingRight: 12,
-    backgroundColor: Colors.bkgWhite,
-    position: "relative",
-  },
-
-  spaceTop: {
-    position: "absolute",
-    top: 0,
-    width: innerWidth,
-    zIndex: 10,
-    borderBottomColor: opacityColor(Colors.bkgWhite, 0.5),
-    borderBottomWidth: 4,
-  },
-};

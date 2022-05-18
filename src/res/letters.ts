@@ -316,7 +316,7 @@ cuán grande eres Dios.`,
     num_song: "7",
     title_es: "DESDE QUE TE CONOCÍ",
     description_es: "Desde que te conocí...",
-    musicalNote: "_",
+    musicalNote: "D|Re",
 
     paragraphs: [
       {

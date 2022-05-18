@@ -1,51 +1,40 @@
-import React, { useState } from "react";
+import { Box, Flex, Heading } from "@chakra-ui/react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import ButtonHero from "../elements/ButtonHero";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { initialValues } from "../screens/HimnoSongScreen";
+import { SettingContext } from "../state/SettingContext";
 
 interface Props {
   title: string;
-  changeFontSize?: (newSize: number) => void;
+  hiddenFS?: boolean;
   hrefBefore: string;
 }
 
-const Hero = ({ title, changeFontSize, hrefBefore }: Props) => {
+const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
+  const { decrementFontSize, incrementFontSize } = useContext(SettingContext);
   const navigate = useNavigate();
-
-  const onPressFontSize = (valueFontSize: number) => {
-    changeFontSize && changeFontSize(valueFontSize);
-  };
 
   const onPreBefore = () => {
     navigate(hrefBefore);
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        backgroundColor: Colors.bkgDark,
-        paddingTop: 12,
-        paddingBottom: 12,
-      }}
-    >
-      <ButtonHero title="<<" onClick={() => onPreBefore()} />
+    <>
+      <Flex bg={Colors.bkgDark} justifyContent="center" px={2} py={1}>
+        <Heading as="h1" fontSize={responsive(36, 22)} color={Colors.txtWhite} textAlign="center" noOfLines={1}>
+          {title}
+        </Heading>
+      </Flex>
 
-      <h1 style={{ color: Colors.txtWhite, fontSize: responsive(45, 28) }}>{title}</h1>
-      <div>
-        {!!changeFontSize && (
-          <div style={styles.headerRightContainer}>
-            <ButtonHero title="-T" onClick={() => onPressFontSize(-initialValues.fontSizeIncremental * 3)} />
+      <Box style={{ position: "sticky", top: 1, zIndex: 10 }}>
+        <Box position={"absolute"} width={6} zIndex={1}>
+          <ButtonHero title="<" onClick={() => onPreBefore()} style={{ fontWeight: "bold" }} />
+        </Box>
+      </Box>
 
-            <ButtonHero title="+T" onClick={() => onPressFontSize(initialValues.fontSizeIncremental * 3)} />
-          </div>
-        )}
-      </div>
-    </div>
+    </>
   );
 };
 

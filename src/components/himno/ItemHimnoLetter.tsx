@@ -1,8 +1,9 @@
 import React from "react";
 import Colors from "../../res/colors";
-import { widthScreen } from "../../res/responsive";
 import iconChoir from "../../assets/images/verse.png";
 import { responsive } from "../../utils/responsive";
+import { Box } from "@chakra-ui/react";
+import { useSetting } from "../../hooks/useSetting";
 
 interface ILetter {
   choir: string;
@@ -11,23 +12,20 @@ interface ILetter {
 
 interface Props {
   item: ILetter;
-  isFinalVerse?: boolean;
-  customFontSize?: number;
 }
 
-const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
-
+const ItemHimnoLetter = ({ item }: Props) => {
+  const {customFontSize} = useSetting()
   return (
-    <div>
+    <Box>
       <p
         style={{
           ...styles.paragraph,
           fontSize: customFontSize,
-          lineHeight: 1,
         }}
       >
         <span style={{ whiteSpace: "break-spaces" }}>{item.paragraph}</span>
-        {/* <span style={{ whiteSpace: "pre" }}>{item.paragraph}</span> */}
+        {/* whiteSpace: "pre" */}
       </p>
       {item.choir !== "" && (
         <>
@@ -38,49 +36,41 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
             style={{
               ...styles.choir,
               fontSize: customFontSize,
-              lineHeight: 1,
             }}
           >
             <span style={{ whiteSpace: "break-spaces" }}>{item.choir}</span>
           </p>
           <br />
-
         </>
       )}
-      {isFinalVerse && <div style={styles.spaceBottom} />}
-    </div>
+    </Box>
   );
 };
 
 export default ItemHimnoLetter;
 
 const styles: { [key in any]: React.CSSProperties } = {
-  paragraph: {
-    fontFamily: "sans-serif-medium",
-    textAlign: "center",
-    color: Colors.txtBlack,
-  },
   containerIconChoir: {
     marginLeft: "auto",
     marginRight: "auto",
-    marginTop: 15,
-    marginBottom: 15,
-    // width: responsive(1000, 170),
-    // textAlign: 'center',
-    // backgroundColor: 'red',
+    marginTop: responsive(15, 10),
+    marginBottom: responsive(15, 10),
   },
   iconChoir: {
-    width: responsive(500, 170),
-    height: responsive(35, 17),
+    width: responsive(500, 120),
+    height: responsive(35, 11),
     margin: "auto",
+  },
+  paragraph: {
+    textAlign: "center",
+    color: Colors.txtBlack,
+    lineHeight: 1,
   },
   choir: {
     textAlign: "center",
     fontWeight: "bold",
     fontStyle: "italic",
     color: Colors.txtDark,
-  },
-  spaceBottom: {
-    height: 48,
+    lineHeight: 1,
   },
 };

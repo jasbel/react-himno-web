@@ -13,20 +13,13 @@ interface Props {
 
 const StarNote = ({ isFavorite, musicalNote }: Props) => {
   return (
-    <Flex alignItems={'center'} justifyContent='center'>
-      <Image src={isFavorite ? star : unstar} height={25} width={25} />
-      <Text fontWeight="bold" fontSize={responsive(16, 14)} color={Colors.txtPrimary}>
+    <Flex alignItems={{base: 'end', sm: 'center'}} justifyContent='center' flexDir={{base: 'column', sm: 'row'}}>
+      <Text fontWeight="bold" fontSize={responsive(16, 14)} color={Colors.txtPrimary} noOfLines={1}>
         {musicalNote}
       </Text>
+      <Image src={isFavorite ? star : unstar} height={responsive(35, 27)} width={responsive(35, 28)} />
     </Flex>
   );
 };
 
 export default StarNote;
-
-const styles: { [key in any]: React.CSSProperties } = {
-  iconStar: {
-    width: 25,
-    height: 25,
-  }
-};

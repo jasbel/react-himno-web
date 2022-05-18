@@ -40,12 +40,12 @@ const HimnoScreen = () => {
 
   return (
     <>
-      <Hero title={titleApp} hrefBefore = {'/'} />
+      <Hero title={titleApp} hrefBefore={"/"} hiddenFS/>
 
       <div style={styles.container}>
         <HimnoSearch onChange={handleSearch} modeSearch={modeSearch} />
 
-        <div style={styles.contentItems}>
+        <div>
           {modeSearch && (
             <>
               {songsSearch.map((item) => {
@@ -56,18 +56,10 @@ const HimnoScreen = () => {
 
           {!modeSearch && (
             <>
-              <div
-                style={{
-                  borderTopWidth: 1,
-                  borderTopColor: Colors.bkgLight,
-                  borderBottomColor: Colors.yellow,
-                }}
-              >
-                {!songFavorites.length && <FavoriteEmptyState />}
-                {songFavorites.map((item) => (
-                  <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />
-                ))}
-              </div>
+              {!songFavorites.length && <FavoriteEmptyState />}
+              {songFavorites.map((item) => (
+                <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />
+              ))}
               {songs.map((item) => {
                 return <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />;
               })}
@@ -88,5 +80,4 @@ const styles: { [key in any]: React.CSSProperties } = {
     paddingLeft: 12,
     paddingRight: 12,
   },
-  contentItems: {},
 };

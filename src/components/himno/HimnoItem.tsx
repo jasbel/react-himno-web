@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
@@ -40,10 +40,14 @@ const HimnoItem = ({ item, onClick }: Props) => {
           justifyContent={"space-between"}
           alignItems={{ base: "start", md: "center" }}
           flexDirection={{ base: "column", md: "row" }}
-          textAlign='left'
+          textAlign="left"
         >
-          <p style={{ ...styles.title }}> {title_es}</p>
-          <p style={{ ...styles.description, ...styles.oneLine }}> {description_es}</p>
+          <Text style={{ ...styles.title }} noOfLines={1}>
+            {title_es}
+          </Text>
+          <Text style={{ ...styles.description }} noOfLines={1}>
+            {description_es}
+          </Text>
         </Flex>
 
         <StarNote isFavorite={isFavorite} musicalNote={musicalNote} />
@@ -60,8 +64,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     justifyContent: "space-between",
     flex: 1,
     width: "100%",
-    overflowX:'hidden'
-
+    overflowX: "hidden",
   },
   content: {
     display: "flex",
@@ -83,13 +86,6 @@ const styles: { [key in any]: React.CSSProperties } = {
     fontSize: responsive(17, 16),
     color: Colors.txtBlack,
     paddingLeft: 8,
-  },
-  oneLine: {
-    maxWidth: responsive(300, 100),
-    display: "inline-block",
-    whiteSpace: "nowrap",
-    overflow: "hidden !important",
-    textOverflow: "ellipsis",
   },
 };
 

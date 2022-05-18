@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 // import LinearGradient from 'react-native-linear-gradient';
 import { opacityColor } from '../../helpers/helper';
 import Colors from '../../res/colors';
+import { responsive } from '../../utils/responsive';
 
 interface Props {
   onChange: (query: string) => void;
@@ -41,19 +42,21 @@ const styles : { [key in any]: React.CSSProperties } ={
     position: 'relative',
     borderBottomColor: opacityColor(Colors.bkgWhite, 0.5),
     borderBottomWidth: 4,
+    marginLeft: 30,
   },
   textInput: {
     display: 'flex',
     flex: 1,
     backgroundColor: Colors.grayLight,
-    padding: 12,
-    paddingLeft: 18,
-    paddingRight: 18,
+    padding: responsive(12, 8),
+    paddingLeft: 16,
+    paddingRight: 16,
     color: Colors.txtBlack,
-    fontSize: 20,
+    fontSize: responsive(20, 18),
     borderWidth: 0,
     borderBottomColor: Colors.grayLight,
-    margin: 8,
+    marginTop: 10,
+    marginBottom: 10,
     borderRadius: 50,
   },
 };
