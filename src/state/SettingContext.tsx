@@ -47,8 +47,6 @@ export const SettingProvider = ({ children }: { children: ReactNode }) => {
   }, [])
   
 
-  // const getSongs = () => customFontSize;
-
   return (
     <SettingContext.Provider value={{ customFontSize, incrementFontSize, decrementFontSize }}>
       {children}
