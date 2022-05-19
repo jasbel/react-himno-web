@@ -10,7 +10,7 @@ const pwaOptions: Partial<VitePWAOptions> = {
   manifest: {
     name: "Himno Web",
     short_name: "Himnos",
-    start_url: '/',
+    start_url: '/?source=pwa',
     description: "Esta app cuenta con canticos y alabanzas",
     theme_color: "#ffffff",
     icons: [
