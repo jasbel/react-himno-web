@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
 import { useSong } from "../hooks/useNewSong";
+import dataJson from "../assets/data.json";
 
 const HimnoNewScreen = () => {
   const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISong2[]);
@@ -18,7 +19,6 @@ const HimnoNewScreen = () => {
   const { songs, songFavorites } = useSong();
 
   const [data, seData] = useState([]);
-
 
   const handlePress = useCallback(
     (himno: ISong2) => {
@@ -41,28 +41,14 @@ const HimnoNewScreen = () => {
     setSongsSearch(HimnosFiltered as unknown as ISong2[]);
   };
 
-  const getData = async () => {
-    const res = await fetch("../data.json");
-    const data = await res.json();
-
-    console.log({ data });
-    seData(data);
-  };
-
-  useEffect(() => {
-    getData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   return (
     <>
-      <Hero title={titleApp} hrefBefore={"/"} hiddenFS/>
+      <Hero title={titleApp} hrefBefore={"/"} hiddenFS />
 
       <div style={styles.container}>
         <HimnoSearch onChange={handleSearch} modeSearch={modeSearch} />
 
-<pre>{JSON.stringify(data, null, 3)}</pre>
-
+        <pre>{JSON.stringify(dataJson, null, 1)}</pre>
 
         <div>
           {modeSearch && (
