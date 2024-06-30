@@ -1,11 +1,8 @@
 import CustomInput from "../elements/CustomInput"
-import FormInput from "../elements/FormInput"
-import GroupButtons from "./GroupButtons"
 
-const FormMain = () => {
+const FormSongBase = () => {
   return (
     <div className="bg-rose-100">
-      {/* <FormInput label="Titulo" value={''} /> */}
       <CustomInput id="title" label="Titulo" />
       <CustomInput id="description" label="Descripcion" />
       <CustomInput id="note-musical" label="Nota Musical" />
@@ -14,4 +11,4 @@ const FormMain = () => {
   )
 }
 
-export default FormMain
+export default FormSongBase

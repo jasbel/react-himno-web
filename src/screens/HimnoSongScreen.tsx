@@ -1,6 +1,6 @@
 import { FC, useContext, useState } from "react";
 
-import ItemHimnoLetter from "../components/himno/ItemHimnoLetter";
+import ItemHimnoLetter, { ILetter } from "../components/himno/ItemHimnoLetter";
 import { findFav } from "../libs/storage";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
@@ -46,18 +46,18 @@ const HimnoSongScreen: FC<Props> = () => {
 
   const { paragraphs, chorus, title: title_es } = state.himno;
   /* TODO: Mejorar la respuesta de indefinido, array vacio, o string vacio en choir y chorus */
-  const verses = paragraphs.map((item, i) => {
-    let choir = "lorem ipsum";
+  const verses: ILetter[] = paragraphs.map((item, i) => {
+    let choirs = [] as string[];
 
     let filter: IChoir[];
     if (chorus) {
       filter = chorus.filter((choir) => compareArrayIgnore(choir.noPositions, i + 1));
-      choir = filter.length ? joinChoirs(filter) : "";
+      choirs = filter.length ? joinChoirs(filter) : [];
     }
 
-    choir = choir || "";
+    choirs = choirs || "";
 
-    return { ...item, choir };
+    return { ...item, choirs };
   });
 
   const toggleFavorite = (star: TypeStar) => {
@@ -79,7 +79,7 @@ const HimnoSongScreen: FC<Props> = () => {
     return arr.find((arrValue) => arrValue === val) ? false : true;
   }
 
-  function joinChoirs(filter: IChoir[]) {
+  function joinChoirs(filter: IChoir[]): string[] {
     const filterChoir =
       filter.length >= 2
         ? filter.reduce(
@@ -89,7 +89,7 @@ const HimnoSongScreen: FC<Props> = () => {
           )
         : filter[0].choir;
 
-    return filterChoir;
+    return [filterChoir];
   }
 
   return (

@@ -1,40 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../layout/Layout";
 import { Box, Grid, GridItem, Heading } from "@chakra-ui/react";
-import FormMain from "../components/FormMain";
-import FormSecondary from "../components/FormSecondary";
+import FormSongBase from "../components/FormSongBase";
+import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
+import ItemHimnoLetter, { ILetter } from "../components/himno/ItemHimnoLetter";
 
 const AddHimnoScreen = () => {
+  const [letter, setLetter] = useState<ILetter>()
   return (
     <Layout>
-      <Box style={{ minHeight: "calc(100vh - 193px)" }}>
-        <Heading>CREAR NUEVA ALABANZA/CANCION</Heading>
-        <Grid templateColumns="repeat(12, 1fr)" gap={4}>
-          <GridItem colSpan={7} bg="tomato">
+      <div style={{ minHeight: "calc(100vh - 193px)" }}>
+        <div>
+          <div className="">
             {/* <div className="grid grid-cols-12 gap-4"> */}
             {/* <div className="col-span-7 bg-light"> */}
             <Box bg="dark">
               <LayoutMain>
-                <FormMain />
+                <FormSongBase />
               </LayoutMain>
 
               <LayoutMain>
-                <FormSecondary />
+                <FormParagraphs />
               </LayoutMain>
             </Box>
+
+            {/* <ItemHimnoLetter item={{
+              
+            }} /> */}
             {/* </div> */}
-          </GridItem>
-          <GridItem colSpan={5} bg="papayawhip">
+          </div>
+          <div>
             {/* <div className="col-span-5 bg-bermuda"> */}
             <LayoutMain>
               <ViewSong />
             </LayoutMain>
             {/* </div> */}
-          </GridItem>
-        </Grid>
-      </Box>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };

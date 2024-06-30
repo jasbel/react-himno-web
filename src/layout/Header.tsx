@@ -13,9 +13,9 @@ const Header = () => {
         justifyContent="space-between"
         alignItems={"center"}
       >
-        <Image src={logoName} alt="logo" />
+        {/* <Image src={logoName} alt="logo" /> */}
         <Button bg="transparent" color={"white"}>
-          Nueva Alabanza
+          Crear Nueva Alabanza
         </Button>
       </Flex>
       {/* </Container> */}

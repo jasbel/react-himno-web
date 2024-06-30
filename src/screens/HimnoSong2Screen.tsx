@@ -1,11 +1,11 @@
 import { FC, useContext, useState } from "react";
 
 // import LinearGradient from 'react-native-linear-gradient';
-import ItemHimnoLetter from "../components/himno/ItemHimnoLetter";
+import ItemHimnoLetter, { ILetter } from "../components/himno/ItemHimnoLetter";
 import { findFav } from "../libs/storage";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { IChoir2,  ISong2 } from "../types/types";
+import { IChoir2, ISong2 } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -51,22 +51,22 @@ const HimnoSong2Screen: FC<Props> = () => {
   }
 
   /* TODO: Mejorar la respuesta de indefinido, array vacio, o string vacio en choir y chorus */
-  const verses = paragraphs.map((item, i) => {
-    let choir = "lorem ipsum";
+  const verses: ILetter[] = paragraphs.map((item, i) => {
+    let choirs = [] as string[];
 
-    let filter: IChoir2[];
+    let filters: IChoir2[];
     if (chorus) {
       /* TODO: cambiar a real valor */
-      filter = item.chorusPos.map(cp => {
-        return chorus[cp[0] - 1]
-      })
+      filters = item.chorusPos.map((cp) => {
+        return chorus[cp[0] - 1];
+      });
       // chorus.filter((choir) => );
-      choir = filter.length ? joinChoirs(filter) : "";
+      choirs = filters.length ? joinChoirs(filters) : [];
     }
 
-    choir = choir || "";
+    choirs = choirs || [];
 
-    return { ...item, choir };
+    return { ...item, choirs };
   });
 
   const toggleFavorite = (star: TypeStar) => {
@@ -84,9 +84,7 @@ const HimnoSong2Screen: FC<Props> = () => {
     rmToFav(himno.id);
   };
 
-  
-
-  function joinChoirs(filter: IChoir2[]) {
+  function joinChoirs(filter: IChoir2[]): string[] {
     const filterChoir =
       filter.length >= 2
         ? filter.reduce(
@@ -96,7 +94,7 @@ const HimnoSong2Screen: FC<Props> = () => {
           )
         : filter[0].choir;
 
-    return filterChoir;
+    return [filterChoir];
   }
 
   return (

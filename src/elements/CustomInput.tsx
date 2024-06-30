@@ -1,4 +1,3 @@
-import { FormControl, FormErrorMessage, FormHelperText, FormLabel, Input } from "@chakra-ui/react";
 import React from "react";
 
 interface Props {
@@ -6,15 +5,12 @@ interface Props {
   label: string;
 }
 
-const CustomInput = ({id, label}: Props) => {
+const CustomInput = ({ id, label }: Props) => {
   return (
-    <FormControl variant="floating" id={id} isRequired isInvalid>
-      <Input placeholder=" " />
-      {/* It is important that the Label comes after the Control due to css selectors */}
-      <FormLabel>{label}</FormLabel>
-      <FormHelperText>Keep it very short and sweet!</FormHelperText>
-      <FormErrorMessage>Your First name is invalid</FormErrorMessage>
-    </FormControl>
+    <div style={{display: 'flex', gap: 4, marginBottom: 8, textAlign: 'start'}} id={id}>
+      <label style={{paddingRight: 8, minWidth: 150}}>{label}</label>
+      <input style={{border: '1px solid black', borderRadius: 8}} placeholder=" " />
+    </div>
   );
 };
 
