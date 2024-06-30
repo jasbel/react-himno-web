@@ -1,26 +1,27 @@
 import React, { useCallback, useEffect, useState } from "react";
 import Colors from "../res/colors";
 import HimnoSearch from "../components/himno/HimnoSearch";
-// import { songs as songsAll } from "../res/letters";
-import HimnoItem from "../components/himno/HimnoItem";
+import { songs as songsAll } from "../res/letters-new";
+import HimnoItem from "../components/himno/HimnoItem2";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
-import { ISong } from "../types/types";
-import { json, useNavigate } from "react-router-dom";
+import { ISong2 } from "../types/types";
+import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
-import { useSong } from "../hooks/useSong";
+import { useSong } from "../hooks/useNewSong";
 
-const songsAll: ISong[] = [];
-
-const HimnoScreen = () => {
-  const [songsSearch, setSongsSearch] = useState(songsAll);
+const HimnoNewScreen = () => {
+  const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISong2[]);
   const [modeSearch, setModeSearch] = useState(false);
   const navigate = useNavigate();
   const { songs, songFavorites } = useSong();
 
+  const [data, seData] = useState([]);
+
+
   const handlePress = useCallback(
-    (himno: ISong) => {
+    (himno: ISong2) => {
       navigate("/himno-song", { state: { himno } });
     },
     [navigate]
@@ -37,17 +38,31 @@ const HimnoScreen = () => {
       );
     });
 
-    setSongsSearch(HimnosFiltered);
+    setSongsSearch(HimnosFiltered as unknown as ISong2[]);
   };
 
-  
+  const getData = async () => {
+    const res = await fetch("../data.json");
+    const data = await res.json();
+
+    console.log({ data });
+    seData(data);
+  };
+
+  useEffect(() => {
+    getData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
-      <Hero title={titleApp} hrefBefore={"/"} hiddenFS />
+      <Hero title={titleApp} hrefBefore={"/"} hiddenFS/>
 
       <div style={styles.container}>
         <HimnoSearch onChange={handleSearch} modeSearch={modeSearch} />
+
+<pre>{JSON.stringify(data, null, 3)}</pre>
+
 
         <div>
           {modeSearch && (
@@ -75,7 +90,7 @@ const HimnoScreen = () => {
   );
 };
 
-export default HimnoScreen;
+export default HimnoNewScreen;
 
 const styles: { [key in any]: React.CSSProperties } = {
   container: {

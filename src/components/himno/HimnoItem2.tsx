@@ -3,19 +3,19 @@ import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
 import { responsive } from "../../res/responsive";
-import { ISong } from "../../types/types";
+import { ISong2 } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNote from "./elements/StarNote";
 
 interface Props {
-  item: ISong;
+  item: ISong2;
   onClick: () => void;
 }
 
 const HimnoItem = ({ item, onClick }: Props) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
-  const { title: title_es, description: description_es, id, musicalNote } = item;
+  const { title, id, musicalNote, paragraphs} = item;
 
   const getFavorite = () => {
     try {
@@ -44,10 +44,10 @@ const HimnoItem = ({ item, onClick }: Props) => {
             textAlign="left"
           >
             <Text style={{ ...styles.title }} noOfLines={1}>
-              {title_es}
+              {title}
             </Text>
             <Text style={{ ...styles.description }} noOfLines={1}>
-              {description_es}
+              {paragraphs[0].paragraph}
             </Text>
           </Flex>
         </div>

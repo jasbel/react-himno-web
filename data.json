@@ -1,0 +1,1593 @@
+[
+  {
+    "id": "0",
+    "num_song": "0",
+    "title_es": "FUI HECHO JUSTO ",
+    "description_es": "Fui hecho justo sin merecerlo,..",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "Fui hecho justo sin merecerlo\ntoda mi culpa ya cubierta esta.\nToda mi deuda quedó saldada,\npor la persona del cordero inmortal."
+      },
+      {
+        "paragraph": "Regenerado y transformado,\n          Cambio mi mente y mi forma de actuar.\n          Hoy solo quiero servir a Cristo,\n          Y ser la luz la sal de un claro manantial."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Salvación, camino angosto,\n          Plenitud incomparable don de Dios.\n          Una cruz cubierta en sangre.\n          Fue necesaria para nuestra redención.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "num_song": "1",
+    "title_es": "VIVIR POR FE",
+    "description_es": "Por fe, veremos a nuestro Dios, En el plan que creó en la eternidad...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Por fe, veremos a nuestro Dios\nEn el plan que creó en la eternidad.\nEn la vida de los fieles que llamó\nA vivir por fe y no por ver."
+      },
+      {
+        "paragraph": "Por fe, el justo vivirá\nPor la fe, caminamos junto a el\nComo viendo al invisible protector\nVivir por fe y no por ver"
+      },
+      {
+        "paragraph": "Por fe, profetas hablaron bien\nPor la fe, proclamaron la verdad\nEl Mesías prometido en edén\nEl que la muerte venció en la cruz"
+      },
+      {
+        "paragraph": "Por fe, la iglesia se moverá\nCon poder del espíritu de Dios\nY las fuerzas del infierno no podrán\nDañar la obra de nuestro Dios."
+      },
+      {
+        "paragraph": "Por fe los montes se moverán\nSi la fe permanece en Jesús\nEl poder del evangelio librara\nA todo aquel que confía en él"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en Él\nVivir por fe y no por ver",
+        "noPositions": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "choir": "/Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en él\nVivir por fe y no por ver./\n/Vivir por fe y no por ver./",
+        "noPositions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "num_song": "2",
+    "title_es": "AQUELLA CRUZ",
+    "description_es": "El cordero que sufrió...   ",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "El cordero que sufrió\nTraicionado fue\nEl peso de nuestra maldad\nFue puesto sobre Él"
+      },
+      {
+        "paragraph": "En silencio soportó\nDolor y humillación\nObediente al Padre fue\nLa cruz por mí cargó"
+      },
+      {
+        "paragraph": "Unigénito de Dios\nViniste a redimir\nY perdonar a todo aquel\nQue se acerca a ti"
+      },
+      {
+        "paragraph": "A la muerte Él venció\nLa tumba abierta está\nAleluya al Salvador\nJesús resucitó"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "En aquella cruz me salvaste\nDerramaste allí tu amor\nMi alma cantará Aleluya\nGloria y honra a ti Señor",
+        "noPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "num_song": "3",
+    "title_es": "ANTE EL TRONO CELESTIAL",
+    "description_es": "Ante el trono celestial...   ",
+    "musicalNote": "C/D|Do-Re",
+    "paragraphs": [
+      {
+        "paragraph": "Ante el trono celestial\nÉl intercede hoy por mí\nGran Sacerdote es Jesús\nQuien por siempre vivirá"
+      },
+      {
+        "paragraph": "Cuando he caído en tentación\nY al sentir condenación\nAl ver al cielo encontraré\nAl inocente quien murió."
+      },
+      {
+        "paragraph": "Ante el Cordero Redentor\nQuién al morir resucitó\nEl inmutable gran Yo Soy\nEl Rey de gloria y majestad"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Y en Sus manos por Su amor\nMi nombre ya grabado está\nY mientras en el cielo esté\n/ Nadie de Él me apartará /",
+        "noPositions": [
+          2,
+          3
+        ]
+      },
+      {
+        "choir": "Y por su muerte el Salvador\nYa mi pecado perdonó\nPues Dios, el Justo, aceptó\n/ Su sacrificio hecho por mí /",
+        "noPositions": [
+          1,
+          3
+        ]
+      },
+      {
+        "choir": "/ Unido a Él no moriré\nPues con Su sangre me compró\nMi vida escondida está\nEn Cristo Dios, mi Salvador/\n\n/En Cristo Dios, mi Salvador/",
+        "noPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "num_song": "4",
+    "title_es": "COMPADECETE DE MÍ",
+    "description_es": "Compadécete de mí...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Compadécete de mí,\npues oh Dios yo clamo a ti.\nY con noble compasión,\nborra tú mi rebelión.\nY hazme puro en verdad,\nredimiendo mi maldad."
+      },
+      {
+        "paragraph": "He pecado contra ti,\ny dolor yo siento en mí.\nPues tu gracia desprecié\ny tus leyes quebranté;\nTú eres justo oh Señor,\nmas yo pobre pecador."
+      },
+      {
+        "paragraph": "En pecado yo nací,\nnada bueno hay en mí;\nSolo en ti hay salvación,\ntú das luz al corazón.\n/Ven entonces a mi ser,\ny hazlo tu resplandecer./"
+      }
+    ],
+    "chorus": []
+  },
+  {
+    "id": "5",
+    "num_song": "5",
+    "title_es": "CONTEMPLA A DIOS",
+    "description_es": " Quién formó las olas al hablar...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "¿Quién formó las olas al hablar?,\n¿Quién contó la arena en el mar?\nReyes, pueblos, tiemblan a su voz,\nla creación le rinde adoración."
+      },
+      {
+        "paragraph": "¿Quién le dio consejo al Señor?,\n¿Quién cuestiona lo que Él habló?\nQuién al sabio Dios puede enseñar,\n¿Quién comprende su gran majestad?"
+      },
+      {
+        "paragraph": "¿Quién sufrió los clavos en dolor?\n¿Quién llevo el mal del pecador?\nJesucristo, humilde al perecer,\nHa triunfado y reina con poder."
+      },
+      {
+        "paragraph": " "
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "//¡Reinaras por siempre!//\n//¡Que tu gloria brille hoy!//",
+        "noPositions": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "choir": "Contempla a Dios, en su trono está venid y adoradle.\nContempla al Rey, nadie es como Él venid y adoradle.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "num_song": "6",
+    "title_es": "CUAN GRANDE ES DIOS",
+    "description_es": "Cuan esplendor de un rey...",
+    "musicalNote": "E|Mi",
+    "paragraphs": [
+      {
+        "paragraph": "Cuan esplendor de un rey\nvestido de majestad la tierra adorará, la tierra adorará.\nRodeado por su luz. tinieblas oscuridad tiembla con su voz.\nTiembla con su voz."
+      },
+      {
+        "paragraph": "Perfecto solo es Él,\nel tiempo suyo es\nprincipio y final, principio y final.\nHermosa trinidad\nsu esencia en tres está.\nCordero vive hoy, cordero vive hoy."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Cuán grande es Dios, sin igual,\ncuán grande eres Dios,\ntodos cantarán\ncuán grande eres Dios.",
+        "noPositions": [
+          2
+        ]
+      },
+      {
+        "choir": "//Cuán grande es Dios, sin igual,\nCuán grande eres Dios, todos cantarán cuán grande eres Dios.//",
+        "noPositions": [
+          1
+        ]
+      },
+      {
+        "choir": "Nombre sin igual\neres digno de adorar\nsiempre cantare\ncuán grande eres Dios.",
+        "noPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "num_song": "7",
+    "title_es": "DESDE QUE TE CONOCÍ",
+    "description_es": "Desde que te conocí...",
+    "musicalNote": "D|Re",
+    "paragraphs": [
+      {
+        "paragraph": "Desde que te conocí, desde que viniste a mi\nDesde que experimente, tu perdón, tu amor, tu paz.\nAlgo nuevo en mi empezó por tu espíritu de amor.\nEs tu vida cual semilla que brotó en mi corazón."
+      },
+      {
+        "paragraph": "¡Qué momento tan feliz!\nQue alegría recibí;\nal tener en mi vida tu presencia celestial.\nSé de dónde vengo sé a dónde voy,\nsé quién soy, porque existo y tu propósito en mí."
+      },
+      {
+        "paragraph": "Ahora que vives en mí,\nahora que te puedo oír,\nahora que crece en mí;\ntu persona sin igual\nQuiero dejar que seas tú para que no sea yo;\nEl que manda al que vean pues en mi a ti han de ver."
+      },
+      {
+        "paragraph": "Correré hasta alcanzar,\nla corona que darás\nEn el día que regreses y nos lleves al hogar,\nAllí llanto no habrá, la justicia reinará\nDesde el trono santo y justo reinaras."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Quiero amar Oh Cristo,\nquiero dar Oh Cristo,\nquiero ser Oh Cristo como tu\nAl caído levantar al enfermo consolar\nA este mundo que agoniza tu remedio alcanzar",
+        "noPositions": [
+          1,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "num_song": "8",
+    "title_es": "DE GLORIA EN GLORIA",
+    "description_es": "De gloria en gloria te veo...",
+    "musicalNote": "D|Re",
+    "paragraphs": [
+      {
+        "paragraph": "/De gloria en gloria te veo,\nCuanto más te conozco;\nquiero saber más de ti.\nMi Dios cuán buen alfarero,\nLevántame y transfórmame;\nMoldéame a tu imagen Señor./"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "//Quiero ser más como tú,\nver la vida como tú\nSatúrame de tu espíritu\nY reflejar al mundo tu amor. //",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "num_song": "9",
+    "title_es": "DE LA MANO SOBERANA",
+    "description_es": "Cuan feroz llega la prueba...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Cuan feroz llega la prueba acechando el corazón\nAmenaza con sus dudas, destruir mi convicción\nCuando todo es incierto; cuando es fácil tropezar\nEl refugio de mi alma, sé que no se moverá."
+      },
+      {
+        "paragraph": "Oh cuan altos Sus caminos; cuan supremo es Su plan\nTodo lo ha hecho hermoso en Su tiempo y voluntad\nAunque frágiles mis pasos; limitado mi entender\nSu palabra me asegura: todo obra para bien"
+      },
+      {
+        "paragraph": ""
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "/Venga lo que venga, prevaleceré\nDios es mi esperanza\nSu promesa es ﬁel/",
+        "noPositions": [
+          1,
+          2
+        ]
+      },
+      {
+        "choir": "De la mano soberana de mi Dios me sostendré\nEn Su sabia providencia yo paciente esperaré\nPorque eterna es Su justicia y perfecto Su poder\nÉl ordena mis pasos y\naﬁrmando está mi fe",
+        "noPositions": []
+      },
+      {
+        "choir": "Tú ordenas mis pasos\ny afirmando estás mi fe",
+        "noPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "num_song": "10",
+    "title_es": "DIOS SUPREMO ERES",
+    "description_es": "Dios supremo eres...",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "/Dios supremo eres,\nSoberano en gloria.\nEres incomparable, en tu hermosura\nEres incomparable en tu majestad/"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "/No hay otro Dios como Jehová\nNo hay otro Dios como el Señor\nNo hay en los cielos,\nNo hay en la tierra, no hay en el mar/\nDios como el Señor.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "num_song": "11",
+    "title_es": "DIGNO ES ÉL",
+    "description_es": "Apocalipsis 4:8. Digno es él ... ",
+    "musicalNote": "D|Re",
+    "paragraphs": [
+      {
+        "paragraph": "/Digno es él cordero Santo;\nSanto, Santo es Él,\nlevantamos nuestra alabanza\nal que en el trono está/"
+      },
+      {
+        "paragraph": "Digno es él cordero Santo;\nSanto, Santo es Él,\nlevantamos nuestra alabanza\nal que en el trono está"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Santo, Santo, Santo,\nDios todopoderoso quien fue quien es y quien vendrá,\nLa creación hoy canta y damos gloria a Él,\ntu eres digno por siempre y siempre",
+        "noPositions": [
+          2
+        ]
+      },
+      {
+        "choir": "/ Santo, Santo, Santo,\nDios todopoderoso quien fue quien es y quien vendrá,\nLa creación hoy canta y damos gloria a Él,\ntu eres digno por siempre y siempre /",
+        "noPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "num_song": "12",
+    "title_es": "BELLAS PALABRAS DE VIDA",
+    "description_es": "Oh! cantádmelas otra vez...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Oh! cantádmelas otra vez,\nBellas palabras de vida;\nHallo en ellas mi gozo y luz,\nBellas palabras de vida.\nSí, de luz y vida son sostén y guía"
+      },
+      {
+        "paragraph": "Jesucristo a todos da\nBellas palabras de vida;\nOye su dulce voz, mortal,\nbellas palabras de vida.\nBondadoso te salva, y al cielo te llama."
+      },
+      {
+        "paragraph": "Grato el cántico sonará,\nBellas palabras de vida;\nTus pecados perdonará,\nbellas palabras de vida.\nSólo Cristo redime, vida nueva te ofrece"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Qué bellas son, qué bellas son!\nBellas palabras de vida;\nQué bellas son, qué bellas son!\nBellas palabras de vida.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "num_song": "13",
+    "title_es": "EL DIOS QUE ADORAMOS",
+    "description_es": "El Dios que Hizo...",
+    "musicalNote": "F#|Fa#",
+    "paragraphs": [
+      {
+        "paragraph": "El Dios que hizo\nlos cielos y la tierra\nCon el poder de Su palabra\nReina con autoridad"
+      },
+      {
+        "paragraph": "El Dios que aún\nlos vientos le obedecen\nUna palabra es suficiente\nPara los muertos levanta"
+      },
+      {
+        "paragraph": "Tú eres el Dios que adoramos\nTodopoderoso y soberano\nGrande en misericordia y poder para salvar"
+      },
+      {
+        "paragraph": "Tú eres el Dios que adoramos\nQuien derrotó la muerte\ny el pecado\nGlorioso Redentor y Rey,\nTe adoramos"
+      },
+      {
+        "paragraph": "El Dios que descendió desde Su trono\nPara llevar sobre Sus hombros\nNuestra culpa y transgresión\nJesús, exaltado sobre todo\nNombre sobre todo nombre\nSolo en Él hay salvación.\n\nA Él sea la gloria y el poder\nTodo es de Él y para Él"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Nadie es como El, oh gran YO SOY",
+        "noPositions": [
+          1,
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "num_song": "14",
+    "title_es": "ÉL HA SIDO FIEL",
+    "description_es": "Día a día Tú has sido fiel...",
+    "musicalNote": "D|Re",
+    "paragraphs": [
+      {
+        "paragraph": "Día a día Tú has sido fiel, no has cambiado\ny no cambiarás\nMaravillado estoy con tu amor porque me\namaste siendo un pecador"
+      },
+      {
+        "paragraph": "Cuando recuerdo mi vida sin ti, sin\nesperanza en sombras viví\nMás hoy reboso en gracia y perdón, porque\nadoptaste a un vil pecador"
+      },
+      {
+        "paragraph": "Cuando en prueba te exaltaré,\ny cuando duela en ti confiaré\nPorque conozco tu inmensa bondad y sé\nque nunca me abandonarás"
+      },
+      {
+        "paragraph": "Toda mi vida la pongo a tus pies, has lo\nque quieras con ella mi Rey\nHasta que vuelvas con fe cantaré,\n“Día a día tú has sido fiel”"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Te alabaré, te glorificaré\nPorque agradecido estoy\npor tu inmenso amor\nTe alabaré, te glorificaré\nPorque tu hijo soy, te alabaré",
+        "noPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "num_song": "15",
+    "title_es": "EL MISMO AMOR",
+    "description_es": "Tú al humilde levantaras,...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Tú al humilde levantaras,\nAl débil tu fuerzas le das.\nNuestras heridas sanaras,\nVida nos das."
+      },
+      {
+        "paragraph": "Al que o cree lo llamas tu,\nPara decirle mío eres tú.\nAl orgulloso llamas y al infeliz,\nVengan a mi."
+      },
+      {
+        "paragraph": "//Nos llamas, nos llamas, nos llamas\nhacia Cruz//."
+      },
+      {
+        "paragraph": "//Nos llamas, nos llamas, nos llamas\nhacia Cruz//."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "El mismo que trae libertad.\nEl mismo amor que al ciego vista da.\nNos llamas con nombre hoy.\nTu nos llamas por nombre hoy.\n\nEl mismo Dios que los cielos formo.\nEl mismo Dios que en la cruz murió.\nNos llama con nombre hoy.\nTu nos llamas por nombre hoy.",
+        "noPositions": [
+          4
+        ]
+      },
+      {
+        "choir": "//Oohh….. Oohh… oohh…//",
+        "noPositions": [
+          1,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "num_song": "16",
+    "title_es": "EL PODER DE LA CRUZ",
+    "description_es": "Oh, el ver aquel negro ama...",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "Oh, el ver aquel negro amanecer\nRumbo al calvario va Jesús\nGrande fue el dolor\ny la humillación\nCuando en la Cruz murió."
+      },
+      {
+        "paragraph": "Oh, ver el dolor que tu faz mostró Cargando\nmi pecado atroz Todo mal pensar, toda\nmala acción Coronaron tu humillación."
+      },
+      {
+        "paragraph": "La tierra tembló, todo oscureció\nSu rostro inclina su Creador\nVelo roto en dos, triunfante exclamo: “Ya\ntodo terminó”"
+      },
+      {
+        "paragraph": "Oh mi nombre ver escrito\nen tu cruz\nPorque sufriste libre soy\nYa no moriré, vida me otorgó\nTu generoso amor."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "El poder de la Cruz:\nmi lugar Él tomó\nMi castigo sufrió,\nEn esa Cruz halle perdón",
+        "noPositions": [
+          4
+        ]
+      },
+      {
+        "choir": "/El poder de la Cruz:\nDios al hijo inmoló\nQue alto precio pagó,\nEn esa Cruz halle perdón./",
+        "noPositions": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "num_song": "17",
+    "title_es": "ÈL ES CRISTO",
+    "description_es": "Quién ayuda al herido...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "Quién ayuda al herido\nSana todo dolor\nPermanece por siempre\nDa descanso en su amor\nÉl es cristo.\nÉl es cristo\nNuestro salvador.\nÉl es cristo\nNo hay otro nombre solo Cristo"
+      },
+      {
+        "paragraph": "Quién llevó nuestras cargas\nCambia el llanto en canción\nDio su vida en la cruz\nPara darnos perdón\nÉl es cristo\nÉl es cristo\nNuestro salvador\nÉl es cristo\nÉl es cristo\nRey por siempre\nNuestro redentor"
+      },
+      {
+        "paragraph": "Él es cristo\nQuién moriría por un ladrón\nY tomaría mi lugar\nTodo el precio pago\n// Libres somos el venció //\nEl venció Libre somos\n\n//// No hay otro nombre solo cristo\nNo hay otra vida vivimos por él\nTodo el mal está vencido\n/ Tu reinas señor / ////\n\n/ Él es cristo /\nNuestro salvador\n/ Él es cristo /\nRey por siempre\nNuestro redentor\nÉl es cristo"
+      }
+    ],
+    "chorus": []
+  },
+  {
+    "id": "18",
+    "num_song": "18",
+    "title_es": "EL SEÑOR ES MI PASTOR",
+    "description_es": "Salmos 23 - El Señor es mi ...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "El Señor es mi pastor\nNada a mí me faltara\nEn sus verdes pastos\nMe hace descansar\n\nDe sus aguas me dará\nMi alma el restaurara\nPor senderos de justicia me guiara\nPor amor de su nombre"
+      },
+      {
+        "paragraph": "El Señor es mi pastor\nNo hay razón para el temor\nPues su vara me da aliento y protección\n\nSi en el valle de aflicción\nMe rodea la opresión\nEl conmigo esta y bendecido soy\nPor amor de su nombre"
+      },
+      {
+        "paragraph": "//Misericordia y bien me seguirán\nTu plenitud me saciara\nEn tu morada por la eternidad//"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Jamás me dejaras\nEn tu fidelidad, Jesús\nConfiado esta mi corazón\n\nDe ti dependeré\nTu voz escuchare, Jesús\nTe seguiré, mi buen pastor",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "num_song": "19",
+    "title_es": "EN TERNURA",
+    "description_es": "En ternura me busco",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "En ternura me busco\nperdido e infeliz\nY en sus hombros el me trajo\nDe vuelta a su redil\nMientras los ángeles cantaban\nLa corte celestial sonó"
+      },
+      {
+        "paragraph": "Murió por mi mientras pecaba\nPobre y ciego fui\nMe hablo para decirme\nSoy suyo me compro\nJamás oi tan dulce voz\nHizo feliz mi corazón"
+      },
+      {
+        "paragraph": "Su gracia yo meditare\nY te alabare\nCon asombro te adorare\nY te bendeciré\nParece la eternidad\nMuy corta para adorar"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Oh oh oh su amor me busco\nOh oh oh su sangre me compro\nOh la gracia que me trajo a su redil\nGracia que me trajo a su redil",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "num_song": "20",
+    "title_es": "ERES MI TODO",
+    "description_es": "Tu eres mi fuerza y mi pod...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "Tu eres mi fuerza y mi poder,\nel gran tesoro que busqué,\n¡Eres mi todo, Oh Dios!\nPerla de precio sin igual,\nnunca tu amor podré dejar,\n¡Eres mi todo, Oh Dios!"
+      },
+      {
+        "paragraph": "Diste tu vida allá en la cruz,\nresucitaste mi Jesús\n¡Eres mi todo, Oh Dios!"
+      },
+      {
+        "paragraph": "En sequedad o en tentación,\ntu me sostienes mi Señor,\n¡Eres mi todo, Oh Dios!"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Cristo salvador, digno de adorar,\nCristo redentor digno de adorar.",
+        "noPositions": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "num_song": "21",
+    "title_es": "GLORIFICATE",
+    "description_es": "Que toda nación te adore,...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "Que toda nación te adore,\nQue toda la tierra clame a ti.\nQue todos tus santos canten;\n¡Santo es el Señor!"
+      },
+      {
+        "paragraph": "Declaramos tu grandeza,\nlos cielos cuentan Tu gloria Dios\ny tus redimidos cantan\n¡Santo!, ¡Santo!"
+      },
+      {
+        "paragraph": "Que toda nación te adore,\nQue toda la tierra clame a ti.\nQue todos tus santos canten;\n¡Santo es el Señor!"
+      },
+      {
+        "paragraph": "Declaramos tu grandeza,\nLos cielos cuentan tu gloria oh Dios\ny tus redimidos cantan\n¡Santo!, ¡Santo"
+      },
+      {
+        "paragraph": "/¡Aleluya! te damos gloria vivimos para ti./"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Al cantar abre los cielos\nY haz llover, muestra tu gloria,\nTe queremos ver\nY al adorarte, exáltate\nGlorifícate.",
+        "noPositions": [
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "choir": "Al cantar abre los cielos\nY haz llover, muestra tu gloria,\nTe queremos ver\nY al adorarte, exáltate\n/Glorifícate/",
+        "noPositions": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "choir": "//Glorifícate\nAbre los cielos\nY haz llover,\nMuestra tu gloria\nTe queremos ver\nY al adorarte, exáltate//\n\n//Glorifícate//",
+        "noPositions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "num_song": "22",
+    "title_es": "GLORIOSO INTERCAMBIO",
+    "description_es": "¿Cómo puede ser que el ...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "¿Cómo puede ser que el bueno y justo\nSe hizo hombre y fuera a morir\npor el más vil pecador?\n\n¿Cómo siendo yo su enemigo\nel sufrimiento en mi lugar tomó\nen aquella cruz?"
+      },
+      {
+        "paragraph": "¿Como es posible que en Jesús\nComo a su hijo Él me recibió\ny su nombre llevo hoy?\n\nSu perfecta vida de obediencia\nal Padre Al yo creer,\nÉl me otorgó y perdón me dio."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Y cargo mi maldad sobre Él\nSu rectitud, por la fe, mía es\n\nAleluya, glorioso intercambio,\nOh cuan gran misterio.\nQue por gracia salvo soy\nAleluya, gloria sea a Cristo,\npor su sacrificio\nDeclarado justo soy en Él.",
+        "noPositions": [
+          2
+        ]
+      },
+      {
+        "choir": "Y cargo mi maldad sobre Él\nSu rectitud, por la fe, mía es\n\n/Aleluya, glorioso intercambio,\nOh cuan gran misterio.\nQue por gracia salvo soy\nAleluya, gloria sea a Cristo,\npor su sacrificio\nDeclarado justo soy/ …en Él.",
+        "noPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "num_song": "23",
+    "title_es": "HAY UN REDENTOR",
+    "description_es": "Hay un redentor ...",
+    "musicalNote": "C/D|Do-Re",
+    "paragraphs": [
+      {
+        "paragraph": "Hay un redentor\nes Jesús Dios hijo\nEs mesías rey cordero\nel santísimo."
+      },
+      {
+        "paragraph": "Jesús me redime\nnombre sobre todos;\nÉL ha muerto por nosotros\npor la voluntad de Dios."
+      },
+      {
+        "paragraph": "Cuando esté en la gloria\nyo veré su cara\nServiré a mi rey por siempre\nen lugar sagrado."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Gracias Padre mío\npor darle a sufrir\nY dejar su Espíritu\ntu obra aquí para cumplir",
+        "noPositions": [
+          3
+        ]
+      },
+      {
+        "choir": "/ Gracias Padre mío\npor darle a sufrir\nY dejar su Espíritu\ntu obra aquí para cumplir /\n\nY dejar su Espíritu\ntu obra aquí para cumplir.",
+        "noPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "num_song": "24",
+    "title_es": "HE DECIDIDO SEGUIR A CRISTO",
+    "description_es": "He decidido seguir a ...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "\n// He decidido seguir a Cristo. //\n/ No vuelvo atrás; no vuelvo atrás. /"
+      },
+      {
+        "paragraph": "// El Rey de gloria me ha transformado. //\n/ No vuelvo atrás; no vuelvo atrás. /"
+      },
+      {
+        "paragraph": "// En mis tristezas me da consuelo. //\n/ No vuelvo atrás; no vuelvo atrás. /"
+      },
+      {
+        "paragraph": "// La cruz delante, el mundo atrás. //\n/ No vuelvo atrás; no vuelvo atrás. /"
+      }
+    ],
+    "chorus": []
+  },
+  {
+    "id": "25",
+    "num_song": "25",
+    "title_es": "LA GLORIA DE LA CRUZ",
+    "description_es": "Cómo es que en Su perfecto...",
+    "musicalNote": "E|Mi",
+    "paragraphs": [
+      {
+        "paragraph": "¿Cómo es que en Su perfecto\nplan mi pecado perdonó,\ncuando al morir mi culpa,\n¿el Cordero la llevó?"
+      },
+      {
+        "paragraph": "¿Cuán Sabio y Soberano Dios\nSu gloria mostrará,\ncuando en Su trono,\nel pecador se regocijará?"
+      },
+      {
+        "paragraph": "Qué rectitud Él reveló,\nlibrando al pecador,\ny al culpable perdonó,\nsus manchas Él lavó."
+      },
+      {
+        "paragraph": "Tu sacrificio propició,\nla ira del Señor,\ny por tu muerte y expiación,\nhoy tengo redención. "
+      },
+      {
+        "paragraph": "Que gracia para aquellos que,\nhabrían de creer,\namor inagotable que\nno puedo comprende"
+      },
+      {
+        "paragraph": "La gracia que me perdonó,\nTu hijo ahora soy\nAmado por la eternidad\nPor lo que hiciste oh Dios"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Oh, la Gloria de la Cruz,\nTu Hijo enviaste a morir.\nMi vida dejaré atrás, para conocer\nla gloria de, la gloria de la cruz.",
+        "noPositions": [
+          1,
+          3,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "num_song": "27",
+    "title_es": "LA HERMOSA VISIÓN DE LA CRUZ",
+    "description_es": "Largos años vague...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Largos años vague\npor el valle del mal,\nsin consuelo, sin fe, sin amor\n\nY la sombra fatal\nde la senda que hollé,\npuso en mi alma la hiel del dolor."
+      },
+      {
+        "paragraph": "Desde entonces, por Él,\nya no soy lo que fui,\nuna sombra sin Dios y sin ley.\n\nMi existencia le di,\ny le quiero ser fiel;\nme constriñe el amor de mi Rey."
+      },
+      {
+        "paragraph": "Peregrino que vais\npor el valle del mal,\nvuestra senda solo es de dolor\n\nEsa carga fatal\nque en el alma lleváis,\nven y ponla a los pies del Señor."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "A mis pies el infierno se abrió,\ny clamé con el alma a Jesús.\nY al instante la escena cambió,\nen la hermosa visión de la cruz.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "num_song": "28",
+    "title_es": "LAVAME EN TU SANGRE",
+    "description_es": "Que mi vida entera esté",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Que mi vida entera esté\nConsagrada a ti, Señor;\nQue a mis manos pueda guiar\nEl impulso de tu amor."
+      },
+      {
+        "paragraph": "Que mis pies tan solo en pos\nDe lo santo puedan ir,\nY que, a ti, Señor, mi voz\nSe complazca en bendecir."
+      },
+      {
+        "paragraph": "Que mi tiempo todo esté\nConsagrado a tu loor.\nQue mis labios, al hablar,\nHablen solo de tu amor"
+      },
+      {
+        "paragraph": "Toma, oh Dios, mi voluntad,\nY hazla tuya, nada más.\nToma, sí, mi corazón,\nPor tu trono lo tendrás."
+      },
+      {
+        "paragraph": "Toma tú mi amor, que hoy\nA tus pies vengo a poner.\nToma todo lo que soy,\nTodo tuyo quiero ser"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Lávame en tu sangre, Salvador;\nLímpiame de toda mi maldad.\nTraigo a ti mi vida para ser, Señor,\nTuya por la eternidad.",
+        "noPositions": [
+          5
+        ]
+      },
+      {
+        "choir": "Lávame en tu sangre, Salvador;\nLímpiame de toda mi maldad.\n/ Traigo a ti mi vida para ser, Señor,\nTuya por la eternidad. /",
+        "noPositions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "num_song": "29",
+    "title_es": "MARAVILLOSO ES EL GRAN AMOR",
+    "description_es": "Maravilloso es el gran amor...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "Maravilloso es el gran amor que Cristo el Salvador\nderramó en mí; Siendo rebelde y pecador,\nyo de su muerte causa fui. ¡Grande, sublime,\ninmensurable amor! Por mí murió el Salvador."
+      },
+      {
+        "paragraph": "El su celeste hogar abandonó, dejando posición,\ngloria y honor; De todo ello se despojó.\npor rescatar al pecador. Misericordia inmensa\nél mostró; su gran amor me alcanzó."
+      },
+      {
+        "paragraph": "¡Grande misterio! Dios el inmortal muriendo en la\ncruz entregó su ser; ni mente humana ni angelical\njamás lo puede comprender. Inexplicable\nes el infinito amor que demostró mi Salvador."
+      },
+      {
+        "paragraph": "En vil prisión mi alma padeció, atada en pecado\ny oscuridad; pronto en mi celda resplandeció\nla clara luz de su verdad. Cristo las férreas\ncadenas destruyó; Quedó ya libre, ¡Gloria a Dios!"
+      },
+      {
+        "paragraph": "Hoy ya no temo la condenación; Jesús\nes mi Señor, y yo suyo soy.\nVivo en élque es mi salvación,\nvestido en su justicia voy.\nLibre acceso al Padre gozo ya\ny entrada al trono celestial."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "¡Oh, maravilla de su amor,\npor mí murió el Salvador!",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "num_song": "30",
+    "title_es": "MARCHEMOS A LA UNIDAD",
+    "description_es": "Yo sé que fue pagado un alto precio...",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "Yo sé que fue pagado un alto precio,\nPara que seamos uno tu y yo.\nCuando Jesús derramaba su vida,\nÉl pensaba en ti, Él pensaba en mi\nEn nuestra unidad."
+      },
+      {
+        "paragraph": "Nos veía redimidos por su sangre\nCombatiendo la batalla de la fé\nCodo a codo trabajando\nSu iglesia edificando\nY rompiendo las cadenas por amor."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "//Y mediante el Espíritu Santo\nProclamamos hoy aquí.\nQue pagaremos el precio de ser\nTodos un corazón en Jesús.\n\nY si las tinieblas militan\nY nos quieran separar\nCon nuestros ojos en Cristo\nMarchemos a la unidad//.",
+        "noPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "num_song": "31",
+    "title_es": "ES EXALTADO",
+    "description_es": "Es exaltado en lo alto ...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Es exaltado en lo alto exaltado es el Rey.\nLe alabaré.\nEs exaltado por siempre exaltado\nY yo le alabaré."
+      },
+      {
+        "paragraph": "Majestad, te adoro majestad\nDoy a Cristo toda gloria alabanza y honor.\nMajestad, reino y autoridad.\nDesde tu trono fluye por siempre tu majestad."
+      },
+      {
+        "paragraph": ""
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Él es Señor, por siempre reinarás\nSu creación en él se gozará\n//Es exaltado en lo alto exaltado es el Rey//",
+        "noPositions": [
+          2
+        ]
+      },
+      {
+        "choir": "Alabad y exaltad el nombre de Cristo\nMagnificad y glorificad a Cristo el Rey.\nMajestad, te adoro majestad,\n//Aquel que murió y resucitó es Rey mi Señor//",
+        "noPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "num_song": "32",
+    "title_es": "MIENTRAS TENGA ALIENTO",
+    "description_es": "Como agradezco Señor...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "Como agradezco Señor\nTomaste en la cruz mi lugar.\nComo agradezco Señor\nTu gran amor y bondades.\nPor acercarme a ti, por permitirme oír,\ny abrir mi corazón al evangelio."
+      },
+      {
+        "paragraph": "Como agradezco Señor\npor tanto, amor en tus ojos.\ncomo agradezco Señor\nel cambio que has hecho en mí.\npor darme tu poder, tu gozo y tu favor,\ny permitirme ver tus bondades."
+      },
+      {
+        "paragraph": "Como agradezco Señor\nTomaste en la cruz mi lugar.\nComo agradezco Señor\nTu gran amor y bondades.\nPor acercarme a ti, por permitirme oír,\ny abrir mi corazón al evangelio."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "//Mientras tenga aliento te alabare,\nMientras viva te cantare,\nMientras lata mi corazón te bendeciré//.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "num_song": "33",
+    "title_es": "MIRAD CUAL AMOR",
+    "description_es": "Mirad cual amor...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Mirad cual amor\nnos ha dado el Padre\nal hacernos\nhijos de Dios"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "///Para ser llamados\nhijos de Dios///",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "num_song": "34",
+    "title_es": "NO HAY OTRO",
+    "description_es": "Un pueblo que nunca se postran...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "Un pueblo que nunca se postran\nQue no se conforman al mundo y su placer.\n\nUn pueblo de vida consagrada\nY corazón que busca tu gloria conocer."
+      },
+      {
+        "paragraph": "Un pueblo creen tu palabra llenos de valor\nY profunda convicción\n\nUn pueblo firmes en la roca que tu\nVerdad proclaman con gran pasión"
+      },
+      {
+        "paragraph": "Fieles discípulos de Cristo\nQue al reino de los cielos le dieron su lealtad\n\nSiervos que ante él se postran\nY por el evangelio su vida dan"
+      },
+      {
+        "paragraph": "/Mueve hoy Señor nuestro corazón\nHazlo atento a tu verdad…\nVen renuévanos y confórmanos\nPara hacer tu voluntad/"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Confesamos que tú eres nuestro Dios\nNo hay otro, no hay otro\nSeguiremos el llamado de tu voz\nNo hay otro, no hay otro",
+        "noPositions": [
+          1,
+          4
+        ]
+      },
+      {
+        "choir": "/Confesamos que tú eres nuestro Dios\nNo hay otro, no hay otro\nSeguiremos el llamado de tu voz\nNo hay otro, no hay otro./",
+        "noPositions": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "num_song": "35",
+    "title_es": "NOBLE SOSTÉN",
+    "description_es": "Noble sostén de la esperanza mía...",
+    "musicalNote": "D|Re",
+    "paragraphs": [
+      {
+        "paragraph": "Noble sostén de la esperanza mía\nFuente bendita, de vida eterna\nTan solo el alma, que en tus fuerzas fía\nTiene paz, tiene paz."
+      },
+      {
+        "paragraph": "Dura es la lucha, difícil la carrera\nNunca en la lucha desmayar podré\nMi espíritu renuevas con la idea nueva\nDe vencer, de vencer."
+      },
+      {
+        "paragraph": "Yo soy muy débil, pero en ti soy fuerte\nPues tú me dotas de tu gran poder\nSi tu estás conmigo ni a la misma muerte\nTemeré, no temeré"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Mi sostén es Jesús\nNunca en la lucha desmayar podré\nMi sostén es Jesús el Señor\nnunca en la lucha desmayar podré",
+        "noPositions": [
+          3
+        ]
+      },
+      {
+        "choir": "Alelu., alelu.,\nnunca en la lucha desmayar podre\n\n/ Alelu., aleluya,\n/ nunca en la lucha desmayar podre / /",
+        "noPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "num_song": "36",
+    "title_es": "OH AMOR DE DIOS",
+    "description_es": "¡Oh amor de Dios! Su inmensidad...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "¡Oh amor de Dios! Su inmensidad\nEl hombre no podría contar,\nNi comprender la gran verdad,\nQue Dios al hombre pudo amar."
+      },
+      {
+        "paragraph": "Cuando el pecado entró al hogar\nDe Adán y Eva en Edén;\nDios les sacó, más prometió\nUn Salvador también."
+      },
+      {
+        "paragraph": "Si fuera tinta todo el mar,\nY todo el cielo un gran papel,\nY cada hombre un escritor,\nY cada hoja un pincel."
+      },
+      {
+        "paragraph": "Nunca podría describir\nEl gran amor de Dios;\nQue al hombre pudo redimir\nDe su pecado atroz"
+      },
+      {
+        "paragraph": "Y cuando el tiempo pasara\nCon cada reino mundanal\nY cada reino caerá\nCon cada trama y plan carnal"
+      },
+      {
+        "paragraph": "El gran amor del redentor\nPor siempre durara\nLa gran canción de salvación\nTu pueblo cantara"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "¡Oh amor de Dios!\nBrotando está,\nInmensurable eternal;\nPor las edades durará\nInagotable raudal.",
+        "noPositions": [
+          1,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "choir": "/¡Oh amor de Dios!\nBrotando está,\nInmensurable eternal;\nPor las edades durará\nInagotable raudal./",
+        "noPositions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "num_song": "37",
+    "title_es": "SEÑOR TE NECESITO",
+    "description_es": "Me postro hoy, ante ti...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "Me postro hoy, ante ti\nY quiero allí, yo descansar\nSin ti señor desecho estoy\nMi corazón tu guiaras"
+      },
+      {
+        "paragraph": "En mi pecar, tú gracia, es más\nDonde estás Tú, tú gracia está\nY donde estás, yo libre soy\nSantidad es Cristo en mí"
+      },
+      {
+        "paragraph": "Enséñame a cantarte a ti\nAl venir la tentación\nCuando débil soy rendirme a ti\nMi Esperanza y Salvación"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Oh Señor, te necesito\nen cada momento\nMi defensor\nMi redentor\nDios, te necesito",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "num_song": "38",
+    "title_es": "SI TE TENGO",
+    "description_es": "No hay nada para mí que sea mejor...",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "No hay nada para mí que sea mejor,\nQue conocerte, mi Jesús.\nPues en Tí encuentro paz´, Y el amor,\nQue me has dado en la cruz.\nPor eso yo quiero cantar."
+      },
+      {
+        "paragraph": "Puedo amarte por que Tú Me amaste a mí,\nSiendo yo un pecador.\nNo merecía Tu perdón Menos aún,\nSer llamado hijo de Dios.\nPor eso yo quiero cantar."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Eres todo lo que anhelo,\nTu voluntad es lo que quiero.\nTú satisfaces mi vida entera,\nTú, mi porción y mi roca eterna.\nLo que yo tengo lo doy por perdido,\nSi te tengo a Ti.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "num_song": "39",
+    "title_es": "SOLO EN JESÚS",
+    "description_es": "Solo en Jesús esta mi fe...",
+    "musicalNote": "D|Re",
+    "paragraphs": [
+      {
+        "paragraph": "Solo en Jesús esta mi fe,\nmi esperanza y mi canción.\nPiedra angular firme y sostén\ninconmovible en la aflicción."
+      },
+      {
+        "paragraph": "Solo en Jesús hijo de Dios\nquien se humilló por nuestro bien.\nCordero de mi salvación\npor este mundo herido fue."
+      },
+      {
+        "paragraph": "En un sepulcro el yació,\nel cuerpo inerte del Señor.\nMas el tercer día llegó\nresucitó en gloriosa luz"
+      },
+      {
+        "paragraph": "Desde al nacer hasta el morir\nSea el poder de Cristo en mi.\nNo temeré seguro estoy\nmi vida yo a Él le doy."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Cuán grande amor inmensa paz\nen el temor o adversidad.\nConsolador amigo fiel\nyo en su amor me sostendré.",
+        "noPositions": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "choir": "En una cruz fue a morir\nY Dios mostro su gracia ahí\npues mi pecado Él llevo\nen su aflicción vida me dio.",
+        "noPositions": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "choir": "Y al triunfar sobre el mal\nperdió el pecado potestad\nDe Él suyo soy, Él mío es.\nPues con su sangre me compró.",
+        "noPositions": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "choir": "/Ningún poder ningún afán\nde Él me arrebatara.\nHasta que Él venga otra vez\nen su poder me sostendré/.",
+        "noPositions": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "num_song": "40",
+    "title_es": "SUBLIME GRACIA",
+    "description_es": "Sublime gracia del Señor que aun infeliz salvo...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "Sublime gracia del Señor que aun infeliz salvo.\nFui ciego mas hoy veo yo,\nPerdido y Él me hallo."
+      },
+      {
+        "paragraph": "Su gracia me enseñó a temer,\nmis dudas ahuyento.\nOhh cuan precioso fue a mis ser,\nCuando él me transformo."
+      },
+      {
+        "paragraph": "En los peligros o aflicción,\nque yo he tenido aquí.\nSu gracia siempre me libro,\nY me guiara feliz."
+      },
+      {
+        "paragraph": "Y cuando en Sion por siglos mil,\nBrillante este cual sol.\nY aun cantare por siempre aquí\nSu amor que me salvo."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Ya libre soy Dios me salvo,\n        Y mis cadenas ya Él rompió\n        Y como un rio fluye el perdón\n        Sublime gracia inmenso amor.",
+        "noPositions": [
+          1,
+          4
+        ]
+      },
+      {
+        "choir": "/Ya libre soy Dios me salvo,\n          Y mis cadenas ya Él rompió\n          Y como un rio fluye el perdón\n          Sublime gracia inmenso amor./",
+        "noPositions": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "num_song": "41",
+    "title_es": "TE DOY GRACIAS",
+    "description_es": "Cuando sale el sol temprano cada...",
+    "musicalNote": "D|Re",
+    "paragraphs": [
+      {
+        "paragraph": "Cuando sale el sol temprano cada día\nEs tu gracia que me da aliento de vida\nEn ti vivimos, nos movemos y existimos\nPor orden de tu voz."
+      },
+      {
+        "paragraph": "Tu presencia me refresca en la mañana\nMe alimenta y me sustenta tu Palabra\nTu favor y bien rodean mi camino\nPor tu constante amor."
+      },
+      {
+        "paragraph": "Al oscurecer, cuando llega la noche\nTú me libras de ansiedades y temores\nEs tu mano mi refugio y mi descanso\nEres mi guardador"
+      },
+      {
+        "paragraph": "Padre, ¿Cómo he de dudar de tus bondades?\nSi a tu Hijo unigénito entregaste\nMe has llamado por mi nombre y me salvaste\nAgradecido estoy"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Te doy gracias\nGrandes son tus obras,\nOh mi Dios\nTe doy gracias\nPor tu fidelidad, bondad y amor\nTe doy gracias\nMi alma te bendice hoy",
+        "noPositions": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "choir": "Tu demuestras que me amas y me cuidas\nY me suples siempre\nel pan de cada día\nNada bueno tú retienes\na tus hijos\nEres mi proveedor",
+        "noPositions": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "choir": "/Te doy gracias\nGrandes son tus obras,\nOh mi Dios\nTe doy gracias\nPor tu fidelidad, bondad y amor\nTe doy gracias\nMi alma te bendice hoy/",
+        "noPositions": [
+          1,
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "num_song": "42",
+    "title_es": "TENGO UN REFUGIO",
+    "description_es": "Tengo un refugio en tempestad...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "Tengo un refugio en tempestad cuando aflicciones tengo\nCuando me llena mi temor mi alma en Ti descansa"
+      },
+      {
+        "paragraph": "Tengo un refugio en tempestad\nsi mi pecado acusa\nCulpable soy de mi maldad,\nTu gracia aún me acepta"
+      },
+      {
+        "paragraph": "Tengo un refugio en tempestad\nsi temo a la tormenta\nEn mi debilidad yo sé\nTu fuerza me sustenta"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Oh Cristo, en ti me esconderé\n        Mi paz y mi consuelo\n        Nada es más grande que tu amor\n        Confortas mi tristeza",
+        "noPositions": [
+          2,
+          3
+        ]
+      },
+      {
+        "choir": "Oh Cristo, en ti me esconderé\n        Ya no soy condenado\n        Refugio tengo en tu cruz\n        Y salvación encuentro",
+        "noPositions": [
+          1,
+          3
+        ]
+      },
+      {
+        "choir": "/ Oh cristo, en ti me esconderé\n        Pues llevas tú mis cargas\n        Tus manos firmes me guiarán\n        Hasta llevarme al cielo /",
+        "noPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "num_song": "43",
+    "title_es": "TODO LO PAGO",
+    "description_es": "Puedo oír la voz de Cristo...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "Puedo oír la voz de Cristo\nQue me llama hacia Él,\nTodo cuanto necesito\nLo encuentro sólo en Él"
+      },
+      {
+        "paragraph": "Buen pastor, refugio eterno,\nMi todo en todo es Él.\nDe la vida, Él es la fuente,\nMi esperanza en Él pondré."
+      },
+      {
+        "paragraph": "Siendo yo su enemigo\nDe mi tuvo compasión,\nRechazaba yo su gracia\nY Él abrió mi corazón."
+      },
+      {
+        "paragraph": "Nada bueno en mi yo encuentro\nMi virtud viene de Él\nY cuando en Él yo esté completo\n/ Para siempre cantaré /"
+      },
+      {
+        "paragraph": "Jesucristo es mi deleite\nGrande gozo tengo en Él\nNada más me satisface\n/ Cristo mi tesoro es /"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "/ Cantaré /\nEl cordero digno es\nSalvador pagó mi deuda\nSe lo debo todo a Él\n\n/ Cantaré /\nSiempre yo le alabaré\nEl mis manchas ha lavado\n/ Suyo siempre yo seré /",
+        "noPositions": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "choir": "Todo lo pago quien por mi murió\nY mis manchas él lavo\n\n/ Con sangre carmesí /",
+        "noPositions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "num_song": "44",
+    "title_es": "TÚ ERES MI RESPIRAR",
+    "description_es": "Tú eres mi respirar...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "//Tú eres mi respirar//\nDios tu presencia vive en mi.\n\n//Tú eres mi pan Señor//\nDios tus palabras son para mi."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Y yo……..\nte anhelo Señor…..\nEstoy….\nPerdido sin ti….",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "num_song": "45",
+    "title_es": "TU NOMBRE LEVANTARE",
+    "description_es": "Tú nombre levantaré...",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "//Tú nombre levantaré,\nme deleito en adorarte.\nTe agradezco que en mi vida estés,\nque vinieras a salvarme//."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "//Dejaste el trono para,\nmostrarnos la luz\nDe Tú trono a la cruz,\ny mi deuda pagar.\nDe la cruz a morir,\nde la muerte a tú trono;\nTú nombre levantaré//.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "num_song": "46",
+    "title_es": "VIVIR ES CRISTO",
+    "description_es": "Como recibiré de ti el...",
+    "musicalNote": "G|Sol",
+    "paragraphs": [
+      {
+        "paragraph": "Como recibiré de ti el bien,\nY el mal rechazare.\nSí se que tú eres Señor\nSoberano y justo."
+      },
+      {
+        "paragraph": "Como he de alabarte en bendición\ny olvidarte en dolor.\nSi sé que tienes el control,\nde toda tu creación."
+      },
+      {
+        "paragraph": "Como he de creer en ti al tener, y dudar en la escasez\nSi sé que tú eres siempre fiel, y que nunca cambias.\nComo he de seguir en libertad y huir en la opresión\nSi sé que guardas para mí una eterna posesión."
+      },
+      {
+        "paragraph": "Como he de confiar en tu bondad y tu gran amor por mí,\nSi enviaste a Jesús en mi lugar a morir en una Cruz.\n//Tu gracia es suficiente//"
+      },
+      {
+        "paragraph": "Fija mis ojos solo en ti en lo eterno, en el\ncielo\nLa aflicción de este mundo jamás se\ncompara con la gloria que ha de venir.\n//Vivir es Cristo, vivir es Cristo//"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Bendito sea el nombre del Señor, en todo tiempo\nSe haga tu perfecta voluntad, en mí.\nDaré gloria a tu nombre a través de mi aflicción\nDame tu gracia para ver: que vivir es Cristo.",
+        "noPositions": [
+          1,
+          2
+        ]
+      },
+      {
+        "choir": "…VIVIR ES CRISTO",
+        "noPositions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "num_song": "47",
+    "title_es": "VIVIR POR FE",
+    "description_es": "Por fe, veremos a nuestro...",
+    "musicalNote": "A|La",
+    "paragraphs": [
+      {
+        "paragraph": "Por fe, veremos a nuestro Dios\nEn el plan que creó en la eternidad.\nEn la vida de los fieles que llamó\nA vivir por fe y no por ver.\n\nPor fe, el justo vivirá\nPor la fe, caminamos junto a el\nComo viendo al invisible protector\nVivir por fe y no por ver"
+      },
+      {
+        "paragraph": "Por fe, profetas hablaron bien\nPor la fe, proclamaron la verdad\nEl Mesías prometido en edén\nEl que la muerte venció en la cruz\n\nPor fe, la iglesia se moverá\nCon poder del espíritu de Dios\nY las fuerzas del infierno no podrán\nDañar la obra de nuestro Dios."
+      },
+      {
+        "paragraph": "Por fe los montes se moverán\nSi la fe permanece en Jesús\nEl poder del evangelio librara\nA todo aquel que confía en él"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en Él\nVivir por fe y no por ver",
+        "noPositions": [
+          3
+        ]
+      },
+      {
+        "choir": "/Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en él\nVivir por fe y no por ver./\n\n/Vivir por fe y no por ver./",
+        "noPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "num_song": "48",
+    "title_es": "YAHWEH",
+    "description_es": "Con tu palabra el mundo afirmaste Señor...",
+    "musicalNote": "_",
+    "paragraphs": [
+      {
+        "paragraph": "Con tu palabra el mundo afirmaste Señor.\nTú aliento de vida;\ndel polvo la humanidad formó.\nDespliegas tu nombre, y gloria en toda la creación.\nSANTO DIOS, SANTO DIOS.\n\nAun cuando el pecado, tu creación corrompió.\nEn tú fidelidad nos prometiste redención.\nun plan soberano por gracia y justicia mostró\nSANTO DIOS, SANTO DIOS\n\nSiempre guardas tus palabras, siempre\ncumples tus promesas.\nPor amor de tu nombre; Santo nombre."
+      },
+      {
+        "paragraph": "En tiempo preciso el verbo carne se hizo.\nA que por bien esperamos,\nEl prometido en el principio.\nY vimos tu rostro llena de gracia y verdad.\nEn Jesús hijo de Dios SANTO DIOS."
+      },
+      {
+        "paragraph": "Nos aferramos a tus palabras,\nY creemos en tus promesas,\nY adoramos hoy tu nombre;\nSANTO NOMBRE."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "YAHWEH, YAHWEH.\nPoderoso, Dios eterno ,verdadero.\n¿Ohh quién es como tú?\n\nYAHWEH, YAHWEH.\nTú nombre permanecerá para siempre\nOhhh YAHWEH",
+        "noPositions": []
+      },
+      {
+        "choir": "YAHWEH ES TU NOMBRE :YAHWEH.\nOhhh ¡YAHWEH!",
+        "noPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "num_song": "49",
+    "title_es": "10.000 RAZONES",
+    "description_es": "Sale el sol, es un nuevo amanecer, Que todo lo que soy alabe...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": ""
+      },
+      {
+        "paragraph": "Sale el sol, es un nuevo amanecer,\nCantaré a tí otra vez.\nSea lo que venga confiaré en ti.\nAlabaré en el anochecer."
+      },
+      {
+        "paragraph": "Tu amor no tiene fin y tu eres para siempre.\nY bondadoso es tu corazón.\nPor todo lo que has hecho yo sigo\ncantando.\n10.000 razones para alabar."
+      },
+      {
+        "paragraph": "En ese día cuando ya no tenga fuerzas,\nY se acerque tu gloria.\nMi alma cantará de tu amor sin final.\n10.000 años y para siempre más."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Que todo lo que soy alabe al Señor,\nCon todo mi corazón.\nDe tu grande amor cantaré,\nTu nombre alabaré.",
+        "noPositions": [
+          4
+        ]
+      },
+      {
+        "choir": "// Que todo lo que soy alabe al Señor,\nCon todo mi corazón.\nDe tu grande amor cantaré,\nTu nombre alabaré //",
+        "noPositions": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "num_song": "50",
+    "title_es": "El me sostendra",
+    "description_es": "Si mi fe ha de caer, Él me sostendrá...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "Si mi fe ha de caer,\n        Él me sostendrá;\n        En la tentación yo se,\n        Él me sostendrá.\n        No podría estar de pie\n        En la oscuridad,\n        Pues mi amor muy frágil es,\n        Él me sostendrá."
+      },
+      {
+        "paragraph": "Él se goza en quien salvó,\n        Él me sostendrá;\n        Ante Él precioso soy,\n        Él me sostendrá.\n        Sus promesas fieles son,\n        Mi alma guardará;\n        Alto precio Él pagó, Él me sostendrá."
+      },
+      {
+        "paragraph": "Él sufrió y por mí murió:\n        Él me sostendrá;\n        La justicia Él cumplió,\n        Él me sostendrá.\n        Vida eterna tengo en Él,\n        Él me sostendrá;\n        Hasta que le pueda ver;\n        ¡Él regresará!"
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Él me sostendrá,\n        Él me sostendrá;\n        Pues ama tanto el Salvador,\n        Él me sostendrá.",
+        "noPositions": []
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "num_song": "51",
+    "title_es": "Salmos 19 - La Ley de Jehova",
+    "description_es": "La ley de Jehová es perfecta, que convierte el alma...",
+    "musicalNote": "C|Do",
+    "paragraphs": [
+      {
+        "paragraph": "La ley de Jehová es perfecta,\n        que convierte el alma;\n        El testimonio de Jehová es fiel,\n        que hace sabio al sencillo."
+      },
+      {
+        "paragraph": "Los mandamientos de Jehová son rectos,\n        que alegran el corazón;\n        El precepto de Jehová es puro,\n        que alumbra los ojos."
+      },
+      {
+        "paragraph": "El temor de Jehová es limpio,\n        que permanece para siempre;\n        Los juicios de Jehová son verdad,\n        todos justos."
+      }
+    ],
+    "chorus": [
+      {
+        "choir": "Deseables son más que el oro,\n        y más que mucho oro afinado;\n        y dulces más que la miel,\n        la que destila del panal.",
+        "noPositions": []
+      }
+    ]
+  }
+]

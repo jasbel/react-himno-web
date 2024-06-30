@@ -6,7 +6,7 @@ import { addFav, deleteFav, findFav } from "../libs/storage";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
 import { opacityColor } from "../helpers/helper";
-import { Chorus, Songs } from "../types/types";
+import { IChoir, ISong } from "../types/types";
 
 import { useLocation, useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -26,20 +26,20 @@ export const initialValues = {
 const initHimno: IHimno = {
   id: "lorem ipsum",
   num_song: "lorem ipsum",
-  title_es: "lorem ipsum",
-  description_es: "lorem ipsum",
+  title: "lorem ipsum",
+  description: "lorem ipsum",
   musicalNote: "_",
   paragraphs: [],
   chorus: [],
 };
 
-interface IHimno extends Songs {}
+interface IHimno extends ISong {}
 
 interface Props {}
 
 const HimnoSongScreen: FC<Props> = () => {
   const { addToFav, rmToFav } = useContext(SongContext);
-  const { state } = useLocation() as { state: { himno: Songs } };
+  const { state } = useLocation() as { state: { himno: ISong } };
   const { decrementFontSize, incrementFontSize } = useContext(SettingContext);
 
   const [himno] = useState({
@@ -47,12 +47,12 @@ const HimnoSongScreen: FC<Props> = () => {
     ...state.himno,
   } as IHimno);
 
-  const { paragraphs, chorus, title_es } = state.himno;
+  const { paragraphs, chorus, title: title_es } = state.himno;
   /* TODO: Mejorar la respuesta de indefinido, array vacio, o string vacio en choir y chorus */
   const verses = paragraphs.map((item, i) => {
     let choir = "lorem ipsum";
 
-    let filter: Chorus[];
+    let filter: IChoir[];
     if (chorus) {
       filter = chorus.filter((choir) => compareArrayIgnore(choir.noPositions, i + 1));
       choir = filter.length ? joinChoirs(filter) : "";
@@ -82,7 +82,7 @@ const HimnoSongScreen: FC<Props> = () => {
     return arr.find((arrValue) => arrValue === val) ? false : true;
   }
 
-  function joinChoirs(filter: Chorus[]) {
+  function joinChoirs(filter: IChoir[]) {
     const filterChoir =
       filter.length >= 2
         ? filter.reduce(

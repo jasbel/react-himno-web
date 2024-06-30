@@ -4,10 +4,7 @@ import HimnoSongScreen from "../screens/HimnoSongScreen";
 import HimnoHomeScreen from "../screens/HimnoHomeScreen";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AddHimnoScreen from "../screens/AddHimnoScreen";
-
-// import Colors from "../res/colors";
-// import { render } from "react-dom";
-// import App from "../App";
+import HimnoNewScreen from "../screens/HimnoNewScreen";
 
 const HimnoStack = () => {
   return (
@@ -18,6 +15,7 @@ const HimnoStack = () => {
           <Route path="himno-home" element={<HimnoHomeScreen />} />
         </Route>
         <Route path="himno" element={<HimnoScreen />} />
+        <Route path="himnos" element={<HimnoNewScreen />} />
         <Route path="himno-song" element={<HimnoSongScreen />} />
         <Route path="add-himno" element={<AddHimnoScreen />} />
       </Routes>
