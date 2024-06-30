@@ -28,7 +28,7 @@ const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
 
       <Box style={{ position: "sticky", top: 1, zIndex: 10 }}>
         <Box position={"absolute"} width={6} zIndex={1}>
-          <ButtonHero title="<" onClick={() => onPreBefore()} style={{ fontWeight: "bold" }} />
+          <ButtonHero title="" onClick={() => onPreBefore()} style={{ fontWeight: "bold" }} />
         </Box>
       </Box>
     </>

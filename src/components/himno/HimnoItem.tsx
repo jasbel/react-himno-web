@@ -34,7 +34,7 @@ const HimnoItem = ({ item, onClick }: Props) => {
   return (
     <Flex >
       <button style={styles.container} onClick={onClick}>
-        <ImageItem id={id} isFavorite={isFavorite} />
+        <ImageItem num={id} isFavorite={isFavorite} />
 
         <div style={styles.content}>
           <Flex

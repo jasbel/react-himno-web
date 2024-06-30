@@ -1,8 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import Colors from "../res/colors";
 import HimnoSearch from "../components/himno/HimnoSearch";
-import { songs as songsAll } from "../res/letters-new";
-import HimnoItem from "../components/himno/HimnoItem2";
+import HimnoItemNew from "../components/himno/HimnoItem2";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
 import { ISong2 } from "../types/types";
@@ -10,7 +9,8 @@ import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
 import { useSong } from "../hooks/useNewSong";
-import dataJson from "../assets/data.json";
+import songsAll from "../assets/data-song.json";
+// import { songs as songsAll } from "../res/letters-new";
 
 const HimnoNewScreen = () => {
   const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISong2[]);
@@ -18,11 +18,9 @@ const HimnoNewScreen = () => {
   const navigate = useNavigate();
   const { songs, songFavorites } = useSong();
 
-  const [data, seData] = useState([]);
-
   const handlePress = useCallback(
     (himno: ISong2) => {
-      navigate("/himno-song", { state: { himno } });
+      navigate("/himno-song-new", { state: { himno } });
     },
     [navigate]
   );
@@ -34,7 +32,7 @@ const HimnoNewScreen = () => {
     const HimnosFiltered = songsAll.filter((himno) => {
       return (
         removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.description).toLowerCase().includes(removeAccents(query).toLowerCase())
+        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
       );
     });
 
@@ -48,13 +46,11 @@ const HimnoNewScreen = () => {
       <div style={styles.container}>
         <HimnoSearch onChange={handleSearch} modeSearch={modeSearch} />
 
-        <pre>{JSON.stringify(dataJson, null, 1)}</pre>
-
         <div>
           {modeSearch && (
             <>
               {songsSearch.map((item) => {
-                return <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />;
+                return <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />;
               })}
             </>
           )}
@@ -62,11 +58,13 @@ const HimnoNewScreen = () => {
           {!modeSearch && (
             <>
               {!songFavorites.length && <FavoriteEmptyState />}
+
               {songFavorites.map((item) => (
-                <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />
+                <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />
               ))}
+
               {songs.map((item) => {
-                return <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />;
+                return <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />;
               })}
             </>
           )}

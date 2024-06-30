@@ -34,7 +34,7 @@ export interface IChoir2 {
 
 export interface ISong2 {
   id: uuidV4,
-  num_song: string,
+  code: string,
   title: string,
   musicalNote: TNote,
   paragraphs: IParagraph2[],

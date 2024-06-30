@@ -6,15 +6,18 @@ import { theme } from "./config/theme";
 import "./index.css";
 import { SettingProvider } from "./state/SettingContext";
 import { SongProvider } from "./state/SongContext";
+import { SongNewProvider } from "./state/SongNewContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <SongProvider>
-        <SettingProvider>
-          <App />
-        </SettingProvider>
-      </SongProvider>
+      <SongNewProvider>
+        <SongProvider>
+          <SettingProvider>
+            <App />
+          </SettingProvider>
+        </SongProvider>
+      </SongNewProvider>
     </ChakraProvider>
   </React.StrictMode>
 );

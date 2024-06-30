@@ -5,17 +5,17 @@ import Colors from "../../res/colors";
 import { responsive } from "../../res/responsive";
 import { ISong2 } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
-import StarNote from "./elements/StarNote";
+import StarNote from "./elements/StarNoteNew";
 
 interface Props {
   item: ISong2;
   onClick: () => void;
 }
 
-const HimnoItem = ({ item, onClick }: Props) => {
+const HimnoItemNew = ({ item, onClick }: Props) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
-  const { title, id, musicalNote, paragraphs} = item;
+  const { title, code, musicalNote, paragraphs} = item;
 
   const getFavorite = () => {
     try {
@@ -34,7 +34,7 @@ const HimnoItem = ({ item, onClick }: Props) => {
   return (
     <Flex >
       <button style={styles.container} onClick={onClick}>
-        <ImageItem id={id} isFavorite={isFavorite} />
+        <ImageItem num={code} isFavorite={isFavorite} />
 
         <div style={styles.content}>
           <Flex
@@ -90,4 +90,4 @@ const styles: { [key in any]: React.CSSProperties } = {
   },
 };
 
-export default HimnoItem;
+export default HimnoItemNew;

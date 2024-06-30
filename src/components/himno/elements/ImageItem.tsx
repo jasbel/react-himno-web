@@ -4,16 +4,22 @@ import { responsive } from "../../../res/responsive";
 import icon from "../../../assets/images/play.png";
 
 interface Props {
-  id: string;
+  num: string;
   isFavorite: boolean;
 }
 
-const ImageItem = ({ isFavorite, id }: Props) => {
-  const favWrap = isFavorite ? styles.figureIsFavorite : {};
-  const fav = isFavorite ? styles.numberHimnoFavorite : {};
+const ImageItem = ({ isFavorite, num }: Props) => {
+  const favWrap = !!isFavorite ? styles.figureIsFavorite : {};
+  const fav = !!isFavorite ? styles.numberHimnoFavorite : {};
+
+  const getNumber = () => {
+    if (typeof Number(num) !== "number") return num;
+    return parseInt(num, 10) + 1;
+  };
+
   return (
     <div style={{ ...styles.figure, ...favWrap }}>
-      <p style={{ ...styles.numberHimno, ...fav }}>{parseInt(id, 10) + 1}</p>
+      <p style={{ ...styles.numberHimno, ...fav }}>{getNumber()}</p>
       <img style={styles.icon} src={icon} />
     </div>
   );

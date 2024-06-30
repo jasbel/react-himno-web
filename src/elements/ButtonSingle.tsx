@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import icon from "../assets/images/left-arrow-icon.webp";
 
 interface Props {
   title: string;
@@ -9,7 +8,7 @@ interface Props {
   style?: React.CSSProperties;
 }
 
-const ButtonHero = ({ title, onClick, style }: Props) => {
+const ButtonSingle = ({ title, onClick, style }: Props) => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -21,13 +20,12 @@ const ButtonHero = ({ title, onClick, style }: Props) => {
       onMouseLeave={() => setHover(false)}
       style={{ ...styles.headerButton, ...style, ...styles[hover ? "headerButtonHover" : ""] }}
     >
-      <img style={styles.icon} src={icon} />
       {title}
     </button>
   );
 };
 
-export default ButtonHero;
+export default ButtonSingle;
 
 const styles: { [key in any]: React.CSSProperties } = {
   headerButton: {
