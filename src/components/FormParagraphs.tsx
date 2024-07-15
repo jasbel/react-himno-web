@@ -1,27 +1,30 @@
-import { ChangeEvent, ChangeEventHandler, SetStateAction, useState } from 'react'
-import Button from '../elements/Button'
-import FormTextArea from '../elements/FormTextArea'
-import FormParagraph from './FormParagraph'
+import { useState } from "react";
+import Button from "../elements/Button";
+import FormParagraph from "./FormParagraph";
+import { IParagraph2 } from "../types/types";
+import { v4 } from "uuid";
 
 const FormParagraphs = () => {
-  const [paragrapsh, setParagraphs] = useState({})
+  const [paragraphs, setParagraphs] = useState<IParagraph2[]>([]);
 
- const onChange = (value: string, p: string) => {
-  setParagraphs(_v => ({..._v, [p]: value}))
- }
- 
+  const onChange = (value: string, idx: number) => {
+    setParagraphs((_v) => {
+      _v.forEach((p, i) => {
+        if (i === idx) p.paragraph = value;
+      });
+      return _v;
+    });
+  };
 
   return (
-    <div className='bg-cyan-100'>
-      <FormParagraph label="Parrafo 1" handleChange={v => onChange(v, 'p1')}/>
-      <FormParagraph label="Parrafo 2" handleChange={v => onChange(v, 'p2')}/>
-      <FormParagraph label="Parrafo 3" handleChange={v => onChange(v, 'p3')}/>
-      <FormParagraph label="Parrafo 4" handleChange={v => onChange(v, 'p4')}/>
+    <div className="bg-cyan-100">
+      {paragraphs.map((p, i) => {
+        return <FormParagraph key={i} label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} />;
+      })}
 
-      <Button title='+ Parrafo' />
-      <pre>{JSON.stringify(paragrapsh, null, 2)}</pre>
+      <Button title="+ Parrafo" onClick={() => setParagraphs([...paragraphs, { chorusPos: [[1]], paragraph: "", id: v4() }])} />
     </div>
-  )
-}
+  );
+};
 
-export default FormParagraphs
+export default FormParagraphs;

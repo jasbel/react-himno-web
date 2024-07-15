@@ -1,16 +1,28 @@
+import { position } from "@chakra-ui/react";
 import React from "react";
+import ControlForm from "./ControlForm";
 
 interface Props {
   id: string;
   label: string;
+  placeholder?: string;
+  onInput: (v: string) => void;
 }
 
-const CustomInput = ({ id, label }: Props) => {
+const CustomInput = ({ id, label , onInput, placeholder}: Props) => {
   return (
-    <div style={{display: 'flex', gap: 4, marginBottom: 8, textAlign: 'start'}} id={id}>
-      <label style={{paddingRight: 8, minWidth: 150}}>{label}</label>
-      <input style={{border: '1px solid black', borderRadius: 8}} placeholder=" " />
-    </div>
+    <ControlForm label={label} >
+      <input
+      id={id}
+        style={{
+          border: "1px solid black",
+          borderRadius: 8,
+          padding: "3px 12px",
+        }}
+        placeholder={placeholder}
+        onClick={e => onInput((e.target as HTMLInputElement).value)}
+      />
+    </ControlForm>
   );
 };
 

@@ -16,11 +16,13 @@ const AddHimnoScreen = () => {
           <div className="">
             {/* <div className="grid grid-cols-12 gap-4"> */}
             {/* <div className="col-span-7 bg-light"> */}
-            <Box bg="dark">
+            <Box>
               <LayoutMain>
                 <FormSongBase />
               </LayoutMain>
-
+              <LayoutMain>
+                <FormParagraphs />
+              </LayoutMain>
               <LayoutMain>
                 <FormParagraphs />
               </LayoutMain>

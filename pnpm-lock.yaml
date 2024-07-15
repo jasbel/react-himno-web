@@ -29,6 +29,9 @@ importers:
       react-router-dom:
         specifier: ^6.3.0
         version: 6.24.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      uuid:
+        specifier: ^10.0.0
+        version: 10.0.0
     devDependencies:
       '@types/react':
         specifier: ^18.0.0
@@ -2503,6 +2506,10 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
+
+  uuid@10.0.0:
+    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    hasBin: true
 
   vite-plugin-pwa@0.12.8:
     resolution: {integrity: sha512-pSiFHmnJGMQJJL8aJzQ8SaraZBSBPMGvGUkCNzheIq9UQCEk/eP3UmANNmS9eupuhIpTK8AdxTOHcaMcAqAbCA==}
@@ -5560,6 +5567,8 @@ snapshots:
       tslib: 2.6.3
     optionalDependencies:
       '@types/react': 18.3.3
+
+  uuid@10.0.0: {}
 
   vite-plugin-pwa@0.12.8(vite@2.9.18)(workbox-build@6.6.0)(workbox-window@6.6.0):
     dependencies:

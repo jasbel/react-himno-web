@@ -1,8 +1,12 @@
-import { ChangeEvent, ChangeEventHandler, SetStateAction, useState } from "react";
-import Button from "../elements/Button";
+import { ChangeEventHandler, useState } from "react";
 import FormTextArea from "../elements/FormTextArea";
 
-const FormParagraph = ({label, handleChange}) => {
+interface Props {
+  label: string;
+  handleChange: (v: string) => void;
+}
+
+const FormParagraph = ({label, handleChange}: Props) => {
   const [p1, setP1] = useState("");
 
   const change: ChangeEventHandler<HTMLTextAreaElement> = (value) => {
@@ -12,7 +16,7 @@ const FormParagraph = ({label, handleChange}) => {
   };
 
   return (
-    <div className="bg-cyan-100">
+    <div>
       <FormTextArea label={label} handleChange={change} />
       <pre>{JSON.stringify(p1, null, 2)}</pre>
     </div>
