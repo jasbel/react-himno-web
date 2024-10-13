@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import Colors from "../res/colors";
 import HimnoSearch from "../components/himno/HimnoSearch";
-import HimnoItemNew from "../components/himno/HimnoItem2";
+import HimnoItemNew from "../components/himno/HimnoItemNew";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
 import { ISong2 } from "../types/types";
