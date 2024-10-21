@@ -8,7 +8,7 @@ import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
 import ButtonStar, { TypeStar } from "../components/ButtonStar";
 import { SongContext } from "../state/SongContext";
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@components/ui";
 import ButtonSingle from "../elements/ButtonSingle";
 import { SettingContext } from "../state/SettingContext";
 import WrapItemHimno from "../components/himno/WrapItemHimno";

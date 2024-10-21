@@ -4,7 +4,8 @@ import Colors from "../../../res/colors";
 
 import star from "../../../assets/images/star.png";
 import unstar from "../../../assets/images/unstar.png";
-import { Flex, Image, Text, useDisclosure } from "@chakra-ui/react";
+import { useDisclosure } from "@hooks/use";
+import { Flex, Image, Text } from "@components/ui";
 import { AlertDialog } from "../../../elements/AlertDialog";
 import { SongContext } from "../../../state/SongNewContext";
 

@@ -1,5 +1,4 @@
-import { position } from "@chakra-ui/react";
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 
 interface Props extends PropsWithChildren<unknown> {
   label: string;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import icon from "../assets/images/left-arrow-icon.webp";
+import icon from "../assets/images/arrow.svg";
 
 interface Props {
   title: string;
@@ -46,14 +46,16 @@ const styles: { [key in any]: React.CSSProperties } = {
     justifyContent: "center",
     height: responsive(40, 35),
     width: responsive(40, 35),
+    // position: 'relative',
+    // top: 6,
   },
   headerButtonHover: {
     backgroundColor: Colors.bkgPrimary,
     color: Colors.txtLight,
   },
   icon: {
-    backgroundColor: 'transparent',
-    width: '23px',
+    // backgroundColor: 'transparent',
+    width: 18,
     // color: Colors.txtLight,
   },
 };

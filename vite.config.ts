@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { ManifestOptions, VitePWA, VitePWAOptions } from "vite-plugin-pwa";
+import { resolve } from 'path';
 
 
 const pwaOptions: Partial<VitePWAOptions> = {
@@ -41,4 +42,12 @@ export default defineConfig({
     sourcemap: process.env.SOURCE_MAP === "true",
   },
   plugins: [react(), VitePWA(pwaOptions)],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+      '@components': resolve(__dirname, 'src/components'),
+      '@hooks': resolve(__dirname, 'src/hooks'),
+      '@ui': resolve(__dirname, 'src/components/ui'),
+    },
+  },
 });

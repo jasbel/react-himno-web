@@ -4,7 +4,8 @@ import Colors from "../../../res/colors";
 
 import star from "../../../assets/images/star.png";
 import unstar from "../../../assets/images/unstar.png";
-import { Flex, Image, Text, useDisclosure } from "@chakra-ui/react";
+import { useDisclosure } from "@hooks/use";
+import { Flex, Image, Text } from "@components/ui";
 import { AlertDialog } from "../../../elements/AlertDialog";
 import { SongContext } from "../../../state/SongContext";
 
@@ -34,6 +35,7 @@ const StarNote = ({ isFavorite, musicalNote, songId }: Props) => {
       <Text fontWeight="bold" fontSize={responsive(16, 14)} color={Colors.txtPrimary} noOfLines={1}>
         {musicalNote}
       </Text>
+
       <Image
         src={isFavorite ? star : unstar}
         height={{ base: 6, md: 8 }}

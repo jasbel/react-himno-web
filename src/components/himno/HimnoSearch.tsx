@@ -1,4 +1,4 @@
-import { Flex, Input } from '@chakra-ui/react';
+import { Flex, Input } from '@components/ui';
 import React, {useEffect, useState} from 'react';
 import { opacityColor } from '../../helpers/helper';
 import Colors from '../../res/colors';

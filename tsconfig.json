@@ -17,7 +17,14 @@
     "jsx": "react-jsx",
     "types": [
       "vite-plugin-pwa/client"
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@ui/*": ["src/components/ui/*"],
+      "@hooks/*": ["src/hooks/*"],
+    }
   },
   "include": ["./src"],
   "references": [{ "path": "./tsconfig.node.json" }],

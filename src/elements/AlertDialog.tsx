@@ -5,10 +5,9 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
-  useDisclosure,
-  Button,
-} from "@chakra-ui/react";
+} from "@components/ui";
 import React, { FC } from "react";
+import { Button } from "@components/ui";
 
 interface Props {
   title: string;

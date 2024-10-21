@@ -1,5 +1,4 @@
-import { Button, Flex, Image } from "@chakra-ui/react";
-import logoName from "../images/logo+name.png";
+import { Button, Flex } from "@components/ui";
 
 // import logo from "../logo.svg";
 // import { responsive } from "../utils/responsive";

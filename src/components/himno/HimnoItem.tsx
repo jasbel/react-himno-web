@@ -1,4 +1,3 @@
-import { Flex, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
@@ -6,6 +5,7 @@ import { responsive } from "../../res/responsive";
 import { ISong } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNote from "./elements/StarNote";
+import { Box, Flex, Text } from "@components/ui";
 
 interface Props {
   item: ISong;

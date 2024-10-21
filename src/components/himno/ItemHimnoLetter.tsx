@@ -2,7 +2,7 @@ import React from "react";
 import Colors from "../../res/colors";
 import iconChoir from "../../assets/images/verse.png";
 import { responsive } from "../../utils/responsive";
-import { Box } from "@chakra-ui/react";
+import { Box } from "@components/ui";
 import { useSetting } from "../../hooks/useSetting";
 
 export interface ILetter {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Colors from "../res/colors";
 import star from "../assets/images/star.png";
 import unstar from "../assets/images/unstar-white.png";
-import { Box } from "@chakra-ui/react";
+import { Box } from "@components/ui";
 import { responsive } from "../utils/responsive";
 
 export type TypeStar = "star" | "unstar";
