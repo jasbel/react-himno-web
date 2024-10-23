@@ -12,13 +12,12 @@ const FormParagraph = ({label, handleChange}: Props) => {
   const change: ChangeEventHandler<HTMLTextAreaElement> = (value) => {
     const currentValue = (value.target as HTMLTextAreaElement).value
     setP1(currentValue);
-    handleChange(currentValue)
+    handleChange(currentValue);
   };
 
   return (
     <div>
       <FormTextArea label={label} handleChange={change} />
-      <pre>{JSON.stringify(p1, null, 2)}</pre>
     </div>
   );
 };

@@ -6,9 +6,8 @@ import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
 import { ILetter } from "../components/himno/ItemHimnoLetter";
-import { ISong2 } from "@/types/types";
+import { ISong2 } from "@src/types/types";
 import { v4 } from "uuid";
-import { m } from "framer-motion";
 
 const initAdd: ISong2 = { 
   chorus: [],

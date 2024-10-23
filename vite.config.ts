@@ -44,7 +44,8 @@ export default defineConfig({
   plugins: [react(), VitePWA(pwaOptions)],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'),
+      '@': resolve(__dirname, '.'),
+      '@src': resolve(__dirname, 'src'),
       '@components': resolve(__dirname, 'src/components'),
       '@hooks': resolve(__dirname, 'src/hooks'),
       '@ui': resolve(__dirname, 'src/components/ui'),

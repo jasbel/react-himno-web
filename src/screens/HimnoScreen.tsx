@@ -6,7 +6,7 @@ import HimnoItem from "../components/himno/HimnoItem";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
 import { ISong } from "../types/types";
-import { json, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
 import { useSong } from "../hooks/useSong";

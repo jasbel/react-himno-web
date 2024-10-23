@@ -1,26 +1,31 @@
-import { useState } from "react";
+import { Fragment, useContext, useEffect, useState } from "react";
 import Button from "../elements/Button";
 import FormParagraph from "./FormParagraph";
 import { IParagraph2 } from "../types/types";
 import { v4 } from "uuid";
+import { AddContext } from "@src/screens/AddHimnoScreen";
+import FormChoir from "./FormChoir";
 
 const FormParagraphs = () => {
+  const { state, updateState } = useContext(AddContext);
   const [paragraphs, setParagraphs] = useState<IParagraph2[]>([]);
 
   const onChange = (value: string, idx: number) => {
-    setParagraphs((_v) => {
-      _v.forEach((p, i) => {
-        if (i === idx) p.paragraph = value;
-      });
-      return _v;
-    });
+    const _paragraphs = paragraphs.map( (p, i) => ({...p, paragraph: i === idx ? value : p.paragraph}))
+    setParagraphs(_paragraphs);
   };
+
+  useEffect(() => {
+    updateState({paragraphs: paragraphs})
+  }, [paragraphs])
 
   return (
     <div className="bg-cyan-100">
-      {paragraphs.map((p, i) => {
-        return <FormParagraph key={i} label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} />;
-      })}
+      {paragraphs.map((p, i) => <Fragment key={p.id}>
+        <FormParagraph key={p.id} label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} />
+        <FormChoir choirId={'p.chorusPos'} handleAction={(a) => {}} />
+      </Fragment>
+      )}
 
       <Button title="+ Parrafo" onClick={() => setParagraphs([...paragraphs, { chorusPos: [[1]], paragraph: "", id: v4() }])} />
     </div>
