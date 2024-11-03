@@ -6,10 +6,12 @@ import "./index.css";
 import { SettingProvider } from "./state/SettingContext";
 import { SongProvider } from "./state/SongContext";
 import { SongNewProvider } from "./state/SongNewContext";
+import { SongNewQuechuaProvider } from "./state/SongNewQuechuaContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ChakraProvider>
+      <SongNewQuechuaProvider>
       <SongNewProvider>
         <SongProvider>
           <SettingProvider>
@@ -17,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           </SettingProvider>
         </SongProvider>
       </SongNewProvider>
+      </SongNewQuechuaProvider>
     </ChakraProvider>
   </React.StrictMode>
 );

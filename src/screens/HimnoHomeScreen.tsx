@@ -20,6 +20,9 @@ const HimnoHomeScreen = ({}: Props) => {
         <Link to="himnos" style={{ ...styles.button, ...styles.button2 }}>
           No Ingresar
         </Link>
+        <Link to="himnos-quechua" style={{ ...styles.button, ...styles.button2 }}>
+          No Ingresar - Quechua
+        </Link>
       </div>
 
       <img style={styles.church} src={imgChurch} alt="logo" />
