@@ -6,10 +6,10 @@ import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
 import { ILetter } from "../components/himno/ItemHimnoLetter";
-import { ISong2 } from "@src/types/types";
+import { ISongNew } from "@src/types/types";
 import { v4 } from "uuid";
 
-const initAdd: ISong2 = { 
+const initAdd: ISongNew = { 
   chorus: [],
   code: '',
   id: v4(),
@@ -19,8 +19,8 @@ const initAdd: ISong2 = {
  }
 
  interface IAddContext {
-  state: ISong2,
-  updateState: (newValues: Partial<ISong2>) => void,
+  state: ISongNew,
+  updateState: (newValues: Partial<ISongNew>) => void,
  }
 // @ts-ignore
 export const AddContext = createContext<IAddContext>({
@@ -28,9 +28,9 @@ export const AddContext = createContext<IAddContext>({
 });
 
 const AddProvider = ({children}: any) => {
-  const [state, setState] = useState<ISong2>(initAdd);
+  const [state, setState] = useState<ISongNew>(initAdd);
 
-  const updateState = (newValues: Partial<ISong2>) => {
+  const updateState = (newValues: Partial<ISongNew>) => {
     setState(prevState => ({
       ...prevState,
       ...newValues

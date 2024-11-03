@@ -14,7 +14,7 @@ const styles : { [key in any]: React.CSSProperties } ={
         // paddingBottom: 12,
         borderBottomWidth: 1,
         borderColor: Colors.bkgLight,
-        // marginBottom: 12,
+        marginBottom: 12,
     },
     text: {
         backgroundColor: Colors.bkgLight,

@@ -19,16 +19,15 @@ const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
 
   return (
     <>
-      <Flex bg={Colors.orangeDark} justifyContent="center" px={2} py={1}>
-        <Box style={{ position: "sticky", top: 0, zIndex: 10 }}>
-            <ButtonHero title="" onClick={() => onPreBefore()} style={{ fontWeight: "bold" }} />
-        </Box>
+      <Box style={{ position: "fixed", top: -2, zIndex: 10, left: 0 }}>
+        <ButtonHero title="" onClick={() => onPreBefore()} style={{ fontWeight: "bold" }} />
+      </Box>
+      
+      <Box bg={Colors.orangeDark} justifyContent="center" px={2} py={1}>
         <Heading as="h1" fontSize={responsive(36, 22)} color={Colors.txtWhite} textAlign="center" noOfLines={1}>
           {title}
         </Heading>
-      </Flex>
-
-      
+      </Box>
     </>
   );
 };

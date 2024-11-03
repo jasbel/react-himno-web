@@ -11,15 +11,15 @@ import { SongNewQuechuaProvider } from "./state/SongNewQuechuaContext";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ChakraProvider>
-      <SongNewQuechuaProvider>
       <SongNewProvider>
         <SongProvider>
-          <SettingProvider>
-            <App />
-          </SettingProvider>
+          <SongNewQuechuaProvider>
+            <SettingProvider>
+              <App />
+            </SettingProvider>
+          </SongNewQuechuaProvider>
         </SongProvider>
       </SongNewProvider>
-      </SongNewQuechuaProvider>
     </ChakraProvider>
   </React.StrictMode>
 );

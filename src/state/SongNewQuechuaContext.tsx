@@ -1,11 +1,11 @@
 import React, { ReactNode, useEffect, useState } from "react";
-import {  ISong2 } from "../types/types";
+import {  ISongNew } from "../types/types";
 import _songAll from "../assets/data-quechua.json";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 
 interface InitialValues {
-  songs: ISong2[];
-  songFavorites: ISong2[];
+  songs: ISongNew[];
+  songFavorites: ISongNew[];
   addToFav: (favId: string) => void;
   rmToFav: (favId: string) => void;
 }
@@ -20,15 +20,15 @@ const defaultValue: InitialValues = {
 export const SongQuechuaContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) => {
-  const [songs, setSongs] = useState([] as ISong2[]);
-  const [songFavorites, setSongFavorites] = useState<ISong2[]>([]);
+  const [songs, setSongs] = useState([] as ISongNew[]);
+  const [songFavorites, setSongFavorites] = useState<ISongNew[]>([]);
 
   const getSongs = async () => {
     try {
       
       // const favIds = getFavs();
-      const favorites = (_songAll as unknown as ISong2[]).filter((song) => !!findFav(song.id));
-      const songsFilter = (_songAll as unknown as ISong2[]).filter((song) => !findFav(song.id));
+      const favorites = (_songAll as unknown as ISongNew[]).filter((song) => !!findFav(song.id));
+      const songsFilter = (_songAll as unknown as ISongNew[]).filter((song) => !findFav(song.id));
 
       setSongs(songsFilter);
       setSongFavorites(favorites);

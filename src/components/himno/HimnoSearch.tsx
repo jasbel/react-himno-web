@@ -23,7 +23,7 @@ const HimnoSearch = ({onChange, modeSearch}: Props) => {
   }, [modeSearch]);
 
   return (
-    <Flex bg={opacityColor(Colors.bkgWhite, 0.5)} pl={8}>
+    <Flex bg={opacityColor(Colors.bkgWhite, 0.5)}>
       <Input
         value={query}
         placeholder={'Buscar...'}

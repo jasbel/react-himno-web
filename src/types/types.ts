@@ -32,7 +32,7 @@ export interface IChoir2 {
   choir: string,
 }
 
-export interface ISong2 {
+export interface ISongNew {
   id: uuidV4,
   code: string,
   title: string,

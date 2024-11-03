@@ -1,8 +1,8 @@
 import ItemHimnoLetter, { ILetter } from "./ItemHimnoLetter";
-import { ISong2 } from "../../types/types";
+import { ISongNew } from "../../types/types";
 import { IChoir2 } from "../../types/types";
 
-interface Props extends Pick<ISong2, "paragraphs" | "chorus"> {}
+interface Props extends Pick<ISongNew, "paragraphs" | "chorus"> {}
 
 const WrapItemHimno = ({ chorus, paragraphs }: Props) => {
   function joinChoirs(filter: IChoir2[]): string[] {

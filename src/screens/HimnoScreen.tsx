@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
 import { useSong } from "../hooks/useSong";
+import { ERoutes } from "../res/enum";
 
 const songsAll: ISong[] = [];
 
@@ -21,7 +22,7 @@ const HimnoScreen = () => {
 
   const handlePress = useCallback(
     (himno: ISong) => {
-      navigate("/himno-song", { state: { himno } });
+      navigate(ERoutes.itemOld, { state: { himno } });
     },
     [navigate]
   );
@@ -40,7 +41,7 @@ const HimnoScreen = () => {
     setSongsSearch(HimnosFiltered);
   };
 
-  
+
 
   return (
     <>

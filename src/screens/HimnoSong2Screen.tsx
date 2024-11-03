@@ -2,7 +2,7 @@ import { FC, useContext, useState } from "react";
 import { findFav } from "../libs/storage";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { ISong2 } from "../types/types";
+import { ISongNew } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -12,6 +12,7 @@ import { Box, Flex } from "@components/ui";
 import ButtonSingle from "../elements/ButtonSingle";
 import { SettingContext } from "../state/SettingContext";
 import WrapItemHimno from "../components/himno/WrapItemHimno";
+import { ERoutes } from "../res/enum";
 
 export const initialValues = {
   fontSize: responsive(80, 20),
@@ -19,7 +20,7 @@ export const initialValues = {
   fontSizeIncremental: 1,
 };
 
-const initHimno: ISong2 = {
+const initHimno: ISongNew = {
   id: "",
   code: "",
   title: "",
@@ -32,13 +33,13 @@ interface Props {}
 
 const HimnoSong2Screen: FC<Props> = () => {
   const { addToFav, rmToFav } = useContext(SongContext);
-  const { state } = useLocation() as { state: { himno: ISong2 } };
+  const { state } = useLocation() as { state: { himno: ISongNew } };
   const { decrementFontSize, incrementFontSize } = useContext(SettingContext);
 
   const [himno] = useState({
     ...initHimno,
     ...state.himno,
-  } as ISong2);
+  } as ISongNew);
 
   const { paragraphs, chorus, title } = state.himno;
 
@@ -59,7 +60,8 @@ const HimnoSong2Screen: FC<Props> = () => {
 
   return (
     <>
-      <Hero title={title} hrefBefore={"/himnos"} />
+      <Hero title={title} hrefBefore={ERoutes.home} />
+
       <Box p={1} py={6} bg={Colors.bkgWhite}>
         <div style={{ minHeight: "calc(100vh - 110px)" }}>
           <WrapItemHimno paragraphs={paragraphs} chorus={chorus || []} />
@@ -73,6 +75,7 @@ const HimnoSong2Screen: FC<Props> = () => {
           <ButtonSingle title="+T" onClick={() => incrementFontSize()} />
         </Flex>
       </Box>
+      
       <ButtonStar initStar={!!findFav(himno.id)} onToggle={toggleFavorite} />
     </>
   );

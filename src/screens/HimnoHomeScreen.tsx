@@ -5,6 +5,7 @@ import logo from "../assets/images/logoHome.png";
 import imgChurch from "../assets/images/church.png";
 import { Link } from "react-router-dom";
 import { responsive, responsiveStr } from "../utils/responsive";
+import { ERoutes } from "../res/enum";
 
 interface Props {}
 
@@ -14,14 +15,16 @@ const HimnoHomeScreen = ({}: Props) => {
       <img style={styles.logo} src={logo} alt="logo" />
 
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <Link to="himno" style={{ ...styles.button }}>
+        
+        <Link to={ERoutes.home} style={{ ...styles.button }}>
           Ingresar
         </Link>
-        <Link to="himnos" style={{ ...styles.button, ...styles.button2 }}>
-          No Ingresar
+        <Link to={ERoutes.homeQuechua} style={{ ...styles.button }}>
+          Quechua
         </Link>
-        <Link to="himnos-quechua" style={{ ...styles.button, ...styles.button2 }}>
-          No Ingresar - Quechua
+
+        <Link to={ERoutes.homeOld} style={{ ...styles.button,  ...styles.button2 }}>
+          Version Anterior
         </Link>
       </div>
 

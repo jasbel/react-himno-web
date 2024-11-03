@@ -4,22 +4,23 @@ import HimnoSearch from "../components/himno/HimnoSearch";
 import HimnoItemNew from "../components/himno/HimnoItemNew";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
-import { ISong2 } from "../types/types";
+import { ISongNew } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
 import songsAll from "../assets/data-quechua.json";
 import { useSongQuechua } from "../hooks/useNewQuechuaSong";
+import { ERoutes } from "../res/enum";
 
 const HimnoNewQuechuaScreen = () => {
-  const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISong2[]);
+  const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISongNew[]);
   const [modeSearch, setModeSearch] = useState(false);
   const navigate = useNavigate();
   const { songs, songFavorites } = useSongQuechua();
 
   const handlePress = useCallback(
-    (himno: ISong2) => {
-      navigate("/himno-song-quechua", { state: { himno } });
+    (himno: ISongNew) => {
+      navigate(ERoutes.itemQuechua , { state: { himno } });
     },
     [navigate]
   );
@@ -35,7 +36,7 @@ const HimnoNewQuechuaScreen = () => {
       );
     });
 
-    setSongsSearch(HimnosFiltered as unknown as ISong2[]);
+    setSongsSearch(HimnosFiltered as unknown as ISongNew[]);
   };
 
   return (
