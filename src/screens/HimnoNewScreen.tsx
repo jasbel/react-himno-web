@@ -20,7 +20,7 @@ const HimnoNewScreen = () => {
 
   const handlePress = useCallback(
     (himno: ISongNew) => {
-      navigate(ERoutes.item, { state: { himno } });
+      navigate('/' + ERoutes.item, { state: { himno } });
     },
     [navigate]
   );

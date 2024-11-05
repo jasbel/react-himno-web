@@ -3,19 +3,22 @@ import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
 import { responsive } from "../../res/responsive";
-import { ISongNew } from "../../types/types";
+import { ISongSearch } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNote from "./elements/StarNoteNew";
 
+
+
 interface Props {
-  item: ISongNew;
+  item: ISongSearch;
+  style?: React.CSSProperties;
   onClick: () => void;
 }
 
-const HimnoItemNew = ({ item, onClick }: Props) => {
+const HimnoItemNew = ({ item, onClick , style}: Props) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
-  const { title, code, musicalNote, paragraphs} = item;
+  const { title, code, musicalNote, paragraphs } = item;
 
   const getFavorite = () => {
     try {
@@ -32,7 +35,7 @@ const HimnoItemNew = ({ item, onClick }: Props) => {
   }, []);
 
   return (
-    <Flex >
+    <Flex style={{...style, order: isFavorite ? -1 : undefined }}>
       <button style={styles.container} onClick={onClick}>
         <ImageItem num={code} isFavorite={isFavorite} />
 

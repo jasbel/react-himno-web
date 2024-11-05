@@ -1,18 +1,18 @@
 import { Flex, Input } from '@components/ui';
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { opacityColor } from '../../helpers/helper';
 import Colors from '../../res/colors';
 import { responsive } from '../../utils/responsive';
 
 interface Props {
   onChange: (query: string) => void;
-  modeSearch: boolean;
+  modeSearch?: boolean;
 }
 
-const HimnoSearch = ({onChange, modeSearch}: Props) => {
+const HimnoSearch = ({ onChange, modeSearch }: Props) => {
   const [query, setQuery] = useState('' as string);
 
-  const handleText = (event:  React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
+  const handleText = (event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
     setQuery(event.target.value);
 
     if (onChange) onChange(event.target.value);

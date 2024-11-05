@@ -40,3 +40,6 @@ export interface ISongNew {
   paragraphs: IParagraph2[],
   chorus: IChoir2[],
 }
+
+export type ISongSearch = Pick<ISongNew, 'id' | 'code' | 'title' | 
+'musicalNote' | 'paragraphs'> // & {description: string}

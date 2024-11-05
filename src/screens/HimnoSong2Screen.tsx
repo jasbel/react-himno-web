@@ -60,7 +60,7 @@ const HimnoSong2Screen: FC<Props> = () => {
 
   return (
     <>
-      <Hero title={title} hrefBefore={ERoutes.home} />
+      <Hero title={title} hrefBefore={'/' + ERoutes.home} />
 
       <Box p={1} py={6} bg={Colors.bkgWhite}>
         <div style={{ minHeight: "calc(100vh - 110px)" }}>

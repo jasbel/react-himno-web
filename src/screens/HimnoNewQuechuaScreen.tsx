@@ -3,40 +3,39 @@ import Colors from "../res/colors";
 import HimnoSearch from "../components/himno/HimnoSearch";
 import HimnoItemNew from "../components/himno/HimnoItemNew";
 import { titleApp } from "../res/constant";
-import { removeAccents } from "../res/removeAccents";
-import { ISongNew } from "../types/types";
+import { ISongNew, ISongSearch } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
-import songsAll from "../assets/data-quechua.json";
 import { useSongQuechua } from "../hooks/useNewQuechuaSong";
 import { ERoutes } from "../res/enum";
 
+const initPaginate = {
+length: 40,
+page: 1,
+}
+
 const HimnoNewQuechuaScreen = () => {
-  const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISongNew[]);
-  const [modeSearch, setModeSearch] = useState(false);
   const navigate = useNavigate();
-  const { songs, songFavorites } = useSongQuechua();
+  const { songFavorites, changeSongBySearch, songsSearch } = useSongQuechua();
+  const [paginate, setPaginate] = useState(initPaginate);
 
   const handlePress = useCallback(
-    (himno: ISongNew) => {
-      navigate(ERoutes.itemQuechua , { state: { himno } });
+    (himno: ISongSearch) => {
+      navigate('/' + ERoutes.itemQuechua, { state: { himno } });
     },
     [navigate]
   );
 
+  const resetPaginate = () => {
+    if(paginate.page === 1) return;
+    
+    setPaginate(initPaginate)
+  };
+
   const handleSearch = (query: string) => {
-    query && !modeSearch && setModeSearch(true);
-    !query && setModeSearch(false);
-
-    const HimnosFiltered = songsAll.filter((himno) => {
-      return (
-        removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
-      );
-    });
-
-    setSongsSearch(HimnosFiltered as unknown as ISongNew[]);
+    changeSongBySearch(query);
+    resetPaginate()
   };
 
   return (
@@ -44,30 +43,28 @@ const HimnoNewQuechuaScreen = () => {
       <Hero title={titleApp} hrefBefore={"/"} hiddenFS />
 
       <div style={styles.container}>
-        <HimnoSearch onChange={handleSearch} modeSearch={modeSearch} />
+        <HimnoSearch onChange={handleSearch} />
 
-        <div>
-          {modeSearch && (
-            <>
-              {songsSearch.map((item) => {
-                return <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />;
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          {!songFavorites.length && <FavoriteEmptyState />}
+
+          {/* {modeSearch && ( */}
+          <>
+            {songsSearch
+              .filter((_, i) => (i >= paginate.length * (paginate.page - 1) && i < paginate.length * paginate.page))
+              .map((item) => {
+                return <HimnoItemNew
+                  key={item.code}
+                  item={item}
+                  onClick={() => handlePress(item)}
+                />;
               })}
-            </>
-          )}
+          </>
+        </div>
 
-          {!modeSearch && (
-            <>
-              {!songFavorites.length && <FavoriteEmptyState />}
-
-              {songFavorites.map((item) => (
-                <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />
-              ))}
-
-              {songs.map((item) => {
-                return <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />;
-              })}
-            </>
-          )}
+        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, margin: 12}}>
+          <button style={styles.btnStyle} disabled={paginate.page <= 1} onClick={() => setPaginate({...paginate, page: paginate.page - 1})} >Anterior</button>
+          <button style={styles.btnStyle} disabled={paginate.page * paginate.length > songsSearch.length} onClick={() => setPaginate({...paginate, page: paginate.page + 1})} >Siguiente</button>
         </div>
       </div>
     </>
@@ -83,4 +80,10 @@ const styles: { [key in any]: React.CSSProperties } = {
     paddingLeft: 12,
     paddingRight: 12,
   },
+  btnStyle: {
+    backgroundColor: Colors.bkgPrimary,
+    color: Colors.white,
+    padding: '6px 12px',
+    borderRadius: 25,
+  }
 };

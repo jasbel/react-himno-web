@@ -13,6 +13,7 @@ import { SongContext } from "../state/SongContext";
 import { Box, Flex } from "@components/ui";
 import ButtonSingle from "../elements/ButtonSingle";
 import { SettingContext } from "../state/SettingContext";
+import { ERoutes } from "../res/enum";
 
 export const initialValues = {
   fontSize: responsive(80, 20),
@@ -94,7 +95,7 @@ const HimnoSongScreen: FC<Props> = () => {
 
   return (
     <>
-      <Hero title={title_es} hrefBefore={"/himno"} />
+      <Hero title={title_es} hrefBefore={'/' + ERoutes.home} />
       <Box p={1} py={6} bg={Colors.bkgWhite}>
         <div style={{ minHeight: "calc(100vh - 110px)" }}>
           {verses.map((item, index) => (

@@ -20,6 +20,7 @@ const ItemHimnoLetter = ({ item }: Props) => {
     <Box>
       <p
         style={{
+          marginBottom: 24,
           ...styles.paragraph,
           fontSize: customFontSize,
         }}

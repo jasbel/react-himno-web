@@ -5,6 +5,6 @@ export enum ERoutes {
   homeOld = "himno",
   itemOld = "himno-song",
   item = "himno-song-new",
-  itemQuechua = "/himno-song-quechua",
+  itemQuechua = "himno-song-quechua",
   addHimno = "add-himno"
 }
