@@ -26,7 +26,7 @@ const ButtonStar = ({ onToggle, initStar }: Props) => {
   }, [initStar]);
 
   return (
-    <Box position={'sticky'} bottom={0}>
+    <Box style={{position: 'sticky', bottom: 0}}>
       <button
         onClick={() => onPreToggle()}
         style={{

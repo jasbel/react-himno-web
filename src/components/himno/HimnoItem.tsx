@@ -38,10 +38,12 @@ const HimnoItem = ({ item, onClick }: Props) => {
 
         <div style={styles.content}>
           <Flex
-            justifyContent={"space-between"}
-            alignItems={{ base: "start", md: "center" }}
-            flexDirection={{ base: "column", md: "row" }}
-            textAlign="left"
+            style={{
+              justifyContent: "space-between",
+              alignItems: 'start',
+              flexDirection:  "column",
+              textAlign: "left"
+            }}
           >
             <Text style={{ ...styles.title }} noOfLines={1}>
               {title_es}
