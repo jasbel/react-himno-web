@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useState } from "react";
 import Colors from "../res/colors";
 import HimnoSearch from "../components/himno/HimnoSearch";
-import HimnoItemNew from "../components/himno/HimnoItemNew";
+import HimnoItem from "../components/himno/HimnoItemNew";
 import { titleApp } from "../res/constant";
-import { ISongNew, ISongSearch } from "../types/types";
+import { ISong, ISongSearch } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
@@ -53,9 +53,13 @@ const HimnoNewQuechuaScreen = () => {
             {songsSearch
               .filter((_, i) => (i >= paginate.length * (paginate.page - 1) && i < paginate.length * paginate.page))
               .map((item) => {
-                return <HimnoItemNew
+                return <HimnoItem
                   key={item.code}
-                  item={item}
+                  id={item.id}
+                  title={item.title}
+                  num={item.code}
+                  note={item.musicalNote}
+                  description={item.paragraphs[0].paragraph}
                   onClick={() => handlePress(item)}
                 />;
               })}

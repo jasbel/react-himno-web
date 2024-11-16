@@ -5,10 +5,10 @@ import icon from "../../../assets/images/play.png";
 
 interface Props {
   num: string;
-  isFavorite: boolean;
+  select: boolean;
 }
 
-const ImageItem = ({ isFavorite, num }: Props) => {
+const ImageItem = ({ select: isFavorite, num }: Props) => {
   const favWrap = !!isFavorite ? styles.figureIsFavorite : {};
   const fav = !!isFavorite ? styles.numberHimnoFavorite : {};
 
@@ -57,6 +57,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     marginRight: 5,
     alignSelf: "center",
     position: "relative",
+    minWidth: 47,
   },
   figureIsFavorite: {
     backgroundColor: Colors.yellow,

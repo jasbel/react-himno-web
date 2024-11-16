@@ -11,7 +11,7 @@ const CustomInput = ({ id, label , onInput, placeholder}: Props) => {
   return (
     <ControlForm label={label} >
       <input
-      id={id}
+        id={id}
         style={{
           border: "1px solid black",
           borderRadius: 8,

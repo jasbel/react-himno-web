@@ -24,7 +24,7 @@ const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
       </Box>
       
       <Box style={{ backgroundColor:Colors.orangeDark, justifyContent: "center" , padding: 2}}  >
-        <Heading as="h1" fontSize={responsive(36, 22)} color={Colors.txtWhite} textAlign="center" noOfLines={1}>
+        <Heading style={{fontSize: responsive(36, 22), color: Colors.txtWhite,textAlign: "center"}}>
           {title}
         </Heading>
       </Box>

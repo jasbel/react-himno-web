@@ -28,6 +28,9 @@ const Colors = {
     txtBlack: '#061013',
     txtLight: '#E0E9ED',
     txtWhite: '#F6F6F6',
+
+    select: "#FFD700",
+    unselect: '#D3D3D3',
 };
 
 export default Colors;

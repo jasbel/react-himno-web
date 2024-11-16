@@ -1,11 +1,11 @@
 import React, { ReactNode, useEffect, useState } from "react";
-import { ISong } from "../types/types";
+import { ISongOld } from "../types/types";
 import { songs as songAll } from "../res/letters";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 
 interface InitialValues {
-  songs: ISong[];
-  songFavorites: ISong[];
+  songs: ISongOld[];
+  songFavorites: ISongOld[];
   addToFav: (favId: string) => void;
   rmToFav: (favId: string) => void;
 }
@@ -20,8 +20,8 @@ const defaultValue: InitialValues = {
 export const SongContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongProvider = ({ children }: { children: ReactNode }) => {
-  const [songs, setSongs] = useState([] as ISong[]);
-  const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
+  const [songs, setSongs] = useState([] as ISongOld[]);
+  const [songFavorites, setSongFavorites] = useState<ISongOld[]>([]);
 
   const getSongs = async () => {
     try {

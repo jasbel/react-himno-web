@@ -2,17 +2,17 @@ import React, { useCallback, useEffect, useState } from "react";
 import Colors from "../res/colors";
 import HimnoSearch from "../components/himno/HimnoSearch";
 // import { songs as songsAll } from "../res/letters";
-import HimnoItem from "../components/himno/HimnoItem";
+import HimnoItemOld from "../components/himno/HimnoItem";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
-import { ISong } from "../types/types";
+import { ISongOld } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
 import { useSong } from "../hooks/useSong";
 import { ERoutes } from "../res/enum";
 
-const songsAll: ISong[] = [];
+const songsAll: ISongOld[] = [];
 
 const HimnoScreen = () => {
   const [songsSearch, setSongsSearch] = useState(songsAll);
@@ -21,7 +21,7 @@ const HimnoScreen = () => {
   const { songs, songFavorites } = useSong();
 
   const handlePress = useCallback(
-    (himno: ISong) => {
+    (himno: ISongOld) => {
       navigate('/' + ERoutes.itemOld, { state: { himno } });
     },
     [navigate]
@@ -54,7 +54,7 @@ const HimnoScreen = () => {
           {modeSearch && (
             <>
               {songsSearch.map((item) => {
-                return <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />;
+                return <HimnoItemOld key={item.id} item={item} onClick={() => handlePress(item)} />;
               })}
             </>
           )}
@@ -63,10 +63,10 @@ const HimnoScreen = () => {
             <>
               {!songFavorites.length && <FavoriteEmptyState />}
               {songFavorites.map((item) => (
-                <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />
+                <HimnoItemOld key={item.id} item={item} onClick={() => handlePress(item)} />
               ))}
               {songs.map((item) => {
-                return <HimnoItem key={item.id} item={item} onClick={() => handlePress(item)} />;
+                return <HimnoItemOld key={item.id} item={item} onClick={() => handlePress(item)} />;
               })}
             </>
           )}

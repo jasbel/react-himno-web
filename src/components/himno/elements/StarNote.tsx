@@ -1,13 +1,12 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { responsive } from "../../../res/responsive";
 import Colors from "../../../res/colors";
 
-import star from "../../../assets/images/star.png";
-import unstar from "../../../assets/images/unstar.png";
 import { useDisclosure } from "@hooks/use";
-import { Flex, Image, Text } from "@components/ui";
+import { Flex, TextSingle } from "@components/ui";
 import { AlertDialog } from "../../../elements/AlertDialog";
 import { SongContext } from "../../../state/SongContext";
+import StarIcon from "@/src/assets/icons/star";
 
 interface Props {
   songId: string;
@@ -31,17 +30,12 @@ const StarNote = ({ isFavorite, musicalNote, songId }: Props) => {
   };
 
   return (
-    <Flex alignItems={{ base: "end", sm: "center" }} justifyContent="center" flexDir={{ base: "column", sm: "row" }}>
-      <Text fontWeight="bold" fontSize={responsive(16, 14)} color={Colors.txtPrimary} noOfLines={1}>
+    <Flex style={{alignItems:  "end", justifyContent: "center", flexDirection: 'column'}}>
+      <TextSingle style={{fontWeight: "bold", fontSize: responsive(16, 14), color: Colors.txtPrimary}} >
         {musicalNote}
-      </Text>
+      </TextSingle>
 
-      <Image
-        src={isFavorite ? star : unstar}
-        height={{ base: 6, md: 8 }}
-        width={{ base: 6, md: 8 }}
-        onClick={() => onPreOpen()}
-      />
+      <StarIcon color={isFavorite ? Colors.select : Colors.unselect} size={24} onClick={() => onPreOpen()} />
 
       <AlertDialog
         onClose={onClose}

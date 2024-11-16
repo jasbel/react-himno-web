@@ -4,7 +4,7 @@ import ItemHimnoLetter, { ILetter } from "../components/himno/ItemHimnoLetter";
 import { findFav } from "../libs/storage";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { IChoir, ISong } from "../types/types";
+import { IChoirOld, ISongOld } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -31,13 +31,13 @@ const initHimno: IHimno = {
   chorus: [],
 };
 
-interface IHimno extends ISong {}
+interface IHimno extends ISongOld {}
 
 interface Props {}
 
 const HimnoSongScreen: FC<Props> = () => {
   const { addToFav, rmToFav } = useContext(SongContext);
-  const { state } = useLocation() as { state: { himno: ISong } };
+  const { state } = useLocation() as { state: { himno: ISongOld } };
   const { decrementFontSize, incrementFontSize } = useContext(SettingContext);
 
   const [himno] = useState({
@@ -50,7 +50,7 @@ const HimnoSongScreen: FC<Props> = () => {
   const verses: ILetter[] = paragraphs.map((item, i) => {
     let choirs = [] as string[];
 
-    let filter: IChoir[];
+    let filter: IChoirOld[];
     if (chorus) {
       filter = chorus.filter((choir) => compareArrayIgnore(choir.noPositions, i + 1));
       choirs = filter.length ? joinChoirs(filter) : [];
@@ -80,7 +80,7 @@ const HimnoSongScreen: FC<Props> = () => {
     return arr.find((arrValue) => arrValue === val) ? false : true;
   }
 
-  function joinChoirs(filter: IChoir[]): string[] {
+  function joinChoirs(filter: IChoirOld[]): string[] {
     const filterChoir =
       filter.length >= 2
         ? filter.reduce(
@@ -104,7 +104,7 @@ const HimnoSongScreen: FC<Props> = () => {
         </div>
       </Box>
       <Box style={{position: "sticky", bottom: 0}}>
-        <Flex position={"absolute"} bottom={0} left={0} zIndex={1}>
+        <Flex style={{position: "absolute", bottom: 0, left: 0, zIndex:1}}>
           <ButtonSingle title="-T" onClick={() => decrementFontSize()} />
 
           <ButtonSingle title="+T" onClick={() => incrementFontSize()} />

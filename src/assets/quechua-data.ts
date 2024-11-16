@@ -1,6 +1,6 @@
-import { ISongNew } from "../types/types";
+import { ISong } from "../types/types";
 
-export const querchuaData: ISongNew[] = [
+export const querchuaData: ISong[] = [
   {
     id: "1",
     code: "1",

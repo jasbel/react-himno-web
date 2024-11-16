@@ -1,11 +1,11 @@
 import React, { ReactNode, useEffect, useState } from "react";
-import {  ISongNew } from "../types/types";
+import {  ISong } from "../types/types";
 import _songAll from "../assets/data-song.json";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 
 interface InitialValues {
-  songs: ISongNew[];
-  songFavorites: ISongNew[];
+  songs: ISong[];
+  songFavorites: ISong[];
   addToFav: (favId: string) => void;
   rmToFav: (favId: string) => void;
 }
@@ -20,15 +20,15 @@ const defaultValue: InitialValues = {
 export const SongContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongNewProvider = ({ children }: { children: ReactNode }) => {
-  const [songs, setSongs] = useState([] as ISongNew[]);
-  const [songFavorites, setSongFavorites] = useState<ISongNew[]>([]);
+  const [songs, setSongs] = useState([] as ISong[]);
+  const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
 
   const getSongs = async () => {
     try {
       
       // const favIds = getFavs();
-      const favorites = (_songAll as unknown as ISongNew[]).filter((song) => !!findFav(song.id));
-      const songsFilter = (_songAll as unknown as ISongNew[]).filter((song) => !findFav(song.id));
+      const favorites = (_songAll as unknown as ISong[]).filter((song) => !!findFav(song.id));
+      const songsFilter = (_songAll as unknown as ISong[]).filter((song) => !findFav(song.id));
 
       setSongs(songsFilter);
       setSongFavorites(favorites);

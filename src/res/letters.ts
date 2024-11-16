@@ -1,6 +1,6 @@
-import { ISong } from "../types/types";
+import { ISongOld } from "../types/types";
 
-export const songs: ISong[] = [
+export const songs: ISongOld[] = [
   {
     id: "0",
     num_song: "0",
