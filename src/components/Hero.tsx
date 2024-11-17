@@ -20,7 +20,7 @@ const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
   return (
     <>
       <Box style={{ position: "fixed", top: -2, zIndex: 10, left: 0 }}>
-        <ButtonHero title="" onClick={() => onPreBefore()} style={{ fontWeight: "bold" }} />
+        <ButtonHero title="" onClick={() => onPreBefore()} />
       </Box>
       
       <Box style={{ backgroundColor:Colors.orangeDark, justifyContent: "center" , padding: 2}}  >

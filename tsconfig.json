@@ -18,13 +18,13 @@
     "types": [
       "vite-plugin-pwa/client"
     ],
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@src/*": ["src/*"],
-      "@components/*": ["src/components/*"],
-      "@ui/*": ["src/components/ui/*"],
-      "@hooks/*": ["src/hooks/*"],
+      // "@/*": ["./*"],
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@ui/*": ["./src/components/ui/*"],
+      "@hooks/*": ["./src/hooks/*"],
     }
   },
   "include": ["./src"],

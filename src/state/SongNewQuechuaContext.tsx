@@ -9,7 +9,6 @@ const songAllSearch: ISongSearch[] = songAll.map(s => ({
   'code': s.code,
   'title': s.title,
   'musicalNote': s.musicalNote,
-  // description: s.paragraphs[0]?.paragraph,
   paragraphs: s.paragraphs,
 }))
 
@@ -92,7 +91,7 @@ export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) =>
 
   useEffect(() => {
     getSongs();
-    changeSongBySearch('')
+    changeSongBySearch('');
   }, []);
 
   return (

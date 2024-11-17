@@ -3,7 +3,7 @@ import Button from "../elements/Button";
 import FormParagraph from "./FormParagraph";
 import { IParagraph } from "../types/types";
 import { v4 } from "uuid";
-import { AddContext } from "@src/screens/AddHimnoScreen";
+import { AddContext } from "@/screens/AddHimnoScreen";
 import FormChoir from "./FormChoir";
 
 const FormParagraphs = () => {

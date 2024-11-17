@@ -1,4 +1,3 @@
-import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -10,16 +9,14 @@ import { SongNewQuechuaProvider } from "./state/SongNewQuechuaContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <ChakraProvider>
-      <SongNewProvider>
-        <SongProvider>
-          <SongNewQuechuaProvider>
-            <SettingProvider>
-              <App />
-            </SettingProvider>
-          </SongNewQuechuaProvider>
-        </SongProvider>
-      </SongNewProvider>
-    </ChakraProvider>
+    <SongNewProvider>
+      <SongProvider>
+        <SongNewQuechuaProvider>
+          <SettingProvider>
+            <App />
+          </SettingProvider>
+        </SongNewQuechuaProvider>
+      </SongProvider>
+    </SongNewProvider>
   </React.StrictMode>
 );

@@ -6,7 +6,7 @@ import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
 import { ILetter } from "../components/himno/ItemHimnoLetter";
-import { ISong } from "@src/types/types";
+import { ISong } from "@/types/types";
 import { v4 } from "uuid";
 
 const initAdd: ISong = { 

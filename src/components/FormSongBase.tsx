@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import CustomInput from "../elements/CustomInput";
-import { AddContext } from "@src/screens/AddHimnoScreen";
+import { AddContext } from "@/screens/AddHimnoScreen";
 
 const FormSongBase = () => {
   const { state, updateState } = useContext(AddContext);

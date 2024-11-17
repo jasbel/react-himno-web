@@ -1,13 +1,16 @@
 import {
-  AlertDialog as AlertDialog_,
-  AlertDialogBody,
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
   AlertDialogFooter,
   AlertDialogHeader,
-  AlertDialogContent,
-  AlertDialogOverlay,
-} from "@components/ui";
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
+
 import React, { FC } from "react";
-import { Button } from "@components/ui";
 
 interface Props {
   title: string;
@@ -15,38 +18,31 @@ interface Props {
   open: boolean;
   onClose: () => void;
   onAccept: () => void;
+  children: any;
 }
 
-export const AlertDialog: FC<Props> = ({open, onClose, title, description, onAccept}) => {
-  const cancelRef = React.useRef<any>();
-
+export const AlertDialogStar: FC<Props> = ({ open, onClose, title, description, onAccept, children }) => {
   const onPreAccept = () => {
     onAccept()
     onClose();
   }
-
   return (
     <>
-      <AlertDialog_ isOpen={open} leastDestructiveRef={cancelRef} onClose={onClose}>
-        <AlertDialogOverlay>
-          <AlertDialogContent>
-            <AlertDialogHeader fontSize="lg" fontWeight="bold">
-              {title}
-            </AlertDialogHeader>
-
-            <AlertDialogBody>{description}</AlertDialogBody>
-
-            <AlertDialogFooter>
-              <Button ref={cancelRef} onClick={onClose}>
-                Cancelar
-              </Button>
-              <Button colorScheme="green" onClick={onPreAccept} ml={3}>
-                Aceptar
-              </Button>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialogOverlay>
-      </AlertDialog_>
+      <AlertDialog open={open}>
+        <AlertDialogTrigger>{children}</AlertDialogTrigger>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>{title}</AlertDialogTitle>
+            <AlertDialogDescription>
+              {description}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel onClick={onClose} >Cancelar</AlertDialogCancel>
+            <AlertDialogAction color="green" onClick={onPreAccept}>Aceptar</AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </>
-  );
+  )
 };

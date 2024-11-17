@@ -24,7 +24,6 @@ export interface IParagraph {
   id: ID;
   paragraph: string;
   chorusPos: [positionOrId: number | ID, repeat?: number][];
-
 }
 
 export interface IChoir {

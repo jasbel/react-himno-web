@@ -1,4 +1,4 @@
-import { AddContext } from "@src/screens/AddHimnoScreen";
+import { AddContext } from "@/screens/AddHimnoScreen";
 import { useContext } from "react";
 
 const ViewSong = () => {

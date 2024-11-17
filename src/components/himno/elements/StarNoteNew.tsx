@@ -4,9 +4,9 @@ import Colors from "../../../res/colors";
 
 import { useDisclosure } from "@hooks/use";
 import { Flex, TextSingle } from "@components/ui";
-import { AlertDialog } from "../../../elements/AlertDialog";
+import { AlertDialogStar } from "../../../elements/AlertDialog";
 import { SongContext } from "../../../state/SongNewContext";
-import StarIcon from "@/src/assets/icons/star";
+import StarIcon from "@/assets/icons/star";
 
 interface Props {
   songId: string;
@@ -21,7 +21,6 @@ const StarNote = ({ isFavorite, musicalNote, songId }: Props) => {
   const textFavAlert = isFavorite ? "Quitar de favoritos" : "Agregar a favoritos";
 
   const onPreOpen = () => {
-    // alert('Click en estrellas')
     onOpen();
   };
 
@@ -30,20 +29,22 @@ const StarNote = ({ isFavorite, musicalNote, songId }: Props) => {
   };
 
   return (
-    <Flex  style={{alignItems:  "end", justifyContent: "center", flexDirection: 'column'}}>
+    <Flex style={{alignItems:  "end", justifyContent: "center", flexDirection: 'column'}}>
       <TextSingle style={{fontWeight: "bold", fontSize: responsive(16, 14), color: Colors.txtPrimary}} >
         {musicalNote}
       </TextSingle>
 
-      <StarIcon color={isFavorite ? Colors.select : Colors.unselect} size={24} onClick={() => onPreOpen()} />
 
-      <AlertDialog
+      <AlertDialogStar
         onClose={onClose}
         onAccept={() => onChangeToFavorite()}
         open={isOpen}
         title={`${textFavAlert} ?`}
         description={`Segur@ que desea ${textFavAlert}`}
-      />
+      >
+      <StarIcon color={isFavorite ? Colors.select : Colors.unselect} size={24} onClick={() => onPreOpen()} />
+
+      </AlertDialogStar>
     </Flex>
   );
 };

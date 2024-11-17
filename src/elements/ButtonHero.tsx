@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import icon from "../assets/images/arrow.svg";
+import ArrowIcon from "@/assets/icons/arrow";
 
 interface Props {
   title: string;
@@ -21,7 +21,7 @@ const ButtonHero = ({ title, onClick, style }: Props) => {
       onMouseLeave={() => setHover(false)}
       style={{ ...styles.headerButton, ...style, ...styles[hover ? "headerButtonHover" : ""] }}
     >
-      <img style={styles.icon} src={icon} />
+      <ArrowIcon color="white" size={20}></ArrowIcon>
       {title}
     </button>
   );
