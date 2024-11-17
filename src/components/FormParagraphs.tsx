@@ -1,14 +1,14 @@
 import { Fragment, useContext, useEffect, useState } from "react";
 import Button from "../elements/Button";
 import FormParagraph from "./FormParagraph";
-import { IParagraph2 } from "../types/types";
+import { IParagraph } from "../types/types";
 import { v4 } from "uuid";
 import { AddContext } from "@src/screens/AddHimnoScreen";
 import FormChoir from "./FormChoir";
 
 const FormParagraphs = () => {
   const { state, updateState } = useContext(AddContext);
-  const [paragraphs, setParagraphs] = useState<IParagraph2[]>([]);
+  const [paragraphs, setParagraphs] = useState<IParagraph[]>([]);
 
   const onChange = (value: string, idx: number) => {
     const _paragraphs = paragraphs.map( (p, i) => ({...p, paragraph: i === idx ? value : p.paragraph}))

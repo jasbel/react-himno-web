@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useState } from "react";
 import Colors from "../res/colors";
 import HimnoSearch from "../components/himno/HimnoSearch";
-import HimnoItemNew from "../components/himno/HimnoItemNew";
+import HimnoItem from "../components/himno/HimnoItemNew";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
-import { ISongNew } from "../types/types";
+import { ISong } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";
@@ -13,13 +13,13 @@ import songsAll from "../assets/data-song.json";
 import { ERoutes } from "../res/enum";
 
 const HimnoNewScreen = () => {
-  const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISongNew[]);
+  const [songsSearch, setSongsSearch] = useState(songsAll as unknown as ISong[]);
   const [modeSearch, setModeSearch] = useState(false);
   const navigate = useNavigate();
   const { songs, songFavorites } = useSong();
 
   const handlePress = useCallback(
-    (himno: ISongNew) => {
+    (himno: ISong) => {
       navigate('/' + ERoutes.item, { state: { himno } });
     },
     [navigate]
@@ -36,7 +36,7 @@ const HimnoNewScreen = () => {
       );
     });
 
-    setSongsSearch(HimnosFiltered as unknown as ISongNew[]);
+    setSongsSearch(HimnosFiltered as unknown as ISong[]);
   };
 
   return (
@@ -50,7 +50,11 @@ const HimnoNewScreen = () => {
           {modeSearch && (
             <>
               {songsSearch.map((item) => {
-                return <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />;
+                return <HimnoItem key={item.code} id={item.id}
+                title={item.title}
+                num={item.code}
+                note={item.musicalNote}
+                description={item.paragraphs[0].paragraph} onClick={() => handlePress(item)} />;
               })}
             </>
           )}
@@ -59,13 +63,16 @@ const HimnoNewScreen = () => {
             <>
               {!songFavorites.length && <FavoriteEmptyState />}
 
-              {songFavorites.map((item) => (
-                <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />
+              {[...songFavorites, ...songs].map((item) => (
+                <HimnoItem
+                  key={item.code}
+                  id={item.id}
+                  title={item.title}
+                  num={item.code}
+                  note={item.musicalNote}
+                  description={item.paragraphs[0].paragraph}
+                  onClick={() => handlePress(item)} />
               ))}
-
-              {songs.map((item) => {
-                return <HimnoItemNew key={item.code} item={item} onClick={() => handlePress(item)} />;
-              })}
             </>
           )}
         </div>

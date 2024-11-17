@@ -23,8 +23,8 @@ const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
         <ButtonHero title="" onClick={() => onPreBefore()} style={{ fontWeight: "bold" }} />
       </Box>
       
-      <Box bg={Colors.orangeDark} justifyContent="center" px={2} py={1}>
-        <Heading as="h1" fontSize={responsive(36, 22)} color={Colors.txtWhite} textAlign="center" noOfLines={1}>
+      <Box style={{ backgroundColor:Colors.orangeDark, justifyContent: "center" , padding: 2}}  >
+        <Heading style={{fontSize: responsive(36, 22), color: Colors.txtWhite,textAlign: "center"}}>
           {title}
         </Heading>
       </Box>

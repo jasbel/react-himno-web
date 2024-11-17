@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Colors from "../res/colors";
-import star from "../assets/images/star.png";
-import unstar from "../assets/images/unstar-white.png";
 import { Box } from "@components/ui";
 import { responsive } from "../utils/responsive";
+import StarIcon from "../assets/icons/star";
 
 export type TypeStar = "star" | "unstar";
 
@@ -26,7 +25,7 @@ const ButtonStar = ({ onToggle, initStar }: Props) => {
   }, [initStar]);
 
   return (
-    <Box position={'sticky'} bottom={0}>
+    <Box style={{position: 'sticky', bottom: 0}}>
       <button
         onClick={() => onPreToggle()}
         style={{
@@ -34,7 +33,9 @@ const ButtonStar = ({ onToggle, initStar }: Props) => {
           ...fav,
         }}
       >
-        <img style={styles.iconStar} src={isStar ? star : unstar} />
+        <span style={styles.iconStar}>
+          <StarIcon color={Colors.select} size={26} />
+        </span>
       </button>
     </Box>
   );
@@ -54,5 +55,8 @@ const styles: { [key in any]: React.CSSProperties } = {
     margin: responsive(6, 4),
     width: responsive(30, 25),
     height: responsive(30, 25),
+    display: 'inline-flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 };

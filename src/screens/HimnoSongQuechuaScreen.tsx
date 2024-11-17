@@ -2,7 +2,7 @@ import { FC, useContext, useState } from "react";
 import { findFav } from "../libs/storage";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { ISongNew } from "../types/types";
+import { ISong } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -20,7 +20,7 @@ export const initialValues = {
   fontSizeIncremental: 1,
 };
 
-const initHimno: ISongNew = {
+const initHimno: ISong = {
   id: "",
   code: "",
   title: "",
@@ -33,13 +33,13 @@ interface Props {}
 
 const HimnoSongQuechuaScreen: FC<Props> = () => {
   const { addToFav, rmToFav } = useContext(SongQuechuaContext);
-  const { state } = useLocation() as { state: { himno: ISongNew } };
+  const { state } = useLocation() as { state: { himno: ISong } };
   const { decrementFontSize, incrementFontSize } = useContext(SettingContext);
 
   const [himno] = useState({
     ...initHimno,
     ...state.himno,
-  } as ISongNew);
+  } as ISong);
 
   const { paragraphs, chorus, title } = state.himno;
 
@@ -62,14 +62,14 @@ const HimnoSongQuechuaScreen: FC<Props> = () => {
     <>
       <Hero title={title} hrefBefore={'/' + ERoutes.homeQuechua} />
       
-      <Box p={1} py={6} bg={Colors.bkgWhite}>
+      <Box style={{ padding: 1, paddingTop: 6,paddingBottom: 6, backgroundColor: Colors.bkgWhite}}>
         <div style={{ minHeight: "calc(100vh - 110px)" }}>
           <WrapItemHimno paragraphs={paragraphs} chorus={chorus || []} />
         </div>
       </Box>
 
-      <Box position={"sticky"} bottom={0}>
-        <Flex position={"absolute"} bottom={0} left={0} zIndex={1}>
+      <Box style={{position: "sticky", bottom: 0}}>
+        <Flex style={{position: "absolute", bottom: 0, left: 0, zIndex:1}}>
           <ButtonSingle title="-T" onClick={() => decrementFontSize()} />
 
           <ButtonSingle title="+T" onClick={() => incrementFontSize()} />

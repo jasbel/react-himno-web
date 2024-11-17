@@ -2,17 +2,17 @@ import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
 import { responsive } from "../../res/responsive";
-import { ISong } from "../../types/types";
+import { ISongOld } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNote from "./elements/StarNote";
-import { Box, Flex, Text } from "@components/ui";
+import { Box, Flex, TextSingle } from "@components/ui";
 
 interface Props {
-  item: ISong;
+  item: ISongOld;
   onClick: () => void;
 }
 
-const HimnoItem = ({ item, onClick }: Props) => {
+const HimnoItemOld = ({ item, onClick }: Props) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
   const { title: title_es, description: description_es, id, musicalNote } = item;
@@ -34,21 +34,23 @@ const HimnoItem = ({ item, onClick }: Props) => {
   return (
     <Flex >
       <button style={styles.container} onClick={onClick}>
-        <ImageItem num={id} isFavorite={isFavorite} />
+        <ImageItem num={id} select={isFavorite} />
 
         <div style={styles.content}>
           <Flex
-            justifyContent={"space-between"}
-            alignItems={{ base: "start", md: "center" }}
-            flexDirection={{ base: "column", md: "row" }}
-            textAlign="left"
+            style={{
+              justifyContent: "space-between",
+              alignItems: 'start',
+              flexDirection:  "column",
+              textAlign: "left",
+            }}
           >
-            <Text style={{ ...styles.title }} noOfLines={1}>
+            <TextSingle style={{ ...styles.title }}>
               {title_es}
-            </Text>
-            <Text style={{ ...styles.description }} noOfLines={1}>
+            </TextSingle>
+            <TextSingle style={{ ...styles.description }}>
               {description_es}
-            </Text>
+            </TextSingle>
           </Flex>
         </div>
       </button>
@@ -90,4 +92,4 @@ const styles: { [key in any]: React.CSSProperties } = {
   },
 };
 
-export default HimnoItem;
+export default HimnoItemOld;

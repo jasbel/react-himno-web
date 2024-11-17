@@ -23,16 +23,11 @@ const HimnoSearch = ({ onChange, modeSearch }: Props) => {
   }, [modeSearch]);
 
   return (
-    <Flex bg={opacityColor(Colors.bkgWhite, 0.5)}>
+    <Flex style={{backgroundColor: opacityColor(Colors.bkgWhite, 0.5)}}>
       <Input
         value={query}
         placeholder={'Buscar...'}
         onChange={handleText}
-        color={Colors.txtDark}
-        my={2}
-        bg={Colors.grayLight}
-        borderRadius={50}
-        fontSize={responsive(20, 16)}
       />
     </Flex>
   );

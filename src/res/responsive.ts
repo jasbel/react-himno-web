@@ -7,7 +7,9 @@ export const responsive = (maxValue: number, minValue: number, currentScreen: nu
 
     currentValue = (minValue + (maxValue - minValue) * (currentScreen - minScreen) / (maxScreen - minScreen));
 
-    return currentValue;
+    // const currentValueStr2 = `calc(${minValue} + (maxValue - minValue) * (currentScreen - minScreen) / (maxScreen - minScreen))`;
+    return `calc( ${minValue}px + (${maxValue} - ${minValue}) * ((100vw - ${minScreen}px) / (${maxScreen} - ${minScreen})))`;
+    // return currentValue;
 };
 
 export const percent = (valuePercent: number) => {
