@@ -25,8 +25,7 @@ const ItemHimnoLetter = ({ item }: Props) => {
           fontSize: customFontSize,
         }}
       >
-        <span style={{ whiteSpace: "break-spaces" }}>{item.paragraph}</span>
-        {/* whiteSpace: "pre" */}
+        <span style={{ whiteSpace: "pre-line" }}>{item.paragraph}</span>
       </p>
       {item.choirs.map((choir) => (
         <>
@@ -41,7 +40,7 @@ const ItemHimnoLetter = ({ item }: Props) => {
                   fontSize: customFontSize,
                 }}
               >
-                <span style={{ whiteSpace: "break-spaces" }}>{item.choirs}</span>
+                <span style={{ whiteSpace: "pre-line" }}>{item.choirs}</span>
               </p>
               <br />
             </>
