@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
 import { responsive } from "../../res/responsive";
-import { ID, ISongSearch } from "../../types/types";
+import { ID } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNote from "./elements/StarNoteNew";
 
@@ -12,20 +12,23 @@ import StarNote from "./elements/StarNoteNew";
 interface Props {
   id: ID,
   title: string,
-  num: string, 
+  num: string,
   note: string,
   description: string,
   style?: React.CSSProperties;
   onClick: () => void;
 }
 
-const HimnoItem = ({ id, title,
-  num  ,
+const HimnoItem = ({
+  id,
+  title,
+  num,
   note,
-  description, onClick , style}: Props) => {
+  description,
+  onClick,
+  style
+}: Props) => {
   const [isFavorite, setIsFavorite] = useState(false);
-
-  // const { title, code: num, musicalNote: note, paragraphs: description } = item;
 
   const getFavorite = () => {
     try {
@@ -42,7 +45,7 @@ const HimnoItem = ({ id, title,
   }, []);
 
   return (
-    <Flex style={{...style, order: isFavorite ? -1 : undefined }}>
+    <Flex style={{ ...style, order: isFavorite ? -1 : undefined }}>
       <button style={styles.container} onClick={onClick}>
         <ImageItem num={num} select={isFavorite} />
 
@@ -51,7 +54,7 @@ const HimnoItem = ({ id, title,
             style={{
               justifyContent: "space-between",
               alignItems: 'start',
-              flexDirection:  "column",
+              flexDirection: "column",
               textAlign: "left"
             }}
           >

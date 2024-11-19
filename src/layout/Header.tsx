@@ -12,7 +12,7 @@ const Header = () => {
           alignItems:  "center",
         }}
       >
-        <Button color={"white"}>
+        <Button style={{backgroundColor: Colors.bkgDark}} color={"white"}>
           Crear Nueva Alabanza
         </Button>
       </Flex>

@@ -1,21 +1,22 @@
 import React, { ReactNode, useEffect, useState } from "react";
-import {  ISong, ISongSearch } from "../types/types";
+import { ISong } from "../types/types";
 import songAll from "../assets/data-song.json";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 import { removeAccents } from "@/res/removeAccents";
 
-const songAllSearch: ISongSearch[] = (songAll as ISong[]).map(s => ({
+const songAllSearch: ISong[] = (songAll as ISong[]).map(s => ({
   'id': s.id,
   'code': s.code,
   'title': s.title,
   'musicalNote': s.musicalNote,
   paragraphs: s.paragraphs,
+  chorus: s.chorus,
 }))
 
 interface InitialValues {
   songs: ISong[];
   songFavorites: ISong[];
-  songsSearch: ISongSearch[];
+  songsSearch: ISong[];
   addToFav: (favId: string) => void;
   changeSongBySearch: (q: string) => void;
   rmToFav: (favId: string) => void;
@@ -34,7 +35,7 @@ export const SongContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongNewProvider = ({ children }: { children: ReactNode }) => {
   const [songs, setSongs] = useState<ISong[]>([]);
-  const [songsSearch, setSongsSearch] = useState<ISongSearch[]>([]);
+  const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
   const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
 
   const getSongs = async () => {

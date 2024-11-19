@@ -20,8 +20,13 @@ const HimnoHomeScreen = ({}: Props) => {
         <Link to={ERoutes.home}>
           <Button style={{ ...styles.button }}>Ingresar</Button>
         </Link>
+        
         <Link to={ERoutes.homeQuechua} >
           <Button style={{ ...styles.button }}>Quechua</Button>
+        </Link>
+
+        <Link to={ERoutes.addHimno} >
+          <Button style={{ ...styles.button, backgroundColor: Colors.bkgPrimary }}>Nuevo Himno</Button>
         </Link>
 
         <Link to={ERoutes.homeOld}>
@@ -64,7 +69,8 @@ const styles: { [key in any]: React.CSSProperties } = {
   button: {
     backgroundColor: Colors.orangeDark,
     color: "white",
-    fontSize: responsiveStr(36, 20),
+    fontSize: responsiveStr(32, 20),
+    marginBottom: 20,
 
   },
   button2: {

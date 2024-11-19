@@ -24,7 +24,10 @@ const WrapItemHimno = ({ chorus, paragraphs }: Props) => {
     let filters: IChoir[];
     if (chorus) {
       filters = item.chorusPos.map((cp) => {
-        return chorus[cp[0] - 1];
+        if(typeof cp[0] === 'number') {
+         return chorus[cp[0] - 1]
+        }
+        return chorus.find(c => c.id === cp[0])!;
       });
       choirs = filters.length ? joinChoirs(filters) : [];
     }

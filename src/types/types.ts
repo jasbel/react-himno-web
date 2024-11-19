@@ -40,5 +40,4 @@ export interface ISong {
   chorus: IChoir[],
 }
 
-export type ISongSearch = Pick<ISong, 'id' | 'code' | 'title' | 
-'musicalNote' | 'paragraphs'> // & {description: string}
+// export type ISong = Pick<ISong, 'id' | 'code' | 'title' | 'musicalNote' | 'paragraphs'> // & {description: string}

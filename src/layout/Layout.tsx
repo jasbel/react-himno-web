@@ -10,7 +10,11 @@ const Layout = ({children}: Props) => {
   return (
     <div className="App">
       <Header />
-      {children}
+      
+      <main style={{minHeight: 'calc(100vh - 100px)'}}>
+       {children}
+      </main>
+
       <Footer />
     </div>
   )

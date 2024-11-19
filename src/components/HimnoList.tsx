@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Colors from "../res/colors";
 import HimnoSearch from "./himno/HimnoSearch";
 import HimnoItem from "./himno/HimnoItemNew";
-import { ISongSearch } from "../types/types";
+import { ISong } from "../types/types";
 import FavoriteEmptyState from "./favorite/FavoriteEmptyState";
 
 const initPaginate = {
@@ -13,7 +13,7 @@ const initPaginate = {
 interface Props {
   changeSongBySearch: (q: string) => void;
   hasFavorite: boolean;
-  songsSearch: ISongSearch[];
+  songsSearch: ISong[];
   handlePress: Function
 }
 

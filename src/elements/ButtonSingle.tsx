@@ -6,9 +6,10 @@ interface Props {
   title: string;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   style?: React.CSSProperties;
+  children?: React.ReactNode;
 }
 
-const ButtonSingle = ({ title, onClick, style }: Props) => {
+const ButtonSingle = ({ title, onClick, style, children}: Props) => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -21,6 +22,7 @@ const ButtonSingle = ({ title, onClick, style }: Props) => {
       style={{ ...styles.headerButton, ...style, ...styles[hover ? "headerButtonHover" : ""] }}
     >
       {title}
+      {children}
     </button>
   );
 };
