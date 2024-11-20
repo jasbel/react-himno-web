@@ -6,6 +6,7 @@ import { SettingProvider } from "./state/SettingContext";
 import { SongProvider } from "./state/SongContext";
 import { SongNewProvider } from "./state/SongNewContext";
 import { SongNewQuechuaProvider } from "./state/SongNewQuechuaContext";
+import { AddProvider } from "./state/AddContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -13,7 +14,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <SongProvider>
         <SongNewQuechuaProvider>
           <SettingProvider>
+          <AddProvider>
             <App />
+          </AddProvider>
           </SettingProvider>
         </SongNewQuechuaProvider>
       </SongProvider>

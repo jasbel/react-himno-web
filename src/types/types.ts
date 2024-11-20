@@ -35,7 +35,7 @@ export interface ISong {
   id: ID,
   code: string,
   title: string,
-  musicalNote: TNote | string,
+  musicalNote: TNote /* | string */,
   paragraphs: IParagraph[],
   chorus: IChoir[],
 }

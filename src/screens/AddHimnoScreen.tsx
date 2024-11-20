@@ -6,67 +6,24 @@ import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
 import { ILetter } from "../components/himno/ItemHimnoLetter";
-import { ISong } from "@/types/types";
-import { v4 } from "uuid";
+import { IChoir, ISong } from "@/types/types";
+import { initSong } from "@/res/constant";
+import { uuid } from "@/res/helpers";
+import ChoirList from "@/components/ChoirList";
 
-const initAdd: ISong = {
-  chorus: [],
-  code: '',
-  id: v4(),
-  musicalNote: '_',
-  paragraphs: [],
-  title: ''
-}
-
-interface IAddContext {
-  state: ISong,
-  updateState: (newValues: Partial<ISong>) => void,
-}
-// @ts-ignore
-export const AddContext = createContext<IAddContext>({
-  // state: initAdd, updateState: () => {}
-});
-
-const AddProvider = ({ children }: any) => {
-  const [state, setState] = useState<ISong>(initAdd);
-
-  const updateState = (newValues: Partial<ISong>) => {
-    setState(prevState => ({
-      ...prevState,
-      ...newValues
-
-
-    }));
-  };
-
-  return (
-    <AddContext.Provider value={{ state, updateState }}>
-      {children}
-    </AddContext.Provider>
-  );
-};
 
 const AddHimnoScreen = () => {
   const [letter, setLetter] = useState<ILetter>()
-  const [chorus, setChorus] = useState<string[]>(["asdfdfsdf"])
+  const [chorus, setChorus] = useState<IChoir[]>([{ id: uuid(), choir: "asdfdfsdf"}])
   return (
-    <AddProvider>
-
       <Layout>
         <div style={{ minHeight: "calc(100vh - 193px)" }}>
           <Flex>
             <Box>
               <LayoutMain>
                 <FormSongBase />
-                <div>
-                {chorus.map(c => {
-                  return (<>
-                    <p>{c}</p>
-                  </>)
-                })}
-
-
-                </div>
+                <ChoirList />
+                
               </LayoutMain>
             </Box>
             <Box>
@@ -84,7 +41,6 @@ const AddHimnoScreen = () => {
           </Flex>
         </div>
       </Layout>
-    </AddProvider>
 
   );
 };

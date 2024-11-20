@@ -44,6 +44,7 @@ code {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -76,7 +77,35 @@ code {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.form-choir__content {
+  min-height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.btn-wrap {
+  opacity: 0.3;
+  position: absolute;
+
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-wrap:hover {
+  opacity: 1;
 }

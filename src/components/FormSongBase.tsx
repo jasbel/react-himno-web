@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import CustomInput from "../elements/CustomInput";
-import { AddContext } from "@/screens/AddHimnoScreen";
+import { AddContext } from "@/state/AddContext";
 
 const FormSongBase = () => {
   const { state, updateState } = useContext(AddContext);
@@ -13,7 +13,7 @@ const FormSongBase = () => {
   };
 
   return (
-    <div className="bg-rose-100">
+    <div className="p-2 border">
       <CustomInput id="title" label="Titulo" onInput={(val) => onChange(val, "title")} />
       <CustomInput id="description" label="Descripcion" onInput={(val) => onChange(val, "description")} />
       <CustomInput id="note-musical" label="Nota Musical" onInput={(val) => onChange(val, "note-musical")} />

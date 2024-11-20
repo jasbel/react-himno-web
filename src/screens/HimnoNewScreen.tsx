@@ -23,11 +23,11 @@ const HimnoNewScreen = () => {
       <Hero title={titleApp} hrefBefore={"/"} hiddenFS />
 
       <HimnoList
-          changeSongBySearch={changeSongBySearch}
-          hasFavorite={!!songFavorites.length}
-          songsSearch={songsSearch}
-          handlePress={handlePress}
-        />
+        changeSongBySearch={changeSongBySearch}
+        hasFavorite={!!songFavorites.length}
+        songsSearch={songsSearch}
+        handlePress={handlePress}
+      />
     </>
   );
 };
