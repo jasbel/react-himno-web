@@ -1,23 +1,29 @@
 import { AddContext } from "@/state/AddContext";
 import { useContext, useState } from "react";
 import { Modal } from "./Modal";
+import { IChoir } from "@/types/types";
 
 interface Props {
   choirId: string;
-  handleAction: (v: 'add' | 'change' | 'remove') => void;
+  handleAction: (v:  'change' | 'remove') => void;
 }
 
 const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
+  const [openChange, setOpenChange] = useState(false);
   const [open, setOpen] = useState(false);
   const { state, updateState } = useContext(AddContext);
   const { chorus } = state
-  const action = (value: 'add' | 'change' | 'remove') => {
-    handleAction(value);
+  const action = (key:  'change' | 'remove', _state?: IChoir) => {
+    if (key === 'remove') {
+      handleAction(key);
+    }
+    if (key === 'change') {
+      handleAction(key);
+    }
   };
 
   const getChoir = () => {
-    return "lorem asdflsdf  asdfasdf fasdflasdf asdf asdf asdfasdf  /n asdfasdf /n asdfasdf /n"
-    return chorus.find(c => c.id === choirId)?.choir || ''
+    return chorus.find(c => c.id === choirId)?.choir || '';
   }
 
   return (
@@ -25,25 +31,49 @@ const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
       <div>{getChoir().split('\\n').map(c => (<p>{c}</p>))}</div>
       <div className="btn-wrap">
 
-        <button style={btnStyle} onChange={() => action('change')}>Cambiar</button>
-        <button style={btnStyle} onChange={() => action('remove')}>Borrar</button>
-
-        <Modal onAccept={() => {
-          console.log('accion');
-          setOpen(false);
-        }} onClose={() => setOpen(false)} open={open} title="Modal" trigger={<button style={btnStyle} onClick={() => {
-          setOpen(true);
-          action('add')
-        }}>Agregar</button>} >
+        <Modal
+          onAccept={() => {
+            setOpenChange(false);
+          }}
+          onClose={() => setOpenChange(false)} open={openChange} title="Cambiar"
+          trigger={
+            <button style={btnStyle} onClick={() => {
+              setOpenChange(true);
+            }}>Cambiar</button>
+          } >
           <div>
-            <textarea
-              style={{ padding: 3, paddingLeft: 8, border: "1px solid black", borderRadius: 8, width: "100%" }}
-              title={'Coro'}
-              aria-multiline={true}
-              onChange={() => { }}
-              onInput={() => { }}
-              rows={8}
-            />
+            {state.chorus.map(c => {
+              return (
+                <div key={c.id} >
+                  <button onClick={() => action('change', c)}>
+                    <span>{c.choir}</span>
+                  </button>
+                </div>
+              )
+            })}
+          </div>
+        </Modal>
+
+
+
+        <Modal
+          onAccept={() => {
+            action('remove')
+            setOpen(false);
+          }}
+          onClose={() => setOpen(false)}
+          open={open}
+          title="Borrar"
+          trigger={
+            <button style={btnStyle} onClick={() => {
+              setOpen(true);
+            }}>Borrar</button>
+          }
+        >
+          <div>
+            {/* <button style={btnStyle} onChange={() => action('remove', c)}>Borrar</button> */}
+            <h2>Seguro que desea borrar de este parrafo</h2>
+
           </div>
         </Modal>
       </div>

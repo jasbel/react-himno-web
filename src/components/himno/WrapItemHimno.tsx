@@ -2,9 +2,11 @@ import ItemHimnoLetter, { ILetter } from "./ItemHimnoLetter";
 import { ISong } from "../../types/types";
 import { IChoir } from "../../types/types";
 
-interface Props extends Pick<ISong, "paragraphs" | "chorus"> {}
+interface Props extends Pick<ISong, "paragraphs" | "chorus"> {
+  isSmall?: boolean;
+}
 
-const WrapItemHimno = ({ chorus, paragraphs }: Props) => {
+const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
   function joinChoirs(filter: IChoir[]): string[] {
     const filterChoir =
       filter.length >= 2
@@ -40,7 +42,7 @@ const WrapItemHimno = ({ chorus, paragraphs }: Props) => {
   return (
     <>
       {verses.map((v, i) => {
-        return <ItemHimnoLetter key={i} item={v} />;
+        return <ItemHimnoLetter key={i} item={v} isSmall={isSmall} />;
       })}
     </>
   );

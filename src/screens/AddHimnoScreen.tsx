@@ -19,25 +19,23 @@ const AddHimnoScreen = () => {
       <Layout>
         <div style={{ minHeight: "calc(100vh - 193px)" }}>
           <Flex>
-            <Box>
+            <Box style={{flex: 3}}>
               <LayoutMain>
                 <FormSongBase />
-                <ChoirList />
                 
+                <ChoirList />
               </LayoutMain>
             </Box>
-            <Box>
+            <Box  style={{flex: 6, minWidth: '45%'}}>
               <LayoutMain>
                 <FormParagraphs />
               </LayoutMain>
             </Box>
-            <div>
-              {/* <div className="col-span-5 bg-bermuda"> */}
+            <Box  style={{flex: 3}}>
               <LayoutMain>
-                <ViewSong />
+                <ViewSong isSmall />
               </LayoutMain>
-              {/* </div> */}
-            </div>
+            </Box>
           </Flex>
         </div>
       </Layout>
