@@ -8,6 +8,7 @@ import HimnoSongScreen from "../screens/HimnoSong2Screen";
 import HimnoNewQuechuaScreen from "../screens/HimnoNewQuechuaScreen";
 import HimnoSongQuechuaScreen from "../screens/HimnoSongQuechuaScreen";
 import { ERoutes } from "../res/enum";
+import HimnoListScreen from "@/screens/HimnoListScreen";
 
 const HimnoStack = () => {
   return (
@@ -20,6 +21,7 @@ const HimnoStack = () => {
         <Route path={ERoutes.homeOld} element={<HimnoScreen />} />
         <Route path={ERoutes.home} element={<HimnoNewScreen />} />
         <Route path={ERoutes.homeQuechua} element={<HimnoNewQuechuaScreen />} />
+        <Route path={ERoutes.homeList} element={<HimnoListScreen />} />
         <Route path={ERoutes.itemOld} element={<HimnoSongScreenOld />} />
         <Route path={ERoutes.item}  element={<HimnoSongScreen />} />
         <Route path={ERoutes.itemQuechua}  element={<HimnoSongQuechuaScreen />} />

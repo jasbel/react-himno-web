@@ -25,6 +25,10 @@ const HimnoHomeScreen = ({}: Props) => {
           <Button style={{ ...styles.button }}>Quechua</Button>
         </Link>
 
+        <Link to={ERoutes.homeList}>
+          <Button style={{ ...styles.button }}>Listado</Button>
+        </Link>
+
         <Link to={ERoutes.addHimno} >
           <Button style={{ ...styles.button, backgroundColor: Colors.bkgPrimary }}>Nuevo Himno</Button>
         </Link>

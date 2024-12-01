@@ -84,7 +84,7 @@ code {
 }
 
 .form-choir__content {
-  min-height: 120px;
+  min-height: 60px;
   width: 100%;
   display: flex;
   align-items: center;

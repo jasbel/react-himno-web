@@ -31,13 +31,13 @@ export interface IChoir {
   choir: string,
 }
 
-export interface ISong {
-  id: ID,
+export interface ISongCreate {
   code: string,
   title: string,
   musicalNote: TNote /* | string */,
   paragraphs: IParagraph[],
   chorus: IChoir[],
 }
-
-// export type ISong = Pick<ISong, 'id' | 'code' | 'title' | 'musicalNote' | 'paragraphs'> // & {description: string}
+export interface ISong extends ISongCreate {
+  id: ID,
+}

@@ -1,7 +1,7 @@
 import { AddContext } from "@/state/AddContext";
 import { useContext, useState } from "react";
 import { Modal } from "./Modal";
-import { IChoir } from "@/types/types";
+import { IChoir, ID } from "@/types/types";
 
 interface Props {
   choirId: string;
@@ -11,14 +11,18 @@ interface Props {
 const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
   const [openChange, setOpenChange] = useState(false);
   const [open, setOpen] = useState(false);
+  const [currentSelect, setCurrentSelect] = useState<ID>();
   const { state, updateState } = useContext(AddContext);
-  const { chorus } = state
+  const { chorus } = state;
+
   const action = (key:  'change' | 'remove', _state?: IChoir) => {
     if (key === 'remove') {
       handleAction(key);
     }
     if (key === 'change') {
       handleAction(key);
+
+      setCurrentSelect(_state?.id)
     }
   };
 
@@ -45,7 +49,10 @@ const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
             {state.chorus.map(c => {
               return (
                 <div key={c.id} >
-                  <button onClick={() => action('change', c)}>
+                  <button style={{
+                    padding: 3, borderRadius: 12, border: '1px solid gray', width: '100%', marginBottom: 8,
+                    backgroundColor: currentSelect === c.id ?  '#e6fff7' : 'transparent'
+                    }} onClick={() => action('change', c)}>
                     <span>{c.choir}</span>
                   </button>
                 </div>
@@ -53,8 +60,6 @@ const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
             })}
           </div>
         </Modal>
-
-
 
         <Modal
           onAccept={() => {

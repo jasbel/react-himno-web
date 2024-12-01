@@ -1,6 +1,7 @@
 export enum ERoutes {
   principal = "himno-home",
   home = "himnos",
+  homeList = "himnos/list",
   homeQuechua = "himnos-quechua",
   homeOld = "himno",
   itemOld = "himno-song",

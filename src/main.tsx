@@ -7,18 +7,21 @@ import { SongProvider } from "./state/SongContext";
 import { SongNewProvider } from "./state/SongNewContext";
 import { SongNewQuechuaProvider } from "./state/SongNewQuechuaContext";
 import { AddProvider } from "./state/AddContext";
+import { SongDinamicProvider } from "./state/SongDinamicContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <SongNewProvider>
       <SongProvider>
-        <SongNewQuechuaProvider>
-          <SettingProvider>
-          <AddProvider>
-            <App />
-          </AddProvider>
-          </SettingProvider>
-        </SongNewQuechuaProvider>
+        <SongDinamicProvider>
+          <SongNewQuechuaProvider>
+            <SettingProvider>
+              <AddProvider>
+                <App />
+              </AddProvider>
+            </SettingProvider>
+          </SongNewQuechuaProvider>
+        </SongDinamicProvider>
       </SongProvider>
     </SongNewProvider>
   </React.StrictMode>

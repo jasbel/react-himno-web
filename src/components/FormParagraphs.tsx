@@ -7,7 +7,7 @@ import { uuid } from "@/res/helpers";
 import { AddContext } from "@/state/AddContext";
 
 const FormParagraphs = () => {
-  const { state, updateState } = useContext(AddContext);
+  const { updateState } = useContext(AddContext);
   const [paragraphs, setParagraphs] = useState<IParagraph[]>([]);
 
   const onChange = (value: string, idx: number) => {
@@ -15,9 +15,16 @@ const FormParagraphs = () => {
     setParagraphs(_paragraphs);
   };
 
+  const newParagraph = () => {
+    setParagraphs([...paragraphs, { chorusPos: [[1]], paragraph: "", id: uuid() }])
+  }
+
   useEffect(() => {
     updateState({paragraphs: paragraphs})
   }, [paragraphs])
+  useEffect(() => {
+    newParagraph()
+  }, [])
 
   return (
     <div className="p-2 pt-4 pb-2 border">
@@ -27,7 +34,7 @@ const FormParagraphs = () => {
       </Fragment>
       )}
 
-      <Button title="+ Parrafo" onClick={() => setParagraphs([...paragraphs, { chorusPos: [[1]], paragraph: "", id: uuid() }])} />
+      <Button title="+ Parrafo" onClick={() => newParagraph()} />
     </div>
   );
 };
