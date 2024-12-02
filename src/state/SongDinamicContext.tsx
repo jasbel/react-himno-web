@@ -1,11 +1,14 @@
 import React, { ReactNode, useEffect, useState } from "react";
-import { ISong } from "../types/types";
+import { ID, ISong } from "../types/types";
 import { addFav, deleteFav } from "../libs/storage";
 import { removeAccents } from "@/res/removeAccents";
 import { useApiSong } from "@/hooks/useApiSong";
+import { initSong } from "@/res/constant";
 
 interface InitialValues {
+  getSong: (id: ID) => Promise<ISong>;
   getSongs: () => Promise<void>;
+  song: ISong;
   songs: ISong[];
   songsSearch: ISong[];
   addToFav: (favId: string) => void;
@@ -14,22 +17,39 @@ interface InitialValues {
 }
 
 const defaultValue: InitialValues = {
+  song: initSong(),
   songs: [],
   songsSearch: [],
   addToFav: () => { },
   changeSongBySearch: () => { },
   rmToFav: () => { },
+  getSong: () => ({ } as  Promise<ISong>),
   getSongs: () => ({ } as  Promise<void>),
 };
 
 export const SongDinamicContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
-  const { fetchListSong } = useApiSong();
+  const { fetchListSong , fetchOneSong} = useApiSong();
+  const [song, setSong] = useState<ISong>(initSong());
   const [songs, setSongs] = useState<ISong[]>([]);
   const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
   const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
 
+  const getSong = async (id: ID) => {
+    let dataItem = initSong();
+    try {
+      const resp = await fetchOneSong(id)
+      const item = resp.data;
+
+      setSong(item);
+      dataItem = item;
+    } catch (error) {
+      console.error("Get Favorites Err", error);
+    } finally {
+      return dataItem;
+    }
+  };
   const getSongs = async () => {
     try {
       const songsResp = await fetchListSong()
@@ -87,11 +107,13 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
 
   return (
     <SongDinamicContext.Provider value={{
+      song,
       songs,
       songsSearch,
       addToFav,
       rmToFav,
       changeSongBySearch,
+      getSong,
       getSongs,
     }}>
       {children}

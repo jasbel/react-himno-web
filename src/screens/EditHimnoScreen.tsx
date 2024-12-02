@@ -1,20 +1,39 @@
-import { createContext, useState } from "react";
 import Layout from "../layout/Layout";
 import { Box, Flex } from "@components/ui";
 import FormSongBase from "../components/FormSongBase";
 import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
-import { ILetter } from "../components/himno/ItemHimnoLetter";
-import { IChoir, ISong } from "@/types/types";
-import { initSong } from "@/res/constant";
-import { uuid } from "@/res/helpers";
 import ChoirList from "@/components/ChoirList";
+import { useParams } from "react-router-dom";
+import { useContext, useEffect } from "react";
+import { AddContext } from "@/state/AddContext";
+import { useDinamicSong } from "@/hooks/useDinamicSong";
+import { ID } from "@/types/types";
 
 
-const AddHimnoScreen = () => {
+const EditHimnoScreen = () => {
+  const { id } = useParams();
+  const { state, updateState } = useContext(AddContext);
+  const { changeSongBySearch, song, getSong } = useDinamicSong();
+
+  const getSongEdit = async () => {
+    debugger
+    const _song =    await getSong(id as ID)
+    updateState(_song)      
+
+    // setTimeout(() => {
+    // }, 50);
+  }
+
+  useEffect(() => {
+    getSongEdit();
+  }, [])
+  
+
   return (
       <Layout>
+        <h1>{id}</h1>
         <div style={{ minHeight: "calc(100vh - 193px)" }}>
           <Flex>
             <Box style={{flex: 3}}>
@@ -41,4 +60,4 @@ const AddHimnoScreen = () => {
   );
 };
 
-export default AddHimnoScreen;
+export default EditHimnoScreen;

@@ -12,7 +12,7 @@ export const AddContext = createContext<IAddContext>({
   });
   
   export const AddProvider = ({ children }: any) => {
-    const [state, setState] = useState<ISong>(initSong);
+    const [state, setState] = useState<ISong>(initSong());
   
     const updateState = (newValues: Partial<ISong>) => {
       setState(prevState => ({

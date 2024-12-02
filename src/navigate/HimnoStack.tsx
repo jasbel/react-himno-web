@@ -9,6 +9,8 @@ import HimnoNewQuechuaScreen from "../screens/HimnoNewQuechuaScreen";
 import HimnoSongQuechuaScreen from "../screens/HimnoSongQuechuaScreen";
 import { ERoutes } from "../res/enum";
 import HimnoListScreen from "@/screens/HimnoListScreen";
+import EditHimnoScreen from "@/screens/EditHimnoScreen";
+import { routeList } from "@/res/constant";
 
 const HimnoStack = () => {
   return (
@@ -26,6 +28,7 @@ const HimnoStack = () => {
         <Route path={ERoutes.item}  element={<HimnoSongScreen />} />
         <Route path={ERoutes.itemQuechua}  element={<HimnoSongQuechuaScreen />} />
         <Route path={ERoutes.addHimno}  element={<AddHimnoScreen />} />
+        <Route path={routeList.edit(':id')}  element={<EditHimnoScreen />} />
       </Routes>
     </BrowserRouter>
   );

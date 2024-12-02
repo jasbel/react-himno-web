@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from "react";
-import { titleApp } from "../res/constant";
+import { routeList, titleApp } from "../res/constant";
 import { ISong } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -13,7 +13,7 @@ const HimnoListScreen = () => {
 
   const handlePress = useCallback(
     (himno: ISong) => {
-      navigate('/' + ERoutes.addHimno, { state: { himno } });
+      navigate(routeList.edit(himno.id));
     },
     [navigate]
   );
