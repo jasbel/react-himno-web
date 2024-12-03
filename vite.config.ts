@@ -6,17 +6,21 @@ import { resolve } from 'path';
 
 const pwaOptions: Partial<VitePWAOptions> = {
   // mode: "development",
+  registerType: 'autoUpdate',
+  devOptions: {
+    enabled: true,
+  },
   base: "/",
   includeAssets: ["favicon.svg"],
   manifest: {
-    name: "Himno Web",
+    name: "Himnos Web",
     short_name: "Himnos",
-    start_url: '/?source=pwa',
+    // start_url: '/?source=pwa',
     description: "Esta app cuenta con canticos y alabanzas",
     theme_color: "#ffffff",
     icons: [
       {
-        src: "android-chrome-192x192.png", // <== don't add slash, for testing
+        src: "/android-chrome-192x192.png", // <== don't add slash, for testing
         sizes: "192x192",
         type: "image/png",
       },
@@ -32,7 +36,10 @@ const pwaOptions: Partial<VitePWAOptions> = {
         purpose: "any maskable",
       },
     ],
-  }
+  },
+  workbox: {
+    globPatterns: ['**/*.{js,css,html,ico,png,svg}'], // Archivos que se cachean
+  },
 };
 
 // https://vitejs.dev/config/
@@ -41,7 +48,7 @@ export default defineConfig({
   build: {
     sourcemap: process.env.SOURCE_MAP === "true",
   },
-  plugins: [react(), VitePWA(pwaOptions)],
+  plugins: [react(), VitePWA(/* pwaOptions */)],
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),

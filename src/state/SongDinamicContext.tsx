@@ -30,9 +30,9 @@ const defaultValue: InitialValues = {
 export const SongDinamicContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
-  const { fetchListSong , fetchOneSong} = useApiSong();
-  const [song, setSong] = useState<ISong>(initSong());
+  const { fetchListSong, fetchOneSong, fetchUpdateSong } = useApiSong();
   const [songs, setSongs] = useState<ISong[]>([]);
+  const [song, setSong] = useState<ISong>(initSong);
   const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
   const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
 
