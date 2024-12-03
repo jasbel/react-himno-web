@@ -34,7 +34,7 @@ const ButtonStar = ({ onToggle, initStar }: Props) => {
         }}
       >
         <span style={styles.iconStar}>
-          <StarIcon color={Colors.select} size={26} />
+          <StarIcon color={isStar ? Colors.select : Colors.white} size={26} />
         </span>
       </button>
     </Box>

@@ -20,7 +20,7 @@ const FormTextArea = ({ label, handleChange }: Props) => {
         aria-multiline={true}
         onChange={change}
         onInput={change}
-        rows={8}
+        rows={4}
       />
     </ControlForm>
   );

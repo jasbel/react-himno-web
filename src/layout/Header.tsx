@@ -1,8 +1,6 @@
-import { Button, Flex } from "@components/ui";
+import { Flex } from "@components/ui";
 import Colors from "../res/colors";
-
-// import logo from "../logo.svg";
-// import { responsive } from "../utils/responsive";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
@@ -14,7 +12,7 @@ const Header = () => {
           alignItems:  "center",
         }}
       >
-        <Button bg="transparent" color={"white"}>
+        <Button style={{backgroundColor: Colors.bkgDark}} color={"white"}>
           Crear Nueva Alabanza
         </Button>
       </Flex>

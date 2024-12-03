@@ -1,49 +1,94 @@
-import { AddContext } from "@src/screens/AddHimnoScreen";
-import { useContext } from "react";
+import { AddContext } from "@/state/AddContext";
+import { useContext, useState } from "react";
+import { Modal } from "./Modal";
+import { IChoir, ID } from "@/types/types";
 
 interface Props {
   choirId: string;
-  handleAction: (v: 'add' | 'change' | 'remove') => void;
+  handleAction: (v:  'change' | 'remove') => void;
 }
 
-const FormChoir = ({choirId = 'lorem', handleAction}: Props) => {
+const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
+  const [openChange, setOpenChange] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [currentSelect, setCurrentSelect] = useState<ID>();
   const { state, updateState } = useContext(AddContext);
-  const  {chorus} = state
-  const action = (value: 'add' | 'change' | 'remove') => {
-    handleAction(value);
+  const { chorus } = state;
+
+  const action = (key:  'change' | 'remove', _state?: IChoir) => {
+    if (key === 'remove') {
+      handleAction(key);
+    }
+    if (key === 'change') {
+      handleAction(key);
+
+      setCurrentSelect(_state?.id)
+    }
   };
 
-  const getChoir = ()=> {
-   return chorus.find(c => c.id === choirId)?.choir || ''
+  const getChoir = () => {
+    return chorus.find(c => c.id === choirId)?.choir || '';
   }
 
   return (
-    <div style={{minHeight: '200px', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid black',
-      borderRadius: '12px'
-
-    }}>
+    <div className={'form-choir__content'}>
       <div>{getChoir().split('\\n').map(c => (<p>{c}</p>))}</div>
-      <div className="btn-wrap" style={style}>
-        <button style={btnStyle} onChange={() => action('add')}>Agregar</button>
-        <button style={btnStyle} onChange={() => action('change')}>Cambiar</button>
-        <button style={btnStyle} onChange={() => action('remove')}>Borrar</button>
+      <div className="btn-wrap">
+
+        <Modal
+          onAccept={() => {
+            setOpenChange(false);
+          }}
+          onClose={() => setOpenChange(false)} open={openChange} title="Cambiar"
+          trigger={
+            <button style={btnStyle} onClick={() => {
+              setOpenChange(true);
+            }}>Cambiar</button>
+          } >
+          <div>
+            {state.chorus.map(c => {
+              return (
+                <div key={c.id} >
+                  <button style={{
+                    padding: 3, borderRadius: 12, border: '1px solid gray', width: '100%', marginBottom: 8,
+                    backgroundColor: currentSelect === c.id ?  '#e6fff7' : 'transparent'
+                    }} onClick={() => action('change', c)}>
+                    <span>{c.choir}</span>
+                  </button>
+                </div>
+              )
+            })}
+          </div>
+        </Modal>
+
+        <Modal
+          onAccept={() => {
+            action('remove')
+            setOpen(false);
+          }}
+          onClose={() => setOpen(false)}
+          open={open}
+          title="Borrar"
+          trigger={
+            <button style={btnStyle} onClick={() => {
+              setOpen(true);
+            }}>Borrar</button>
+          }
+        >
+          <div>
+            {/* <button style={btnStyle} onChange={() => action('remove', c)}>Borrar</button> */}
+            <h2>Seguro que desea borrar de este parrafo</h2>
+
+          </div>
+        </Modal>
       </div>
+
     </div>
   );
 };
 
 export default FormChoir;
 
-const style: React.CSSProperties = {
-  background: 'red',
-  display:  'flex',
-  gap: '8px',
-  padding: '12px',
-  justifyContent: 'center',
-  alignItems: 'center'
-
-  // display: 'none'
-}
 const btnStyle: React.CSSProperties = {
   background: 'skyblue',
   padding: '8px 12px',

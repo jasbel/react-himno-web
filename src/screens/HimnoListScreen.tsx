@@ -1,22 +1,26 @@
-import { useCallback } from "react";
-import { titleApp } from "../res/constant";
+import { useCallback, useEffect } from "react";
+import { routeList, titleApp } from "../res/constant";
 import { ISong } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
-import { useSong } from "../hooks/useNewSong";
 import { ERoutes } from "../res/enum";
 import HimnoList from "@/components/HimnoList";
+import { useDinamicSong } from "@/hooks/useDinamicSong";
 
-const HimnoNewScreen = () => {
+const HimnoListScreen = () => {
   const navigate = useNavigate();
-  const { songFavorites, changeSongBySearch, songsSearch } = useSong();
+  const { changeSongBySearch, songsSearch, getSongs } = useDinamicSong();
 
   const handlePress = useCallback(
     (himno: ISong) => {
-      navigate('/' + ERoutes.item, { state: { himno } });
+      navigate(routeList.edit(himno.id));
     },
     [navigate]
   );
+
+  useEffect(() => {
+    getSongs();
+  }, []);
 
   return (
     <>
@@ -24,7 +28,7 @@ const HimnoNewScreen = () => {
 
       <HimnoList
         changeSongBySearch={changeSongBySearch}
-        hasFavorite={!!songFavorites.length}
+        hasFavorite={false}
         songsSearch={songsSearch}
         handlePress={handlePress}
       />
@@ -32,4 +36,4 @@ const HimnoNewScreen = () => {
   );
 };
 
-export default HimnoNewScreen;
+export default HimnoListScreen;

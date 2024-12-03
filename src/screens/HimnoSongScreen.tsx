@@ -1,19 +1,16 @@
-import { FC, useContext, useState } from "react";
+import { FC, useContext } from "react";
 
 import ItemHimnoLetter, { ILetter } from "../components/himno/ItemHimnoLetter";
-import { findFav } from "../libs/storage";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
 import { IChoirOld, ISongOld } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
-import ButtonStar, { TypeStar } from "../components/ButtonStar";
 import { SongContext } from "../state/SongContext";
-import { Box, Flex } from "@components/ui";
-import ButtonSingle from "../elements/ButtonSingle";
-import { SettingContext } from "../state/SettingContext";
+import { Box } from "@components/ui";
 import { ERoutes } from "../res/enum";
+import HimnoSongFooter from "@/components/himno/HimnoSongFooter";
 
 export const initialValues = {
   fontSize: responsive(80, 20),
@@ -21,29 +18,11 @@ export const initialValues = {
   fontSizeIncremental: 1,
 };
 
-const initHimno: IHimno = {
-  id: "",
-  num_song: "",
-  title: "",
-  description: "",
-  musicalNote: "_",
-  paragraphs: [],
-  chorus: [],
-};
-
-interface IHimno extends ISongOld {}
-
 interface Props {}
 
-const HimnoSongScreen: FC<Props> = () => {
+const HimnoSongScreenOld: FC<Props> = () => {
   const { addToFav, rmToFav } = useContext(SongContext);
   const { state } = useLocation() as { state: { himno: ISongOld } };
-  const { decrementFontSize, incrementFontSize } = useContext(SettingContext);
-
-  const [himno] = useState({
-    ...initHimno,
-    ...state.himno,
-  } as IHimno);
 
   const { paragraphs, chorus, title: title_es } = state.himno;
   /* TODO: Mejorar la respuesta de indefinido, array vacio, o string vacio en choir y chorus */
@@ -60,21 +39,6 @@ const HimnoSongScreen: FC<Props> = () => {
 
     return { ...item, choirs };
   });
-
-  const toggleFavorite = (star: TypeStar) => {
-    if (star === "star") addFavorite();
-    else {
-      if (window.confirm("Esta de acuerdo en Borrar... ?")) handleRemove();
-    }
-  };
-
-  const addFavorite = async () => {
-    addToFav(himno.id);
-  };
-
-  const handleRemove = () => {
-    rmToFav(himno.id);
-  };
 
   function compareArrayIgnore(arr: number[], val: number) {
     return arr.find((arrValue) => arrValue === val) ? false : true;
@@ -96,6 +60,7 @@ const HimnoSongScreen: FC<Props> = () => {
   return (
     <>
       <Hero title={title_es} hrefBefore={'/' + ERoutes.home} />
+
       <Box style={{ padding: 1, paddingTop: 6,paddingBottom: 6, backgroundColor: Colors.bkgWhite}}>
         <div style={{ minHeight: "calc(100vh - 110px)" }}>
           {verses.map((item, index) => (
@@ -103,16 +68,11 @@ const HimnoSongScreen: FC<Props> = () => {
           ))}
         </div>
       </Box>
-      <Box style={{position: "sticky", bottom: 0}}>
-        <Flex style={{position: "absolute", bottom: 0, left: 0, zIndex:1}}>
-          <ButtonSingle title="-T" onClick={() => decrementFontSize()} />
-
-          <ButtonSingle title="+T" onClick={() => incrementFontSize()} />
-        </Flex>
-      </Box>
-      <ButtonStar initStar={!!findFav(himno.id)} onToggle={toggleFavorite} />
+      
+      <HimnoSongFooter id={state.himno.id} add={addToFav} remove={rmToFav} />
+      
     </>
   );
 };
 
-export default HimnoSongScreen;
+export default HimnoSongScreenOld;

@@ -3,7 +3,7 @@ import useStorage from "../hooks/useStorage";
 import { responsive } from "../res/responsive";
 
 interface InitialValuesSetting {
-  customFontSize: number;
+  customFontSize: number | string;
   incrementFontSize: () => void;
   decrementFontSize: () => void;
 }
@@ -28,7 +28,7 @@ export const SettingProvider = ({ children }: { children: ReactNode }) => {
   }
 
   const changeFontSize = (unit: number) => {
-    const newFontSize = customFontSize + unit;
+    const newFontSize = responsive(50+ unit, 24+ unit);
     console.log({newFontSize})
     setCustomFontSize(newFontSize);
     setItem("@customFontSize", newFontSize.toString());

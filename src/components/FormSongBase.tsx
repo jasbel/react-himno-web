@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import CustomInput from "../elements/CustomInput";
-import { AddContext } from "@src/screens/AddHimnoScreen";
+import { AddContext } from "@/state/AddContext";
+import { TNote } from "@/types/types";
 
 const FormSongBase = () => {
   const { state, updateState } = useContext(AddContext);
@@ -9,13 +10,12 @@ const FormSongBase = () => {
     if(type === 'title') updateState({title: val})
     if(type === 'description') updateState({title: val})
     if(type === 'nro-song') updateState({code: val})
-    if(type === 'note-musical') updateState({musicalNote: val as any})
+    if(type === 'note-musical') updateState({musicalNote: val as TNote})
   };
 
   return (
-    <div className="bg-rose-100">
+    <div className="p-2 border">
       <CustomInput id="title" label="Titulo" onInput={(val) => onChange(val, "title")} />
-      <CustomInput id="description" label="Descripcion" onInput={(val) => onChange(val, "description")} />
       <CustomInput id="note-musical" label="Nota Musical" onInput={(val) => onChange(val, "note-musical")} />
       <CustomInput id="nro-song" label="Numero de Albanza" onInput={(val) => onChange(val, "nro-song")} />
     </div>

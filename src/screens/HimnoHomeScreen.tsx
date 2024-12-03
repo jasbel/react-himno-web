@@ -4,8 +4,9 @@ import Colors from "../res/colors";
 import logo from "../assets/images/logoHome.png";
 import imgChurch from "../assets/images/church.png";
 import { Link } from "react-router-dom";
-import { responsive, responsiveStr } from "../utils/responsive";
+import { responsiveStr } from "../utils/responsive";
 import { ERoutes } from "../res/enum";
+import { Button } from "@/components/ui/button";
 
 interface Props {}
 
@@ -15,26 +16,35 @@ const HimnoHomeScreen = ({}: Props) => {
       <img style={styles.logo} src={logo} alt="logo" />
 
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        
-        <Link to={ERoutes.home} style={{ ...styles.button }}>
-          Ingresar
+        {/*  */}
+        <Link to={ERoutes.home}>
+          <Button style={{ ...styles.button }}>Ingresar</Button>
         </Link>
-        <Link to={ERoutes.homeQuechua} style={{ ...styles.button }}>
-          Quechua
+        
+        <Link to={ERoutes.homeQuechua} >
+          <Button style={{ ...styles.button }}>Quechua</Button>
         </Link>
 
-        <Link to={ERoutes.homeOld} style={{ ...styles.button,  ...styles.button2 }}>
-          Version Anterior
+        <Link to={ERoutes.homeList}>
+          <Button style={{ ...styles.button }}>Listado</Button>
+        </Link>
+
+        <Link to={ERoutes.addHimno} >
+          <Button style={{ ...styles.button, backgroundColor: Colors.bkgPrimary }}>Nuevo Himno</Button>
+        </Link>
+
+        <Link to={ERoutes.homeOld}>
+          <Button style={{ ...styles.button,  ...styles.button2 }}>Version Anterior</Button>
         </Link>
       </div>
 
       <img style={styles.church} src={imgChurch} alt="logo" />
 
       <div style={styles.footer}>
-        <p style={styles.textFooter}>Version 1.1.0</p>
+        <p style={styles.textFooter}>Version 1.2.0</p>
 
         <p>
-          Soporte: <a href="https://asbel.dev">asbel.dev</a>, Kairos
+          Soporte: <a href="https://asbel.dev" className="text-blue-900 ">asbel.dev</a>, Kairos
         </p>
       </div>
     </div>
@@ -61,22 +71,11 @@ const styles: { [key in any]: React.CSSProperties } = {
     margin: 12,
   },
   button: {
-    width: "100%",
-    textAlign: "center",
     backgroundColor: Colors.orangeDark,
-    padding: responsiveStr(20, 10),
-    paddingLeft: responsiveStr(46, 36),
-    paddingRight: responsiveStr(46, 36),
-    borderRadius: responsiveStr(46, 26),
-    marginLeft: 24,
-    marginRight: 24,
-    marginBottom: "12px",
-
     color: "white",
-    fontSize: responsiveStr(46, 26),
-    letterSpacing: 3,
-    textTransform: "uppercase",
-    fontWeight: "bold",
+    fontSize: responsiveStr(32, 20),
+    marginBottom: 20,
+
   },
   button2: {
     fontSize: 14,

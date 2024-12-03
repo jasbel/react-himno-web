@@ -14,14 +14,14 @@ import React, { FC } from "react";
 
 interface Props {
   title: string;
-  description: string;
+  trigger: React.ReactNode;
   open: boolean;
   onClose: () => void;
   onAccept: () => void;
-  children: any;
+  children: React.ReactNode;
 }
 
-export const AlertDialogStar: FC<Props> = ({ open, onClose, title, description, onAccept, children }) => {
+export const Modal: FC<Props> = ({ open, onClose, title, trigger, onAccept, children }) => {
   const onPreAccept = () => {
     onAccept()
     onClose();
@@ -29,12 +29,12 @@ export const AlertDialogStar: FC<Props> = ({ open, onClose, title, description, 
   return (
     <>
       <AlertDialog open={open}>
-        <AlertDialogTrigger>{children}</AlertDialogTrigger>
+        <AlertDialogTrigger>{trigger}</AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>{title}</AlertDialogTitle>
             <AlertDialogDescription>
-              {description}
+              {children}
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>

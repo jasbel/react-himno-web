@@ -12,9 +12,11 @@ export interface ILetter {
 
 interface Props {
   item: ILetter;
+  isSmall?: boolean;
 }
 
-const ItemHimnoLetter = ({ item }: Props) => {
+const ItemHimnoLetter = ({ item, isSmall = false }: Props) => {
+  const fontsmall = 12;
   const { customFontSize } = useSetting();
   return (
     <Box>
@@ -22,7 +24,7 @@ const ItemHimnoLetter = ({ item }: Props) => {
         style={{
           marginBottom: 24,
           ...styles.paragraph,
-          fontSize: customFontSize,
+          fontSize: isSmall ? fontsmall : customFontSize,
         }}
       >
         <span style={{ whiteSpace: "pre-line" }}>{item.paragraph}</span>
@@ -32,12 +34,12 @@ const ItemHimnoLetter = ({ item }: Props) => {
           {choir !== "" && (
             <>
               <div style={styles.containerIconChoir}>
-                <img style={styles.iconChoir} src={iconChoir} />
+                <img style={isSmall ? styles.iconChoirSmall : styles.iconChoir} src={iconChoir} />
               </div>
               <p
                 style={{
                   ...styles.choir,
-                  fontSize: customFontSize,
+                  fontSize: isSmall ? fontsmall : customFontSize,
                 }}
               >
                 <span style={{ whiteSpace: "pre-line" }}>{item.choirs}</span>
@@ -63,6 +65,11 @@ const styles: { [key in any]: React.CSSProperties } = {
   iconChoir: {
     width: responsive(500, 120),
     height: responsive(35, 11),
+    margin: "auto",
+  },
+  iconChoirSmall: {
+    width: 70,
+    height: 10,
     margin: "auto",
   },
   paragraph: {
