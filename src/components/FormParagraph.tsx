@@ -2,11 +2,12 @@ import { ChangeEventHandler, useState } from "react";
 import FormTextArea from "../elements/FormTextArea";
 
 interface Props {
+  value: string;
   label: string;
   handleChange: (v: string) => void;
 }
 
-const FormParagraph = ({label, handleChange}: Props) => {
+const FormParagraph = ({label, handleChange, value}: Props) => {
   const [p1, setP1] = useState("");
 
   const change: ChangeEventHandler<HTMLTextAreaElement> = (value) => {
@@ -17,7 +18,7 @@ const FormParagraph = ({label, handleChange}: Props) => {
 
   return (
     <div>
-      <FormTextArea label={label} handleChange={change} />
+      <FormTextArea label={label} handleChange={change} value={value} />
     </div>
   );
 };

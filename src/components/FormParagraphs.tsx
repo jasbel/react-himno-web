@@ -7,31 +7,41 @@ import { uuid } from "@/res/helpers";
 import { AddContext } from "@/state/AddContext";
 
 const FormParagraphs = () => {
-  const { updateState } = useContext(AddContext);
+  const { updateState, state } = useContext(AddContext);
   const [paragraphs, setParagraphs] = useState<IParagraph[]>([]);
 
   const onChange = (value: string, idx: number) => {
-    const _paragraphs = paragraphs.map( (p, i) => ({...p, paragraph: i === idx ? value : p.paragraph}))
+    const _paragraphs = paragraphs.map((p, i) => ({ ...p, paragraph: i === idx ? value : p.paragraph }))
     setParagraphs(_paragraphs);
+    updateState({paragraphs: _paragraphs})
   };
 
   const newParagraph = () => {
     setParagraphs([...paragraphs, { chorusPos: [[1]], paragraph: "", id: uuid() }])
   }
 
-  useEffect(() => {
-    updateState({paragraphs: paragraphs})
-  }, [paragraphs])
+  // useEffect(() => {
+  //   updateState({ paragraphs: paragraphs })
+  // }, [paragraphs])
+
   useEffect(() => {
     newParagraph()
   }, [])
 
+  useEffect(() => {
+    // newParagraph()
+    setParagraphs(state.paragraphs)
+  }, [state])
+
   return (
     <div className="p-2 pt-4 pb-2 border">
-      {paragraphs.map((p, i) => <Fragment key={p.id}>
-        <FormParagraph key={p.id} label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} />
-        <FormChoir choirId={'p.chorusPos'} handleAction={(a) => {}} />
-      </Fragment>
+      {paragraphs.map((p, i) => 
+        (
+          <Fragment key={p.id}>
+            <FormParagraph key={p.id} label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} value={p.paragraph} />
+            <FormChoir choirId={'p.chorusPos'} handleAction={(a) => { }} />
+          </Fragment>
+        )
       )}
 
       <Button title="+ Parrafo" onClick={() => newParagraph()} />

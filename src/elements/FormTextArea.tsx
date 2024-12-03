@@ -3,11 +3,12 @@ import Label from "./Label";
 import ControlForm from "./ControlForm";
 
 interface Props {
+  value: string;
   label: string;
   handleChange: ChangeEventHandler<HTMLTextAreaElement>;
 }
 
-const FormTextArea = ({ label, handleChange }: Props) => {
+const FormTextArea = ({ label, handleChange, value }: Props) => {
   const change = (e: any) => {
     console.log({e})
     handleChange(e)
@@ -21,6 +22,7 @@ const FormTextArea = ({ label, handleChange }: Props) => {
         onChange={change}
         onInput={change}
         rows={4}
+        value={value}
       />
     </ControlForm>
   );
