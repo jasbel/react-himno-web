@@ -34,7 +34,7 @@ export interface IChoir {
 export interface ISongCreate {
   code: string,
   title: string,
-  musicalNote: TNote /* | string */,
+  musicalNote: TNote | string ,
   paragraphs: IParagraph[],
   chorus: IChoir[],
 }
