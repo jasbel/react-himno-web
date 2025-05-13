@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { findFav } from "../../libs/storage";
 import Colors from "../../res/colors";
 import { responsive } from "../../res/responsive";
-import { ISongOld } from "../../types/types";
+import { type ISongOld } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNoteOld from "./elements/StarNote";
 import { Box, Flex, TextSingle } from "@components/ui";

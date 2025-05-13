@@ -1,9 +1,9 @@
-import { FC, useContext } from "react";
+import { type FC, useContext } from "react";
 
-import ItemHimnoLetter, { ILetter } from "../components/himno/ItemHimnoLetter";
+import ItemHimnoLetter,  {type ILetter } from "../components/himno/ItemHimnoLetter";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { IChoirOld, ISongOld } from "../types/types";
+import type { IChoirOld,  ISongOld } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";

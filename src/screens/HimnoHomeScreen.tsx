@@ -29,13 +29,17 @@ const HimnoHomeScreen = ({}: Props) => {
           <Button style={{ ...styles.button }}>Listado</Button>
         </Link>
 
-        <Link to={ERoutes.addHimno} >
+        {/* <Link to={ERoutes.addHimno} >
           <Button style={{ ...styles.button, backgroundColor: Colors.bkgPrimary }}>Nuevo Himno</Button>
-        </Link>
+        </Link> */}
 
         <Link to={ERoutes.homeOld}>
           <Button style={{ ...styles.button,  ...styles.button2 }}>Version Anterior</Button>
         </Link>
+
+        <a style={{ ...styles.button,  ...styles.buttonHref }} href="https://6822c3930e3cddbf77471418--heroic-praline-747316.netlify.app/himno-ibb.apk" download>
+          Descargar APK
+        </a>
       </div>
 
       <img style={styles.church} src={imgChurch} alt="logo" />
@@ -80,6 +84,13 @@ const styles: { [key in any]: React.CSSProperties } = {
   button2: {
     fontSize: 14,
     backgroundColor: 'red',
+  },
+  buttonHref: {
+    // fontSize: 14,
+    padding:"2px 24px",
+    borderRadius: "25px",
+    fontWeight: 'bold',
+    textTransform: "uppercase",
   },
   footer: {},
   textFooter: {

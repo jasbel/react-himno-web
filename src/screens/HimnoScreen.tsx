@@ -5,7 +5,7 @@ import HimnoSearch from "../components/himno/HimnoSearch";
 import HimnoItemOld from "../components/himno/HimnoItem";
 import { titleApp } from "../res/constant";
 import { removeAccents } from "../res/removeAccents";
-import { ISongOld } from "../types/types";
+import { type ISongOld } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import FavoriteEmptyState from "../components/favorite/FavoriteEmptyState";

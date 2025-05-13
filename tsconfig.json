@@ -1,40 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext", "WebWorker"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "types": [
-      "vite-plugin-pwa/client"
-    ],
-    "baseUrl": ".",
-    "paths": {
-      // "@/*": ["./*"],
-      "@/*": ["./src/*"],
-      "@components/*": ["./src/components/*"],
-      "@ui/*": ["./src/components/ui/*"],
-      "@hooks/*": ["./src/hooks/*"],
-    }
-  },
-  "include": ["./src"],
-  "references": [{ "path": "./tsconfig.node.json" }],
-  "exclude": [
-    "dist",
-    "node_modules",
-    "test",
-    "test.ts",
-    "**/*.spec.ts",
-    "**/*.worker.ts"
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
   ]
 }

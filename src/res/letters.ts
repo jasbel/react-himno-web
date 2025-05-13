@@ -1,4 +1,4 @@
-import { ISongOld } from "../types/types";
+import { type ISongOld } from "../types/types";
 
 export const songs: ISongOld[] = [
   {

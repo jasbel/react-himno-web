@@ -1,7 +1,7 @@
-import { ChangeEvent, useContext } from "react";
+import { type ChangeEvent, useContext } from "react";
 import { AddContext } from "@/state/AddContext";
 import { uuid } from "@/res/helpers";
-import { ID } from "@/types/types";
+import type { ID } from "@/types/types";
 
 const ChoirList = () => {
   const { state, updateState } = useContext(AddContext);

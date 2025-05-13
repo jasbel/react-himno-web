@@ -1,7 +1,7 @@
 import { AddContext } from "@/state/AddContext";
 import { useContext, useState } from "react";
 import { Modal } from "./Modal";
-import { IChoir, ID } from "@/types/types";
+import type{ IChoir, ID } from "@/types/types";
 
 interface Props {
   choirId: string;

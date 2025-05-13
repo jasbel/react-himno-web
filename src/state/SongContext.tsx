@@ -1,5 +1,5 @@
-import React, { ReactNode, useEffect, useState } from "react";
-import { ISongOld } from "../types/types";
+import React, { type ReactNode, useEffect, useState } from "react";
+import type { ISongOld } from "../types/types";
 import { songs as songAll } from "../res/letters";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 

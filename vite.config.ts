@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { ManifestOptions, VitePWA, VitePWAOptions } from "vite-plugin-pwa";
+import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path';
 
 
@@ -48,7 +49,7 @@ export default defineConfig({
   build: {
     sourcemap: process.env.SOURCE_MAP === "true",
   },
-  plugins: [react(), VitePWA(/* pwaOptions */)],
+  plugins: [react(), tailwindcss(), VitePWA(/* pwaOptions */)],
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),

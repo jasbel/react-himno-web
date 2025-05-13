@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 body {
   margin: 0;
@@ -73,7 +71,7 @@ code {
   }
 }
 
-@layer base {
+/* @layer base {
   * {
     @apply border-border;
   }
@@ -81,7 +79,7 @@ code {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
 
 .form-choir__content {
   min-height: 60px;
