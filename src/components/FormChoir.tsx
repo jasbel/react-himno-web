@@ -1,11 +1,12 @@
 import { AddContext } from "@/state/AddContext";
 import { useContext, useState } from "react";
-import { Modal } from "./Modal";
-import type{ IChoir, ID } from "@/types/types";
+// import { Modal } from "./Modal";
+import type { IChoir, ID } from "@/types/types";
+import Modal from "./ui/modal/Modal";
 
 interface Props {
   choirId: string;
-  handleAction: (v:  'change' | 'remove') => void;
+  handleAction: (v: 'change' | 'remove') => void;
 }
 
 const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
@@ -15,7 +16,7 @@ const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
   const { state, updateState } = useContext(AddContext);
   const { chorus } = state;
 
-  const action = (key:  'change' | 'remove', _state?: IChoir) => {
+  const action = (key: 'change' | 'remove', _state?: IChoir) => {
     if (key === 'remove') {
       handleAction(key);
     }
@@ -32,27 +33,35 @@ const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
 
   return (
     <div className={'form-choir__content'}>
-      <div>{getChoir().split('\\n').map(c => (<p>{c}</p>))}</div>
+      <div className="p-2">
+        {/* {state.chorus.map(c => <p>{c.choir}</p>)} */}
+        {(chorus.find(c => c.id === choirId)?.choir || '').split('\\n').map(c => (<p>{c}</p>))}
+      </div>
       <div className="btn-wrap">
 
         <Modal
           onAccept={() => {
             setOpenChange(false);
           }}
-          onClose={() => setOpenChange(false)} open={openChange} title="Cambiar"
+          onClose={() => setOpenChange(false)}
+          isOpen={openChange}
+          title="Cambiar"
           trigger={
-            <button style={btnStyle} onClick={() => {
-              setOpenChange(true);
-            }}>Cambiar</button>
-          } >
+            <>
+
+              <button style={btnStyle} onClick={() => {
+                setOpenChange(true);
+              }}>Cambiar</button>
+            </>
+          }  >
           <div>
             {state.chorus.map(c => {
               return (
                 <div key={c.id} >
                   <button style={{
                     padding: 3, borderRadius: 12, border: '1px solid gray', width: '100%', marginBottom: 8,
-                    backgroundColor: currentSelect === c.id ?  '#e6fff7' : 'transparent'
-                    }} onClick={() => action('change', c)}>
+                    backgroundColor: currentSelect === c.id ? '#e6fff7' : 'transparent'
+                  }} onClick={() => action('change', c)}>
                     <span>{c.choir}</span>
                   </button>
                 </div>
@@ -67,7 +76,7 @@ const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
             setOpen(false);
           }}
           onClose={() => setOpen(false)}
-          open={open}
+          isOpen={open}
           title="Borrar"
           trigger={
             <button style={btnStyle} onClick={() => {
@@ -93,6 +102,7 @@ const btnStyle: React.CSSProperties = {
   background: 'skyblue',
   padding: '8px 12px',
   borderRadius: '40px',
+  fontSize: 16
 
   // display: 'none'
 }

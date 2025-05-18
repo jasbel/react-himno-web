@@ -3,7 +3,6 @@ import axiosClient from './axiosClient';
 
 export const getListSong = async () => {
   try {
-    debugger
     const response = await axiosClient.get<ISong[]>('/songs');
     return response.data;
   } catch (error) {

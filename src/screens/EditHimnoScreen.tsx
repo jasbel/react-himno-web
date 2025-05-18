@@ -18,7 +18,6 @@ const EditHimnoScreen = () => {
   const { changeSongBySearch, song, getSong } = useDinamicSong();
 
   const getSongEdit = async () => {
-    debugger
     const _song =    await getSong(id as ID)
     updateState(_song)      
 
