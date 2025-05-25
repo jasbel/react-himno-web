@@ -1,15 +1,15 @@
 import { AddContext } from "@/state/AddContext";
 import { useContext, useState } from "react";
 // import { Modal } from "./Modal";
-import type { IChoir, ID } from "@/types/types";
+import type { IChoir, IChorusPos, ID } from "@/types/types";
 import Modal from "./ui/modal/Modal";
 
 interface Props {
-  choirId: string;
+  chorusIdOrPos: IChorusPos;
   handleAction: (v: 'change' | 'remove') => void;
 }
 
-const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
+const FormChoir = ({ chorusIdOrPos = [], handleAction }: Props) => {
   const [openChange, setOpenChange] = useState(false);
   const [open, setOpen] = useState(false);
   const [currentSelect, setCurrentSelect] = useState<ID>();
@@ -27,15 +27,38 @@ const FormChoir = ({ choirId = 'lorem', handleAction }: Props) => {
     }
   };
 
-  const getChoir = () => {
-    return chorus.find(c => c.id === choirId)?.choir || '';
+  const geChoirById = (idOrPos: ID | number) => {
+    if (typeof idOrPos === 'string')
+      return (chorus.find(c => c.id === idOrPos)?.choir || '').split('\\n').join("  ")
+
+    return (chorus[idOrPos]?.choir || '').split('\\n').join("  ")
   }
+
+  const getChorus = () => {
+    const ids = []
+    if (typeof chorusIdOrPos === 'string' || typeof chorusIdOrPos === 'number') {
+      ids.push([chorusIdOrPos, 1])
+    }
+
+    return ids?.map(idpos => {
+      const repeat = Number(idpos[1] || 1)
+      let choir = geChoirById(idpos[0])
+
+      Array(repeat - 1).fill(0).forEach(_ => {
+        choir = `/${choir}/`
+      })
+
+      
+      return choir
+    })
+  }
+
 
   return (
     <div className={'form-choir__content'}>
       <div className="p-2">
+        {getChorus().map(choir => <p>{choir}</p>)}
         {/* {state.chorus.map(c => <p>{c.choir}</p>)} */}
-        {(chorus.find(c => c.id === choirId)?.choir || '').split('\\n').map(c => (<p>{c}</p>))}
       </div>
       <div className="btn-wrap">
 

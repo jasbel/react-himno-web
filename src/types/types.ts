@@ -20,10 +20,11 @@ export interface ISongOld {
   paragraphs: IParagraphOld[],
   chorus: IChoirOld[],
 }
+export type IChorusPos = ([positionOrId: number | ID, repeat?: number]|(ID|number))[] | (ID|number)
 export interface IParagraph {
   id: ID;
   paragraph: string;
-  chorusPos: [positionOrId: number | ID, repeat?: number][];
+  chorusPos: IChorusPos;
 }
 
 export interface IChoir {

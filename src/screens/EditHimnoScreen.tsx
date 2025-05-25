@@ -28,6 +28,9 @@ const EditHimnoScreen = () => {
   useEffect(() => {
     getSongEdit();
   }, [])
+  useEffect(() => {
+    console.log(state)
+  }, [state])
   
 
   return (

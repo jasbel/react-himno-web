@@ -5,9 +5,10 @@ interface Props {
   label: string;
   placeholder?: string;
   onInput: (v: string) => void;
+  value?: string;
 }
 
-const CustomInput = ({ id, label , onInput, placeholder}: Props) => {
+const CustomInput = ({ id, label , onInput, placeholder, value}: Props) => {
   return (
     <ControlForm label={label} >
       <input
@@ -17,10 +18,12 @@ const CustomInput = ({ id, label , onInput, placeholder}: Props) => {
           borderRadius: 8,
           padding: "3px 12px",
         }}
+        className="w-100"
         placeholder={placeholder}
         onChange={e => {
           onInput((e.target as HTMLInputElement).value)
         }}
+        value={value}
       />
     </ControlForm>
   );

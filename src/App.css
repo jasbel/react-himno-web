@@ -1,3 +1,11 @@
+/* default config */
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
 .App {
   text-align: center;
 }

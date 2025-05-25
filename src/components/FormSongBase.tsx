@@ -15,9 +15,9 @@ const FormSongBase = () => {
 
   return (
     <div className="p-2 border">
-      <CustomInput id="title" label="Titulo" onInput={(val) => onChange(val, "title")} />
-      <CustomInput id="note-musical" label="Nota Musical" onInput={(val) => onChange(val, "note-musical")} />
-      <CustomInput id="nro-song" label="Numero de Albanza" onInput={(val) => onChange(val, "nro-song")} />
+      <CustomInput id="title" label="Titulo" onInput={(val) => onChange(val, "title")} value={state.title} />
+      <CustomInput id="note-musical" label="Nota Musical" onInput={(val) => onChange(val, "note-musical")} value={state.musicalNote} />
+      <CustomInput id="nro-song" label="Numero de Albanza" onInput={(val) => onChange(val, "nro-song")} value={state.code}/>
     </div>
   );
 };

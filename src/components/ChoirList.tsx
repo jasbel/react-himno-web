@@ -18,12 +18,12 @@ const ChoirList = () => {
   return (
     <div className="border p-2" style={{ minHeight: 200 }}>
       <div>
-        <button className="btn btn-primary" onClick={() => updateState({...state, chorus: [...state.chorus, {choir: '', id: uuid()}]})}>Agregar</button>
+        <button className="btn btn-primary pointer" onClick={() => updateState({...state, chorus: [...state.chorus, {choir: '', id: uuid()}]})}>Agregar</button>
       </div>
       {state.chorus.map(c => {
         return (
           <div key={c.id} onClick={() => console.log(c.id)}>
-            <textarea className="border px-1" rows={4} onChange={e => changeChoir(e, c.id)} >{c.choir}</textarea>
+            <textarea className="border px-1 w-100 rounded-lg" rows={4} onChange={e => changeChoir(e, c.id)} >{c.choir}</textarea>
           </div>
         )
       })}
