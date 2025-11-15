@@ -1,0 +1,24 @@
+{
+    "id": "2",
+    "code": "2",
+    "title": " 2  Yupaychana Diosninchejta",
+    "musicalNote": " (Mi Menor)",
+    "chorus": [],
+    "paragraphs": [
+        {
+            "id": "7",
+            "chorusPos": [],
+            "paragraph": " /Yupaychana Diosninchejta, \n Paymanta bendición jamun. \n Jallp'a patapi kajkuna \n Cielopipis yupaychasun/"
+        },
+        {
+            "id": "8",
+            "chorusPos": [],
+            "paragraph": " /Dios Tatata yupaychana, \n Dios Churita yupaychana, \n Dios Santo Espiritutapis.\n Kinsantinta yupaychana./ \n /A nuestro Dios alabemos, \n Él manda las bendiciones. \n Los salvados de este mundo \n En el cielo alabaremos./"
+        },
+        {
+            "id": "9",
+            "chorusPos": [],
+            "paragraph": " /Al Padre Dios alabemos, \n A su Hijo Jesucristo, \n Y al Espíritu Santo,\n Al Dios trino alabemos./"
+        }
+    ]
+}

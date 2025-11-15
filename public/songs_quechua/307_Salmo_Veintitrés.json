@@ -1,0 +1,19 @@
+{
+    "id": "307",
+    "code": "307",
+    "title": " 307   Salmo Veintitrés",
+    "musicalNote": " (Fa Mayor)",
+    "chorus": [],
+    "paragraphs": [
+        {
+            "id": "3019",
+            "chorusPos": [],
+            "paragraph": " /Salmo veintitrés qhelqasqa noqapaj.\nNi manchikunichu; Jehovamin Michejniy./\n/Laqha wayq'ospipis, wañuy patapipis.\nNi manchikunichu; Jehovamin Michejniy./"
+        },
+        {
+            "id": "3020",
+            "chorusPos": [],
+            "paragraph": " /Salmo veintitrés para mi escrito está\nA nada temeré; JEHOVA ES MI PASTOR./ \n /Aunque yo ande en valles de sombras y temores,\nA nada temeré; JEHOVA ES MI PASTOR./"
+        }
+    ]
+}

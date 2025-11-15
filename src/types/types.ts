@@ -43,3 +43,10 @@ export interface ISongCreate {
 export interface ISong extends ISongCreate {
   id: ID,
 }
+export interface ISongSingle {
+  code: string,
+  title: string,
+  musicalNote: TNote | string,
+  description: string,
+  
+}

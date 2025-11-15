@@ -15,7 +15,7 @@ interface Props {
 const HimnoItemOld = ({ item, onClick }: Props) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
-  const { title: title_es, description: description_es, id, musicalNote } = item;
+  const { title: title_es, description: description, id, musicalNote } = item;
 
   const getFavorite = () => {
     try {
@@ -49,7 +49,7 @@ const HimnoItemOld = ({ item, onClick }: Props) => {
               {title_es}
             </TextSingle>
             <TextSingle style={{ ...styles.description }}>
-              {description_es}
+              {description}
             </TextSingle>
           </Flex>
         </div>
