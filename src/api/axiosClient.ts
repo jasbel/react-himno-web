@@ -19,4 +19,19 @@ axiosClient.interceptors.response.use(
   }
 );
 
+export const axiosClientLocal = axios.create({
+  baseURL: '/jsons/' ,
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+
+axiosClientLocal.interceptors.response.use(
+  response => response,
+  error => {
+    console.error(error);
+    return Promise.reject(error);
+  }
+);
+
 export default axiosClient;

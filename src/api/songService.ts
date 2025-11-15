@@ -1,5 +1,26 @@
 import { ID, ISong, ISongCreate } from '@/types/types';
-import axiosClient from './axiosClient';
+import axiosClient, { axiosClientLocal } from './axiosClient';
+
+export const getListsSong = async () => {
+  try {
+    // useEffect(() => {
+    //   fetch('/jsons/index.json')
+    //     .then(res => res.json())
+    //     .then(data => {
+    //       console.log(data)
+    //       // setHimnos(data);
+    //       // setLoading(false);
+    //     })
+    //     .catch(err => {
+    //       console.error('Error al cargar índice:', err);
+    //       // setLoading(false);
+    //     });
+    const response = await axiosClientLocal.get<ISong[]>('index.json');
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
 
 export const getListSong = async () => {
   try {

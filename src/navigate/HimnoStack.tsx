@@ -11,8 +11,11 @@ import { ERoutes } from "../res/enum";
 import HimnoListScreen from "@/screens/HimnoListScreen";
 import EditHimnoScreen from "@/screens/EditHimnoScreen";
 import { routeList } from "@/res/constant";
+import { useEffect } from "react";
+import HimnoListsScreen from "@/screens/HimnoListsScreen";
 
 const HimnoStack = () => {
+    
   return (
     <BrowserRouter>
       <Routes>
@@ -24,6 +27,7 @@ const HimnoStack = () => {
         <Route path={ERoutes.home} element={<HimnoNewScreen />} />
         <Route path={ERoutes.homeQuechua} element={<HimnoNewQuechuaScreen />} />
         <Route path={ERoutes.homeList} element={<HimnoListScreen />} />
+        <Route path={ERoutes.homeLists} element={<HimnoListsScreen />} />
         <Route path={ERoutes.itemOld} element={<HimnoSongScreenOld />} />
         <Route path={ERoutes.item}  element={<HimnoSongScreen />} />
         <Route path={ERoutes.itemQuechua}  element={<HimnoSongQuechuaScreen />} />
