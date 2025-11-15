@@ -1,4 +1,5 @@
 export type ID = string;
+export type IDPos = ID|number;
 export type TNote = '_' | 'G|Sol' | 'A|La' | 'C|Do' | 'D|Re' | 'E|Mi' | 'B|Si' | 'F|Fa' | 'F#|Fa#' | 'C/D|Do-Re'
 ;
 
@@ -20,7 +21,7 @@ export interface ISongOld {
   paragraphs: IParagraphOld[],
   chorus: IChoirOld[],
 }
-export type IChorusPos = ([positionOrId: number | ID, repeat?: number]|(ID|number))[] | (ID|number)
+export type IChorusPos = ([positionOrId: IDPos, repeat?: number]|(IDPos))[] | (IDPos)
 export interface IParagraph {
   id: ID;
   paragraph: string;

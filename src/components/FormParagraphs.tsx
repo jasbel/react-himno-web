@@ -39,7 +39,7 @@ const FormParagraphs = () => {
         (
           <Fragment key={p.id}>
             <FormParagraph key={p.id} label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} value={p.paragraph} />
-            <FormChoir chorusIdOrPos={p.chorusPos} handleAction={(a) => { }} />
+            <FormChoir idParagraph={p.id} chorusIdOrPos={p.chorusPos} />
           </Fragment>
         )
       )}

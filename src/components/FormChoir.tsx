@@ -1,28 +1,27 @@
 import { AddContext } from "@/state/AddContext";
 import { useContext, useState } from "react";
 // import { Modal } from "./Modal";
-import type { IChoir, IChorusPos, ID } from "@/types/types";
+import type { IChoir, IChorusPos, ID, IDPos } from "@/types/types";
 import Modal from "./ui/modal/Modal";
+import { getIdPosByChoir } from "@/helpers/helper";
 
 interface Props {
+  idParagraph: ID;
   chorusIdOrPos: IChorusPos;
-  handleAction: (v: 'change' | 'remove') => void;
 }
 
-const FormChoir = ({ chorusIdOrPos = [], handleAction }: Props) => {
+const FormChoir = ({ chorusIdOrPos = [] }: Props) => {
   const [openChange, setOpenChange] = useState(false);
   const [open, setOpen] = useState(false);
-  const [currentSelect, setCurrentSelect] = useState<ID>();
+  const [currentSelect, setCurrentSelect] = useState<IDPos>();
   const { state, updateState } = useContext(AddContext);
   const { chorus } = state;
 
   const action = (key: 'change' | 'remove', _state?: IChoir) => {
     if (key === 'remove') {
-      handleAction(key);
+      // handleAction(key, getIdPos());
     }
     if (key === 'change') {
-      handleAction(key);
-
       setCurrentSelect(_state?.id)
     }
   };
@@ -34,21 +33,23 @@ const FormChoir = ({ chorusIdOrPos = [], handleAction }: Props) => {
     return (chorus[idOrPos]?.choir || '').split('\\n').join("  ")
   }
 
-  const getChorus = () => {
-    const ids = []
-    if (typeof chorusIdOrPos === 'string' || typeof chorusIdOrPos === 'number') {
-      ids.push([chorusIdOrPos, 1])
+  const changeChoir = () => {
+    if (currentSelect) {
+      // handleAction('change', currentSelect);
     }
+  }
 
-    return ids?.map(idpos => {
-      const repeat = Number(idpos[1] || 1)
-      let choir = geChoirById(idpos[0])
+  const getChorus = () => {
+    const infoChorus = getIdPosByChoir(chorusIdOrPos)
+
+    return infoChorus.map(it => {
+      const repeat = Number(it.repeat || 1)
+      let choir = geChoirById(it.value)
 
       Array(repeat - 1).fill(0).forEach(_ => {
         choir = `/${choir}/`
       })
 
-      
       return choir
     })
   }
@@ -64,6 +65,7 @@ const FormChoir = ({ chorusIdOrPos = [], handleAction }: Props) => {
 
         <Modal
           onAccept={() => {
+            changeChoir()
             setOpenChange(false);
           }}
           onClose={() => setOpenChange(false)}

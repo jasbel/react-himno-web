@@ -1,3 +1,5 @@
+import { IChorusPos, ID, IDPos } from "@/types/types";
+
 const convertDecimalToHex = (val: number) => {
   if (val >= 1) {
     return 'ff';
@@ -19,3 +21,42 @@ export const opacityColor = (color: string, opacity = 0.5) => {
   const currentOpacityColor = color + hexString;
   return currentOpacityColor;
 };
+
+interface IChoirObj {
+  type: "idx" | 'id';
+  value: IDPos;
+  id?: ID;
+  pos?: number;
+  repeat: number;
+}
+
+const getChoirObject = (posOrId: IDPos, repeat: number = 1): IChoirObj => {
+  return {
+    pos: typeof posOrId === 'number' ? posOrId : undefined,
+    id: typeof posOrId === 'string' ? posOrId : undefined,
+    value: posOrId,
+    type: typeof posOrId === 'number' ? 'idx' : 'id',
+    repeat: repeat||1
+  }
+}
+
+export const getIdPosByChoir = (chorusIdOrPos: IChorusPos) => {
+  const res: IChoirObj[] = [];
+
+  if (typeof chorusIdOrPos === 'string' || typeof chorusIdOrPos === 'number') {
+    res.push(getChoirObject(chorusIdOrPos))
+  }
+
+  if (Array.isArray(chorusIdOrPos)) {
+    chorusIdOrPos.forEach(it => {
+      if (Array.isArray(it)) {
+        res.push(getChoirObject(it[0], it[1]))
+        return;
+      }
+      if (typeof it === 'string' || typeof it === 'number') {
+        res.push(getChoirObject(it))
+      }
+    });
+  }
+  return res
+}
