@@ -52,7 +52,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         style={{
           width: "100%",
           textAlign: "center",
-          padding: responsiveStr(20, 10),
+          padding: responsiveStr(30, 10),
           paddingLeft: responsiveStr(46, 36),
           paddingRight: responsiveStr(46, 36),
           borderRadius: responsiveStr(46, 26),

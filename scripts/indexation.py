@@ -21,7 +21,7 @@ def main():
                     
                     song_info = {
                         "num_song": song_data.get("num_song", ""),
-                        "title_es": song_data.get("title_es", ""),
+                        "title": song_data.get("title", ""),
                         "description": description,
                         "musicalNote": song_data.get("musicalNote", ""),
                         "filename": filename

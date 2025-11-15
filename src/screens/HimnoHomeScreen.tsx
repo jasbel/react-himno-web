@@ -8,50 +8,60 @@ import { responsiveStr } from "../utils/responsive";
 import { ERoutes } from "../res/enum";
 import { Button } from "@/components/ui/button";
 
-interface Props {}
+interface Props {
+  admin: boolean
+}
 
-const HimnoHomeScreen = ({}: Props) => {
+const HimnoHomeScreen = ({admin}: Props) => {
+  
   return (
-    <div style={styles.container}>
-      <img style={styles.logo} src={logo} alt="logo" />
+      <div style={styles.container}>
+        <img style={styles.logo} src={logo} alt="logo" />
 
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        {/*  */}
-        <Link to={ERoutes.home}>
-          <Button style={{ ...styles.button }}>Ingresar</Button>
-        </Link>
-        
-        <Link to={ERoutes.homeQuechua} >
-          <Button style={{ ...styles.button }}>Quechua</Button>
-        </Link>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          {/*  */}
+          <Link to={ERoutes.home}>
+            <Button style={{ ...styles.button }}>Himnos</Button>
+          </Link>
 
-        <Link to={ERoutes.homeList}>
-          <Button style={{ ...styles.button }}>Listado</Button>
-        </Link>
-
-        {/* <Link to={ERoutes.addHimno} >
-          <Button style={{ ...styles.button, backgroundColor: Colors.bkgPrimary }}>Nuevo Himno</Button>
-        </Link> */}
-
-        <Link to={ERoutes.homeOld}>
+          <Link to={ERoutes.homeQuechua} >
+            <Button style={{ ...styles.button }}>Quechua</Button>
+          </Link>
+<Link to={ERoutes.homeOld}>
           <Button style={{ ...styles.button,  ...styles.button2 }}>Version Anterior</Button>
         </Link>
+{
+  admin && 
+  <>
 
-        <a style={{ ...styles.button,  ...styles.buttonHref }} href="https://6822c3930e3cddbf77471418--heroic-praline-747316.netlify.app/himno-ibb.apk" download>
-          Descargar APK
-        </a>
+          <Link to={ERoutes.homeList}>
+            <Button style={{ ...styles.button }}>Listado</Button>
+          </Link>
+
+          <Link to={ERoutes.addHimno} >
+          <Button style={{ ...styles.button, backgroundColor: Colors.bkgPrimary }}>Nuevo Himno</Button>
+        </Link>
+
+          <Link to={ERoutes.homeOld}>
+            <Button style={{ ...styles.button, ...styles.button2 }}>Version Anterior</Button>
+          </Link>
+</>
+}
+          <a style={{ ...styles.button, ...styles.buttonHref }} href="https://6822c3930e3cddbf77471418--heroic-praline-747316.netlify.app/himno-ibb.apk" download>
+            Descargar APK
+          </a>
+        </div>
+
+        <img style={styles.church} src={imgChurch} alt="logo" />
+
+        <div style={styles.footer}>
+          <p style={styles.textFooter}>Version 1.2.0</p>
+
+          <p>
+            Soporte: <a href="https://asbel.dev" className="text-blue-900 ">asbel.dev</a>, Kairos
+          </p>
+        </div>
       </div>
-
-      <img style={styles.church} src={imgChurch} alt="logo" />
-
-      <div style={styles.footer}>
-        <p style={styles.textFooter}>Version 1.2.0</p>
-
-        <p>
-          Soporte: <a href="https://asbel.dev" className="text-blue-900 ">asbel.dev</a>, Kairos
-        </p>
-      </div>
-    </div>
   );
 };
 
@@ -77,7 +87,7 @@ const styles: { [key in any]: React.CSSProperties } = {
   button: {
     backgroundColor: Colors.orangeDark,
     color: "white",
-    fontSize: responsiveStr(32, 20),
+    fontSize: responsiveStr(28, 20),
     marginBottom: 20,
 
   },
@@ -87,7 +97,7 @@ const styles: { [key in any]: React.CSSProperties } = {
   },
   buttonHref: {
     // fontSize: 14,
-    padding:"2px 24px",
+    padding: "2px 24px",
     borderRadius: "25px",
     fontWeight: 'bold',
     textTransform: "uppercase",

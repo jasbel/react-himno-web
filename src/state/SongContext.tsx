@@ -1,7 +1,7 @@
 import React, { type ReactNode, useEffect, useState } from "react";
 import type { ISongOld } from "../types/types";
-import { songs as songAll } from "../res/letters";
 import { addFav, deleteFav, findFav } from "../libs/storage";
+import { getListOldSongLocal } from "@/api/songLocalService";
 
 interface InitialValues {
   songs: ISongOld[];
@@ -23,9 +23,13 @@ export const SongProvider = ({ children }: { children: ReactNode }) => {
   const [songs, setSongs] = useState([] as ISongOld[]);
   const [songFavorites, setSongFavorites] = useState<ISongOld[]>([]);
 
+  const getSongAll = async (): Promise<ISongOld[]> => {
+    return await getListOldSongLocal()
+  }
+
   const getSongs = async () => {
     try {
-      // const favIds = getFavs();
+      const songAll = await getSongAll()
       const favorites = songAll.filter((song) => !!findFav(song.id));
       const songsFilter = songAll.filter((song) => !findFav(song.id));
 

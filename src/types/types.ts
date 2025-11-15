@@ -33,20 +33,23 @@ export interface IChoir {
   choir: string,
 }
 
-export interface ISongCreate {
+export interface ISongBase {
   code: string,
   title: string,
-  musicalNote: TNote | string ,
+  musicalNote: TNote ,
   paragraphs: IParagraph[],
   chorus: IChoir[],
 }
-export interface ISong extends ISongCreate {
+
+export interface ISongCreate extends ISongBase {}
+
+export interface ISong extends ISongBase {
   id: ID,
 }
+
 export interface ISongSingle {
   code: string,
   title: string,
-  musicalNote: TNote | string,
+  musicalNote: TNote,
   description: string,
-  
 }

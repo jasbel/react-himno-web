@@ -14,7 +14,7 @@ import { ERoutes } from "../res/enum";
 
 const songsAll: ISongOld[] = [];
 
-const HimnoScreen = () => {
+const HimnoScreenOld = () => {
   const [songsSearch, setSongsSearch] = useState(songsAll);
   const [modeSearch, setModeSearch] = useState(false);
   const navigate = useNavigate();
@@ -44,7 +44,7 @@ const HimnoScreen = () => {
 
 
   return (
-    <>
+    <div data-testid="himnoscreenold">
       <Hero title={titleApp} hrefBefore={"/"} hiddenFS />
 
       <div style={styles.container}>
@@ -72,11 +72,11 @@ const HimnoScreen = () => {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default HimnoScreen;
+export default HimnoScreenOld;
 
 const styles: { [key in any]: React.CSSProperties } = {
   container: {

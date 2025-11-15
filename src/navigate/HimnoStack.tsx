@@ -1,4 +1,4 @@
-import HimnoScreen from "../screens/HimnoScreen";
+import HimnoScreenOld from "../screens/HimnoScreen";
 import HimnoSongScreenOld from "../screens/HimnoSongScreen";
 import HimnoHomeScreen from "../screens/HimnoHomeScreen";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,17 +13,20 @@ import EditHimnoScreen from "@/screens/EditHimnoScreen";
 import { routeList } from "@/res/constant";
 import { useEffect } from "react";
 import HimnoListsScreen from "@/screens/HimnoListsScreen";
+import LayoutMain from "@/layout/LayoutMain";
+import LayoutGlobal from "@/layout/LayoutGlobal";
 
 const HimnoStack = () => {
     
   return (
+    <LayoutGlobal>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HimnoHomeScreen />}>
-          <Route index element={<HimnoHomeScreen />} />
-          <Route path={ERoutes.principal} element={<HimnoHomeScreen />} />
+        <Route path="/" element={<HimnoHomeScreen admin={false}/>}>
+          <Route index element={<HimnoHomeScreen  admin={false}/>} />
+          <Route path={ERoutes.principal} element={<HimnoHomeScreen admin={false} />} />
         </Route>
-        <Route path={ERoutes.homeOld} element={<HimnoScreen />} />
+        <Route path={ERoutes.homeOld} element={<HimnoScreenOld />} />
         <Route path={ERoutes.home} element={<HimnoNewScreen />} />
         <Route path={ERoutes.homeQuechua} element={<HimnoNewQuechuaScreen />} />
         <Route path={ERoutes.homeList} element={<HimnoListScreen />} />
@@ -35,6 +38,7 @@ const HimnoStack = () => {
         <Route path={routeList.edit(':id')}  element={<EditHimnoScreen />} />
       </Routes>
     </BrowserRouter>
+    </LayoutGlobal>
   );
 };
 

@@ -24,7 +24,7 @@ const HimnoSongScreenOld: FC<Props> = () => {
   const { addToFav, rmToFav } = useContext(SongContext);
   const { state } = useLocation() as { state: { himno: ISongOld } };
 
-  const { paragraphs, chorus, title: title_es } = state.himno;
+  const { paragraphs, chorus, title } = state.himno;
   /* TODO: Mejorar la respuesta de indefinido, array vacio, o string vacio en choir y chorus */
   const verses: ILetter[] = paragraphs.map((item, i) => {
     let choirs = [] as string[];
@@ -59,7 +59,7 @@ const HimnoSongScreenOld: FC<Props> = () => {
 
   return (
     <>
-      <Hero title={title_es} hrefBefore={'/' + ERoutes.home} />
+      <Hero title={title} hrefBefore={'/' + ERoutes.home} />
 
       <Box style={{ padding: 1, paddingTop: 6,paddingBottom: 6, backgroundColor: Colors.bkgWhite}}>
         <div style={{ minHeight: "calc(100vh - 110px)" }}>

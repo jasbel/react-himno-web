@@ -2,12 +2,14 @@
   {
     "id": "0",
     "num_song": "0",
-    "title_es": "FUI HECHO JUSTO ",
+    "title": "FUI HECHO JUSTO ",
     "description": "Fui hecho justo sin merecerlo,..",
     "musicalNote": "G|Sol",
     "paragraphs": [
       {
-        "paragraph": "Fui hecho justo sin merecerlo\ntoda mi culpa ya cubierta esta.\nToda mi deuda quedó saldada,\npor la persona del cordero inmortal."
+        "paragraph": "Fui hecho justo sin merecerlo\ntoda mi culpa ya cubierta esta.\nToda mi deuda quedó saldada,\npor la persona del cordero inmortal.",
+        "choirId": null,
+        "choirRepeat": null
       },
       {
         "paragraph": "Regenerado y transformado,\n          Cambio mi mente y mi forma de actuar.\n          Hoy solo quiero servir a Cristo,\n          Y ser la luz la sal de un claro manantial."
@@ -15,6 +17,7 @@
     ],
     "chorus": [
       {
+        "id":"fasdfasd",
         "choir": "Salvación, camino angosto,\n          Plenitud incomparable don de Dios.\n          Una cruz cubierta en sangre.\n          Fue necesaria para nuestra redención.",
         "noPositions": []
       }
@@ -23,7 +26,7 @@
   {
     "id": "1",
     "num_song": "1",
-    "title_es": "VIVIR POR FE",
+    "title": "VIVIR POR FE",
     "description": "Por fe, veremos a nuestro Dios, En el plan que creó en la eternidad...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -66,7 +69,7 @@
   {
     "id": "2",
     "num_song": "2",
-    "title_es": "AQUELLA CRUZ",
+    "title": "AQUELLA CRUZ",
     "description": "El cordero que sufrió...   ",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -95,7 +98,7 @@
   {
     "id": "3",
     "num_song": "3",
-    "title_es": "ANTE EL TRONO CELESTIAL",
+    "title": "ANTE EL TRONO CELESTIAL",
     "description": "Ante el trono celestial...   ",
     "musicalNote": "C/D|Do-Re",
     "paragraphs": [
@@ -136,7 +139,7 @@
   {
     "id": "4",
     "num_song": "4",
-    "title_es": "COMPADECETE DE MÍ",
+    "title": "COMPADECETE DE MÍ",
     "description": "Compadécete de mí...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -155,7 +158,7 @@
   {
     "id": "5",
     "num_song": "5",
-    "title_es": "CONTEMPLA A DIOS",
+    "title": "CONTEMPLA A DIOS",
     "description": " Quién formó las olas al hablar...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -190,7 +193,7 @@
   {
     "id": "6",
     "num_song": "6",
-    "title_es": "CUAN GRANDE ES DIOS",
+    "title": "CUAN GRANDE ES DIOS",
     "description": "Cuan esplendor de un rey...",
     "musicalNote": "E|Mi",
     "paragraphs": [
@@ -225,7 +228,7 @@
   {
     "id": "7",
     "num_song": "7",
-    "title_es": "DESDE QUE TE CONOCÍ",
+    "title": "DESDE QUE TE CONOCÍ",
     "description": "Desde que te conocí...",
     "musicalNote": "D|Re",
     "paragraphs": [
@@ -255,7 +258,7 @@
   {
     "id": "8",
     "num_song": "8",
-    "title_es": "DE GLORIA EN GLORIA",
+    "title": "DE GLORIA EN GLORIA",
     "description": "De gloria en gloria te veo...",
     "musicalNote": "D|Re",
     "paragraphs": [
@@ -273,7 +276,7 @@
   {
     "id": "9",
     "num_song": "9",
-    "title_es": "DE LA MANO SOBERANA",
+    "title": "DE LA MANO SOBERANA",
     "description": "Cuan feroz llega la prueba...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -311,7 +314,7 @@
   {
     "id": "10",
     "num_song": "10",
-    "title_es": "DIOS SUPREMO ERES",
+    "title": "DIOS SUPREMO ERES",
     "description": "Dios supremo eres...",
     "musicalNote": "G|Sol",
     "paragraphs": [
@@ -329,7 +332,7 @@
   {
     "id": "11",
     "num_song": "11",
-    "title_es": "DIGNO ES ÉL",
+    "title": "DIGNO ES ÉL",
     "description": "Apocalipsis 4:8. Digno es él ... ",
     "musicalNote": "D|Re",
     "paragraphs": [
@@ -358,7 +361,7 @@
   {
     "id": "12",
     "num_song": "12",
-    "title_es": "BELLAS PALABRAS DE VIDA",
+    "title": "BELLAS PALABRAS DE VIDA",
     "description": "Oh! cantádmelas otra vez...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -382,7 +385,7 @@
   {
     "id": "13",
     "num_song": "13",
-    "title_es": "EL DIOS QUE ADORAMOS",
+    "title": "EL DIOS QUE ADORAMOS",
     "description": "El Dios que Hizo...",
     "musicalNote": "F#|Fa#",
     "paragraphs": [
@@ -417,7 +420,7 @@
   {
     "id": "14",
     "num_song": "14",
-    "title_es": "ÉL HA SIDO FIEL",
+    "title": "ÉL HA SIDO FIEL",
     "description": "Día a día Tú has sido fiel...",
     "musicalNote": "D|Re",
     "paragraphs": [
@@ -446,7 +449,7 @@
   {
     "id": "15",
     "num_song": "15",
-    "title_es": "EL MISMO AMOR",
+    "title": "EL MISMO AMOR",
     "description": "Tú al humilde levantaras,...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -482,7 +485,7 @@
   {
     "id": "16",
     "num_song": "16",
-    "title_es": "EL PODER DE LA CRUZ",
+    "title": "EL PODER DE LA CRUZ",
     "description": "Oh, el ver aquel negro ama...",
     "musicalNote": "G|Sol",
     "paragraphs": [
@@ -519,7 +522,7 @@
   {
     "id": "17",
     "num_song": "17",
-    "title_es": "ÈL ES CRISTO",
+    "title": "ÈL ES CRISTO",
     "description": "Quién ayuda al herido...",
     "musicalNote": "_",
     "paragraphs": [
@@ -538,7 +541,7 @@
   {
     "id": "18",
     "num_song": "18",
-    "title_es": "EL SEÑOR ES MI PASTOR",
+    "title": "EL SEÑOR ES MI PASTOR",
     "description": "Salmos 23 - El Señor es mi ...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -562,7 +565,7 @@
   {
     "id": "19",
     "num_song": "19",
-    "title_es": "EN TERNURA",
+    "title": "EN TERNURA",
     "description": "En ternura me busco",
     "musicalNote": "G|Sol",
     "paragraphs": [
@@ -586,7 +589,7 @@
   {
     "id": "20",
     "num_song": "20",
-    "title_es": "ERES MI TODO",
+    "title": "ERES MI TODO",
     "description": "Tu eres mi fuerza y mi pod...",
     "musicalNote": "_",
     "paragraphs": [
@@ -612,7 +615,7 @@
   {
     "id": "21",
     "num_song": "21",
-    "title_es": "GLORIFICATE",
+    "title": "GLORIFICATE",
     "description": "Que toda nación te adore,...",
     "musicalNote": "_",
     "paragraphs": [
@@ -665,7 +668,7 @@
   {
     "id": "22",
     "num_song": "22",
-    "title_es": "GLORIOSO INTERCAMBIO",
+    "title": "GLORIOSO INTERCAMBIO",
     "description": "¿Cómo puede ser que el ...",
     "musicalNote": "_",
     "paragraphs": [
@@ -694,7 +697,7 @@
   {
     "id": "23",
     "num_song": "23",
-    "title_es": "HAY UN REDENTOR",
+    "title": "HAY UN REDENTOR",
     "description": "Hay un redentor ...",
     "musicalNote": "C/D|Do-Re",
     "paragraphs": [
@@ -727,7 +730,7 @@
   {
     "id": "24",
     "num_song": "24",
-    "title_es": "HE DECIDIDO SEGUIR A CRISTO",
+    "title": "HE DECIDIDO SEGUIR A CRISTO",
     "description": "He decidido seguir a ...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -749,7 +752,7 @@
   {
     "id": "25",
     "num_song": "25",
-    "title_es": "LA GLORIA DE LA CRUZ",
+    "title": "LA GLORIA DE LA CRUZ",
     "description": "Cómo es que en Su perfecto...",
     "musicalNote": "E|Mi",
     "paragraphs": [
@@ -786,7 +789,7 @@
   {
     "id": "27",
     "num_song": "27",
-    "title_es": "LA HERMOSA VISIÓN DE LA CRUZ",
+    "title": "LA HERMOSA VISIÓN DE LA CRUZ",
     "description": "Largos años vague...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -810,7 +813,7 @@
   {
     "id": "28",
     "num_song": "28",
-    "title_es": "LAVAME EN TU SANGRE",
+    "title": "LAVAME EN TU SANGRE",
     "description": "Que mi vida entera esté",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -851,7 +854,7 @@
   {
     "id": "29",
     "num_song": "29",
-    "title_es": "MARAVILLOSO ES EL GRAN AMOR",
+    "title": "MARAVILLOSO ES EL GRAN AMOR",
     "description": "Maravilloso es el gran amor...",
     "musicalNote": "_",
     "paragraphs": [
@@ -881,7 +884,7 @@
   {
     "id": "30",
     "num_song": "30",
-    "title_es": "MARCHEMOS A LA UNIDAD",
+    "title": "MARCHEMOS A LA UNIDAD",
     "description": "Yo sé que fue pagado un alto precio...",
     "musicalNote": "G|Sol",
     "paragraphs": [
@@ -904,7 +907,7 @@
   {
     "id": "31",
     "num_song": "31",
-    "title_es": "ES EXALTADO",
+    "title": "ES EXALTADO",
     "description": "Es exaltado en lo alto ...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -936,7 +939,7 @@
   {
     "id": "32",
     "num_song": "32",
-    "title_es": "MIENTRAS TENGA ALIENTO",
+    "title": "MIENTRAS TENGA ALIENTO",
     "description": "Como agradezco Señor...",
     "musicalNote": "_",
     "paragraphs": [
@@ -960,7 +963,7 @@
   {
     "id": "33",
     "num_song": "33",
-    "title_es": "MIRAD CUAL AMOR",
+    "title": "MIRAD CUAL AMOR",
     "description": "Mirad cual amor...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -978,7 +981,7 @@
   {
     "id": "34",
     "num_song": "34",
-    "title_es": "NO HAY OTRO",
+    "title": "NO HAY OTRO",
     "description": "Un pueblo que nunca se postran...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -1016,7 +1019,7 @@
   {
     "id": "35",
     "num_song": "35",
-    "title_es": "NOBLE SOSTÉN",
+    "title": "NOBLE SOSTÉN",
     "description": "Noble sostén de la esperanza mía...",
     "musicalNote": "D|Re",
     "paragraphs": [
@@ -1049,7 +1052,7 @@
   {
     "id": "36",
     "num_song": "36",
-    "title_es": "OH AMOR DE DIOS",
+    "title": "OH AMOR DE DIOS",
     "description": "¡Oh amor de Dios! Su inmensidad...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -1097,7 +1100,7 @@
   {
     "id": "37",
     "num_song": "37",
-    "title_es": "SEÑOR TE NECESITO",
+    "title": "SEÑOR TE NECESITO",
     "description": "Me postro hoy, ante ti...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -1121,7 +1124,7 @@
   {
     "id": "38",
     "num_song": "38",
-    "title_es": "SI TE TENGO",
+    "title": "SI TE TENGO",
     "description": "No hay nada para mí que sea mejor...",
     "musicalNote": "G|Sol",
     "paragraphs": [
@@ -1142,7 +1145,7 @@
   {
     "id": "39",
     "num_song": "39",
-    "title_es": "SOLO EN JESÚS",
+    "title": "SOLO EN JESÚS",
     "description": "Solo en Jesús esta mi fe...",
     "musicalNote": "D|Re",
     "paragraphs": [
@@ -1197,7 +1200,7 @@
   {
     "id": "40",
     "num_song": "40",
-    "title_es": "SUBLIME GRACIA",
+    "title": "SUBLIME GRACIA",
     "description": "Sublime gracia del Señor que aun infeliz salvo...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -1235,7 +1238,7 @@
   {
     "id": "41",
     "num_song": "41",
-    "title_es": "TE DOY GRACIAS",
+    "title": "TE DOY GRACIAS",
     "description": "Cuando sale el sol temprano cada...",
     "musicalNote": "D|Re",
     "paragraphs": [
@@ -1282,7 +1285,7 @@
   {
     "id": "42",
     "num_song": "42",
-    "title_es": "TENGO UN REFUGIO",
+    "title": "TENGO UN REFUGIO",
     "description": "Tengo un refugio en tempestad...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -1323,7 +1326,7 @@
   {
     "id": "43",
     "num_song": "43",
-    "title_es": "TODO LO PAGO",
+    "title": "TODO LO PAGO",
     "description": "Puedo oír la voz de Cristo...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -1366,7 +1369,7 @@
   {
     "id": "44",
     "num_song": "44",
-    "title_es": "TÚ ERES MI RESPIRAR",
+    "title": "TÚ ERES MI RESPIRAR",
     "description": "Tú eres mi respirar...",
     "musicalNote": "_",
     "paragraphs": [
@@ -1384,7 +1387,7 @@
   {
     "id": "45",
     "num_song": "45",
-    "title_es": "TU NOMBRE LEVANTARE",
+    "title": "TU NOMBRE LEVANTARE",
     "description": "Tú nombre levantaré...",
     "musicalNote": "G|Sol",
     "paragraphs": [
@@ -1402,7 +1405,7 @@
   {
     "id": "46",
     "num_song": "46",
-    "title_es": "VIVIR ES CRISTO",
+    "title": "VIVIR ES CRISTO",
     "description": "Como recibiré de ti el...",
     "musicalNote": "G|Sol",
     "paragraphs": [
@@ -1444,7 +1447,7 @@
   {
     "id": "47",
     "num_song": "47",
-    "title_es": "VIVIR POR FE",
+    "title": "VIVIR POR FE",
     "description": "Por fe, veremos a nuestro...",
     "musicalNote": "A|La",
     "paragraphs": [
@@ -1477,7 +1480,7 @@
   {
     "id": "48",
     "num_song": "48",
-    "title_es": "YAHWEH",
+    "title": "YAHWEH",
     "description": "Con tu palabra el mundo afirmaste Señor...",
     "musicalNote": "_",
     "paragraphs": [
@@ -1508,7 +1511,7 @@
   {
     "id": "49",
     "num_song": "49",
-    "title_es": "10.000 RAZONES",
+    "title": "10.000 RAZONES",
     "description": "Sale el sol, es un nuevo amanecer, Que todo lo que soy alabe...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -1545,7 +1548,7 @@
   {
     "id": "50",
     "num_song": "50",
-    "title_es": "El me sostendra",
+    "title": "El me sostendra",
     "description": "Si mi fe ha de caer, Él me sostendrá...",
     "musicalNote": "C|Do",
     "paragraphs": [
@@ -1569,7 +1572,7 @@
   {
     "id": "51",
     "num_song": "51",
-    "title_es": "Salmos 19 - La Ley de Jehova",
+    "title": "Salmos 19 - La Ley de Jehova",
     "description": "La ley de Jehová es perfecta, que convierte el alma...",
     "musicalNote": "C|Do",
     "paragraphs": [

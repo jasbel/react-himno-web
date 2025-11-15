@@ -1,17 +1,8 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { ISong } from "../types/types";
 import { addFav, deleteFav, findFav } from "../libs/storage";
-import songAll from "../assets/data-quechua.json";
 import { removeAccents } from "../res/removeAccents";
 
-const songAllSearch: ISong[] = songAll.map(s => ({
-  'id': s.id,
-  'code': s.code,
-  'title': s.title,
-  'musicalNote': s.musicalNote,
-  paragraphs: s.paragraphs,
-  chorus: s.chorus,
-}))
 
 interface InitialValues {
   songs: ISong[];
@@ -34,9 +25,27 @@ const defaultValue: InitialValues = {
 export const SongQuechuaContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) => {
+  const [songAll, setSongAll] = useState<ISong[]>([]);
   const [songs, setSongs] = useState<ISong[]>([]);
   const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
   const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
+
+    const fetchData = async () => {
+    try {
+      const response = await fetch('/songs_quechua/data-quechua.json')
+      if (!response.ok) {
+        throw new Error('Failed to fetch config')
+      }
+      const configData = await response.json()
+      setSongAll(configData)
+    } catch (err) {
+      // setError(err.message)
+    }
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, [])
 
   const getSongs = async () => {
     try {
@@ -78,9 +87,9 @@ export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) =>
   };
 
   const changeSongBySearch = (query: string) => {
-    if (!query.trim()) return setSongsSearch(songAllSearch)
+    if (!query.trim()) return setSongsSearch(songAll)
 
-    const himnosFiltered = songAllSearch.filter((himno) => {
+    const himnosFiltered = songAll.filter((himno) => {
       return (
         removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
         removeAccents(himno.paragraphs[0].paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())

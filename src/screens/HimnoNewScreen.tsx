@@ -1,15 +1,15 @@
-import { useCallback } from "react";
+import { useCallback, useContext } from "react";
 import { titleApp } from "../res/constant";
 import { ISong } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
-import { useSong } from "../hooks/useNewSong";
 import { ERoutes } from "../res/enum";
 import HimnoList from "@/components/HimnoList";
+import { SongContext } from "@/state/SongNewContext";
 
 const HimnoNewScreen = () => {
   const navigate = useNavigate();
-  const { songFavorites, changeSongBySearch, songsSearch } = useSong();
+  const {songFavorites, changeSongBySearch, songsSearch} = useContext(SongContext)
 
   const handlePress = useCallback(
     (himno: ISong) => {

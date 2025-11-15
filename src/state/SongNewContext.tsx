@@ -1,17 +1,10 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { ISong } from "../types/types";
-import songAll from "../assets/data-song.json";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 import { removeAccents } from "@/res/removeAccents";
+import { getListSongLocal } from "@/api/songLocalService";
 
-const songAllSearch: ISong[] = (songAll as ISong[]).map(s => ({
-  'id': s.id,
-  'code': s.code,
-  'title': s.title,
-  'musicalNote': s.musicalNote,
-  paragraphs: s.paragraphs,
-  chorus: s.chorus,
-}))
+
 
 interface InitialValues {
   songs: ISong[];
@@ -34,12 +27,20 @@ const defaultValue: InitialValues = {
 export const SongContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongNewProvider = ({ children }: { children: ReactNode }) => {
+  const [songAllSearch, setSongAllSearch] = useState<ISong[]>([]);
   const [songs, setSongs] = useState<ISong[]>([]);
   const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
   const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
 
+  const getSongAll = async (): Promise<ISong[]> => {
+     const data = await getListSongLocal()
+      setSongAllSearch(data)
+      return data
+    }
+
   const getSongs = async () => {
     try {
+      const songAll = await getSongAll()
       const favorites = (songAll as unknown as ISong[]).filter((song) => !!findFav(song.id));
       const songsFilter = (songAll as unknown as ISong[]).filter((song) => !findFav(song.id));
 

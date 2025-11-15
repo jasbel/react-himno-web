@@ -81,6 +81,18 @@ code {
   }
 } */
 
+
+.AppGlobal {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background: #ffe7d0;
+}
+.AppGlobalContent {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  background: white;
+}
 .form-choir__content {
   min-height: 60px;
   width: 100%;
