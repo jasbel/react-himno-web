@@ -52,6 +52,14 @@ export interface ISongItem  {
   }[],
   chorus: IChoir[],
 }
+export interface ISongV1 extends ISongBase {
+  id: ID,
+}
+export interface ISong extends ISongBase {
+  id: ID,
+  description: string,
+  filename?: string,
+}
 
 export interface ISong extends ISongBase {
   id: ID,

@@ -2,10 +2,10 @@ import React, { ReactNode, useEffect, useState } from "react";
 import { ISong } from "../types/types";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 import { removeAccents } from "../res/removeAccents";
+import { getListSongQuechuaLocal } from "@/api/songLocalService";
 
 
 interface InitialValues {
-  songs: ISong[];
   songFavorites: ISong[];
   songsSearch: ISong[];
   addToFav: (favId: string) => void;
@@ -14,7 +14,6 @@ interface InitialValues {
 }
 
 const defaultValue: InitialValues = {
-  songs: [],
   songsSearch: [],
   songFavorites: [],
   addToFav: () => { },
@@ -26,18 +25,16 @@ export const SongQuechuaContext = React.createContext<InitialValues>(defaultValu
 
 export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) => {
   const [songAll, setSongAll] = useState<ISong[]>([]);
-  const [songs, setSongs] = useState<ISong[]>([]);
+  const [songsFilter, setSongsFilter] = useState<ISong[]>([]);
   const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
   const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
 
     const fetchData = async () => {
     try {
-      const response = await fetch('/songs_quechua/data-quechua.json')
-      if (!response.ok) {
-        throw new Error('Failed to fetch config')
-      }
-      const configData = await response.json()
-      setSongAll(configData)
+      const configData = await getListSongQuechuaLocal()
+      const _configData = configData.map(it => ({...it, description: it.paragraphs[0]?.paragraph || ""}))
+      setSongAll(_configData)
+      setSongsSearch(_configData)
     } catch (err) {
       // setError(err.message)
     }
@@ -54,7 +51,7 @@ export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) =>
       const favorites = (songAll as unknown as ISong[]).filter((song) => !!findFav(song.id));
       const songsFilter = (songAll as unknown as ISong[]).filter((song) => !findFav(song.id));
 
-      setSongs(songsFilter);
+      setSongsFilter(songsFilter);
       setSongFavorites(favorites);
     } catch (error) {
       console.error("Get Favorites Err", error);
@@ -64,13 +61,13 @@ export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) =>
   const addToFav = (id: string) => {
     addFav(id);
 
-    const itemToFav = songs.find((song) => song.id === id);
+    const itemToFav = songsFilter.find((song) => song.id === id);
     if (!itemToFav) return;
 
-    const cSongs = songs.filter((song) => song.id !== id);
+    const cSongs = songsFilter.filter((song) => song.id !== id);
     const cFavs = [...songFavorites, itemToFav];
 
-    setSongs(cSongs);
+    setSongsFilter(cSongs);
     setSongFavorites(cFavs);
   };
 
@@ -80,9 +77,9 @@ export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) =>
     if (!itemToSong) return;
 
     const cFavs = songFavorites.filter((song) => song.id !== id);
-    const cSongs = songs.filter((song) => song.id !== id);
+    const cSongs = songsFilter.filter((song) => song.id !== id);
 
-    setSongs([...cSongs, itemToSong]);
+    setSongsFilter([...cSongs, itemToSong]);
     setSongFavorites(cFavs);
   };
 
@@ -107,7 +104,6 @@ export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) =>
   return (
     <SongQuechuaContext.Provider
       value={{
-        songs,
         songsSearch,
         songFavorites,
         addToFav,

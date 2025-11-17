@@ -1,4 +1,4 @@
-import { ID, ISong, ISongCreate, ISongItem, ISongListV1 } from '@/types/types';
+import { ID, ISong, ISongCreate, ISongItem, ISongListV1, ISongV1 } from '@/types/types';
 import axiosClient, { axiosClientLocal } from './axiosClient';
 
 export const getListSongLocal = async (): Promise<ISong[]> => {
@@ -51,6 +51,31 @@ export const getListV1SongLocal = async ():  Promise<ISongListV1[]> => {
           throw new Error('Failed to fetch config')
         }
         const configData: ISongListV1[] = await response.json()
+        console.log({ configData });
+
+        return configData
+      } catch (err: any) {
+        console.error(err?.message)
+        return []
+      }
+    }
+
+    const response = await fetchData();
+    return response;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const getListSongQuechuaLocal = async ():  Promise<ISongV1[]> => {
+  try {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/songs_quechua/data-quechua.json')
+        if (!response.ok) {
+          throw new Error('Failed to fetch config')
+        }
+        const configData: ISongV1[] = await response.json()
         console.log({ configData });
 
         return configData
