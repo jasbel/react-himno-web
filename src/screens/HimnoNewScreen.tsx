@@ -5,11 +5,13 @@ import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import { ERoutes } from "../res/enum";
 import HimnoList from "@/components/HimnoList";
-import { SongContext } from "@/state/SongNewContext";
+import { SongNewContext } from "@/state/SongNewContext";
+import { getSongV1Item } from "@/api/songLocalService";
+import { uuid } from "@/res/helpers";
 
 const HimnoNewScreen = () => {
   const navigate = useNavigate();
-  const {songFavorites, changeSongBySearch, songsSearch} = useContext(SongContext)
+  const {songFavorites, changeSongBySearch, songAllFilter: songsSearch} = useContext(SongNewContext)
 
   const handlePress = useCallback(
     (himno: ISong) => {
@@ -18,17 +20,29 @@ const HimnoNewScreen = () => {
     [navigate]
   );
 
+  const handlePressPre = 
+    async (himno: ISong) => {
+      let item: ISong = himno
+      if (himno.filename) {
+        // debugger
+        const _item = await getSongV1Item(himno.filename)
+        item = {..._item, code: _item.id, paragraphs:  _item.paragraphs.map(it =>  ({...it, id: uuid(), chorusPos: []}))}
+      }
+      handlePress(item) 
+      
+    }
+
   return (
-    <>
+    <div className="himnonewscreen">
       <Hero title={titleApp} hrefBefore={"/"} hiddenFS />
 
       <HimnoList
         changeSongBySearch={changeSongBySearch}
         hasFavorite={!!songFavorites.length}
         songsSearch={songsSearch}
-        handlePress={handlePress}
+        handlePress={handlePressPre}
       />
-    </>
+    </div>
   );
 };
 

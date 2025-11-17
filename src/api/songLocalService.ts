@@ -1,4 +1,4 @@
-import { ID, ISong, ISongCreate, ISongOld } from '@/types/types';
+import { ID, ISong, ISongCreate, ISongItem, ISongListV1 } from '@/types/types';
 import axiosClient, { axiosClientLocal } from './axiosClient';
 
 export const getListSongLocal = async (): Promise<ISong[]> => {
@@ -25,21 +25,38 @@ export const getListSongLocal = async (): Promise<ISong[]> => {
     throw error;
   }
 };
-export const getListOldSongLocal = async () => {
+export const getSongV1Item = async (fn: string):  Promise<ISongItem> => {
   try {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('/data_old.json')
+    console.log({fn})
+        const response = await fetch(`/songs_v1/${fn}`)
         if (!response.ok) {
           throw new Error('Failed to fetch config')
         }
-        const configData: ISongOld[] = await response.json()
+        const configData: ISongItem = await response.json()
         console.log({ configData });
 
         return configData
-      } catch (err) {
+      
+    
+  } catch (error) {
+    throw error;
+  }
+};
+export const getListV1SongLocal = async ():  Promise<ISongListV1[]> => {
+  try {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/songs_v1/index.json')
+        if (!response.ok) {
+          throw new Error('Failed to fetch config')
+        }
+        const configData: ISongListV1[] = await response.json()
+        console.log({ configData });
+
+        return configData
+      } catch (err: any) {
+        console.error(err?.message)
         return []
-        // setError(err.message)
       }
     }
 

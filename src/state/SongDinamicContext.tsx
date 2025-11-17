@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect, useState } from "react";
+import React, { ReactNode, useState } from "react";
 import { ID, ISong } from "../types/types";
 import { addFav, deleteFav } from "../libs/storage";
 import { removeAccents } from "@/res/removeAccents";
@@ -30,7 +30,7 @@ const defaultValue: InitialValues = {
 export const SongDinamicContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
-  const { fetchListSong, fetchOneSong, fetchUpdateSong } = useApiSong();
+  const { fetchListSong, fetchOneSong } = useApiSong();
   const [songs, setSongs] = useState<ISong[]>([]);
   const [song, setSong] = useState<ISong>(initSong);
   const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
@@ -93,7 +93,7 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
     const himnosFiltered = songs.filter((himno) => {
       return (
         removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.paragraphs[0].paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
+        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
       );
     });
 

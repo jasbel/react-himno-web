@@ -2,49 +2,51 @@ import React, { ReactNode, useEffect, useState } from "react";
 import { ISong } from "../types/types";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 import { removeAccents } from "@/res/removeAccents";
-import { getListSongLocal } from "@/api/songLocalService";
+import { getListSongLocal, getListV1SongLocal } from "@/api/songLocalService";
+import { songV1ToNew } from "@/helpers/helper";
 
 
 
 interface InitialValues {
-  songs: ISong[];
   songFavorites: ISong[];
-  songsSearch: ISong[];
+  songAllFilter: ISong[];
   addToFav: (favId: string) => void;
   changeSongBySearch: (q: string) => void;
   rmToFav: (favId: string) => void;
 }
 
 const defaultValue: InitialValues = {
-  songs: [],
-  songsSearch: [],
+  songAllFilter: [],
   songFavorites: [],
   addToFav: () => { },
   changeSongBySearch: () => { },
   rmToFav: () => { },
 };
 
-export const SongContext = React.createContext<InitialValues>(defaultValue);
+export const SongNewContext = React.createContext<InitialValues>(defaultValue);
 
 export const SongNewProvider = ({ children }: { children: ReactNode }) => {
-  const [songAllSearch, setSongAllSearch] = useState<ISong[]>([]);
-  const [songs, setSongs] = useState<ISong[]>([]);
-  const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
+  const [songAll, setSongAll] = useState<ISong[]>([]);
+  const [songAllNoFav, setSongsAllNoFav] = useState<ISong[]>([]);
+  const [songAllFilter, setSongAllFilter] = useState<ISong[]>([]);
   const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
 
   const getSongAll = async (): Promise<ISong[]> => {
-     const data = await getListSongLocal()
-      setSongAllSearch(data)
-      return data
-    }
+    const data = await getListSongLocal()
+    const dataV1 = await getListV1SongLocal()
+    const _dataV1 = dataV1.map(it => songV1ToNew(it))
+    const _data = [  ...data, ..._dataV1]
+    setSongAll(_data)
+    return _data
+  }
 
   const getSongs = async () => {
     try {
       const songAll = await getSongAll()
       const favorites = (songAll as unknown as ISong[]).filter((song) => !!findFav(song.id));
       const songsFilter = (songAll as unknown as ISong[]).filter((song) => !findFav(song.id));
-
-      setSongs(songsFilter);
+       setSongAllFilter(songAll)
+      setSongsAllNoFav(songsFilter);
       setSongFavorites(favorites);
     } catch (error) {
       console.error("Get Favorites Err", error);
@@ -54,13 +56,13 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
   const addToFav = (id: string) => {
     addFav(id);
 
-    const itemToFav = songs.find((song) => song.id === id);
+    const itemToFav = songAllNoFav.find((song) => song.id === id);
     if (!itemToFav) return;
 
-    const cSongs = songs.filter((song) => song.id !== id);
+    const cSongs = songAllNoFav.filter((song) => song.id !== id);
     const cFavs = [...songFavorites, itemToFav];
 
-    setSongs(cSongs);
+    setSongsAllNoFav(cSongs);
     setSongFavorites(cFavs);
   };
 
@@ -70,23 +72,23 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
     if (!itemToSong) return;
 
     const cFavs = songFavorites.filter((song) => song.id !== id);
-    const cSongs = songs.filter((song) => song.id !== id);
+    const cSongs = songAllNoFav.filter((song) => song.id !== id);
 
-    setSongs([...cSongs, itemToSong]);
+    setSongsAllNoFav([...cSongs, itemToSong]);
     setSongFavorites(cFavs);
   };
 
   const changeSongBySearch = (query: string) => {
-    if (!query.trim()) return setSongsSearch(songAllSearch)
+    if (!query.trim()) return setSongAllFilter(songAll)
 
-    const himnosFiltered = songAllSearch.filter((himno) => {
+    const himnosFiltered = songAll.filter((himno) => {
       return (
         removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.paragraphs[0].paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
+        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
       );
     });
 
-    setSongsSearch(himnosFiltered);
+    setSongAllFilter(himnosFiltered);
   };
 
   useEffect(() => {
@@ -95,15 +97,14 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
   }, []);
 
   return (
-    <SongContext.Provider value={{
-      songs,
-      songsSearch,
+    <SongNewContext.Provider value={{
+      songAllFilter: songAllFilter,
       songFavorites,
       addToFav,
       rmToFav,
       changeSongBySearch
     }}>
       {children}
-    </SongContext.Provider>
+    </SongNewContext.Provider>
   );
 };

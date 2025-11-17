@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { responsiveStr } from "../utils/responsive";
 import { ERoutes } from "../res/enum";
 import { Button } from "@/components/ui/button";
-
+  
 interface Props {
   admin: boolean
 }
@@ -20,16 +20,14 @@ const HimnoHomeScreen = ({admin}: Props) => {
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           {/*  */}
-          <Link to={ERoutes.home}>
+          <Link to={ERoutes.himnos}>
             <Button style={{ ...styles.button }}>Himnos</Button>
           </Link>
 
           <Link to={ERoutes.homeQuechua} >
             <Button style={{ ...styles.button }}>Quechua</Button>
           </Link>
-<Link to={ERoutes.homeOld}>
-          <Button style={{ ...styles.button,  ...styles.button2 }}>Version Anterior</Button>
-        </Link>
+
 {
   admin && 
   <>
@@ -42,9 +40,7 @@ const HimnoHomeScreen = ({admin}: Props) => {
           <Button style={{ ...styles.button, backgroundColor: Colors.bkgPrimary }}>Nuevo Himno</Button>
         </Link>
 
-          <Link to={ERoutes.homeOld}>
-            <Button style={{ ...styles.button, ...styles.button2 }}>Version Anterior</Button>
-          </Link>
+
 </>
 }
           <a style={{ ...styles.button, ...styles.buttonHref }} href="https://6822c3930e3cddbf77471418--heroic-praline-747316.netlify.app/himno-ibb.apk" download>

@@ -4,6 +4,14 @@ import iconChoir from "../../assets/images/verse.png";
 import { responsive } from "../../utils/responsive";
 import { Box } from "@components/ui";
 import { useSetting } from "../../hooks/useSetting";
+const Separe = ({  isSmall = false }: {isSmall: boolean}) => {
+  return (
+      <div style={styles.containerIconChoir}>
+                <img style={isSmall ? styles.iconChoirSmall : styles.iconChoir} src={iconChoir} />
+              </div>
+  );
+};
+
 
 export interface ILetter {
   choirs: string[];
@@ -29,13 +37,13 @@ const ItemHimnoLetter = ({ item, isSmall = false }: Props) => {
       >
         <span style={{ whiteSpace: "pre-line" }}>{item.paragraph}</span>
       </p>
+      <Separe isSmall={isSmall} />
+      
       {item.choirs.map((choir) => (
         <>
           {choir !== "" && (
             <>
-              <div style={styles.containerIconChoir}>
-                <img style={isSmall ? styles.iconChoirSmall : styles.iconChoir} src={iconChoir} />
-              </div>
+              
               <p
                 style={{
                   ...styles.choir,
@@ -45,10 +53,14 @@ const ItemHimnoLetter = ({ item, isSmall = false }: Props) => {
                 <span style={{ whiteSpace: "pre-line" }}>{item.choirs}</span>
               </p>
               <br />
+              {
+              item.choirs.filter(it => it)?.length ? <Separe isSmall={isSmall} /> : <></>
+              }
             </>
           )}
         </>
       ))}
+      
     </Box>
   );
 };
@@ -63,13 +75,13 @@ const styles: { [key in any]: React.CSSProperties } = {
     marginBottom: responsive(15, 10),
   },
   iconChoir: {
-    width: responsive(500, 120),
-    height: responsive(35, 11),
+    width: responsive(350, 70),
+    height: responsive(20, 11),
     margin: "auto",
   },
   iconChoirSmall: {
-    width: 70,
-    height: 10,
+    width: 60,
+    height: 8,
     margin: "auto",
   },
   paragraph: {

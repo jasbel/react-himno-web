@@ -2156,51 +2156,6 @@
     ]
   },
   {
-    "id": "10323898-9a8b-757d-3f11-d672edefe69c",
-    "code": "47",
-    "title": "VIVIR POR FE",
-    "musicalNote": "A|La",
-    "chorus": [
-      {
-        "choir": "Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en Él\nVivir por fe y no por ver",
-        "id": "38798ca3-a798-2f0b-6a52-df003bc08d17"
-      },
-      {
-        "choir": "/Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en él\nVivir por fe y no por ver./\n\n/Vivir por fe y no por ver./",
-        "id": "c9a3f94f-aac9-9430-a3b7-a604eab77ebe"
-      }
-    ],
-    "paragraphs": [
-      {
-        "id": "9bf99e1b-7ad0-04a2-3ffb-503c270b58b7",
-        "paragraph": "Por fe, veremos a nuestro Dios\nEn el plan que creó en la eternidad.\nEn la vida de los fieles que llamó\nA vivir por fe y no por ver.\n\nPor fe, el justo vivirá\nPor la fe, caminamos junto a el\nComo viendo al invisible protector\nVivir por fe y no por ver",
-        "chorusPos": [
-          [
-            1
-          ]
-        ]
-      },
-      {
-        "id": "3d1f831c-715c-541c-44d8-7a7199112198",
-        "paragraph": "Por fe, profetas hablaron bien\nPor la fe, proclamaron la verdad\nEl Mesías prometido en edén\nEl que la muerte venció en la cruz\n\nPor fe, la iglesia se moverá\nCon poder del espíritu de Dios\nY las fuerzas del infierno no podrán\nDañar la obra de nuestro Dios.",
-        "chorusPos": [
-          [
-            1
-          ]
-        ]
-      },
-      {
-        "id": "c251aa5f-62d9-b997-6655-1e16e1fd340f",
-        "paragraph": "Por fe los montes se moverán\nSi la fe permanece en Jesús\nEl poder del evangelio librara\nA todo aquel que confía en él",
-        "chorusPos": [
-          [
-            2
-          ]
-        ]
-      }
-    ]
-  },
-  {
     "id": "d2e65938-1ea0-637d-f37e-ab83e0864274",
     "code": "48",
     "title": "YAHWEH",

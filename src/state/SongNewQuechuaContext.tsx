@@ -92,7 +92,7 @@ export const SongNewQuechuaProvider = ({ children }: { children: ReactNode }) =>
     const himnosFiltered = songAll.filter((himno) => {
       return (
         removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.paragraphs[0].paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
+        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
       );
     });
 

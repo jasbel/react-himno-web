@@ -5,7 +5,7 @@ import Colors from "../../../res/colors";
 import { useDisclosure } from "@hooks/use";
 import { Flex, TextSingle } from "@components/ui";
 import { AlertDialogStar } from "../../../elements/AlertDialog";
-import { SongContext } from "../../../state/SongNewContext";
+import { SongNewContext } from "../../../state/SongNewContext";
 import StarIcon from "@/assets/icons/star";
 
 interface Props {
@@ -15,7 +15,7 @@ interface Props {
 }
 
 const StarNote = ({ isFavorite, musicalNote, songId }: Props) => {
-  const { addToFav, rmToFav } = useContext(SongContext);
+  const { addToFav, rmToFav } = useContext(SongNewContext);
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const textFavAlert = isFavorite ? "Quitar de favoritos" : "Agregar a favoritos";

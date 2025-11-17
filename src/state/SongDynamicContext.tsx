@@ -93,7 +93,7 @@ export const SongDynamicProvider = ({ children }: { children: ReactNode }) => {
     const himnosFiltered = songs.filter((himno) => {
       return (
         removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.paragraphs[0].paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
+        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
       );
     });
 

@@ -1,6 +1,6 @@
 export const ERoutes = {
   principal : "himno-home",
-  home : "himnos",
+  himnos : "himnos",
   homeList : "himnos/list",
   homeLists : "himnos/lists",
   homeQuechua : "himnos-quechua",

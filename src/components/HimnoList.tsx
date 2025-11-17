@@ -33,7 +33,7 @@ const HimnoList = ({ changeSongBySearch, hasFavorite: hasFavorite, songsSearch, 
 
   return (
     <>
-      <div style={styles.container}>
+      <div style={styles.container} data-testid="himnolist">
         <HimnoSearch onChange={handleSearch} />
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -49,7 +49,7 @@ const HimnoList = ({ changeSongBySearch, hasFavorite: hasFavorite, songsSearch, 
                   title={item.title}
                   num={item.code}
                   note={item.musicalNote}
-                  description={item.paragraphs[0].paragraph}
+                  description={item.paragraphs[0]?.paragraph || item.description || ""}
                   onClick={() => handlePress(item)}
                 />;
               })}

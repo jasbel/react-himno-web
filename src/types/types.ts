@@ -12,14 +12,12 @@ export interface IChoirOld {
   noPositions: number[],
 }
 
-export interface ISongOld {
-  id: ID,
+export interface ISongListV1 {
   num_song: string,
   title: string,
   description: string,
   musicalNote: TNote,
-  paragraphs: IParagraphOld[],
-  chorus: IChoirOld[],
+  filename: string,
 }
 export type IChorusPos = ([positionOrId: IDPos, repeat?: number]|(IDPos))[] | (IDPos)
 export interface IParagraph {
@@ -43,8 +41,22 @@ export interface ISongBase {
 
 export interface ISongCreate extends ISongBase {}
 
+export interface ISongItem  {
+  id: ID,
+  num_song: string,
+  description: string,
+  title: string,
+  musicalNote: TNote ,
+  paragraphs: {
+    paragraph: string
+  }[],
+  chorus: IChoir[],
+}
+
 export interface ISong extends ISongBase {
   id: ID,
+  description: string,
+  filename?: string,
 }
 
 export interface ISongSingle {
