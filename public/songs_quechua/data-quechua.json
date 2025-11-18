@@ -58,7 +58,12 @@
      {
       "id": "8",
       "chorusPos": [],
-      "paragraph": " /Dios Tatata yupaychana, \n Dios Churita yupaychana, \n Dios Santo Espiritutapis.\n Kinsantinta yupaychana./ \n /A nuestro Dios alabemos, \n Él manda las bendiciones. \n Los salvados de este mundo \n En el cielo alabaremos./"
+      "paragraph": " /Dios Tatata yupaychana, \n Dios Churita yupaychana, \n Dios Santo Espiritutapis.\n Kinsantinta yupaychana./ \n"
+    },
+     {
+      "id": "10008",
+      "chorusPos": [],
+      "paragraph": "/A nuestro Dios alabemos, \n Él manda las bendiciones. \n Los salvados de este mundo \n En el cielo alabaremos./"
     },
      {
       "id": "9",
@@ -16794,11 +16799,26 @@
     "musicalNote": " (Re Menor)",
     "chorus": [],
     "paragraphs": [
-     {
-      "id": "2859",
-      "chorusPos": [],
-      "paragraph": " /Diosninchejpa Palabranta tarpumunachej, Vallesnejpi, orqosnejpi willamunachej./                 /Mana kutirispa, Jesusllata qhaway.                Rinachej chay    ñanninta munakuynimpi./ \n /La semilla, la semilla puedes di sembrar.                        Por los valles y los cerros puedes tu semblar./              /Nunca mires    atrás, sólo mira a Jesús.                       Camina por su senda en amor y luz./"
-    }
+      {
+        "id": "2859",
+        "chorusPos": [],
+        "paragraph": " /Diosninchejpa Palabranta tarpumunachej, Vallesnejpi, orqosnejpi willamunachej./"
+      },
+      {
+        "id": "2859.2",
+        "chorusPos": [],
+        "paragraph": " /Mana kutirispa, Jesusllata qhaway.                Rinachej chay    ñanninta munakuynimpi./"
+      },
+      {
+        "id": "2859.3",
+        "chorusPos": [],
+        "paragraph": "/La semilla, la semilla puedes di sembrar.                        Por los valles y los cerros puedes tu semblar./"
+      },
+      {
+        "id": "2859.4",
+        "chorusPos": [],
+        "paragraph": "/Nunca mires    atrás, sólo mira a Jesús.                       Camina por su senda en amor y luz./"
+      }
     ]
   },
   {
@@ -17874,11 +17894,36 @@
     "musicalNote": " (Do Menor)",
     "chorus": [],
     "paragraphs": [
-     {
-      "id": "3021",
+      {
+      "id": "3021.1",
       "chorusPos": [],
-      "paragraph": " /Gracias Qanman, gracias Dios Tatayku.\nNiwasqaykita ni qonqasajchu./\nOrasaj, Señorníy, Qanllaman.\nTakisaj, Señorníy, Qanllaman.\n/Diosníy, noqawampuni Qan kanki,\nDiosníy, yachachiwajniy Qan    kanki/ \n /Gracias Padre, gracias mi buen Jesús. \n De tus promesas no me olvidaré./\n Oraré, oh Señor, oraré, Cantaré, oh Señor, cantaré, \n /Porque eres mi fiel Compañero, \n Porque eres mi fiel Consejero./"
-    }
+      "paragraph": "/Gracias Qanman, gracias Dios Tatayku.\nNiwasqaykita ni qonqasajchu./"
+      },
+      {
+      "id": "3021.2",
+      "chorusPos": [],
+      "paragraph": "Orasaj, Señorníy, Qanllaman.\nTakisaj, Señorníy, Qanllaman.\n"
+      },
+      {
+      "id": "3021.3",
+      "chorusPos": [],
+      "paragraph": "/Diosníy, noqawampuni Qan kanki,\nDiosníy, yachachiwajniy Qan    kanki/"
+      },
+      {
+      "id": "3021.4",
+      "chorusPos": [],
+      "paragraph": "/Gracias Padre, gracias mi buen Jesús. \n De tus promesas no me olvidaré./"
+      },
+      {
+      "id": "3021.5",
+      "chorusPos": [],
+      "paragraph": "Oraré, oh Señor, oraré, Cantaré, oh Señor, cantaré,"
+      },
+      {
+      "id": "3021.6",
+      "chorusPos": [],
+      "paragraph": "/Porque eres mi fiel Compañero, \n Porque eres mi fiel Consejero./"
+      }
     ]
   },
   {
@@ -20438,7 +20483,12 @@
      {
       "id": "3445",
       "chorusPos": [],
-      "paragraph": " Santo Espíritu, sonqoyman junt'ay,\nCristollapaj noqa k'anchasaj.\nSanto Espíritu, sonqoyman junt'ay,\nKachawaytaj almasta mask'aj, \n//Yupaychasaj// Cristo Reyniyta.\n//Yupaychasaj// Reyniyta. \n Santo Espíritu, llena mi vida,\nPues por Cristo yo quiero brillar.\nSanto Espíritu, llena mi vida,\nÚsame a las almas a salvar. \n//Alabanzas//, doy a Cristo el Rey\n//Alabanzas// doy al Rey."
+      "paragraph": " Santo Espíritu, sonqoyman junt'ay,\nCristollapaj noqa k'anchasaj.\nSanto Espíritu, sonqoyman junt'ay,\nKachawaytaj almasta mask'aj, \n//Yupaychasaj// Cristo Reyniyta.\n//Yupaychasaj// Reyniyta."
+    },
+     {
+      "id": "3445.2",
+      "chorusPos": [],
+      "paragraph": "// Santo Espíritu, llena mi vida,\nPues por Cristo yo quiero brillar.\nSanto Espíritu, llena mi vida,\nÚsame a las almas a salvar. \n//Alabanzas//, doy a Cristo el Rey\n//Alabanzas// doy al Rey."
     }
     ]
   },
@@ -21074,7 +21124,12 @@
      {
       "id": "3547",
       "chorusPos": [],
-      "paragraph": " Jesucristo jamonqaña, Santa Biblia chayta nishan.\nWawasninman Pay jamonqa, nisqantaqa Pay junt'anqa.\n ¡QhawaychejJamonqaña!  Puñojkunaman    jamonqa.\nMana ni uj puchuyojman jamonqa, Pay jamonqa. \n Cristo cruzpi wañushaspa, salvacionta qowarqanchej.\nK'anchaynimpi Pay jamonqa, phuyuskama Pay jamonqa.\n ¡QhawaychejJamonqaña!  Atiynimpi Pay    jamonqa;\nAtipajpa chay pillunwan jamonqa, Pay jamonqa. \n Llakiy kanqa piskunachus chay manaraj jap'inkuchu,\nYuraj llimphu, chay p'achata, bodapaj k'achanchasqata.\n ¡Qhawaychej, jamonqaña!  Iglesiampi    kajkunapaj;\nKusiy kanqa paykunapaj. Jamonqa, Pay jamonqa. \n Cristo viene, esto es cierto, porque así está escrito.\nSiempre fiel a su promesa, por los suyos ya regresa.\n ¡Vedle ya, ved al Señor!  trae aquellos que han    dormido,\nNi uno solo se ha perdido, ¡Sí, vendrá;  oh,  sí, vendrá! \n El que en la cruz muriendo, dio su alma bendiciendo;\nViene ya resplandeciente, en las nubes imponente\n ¡Vedle ya, ved al Señor!  vedle ya venir en gloria,\nCoronado de    victoria: ¡Sí, vendrá; oh, si vendrá! \n ¡ Ay de aquél que no ha ido a Jesús, ni recibido\nRopa santa, regalada, para bodas adornada!\n ¡Vedle ya, ved al Señor!  a su encuentro ve, ¡oh    esposa!\nEs tu hora, más dichosa, ¡Sí, vendrá, oh, sí, vendrá!"
+      "paragraph": " Jesucristo jamonqaña, Santa Biblia chayta nishan.\nWawasninman Pay jamonqa, nisqantaqa Pay junt'anqa.\n ¡QhawaychejJamonqaña!  Puñojkunaman    jamonqa.\nMana ni uj puchuyojman jamonqa, Pay jamonqa. \n Cristo cruzpi wañushaspa, salvacionta qowarqanchej.\nK'anchaynimpi Pay jamonqa, phuyuskama Pay jamonqa.\n ¡QhawaychejJamonqaña!  Atiynimpi Pay    jamonqa;\nAtipajpa chay pillunwan jamonqa, Pay jamonqa. \n Llakiy kanqa piskunachus chay manaraj jap'inkuchu,\nYuraj llimphu, chay p'achata, bodapaj k'achanchasqata.\n ¡Qhawaychej, jamonqaña!  Iglesiampi    kajkunapaj;\nKusiy kanqa paykunapaj. Jamonqa, Pay jamonqa."
+    },
+     {
+      "id": "3547",
+      "chorusPos": [],
+      "paragraph": "Cristo viene, esto es cierto, porque así está escrito.\nSiempre fiel a su promesa, por los suyos ya regresa.\n ¡Vedle ya, ved al Señor!  trae aquellos que han    dormido,\nNi uno solo se ha perdido, ¡Sí, vendrá;  oh,  sí, vendrá! \n El que en la cruz muriendo, dio su alma bendiciendo;\nViene ya resplandeciente, en las nubes imponente\n ¡Vedle ya, ved al Señor!  vedle ya venir en gloria,\nCoronado de    victoria: ¡Sí, vendrá; oh, si vendrá! \n ¡ Ay de aquél que no ha ido a Jesús, ni recibido\nRopa santa, regalada, para bodas adornada!\n ¡Vedle ya, ved al Señor!  a su encuentro ve, ¡oh    esposa!\nEs tu hora, más dichosa, ¡Sí, vendrá, oh, sí, vendrá!"
     }
     ]
   },
@@ -24911,7 +24966,12 @@
      {
       "id": "4192",
       "chorusPos": [],
-      "paragraph": " Kutimuspa Jesusqa tapusojtin ruwasqaykimanta,\nIma ninki Payta tapusojtin talentomanta?\nYapallaypuni arí, talentoykiman arí.\nQan, hermanóy, yapay talentoykiman.\nYapallaypuni, arí, yapallaypuni,    arí,\nCristo qosorqa, chayman yapay. \n Cuando venga el Señor y te pregunte por tu talento,\nQué dirás al Señor del talento que Cristo te dio.\nMultiplícalo sí, sí, multiplícalo sí, sí,\nMultiplica hermano tu    talento.\nMultiplícalo sí, sí, multiplícalo sí, sí,\nEl talento que Cristo te dio."
+      "paragraph": " Kutimuspa Jesusqa tapusojtin ruwasqaykimanta,\nIma ninki Payta tapusojtin talentomanta?\nYapallaypuni arí, talentoykiman arí.\nQan, hermanóy, yapay talentoykiman.\nYapallaypuni, arí, yapallaypuni,    arí,\nCristo qosorqa, chayman yapay."
+    },
+     {
+      "id": "4192",
+      "chorusPos": [],
+      "paragraph": "Cuando venga el Señor y te pregunte por tu talento,\nQué dirás al Señor del talento que Cristo te dio.\nMultiplícalo sí, sí, multiplícalo sí, sí,\nMultiplica hermano tu    talento.\nMultiplícalo sí, sí, multiplícalo sí, sí,\nEl talento que Cristo te dio."
     }
     ]
   },
