@@ -7,7 +7,7 @@ export const titleApp = 'Himnos y Canticos';
 
 export const initSong: () => ISong = () =>  ({
     "id": uuid(),
-    "code": "",
+    "description": "",
     "title": "",
     musicalNote: "_",
     "chorus": [],

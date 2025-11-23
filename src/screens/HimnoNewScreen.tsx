@@ -26,7 +26,7 @@ const HimnoNewScreen = () => {
       if (himno.filename) {
         // debugger
         const _item = await getSongV1Item(himno.filename)
-        item = {..._item, code: _item.id, paragraphs:  _item.paragraphs.map(it =>  ({...it, id: uuid(), chorusPos: []}))}
+        item = {..._item, paragraphs:  _item.paragraphs.map(it =>  ({...it, id: uuid(), chorusPos: []}))}
       }
       handlePress(item) 
       

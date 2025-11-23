@@ -1,7 +1,6 @@
 [
   {
     "id": "1",
-    "code": "1",
     "title": " 1  Ujchasqas Chimpamuyku",
     "musicalNote": " (Re menor)",
     "chorus": [],
@@ -45,7 +44,6 @@
   },
   {
     "id": "2",
-    "code": "2",
     "title": " 2  Yupaychana Diosninchejta",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -74,7 +72,6 @@
   },
   {
     "id": "3",
-    "code": "3",
     "title": " 3  Yupaychay Qan Almáy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -113,7 +110,6 @@
   },
   {
     "id": "4",
-    "code": "4",
     "title": " 4  Gloria Kachun Jesusman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -162,7 +158,6 @@
   },
   {
     "id": "5",
-    "code": "5",
     "title": " 5  Salvador Bendito",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -211,7 +206,6 @@
   },
   {
     "id": "6",
-    "code": "6",
     "title": " 6  Munasqa Cristo",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -245,7 +239,6 @@
   },
   {
     "id": "7",
-    "code": "7",
     "title": " 7  Sonqoy Kusisqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -299,7 +292,6 @@
   },
   {
     "id": "8",
-    "code": "8",
     "title": " 8 Tiyan Sumaj Amigoy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -348,7 +340,6 @@
   },
   {
     "id": "9",
-    "code": "9",
     "title": " 9 Salvacionta Qowan Jesús",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -392,7 +383,6 @@
   },
   {
     "id": "10",
-    "code": "10",
     "title": " 10  Cristoj Atiynenqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -441,7 +431,6 @@
   },
   {
     "id": "11",
-    "code": "11",
     "title": " 11 Jesusmin Wajyawanchej",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -500,7 +489,6 @@
   },
   {
     "id": "12",
-    "code": "12",
     "title": " Hermanos Jap'ikunachej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -564,7 +552,6 @@
   },
   {
     "id": "13",
-    "code": "13",
     "title": " Kusisqa Kani",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -613,7 +600,6 @@
   },
   {
     "id": "14",
-    "code": "14",
     "title": " Munasqa Hermanóy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -652,7 +638,6 @@
   },
   {
     "id": "15",
-    "code": "15",
     "title": " 15  Imawan Runa Ñanninta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -711,7 +696,6 @@
   },
   {
     "id": "16",
-    "code": "16",
     "title": " 16 Tentaconespi",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -760,7 +744,6 @@
   },
   {
     "id": "17",
-    "code": "17",
     "title": " 17  Jesucristo Salvadorqa",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -799,7 +782,6 @@
   },
   {
     "id": "18",
-    "code": "18",
     "title": " 18   Janaj Pachamanta Señor",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -848,7 +830,6 @@
   },
   {
     "id": "19",
-    "code": "19",
     "title": " 19 Tukuynin Hermanos",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -897,7 +878,6 @@
   },
   {
     "id": "20",
-    "code": "20",
     "title": " 20  Hermanóy Ama Puñuychu",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -956,7 +936,6 @@
   },
   {
     "id": "21",
-    "code": "21",
     "title": " 21 Señorniypata Qori Llajtan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1025,7 +1004,6 @@
   },
   {
     "id": "22",
-    "code": "22",
     "title": " 22 Llakisqachu Kanki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1094,7 +1072,6 @@
   },
   {
     "id": "23",
-    "code": "23",
     "title": " 23    Noqa Wajcha Purishani",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -1133,7 +1110,6 @@
   },
   {
     "id": "24",
-    "code": "24",
     "title": " 24 Evangelio May Sumaj",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -1172,7 +1148,6 @@
   },
   {
     "id": "25",
-    "code": "25",
     "title": " 25  Dios Tatanchej Kawsayta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1221,7 +1196,6 @@
   },
   {
     "id": "26",
-    "code": "26",
     "title": " 26  Kay Pachapeqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -1270,7 +1244,6 @@
   },
   {
     "id": "27",
-    "code": "27",
     "title": " 27  Juchasniy Q'epirisqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1324,7 +1297,6 @@
   },
   {
     "id": "28",
-    "code": "28",
     "title": " 28 Cristo Diospa Churi",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -1373,7 +1345,6 @@
   },
   {
     "id": "29",
-    "code": "29",
     "title": " 29   Laqhayayllapi Purerqani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1442,7 +1413,6 @@
   },
   {
     "id": "30",
-    "code": "30",
     "title": " 30  Señor Jesucristo",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -1511,7 +1481,6 @@
   },
   {
     "id": "31",
-    "code": "31",
     "title": " 31  Tukuy Suyanachej",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -1625,7 +1594,6 @@
   },
   {
     "id": "32",
-    "code": "32",
     "title": " 32  Señor Jesucristoj Kutimuynin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1694,7 +1662,6 @@
   },
   {
     "id": "33",
-    "code": "33",
     "title": " 33   Señor Jamojtin Angelqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -1743,7 +1710,6 @@
   },
   {
     "id": "34",
-    "code": "34",
     "title": " 34 Rey Jesús Jamonqaña",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -1812,7 +1778,6 @@
   },
   {
     "id": "35",
-    "code": "35",
     "title": " Señor Jesusneyqa Munakuyniyoj  35",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1901,7 +1866,6 @@
   },
   {
     "id": "36",
-    "code": "36",
     "title": " 36  Cristoj Kutimuynin",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -1970,7 +1934,6 @@
   },
   {
     "id": "37",
-    "code": "37",
     "title": " 37  Ashkha Kuti Wajyawanki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -2039,7 +2002,6 @@
   },
   {
     "id": "38",
-    "code": "38",
     "title": " Tukuy Sonqonchejwan Takina 38",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -2108,7 +2070,6 @@
   },
   {
     "id": "39",
-    "code": "39",
     "title": " 39 Qanman Diosníy Oraciompi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -2147,7 +2108,6 @@
   },
   {
     "id": "40",
-    "code": "40",
     "title": " 40 Diosta Munakuywan",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -2216,7 +2176,6 @@
   },
   {
     "id": "41",
-    "code": "41",
     "title": " 41  Dios Tataj Sutimpi Tantakuna",
     "musicalNote": " (Fa mayor)",
     "chorus": [],
@@ -2305,7 +2264,6 @@
   },
   {
     "id": "42",
-    "code": "42",
     "title": " 42 Juchamanta Jark'away",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -2354,7 +2312,6 @@
   },
   {
     "id": "43",
-    "code": "43",
     "title": " 43  Pusaway Munasqa Cristo",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -2443,7 +2400,6 @@
   },
   {
     "id": "44",
-    "code": "44",
     "title": " 44 Testimonioywan",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -2487,7 +2443,6 @@
   },
   {
     "id": "45",
-    "code": "45",
     "title": " 45  Sutiykita Oqharispa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -2576,7 +2531,6 @@
   },
   {
     "id": "46",
-    "code": "46",
     "title": " 46 Kusikorqani chay nishawajtinku",
     "musicalNote": " (Re menor)",
     "chorus": [],
@@ -2625,7 +2579,6 @@
   },
   {
     "id": "47",
-    "code": "47",
     "title": " 47  Kay Pacha Kawsaypi",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -2714,7 +2667,6 @@
   },
   {
     "id": "48",
-    "code": "48",
     "title": " 48  Llakiypipis Pruebaspipis",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -2753,7 +2705,6 @@
   },
   {
     "id": "49",
-    "code": "49",
     "title": " 49  Juchapimin Kasharqani",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -2847,7 +2798,6 @@
   },
   {
     "id": "50",
-    "code": "50",
     "title": " 50   Cenaykipi Tantakuyku",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -2887,7 +2837,6 @@
   {
     "title": " 51  Nawpaqeykiman Señor Diosníy",
     "id": "51",
-    "code": "51",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
     "paragraphs": [
@@ -2955,7 +2904,6 @@
   },
   {
     "id": "52",
-    "code": "52",
     "title": " 52   Cristollaman Qoni",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -3044,7 +2992,6 @@
   },
   {
     "id": "53",
-    "code": "53",
     "title": " 53 Huerto Edenmantamin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3133,7 +3080,6 @@
   },
   {
     "id": "54",
-    "code": "54",
     "title": " 54  Munakoj Salvador",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -3242,7 +3188,6 @@
   },
   {
     "id": "55",
-    "code": "55",
     "title": " 55  Sonqoyqa Kusisqallapuni",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -3301,7 +3246,6 @@
   },
   {
     "id": "56",
-    "code": "56",
     "title": " 56  Dios Tatáy Uyarimuway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3370,7 +3314,6 @@
   },
   {
     "id": "57",
-    "code": "57",
     "title": " 57  Khuyakoj Dios Tata",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3439,7 +3382,6 @@
   },
   {
     "id": "58",
-    "code": "58",
     "title": " 58 Kusikunachej Santo Diosmanta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -3478,7 +3420,6 @@
   },
   {
     "id": "59",
-    "code": "59",
     "title": " 59 Dios Tatáy Qan Yanapaway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3547,7 +3488,6 @@
   },
   {
     "id": "60",
-    "code": "60",
     "title": " 60  Manchay Kusikuypuni",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3636,7 +3576,6 @@
   },
   {
     "id": "61",
-    "code": "61",
     "title": " 61  Pilla salvasonqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3695,7 +3634,6 @@
   },
   {
     "id": "62",
-    "code": "62",
     "title": " 62 Jesucristo Wajyawajtin",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -3764,7 +3702,6 @@
   },
   {
     "id": "63",
-    "code": "63",
     "title": " Cristo Diospa Churin  63",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3833,7 +3770,6 @@
   },
   {
     "id": "64",
-    "code": "64",
     "title": " 64   Kunan P'unchay Kashan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3882,7 +3818,6 @@
   },
   {
     "id": "65",
-    "code": "65",
     "title": " Cristo Wajyashan Runasta 65",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -3931,7 +3866,6 @@
   },
   {
     "id": "66",
-    "code": "66",
     "title": " 66   Jaku Riña Runamasi",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3970,7 +3904,6 @@
   },
   {
     "id": "67",
-    "code": "67",
     "title": " Jesucristo Wajyashan     67",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4009,7 +3942,6 @@
   },
   {
     "id": "68",
-    "code": "68",
     "title": " Kay Pachaqa Llakiylla  68",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4078,7 +4010,6 @@
   },
   {
     "id": "69",
-    "code": "69",
     "title": " 69   Jesucristoj Yawarnin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4122,7 +4053,6 @@
   },
   {
     "id": "70",
-    "code": "70",
     "title": " 70  May Kusisqas Ujtawan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4191,7 +4121,6 @@
   },
   {
     "id": "71",
-    "code": "71",
     "title": " 71   Jesusneyqa Llimphuchan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4260,7 +4189,6 @@
   },
   {
     "id": "72",
-    "code": "72",
     "title": " Maytapis Riyman Jesuswan  72",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4349,7 +4277,6 @@
   },
   {
     "id": "73",
-    "code": "73",
     "title": " 73  Cristo Waqaychawan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -4413,7 +4340,6 @@
   },
   {
     "id": "74",
-    "code": "74",
     "title": " 74  Sumaj Munakoj Jesusníy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4452,7 +4378,6 @@
   },
   {
     "id": "75",
-    "code": "75",
     "title": " 75   Janaj Pacha Llajta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4511,7 +4436,6 @@
   },
   {
     "id": "76",
-    "code": "76",
     "title": " 76 Qan aparqanki",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4620,7 +4544,6 @@
   },
   {
     "id": "77",
-    "code": "77",
     "title": " Cristolla Munakim  77",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -4659,7 +4582,6 @@
   },
   {
     "id": "78",
-    "code": "78",
     "title": " 78  Dios Kaypi Kashan",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -4688,7 +4610,6 @@
   },
   {
     "id": "79",
-    "code": "79",
     "title": " 79   Karunchakuni Diosmanta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -4777,7 +4698,6 @@
   },
   {
     "id": "80",
-    "code": "80",
     "title": " 80 Punkumin Kani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4826,7 +4746,6 @@
   },
   {
     "id": "81",
-    "code": "81",
     "title": " 81  Señor Jesusninchej",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4895,7 +4814,6 @@
   },
   {
     "id": "82",
-    "code": "82",
     "title": " 82  Evangeliota Qhatisajpuni",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -4939,7 +4857,6 @@
   },
   {
     "id": "83",
-    "code": "83",
     "title": " 83  Cielosta Rikuspa",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -4988,7 +4905,6 @@
   },
   {
     "id": "84",
-    "code": "84",
     "title": " Kay Pacha Kawsaypi  84",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -5057,7 +4973,6 @@
   },
   {
     "id": "85",
-    "code": "85",
     "title": " 85  Cielopimin Cristo Kashan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -5146,7 +5061,6 @@
   },
   {
     "id": "86",
-    "code": "86",
     "title": " 86 Creejkuna Alabaychej",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -5185,7 +5099,6 @@
   },
   {
     "id": "87",
-    "code": "87",
     "title": " Obrerosta Cristo Mask'ashan 87",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -5274,7 +5187,6 @@
   },
   {
     "id": "88",
-    "code": "88",
     "title": " 88   Gracias Kachun",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -5343,7 +5255,6 @@
   },
   {
     "id": "89",
-    "code": "89",
     "title": " 89 Laqhayayllapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -5387,7 +5298,6 @@
   },
   {
     "id": "90",
-    "code": "90",
     "title": " 90 Jovenesqa Diospi Confíanachej",
     "musicalNote": " (Mib)",
     "chorus": [],
@@ -5456,7 +5366,6 @@
   },
   {
     "id": "91",
-    "code": "91",
     "title": " 91 Qan Sapallayki Diosníy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -5525,7 +5434,6 @@
   },
   {
     "id": "92",
-    "code": "92",
     "title": " 92  Munakoj Dios Tata",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5604,7 +5512,6 @@
   },
   {
     "id": "93",
-    "code": "93",
     "title": " 93  Dioswan Purinapaj",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5693,7 +5600,6 @@
   },
   {
     "id": "94",
-    "code": "94",
     "title": " Jesucristo Jamonqa 94",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -5782,7 +5688,6 @@
   },
   {
     "id": "95",
-    "code": "95",
     "title": " 95  Jesús Nerqa: Noqamin Sach'a Kani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5851,7 +5756,6 @@
   },
   {
     "id": "96",
-    "code": "96",
     "title": " 96  Señor Jesucristo Yanaparillaway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5920,7 +5824,6 @@
   },
   {
     "id": "97",
-    "code": "97",
     "title": " 97  Jamonqaña Jesús",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -6029,7 +5932,6 @@
   },
   {
     "id": "98",
-    "code": "98",
     "title": " 98  Tukuy Sonqonchejwan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -6138,7 +6040,6 @@
   },
   {
     "id": "99",
-    "code": "99",
     "title": " 99  Jesús Salvawajniypi",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -6207,7 +6108,6 @@
   },
   {
     "id": "100",
-    "code": "100",
     "title": " 100   Señor Jesusniy Pusaway",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -6296,7 +6196,6 @@
   },
   {
     "id": "101",
-    "code": "101",
     "title": " 101 Dios Tatayman Takisaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -6385,7 +6284,6 @@
   },
   {
     "id": "102",
-    "code": "102",
     "title": " Kawsayniyta Qopusaj  102",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -6454,7 +6352,6 @@
   },
   {
     "id": "103",
-    "code": "103",
     "title": " 103 Señor Qanman Mañakuni",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -6503,7 +6400,6 @@
   },
   {
     "id": "104",
-    "code": "104",
     "title": " Señorníy Yanapaway     104",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -6562,7 +6458,6 @@
   },
   {
     "id": "105",
-    "code": "105",
     "title": " 105   Munakoj Señorníy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -6651,7 +6546,6 @@
   },
   {
     "id": "106",
-    "code": "106",
     "title": " Rikuchiway Ñanniykita   106",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -6720,7 +6614,6 @@
   },
   {
     "id": "107",
-    "code": "107",
     "title": " 107      Señor Jesusniywan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -6759,7 +6652,6 @@
   },
   {
     "id": "108",
-    "code": "108",
     "title": " Salvador Khuyakuwajníy 108",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -6828,7 +6720,6 @@
   },
   {
     "id": "109",
-    "code": "109",
     "title": " 109 Señorpa Chajrampi Llank'amusaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -6897,7 +6788,6 @@
   },
   {
     "id": "110",
-    "code": "110",
     "title": " 110  Cristoj Chakisninman",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -6966,7 +6856,6 @@
   },
   {
     "id": "111",
-    "code": "111",
     "title": " 111  Señor Jamonqaña",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -7025,7 +6914,6 @@
   },
   {
     "id": "112",
-    "code": "112",
     "title": " 112 Señor Qanman Jamuni",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -7094,7 +6982,6 @@
   },
   {
     "id": "113",
-    "code": "113",
     "title": " 113  Jallp'a Chinkanqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7183,7 +7070,6 @@
   },
   {
     "id": "114",
-    "code": "114",
     "title": " 114 Gracias Dios Tataman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -7237,7 +7123,6 @@
   },
   {
     "id": "115",
-    "code": "115",
     "title": " Diosta Yupaychaychej",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7311,7 +7196,6 @@
   },
   {
     "id": "116",
-    "code": "116",
     "title": " Cristoj Jamunán Suyani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -7380,7 +7264,6 @@
   },
   {
     "id": "117",
-    "code": "117",
     "title": " Diosman Chimpaykojtiy   117",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7419,7 +7302,6 @@
   },
   {
     "id": "118",
-    "code": "118",
     "title": " Dios Tataman Qopunachej 118",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7468,7 +7350,6 @@
   },
   {
     "id": "119",
-    "code": "119",
     "title": " 119  Kay Pachata Cielotawan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -7557,7 +7438,6 @@
   },
   {
     "id": "120",
-    "code": "120",
     "title": " 120 Santa Bibliapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7646,7 +7526,6 @@
   },
   {
     "id": "121",
-    "code": "121",
     "title": " Munakoj Jatun Dios     121",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7715,7 +7594,6 @@
   },
   {
     "id": "122",
-    "code": "122",
     "title": " Kawsayqa Tukukonqa  122",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7784,7 +7662,6 @@
   },
   {
     "id": "123",
-    "code": "123",
     "title": " 123   Diosníy Chimpamuyku",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -7848,7 +7725,6 @@
   },
   {
     "id": "124",
-    "code": "124",
     "title": " Señor Qan Pusaway  124",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -7937,7 +7813,6 @@
   },
   {
     "id": "125",
-    "code": "125",
     "title": " 125    Señor Jesucristo",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8006,7 +7881,6 @@
   },
   {
     "id": "126",
-    "code": "126",
     "title": " Kay Pacha Kawsayllaqa 126",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -8095,7 +7969,6 @@
   },
   {
     "id": "127",
-    "code": "127",
     "title": " 127   Kusikuyniyojmin kanku",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8154,7 +8027,6 @@
   },
   {
     "id": "128",
-    "code": "128",
     "title": " Señor Jesusníy Khuyakuway 128",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8193,7 +8065,6 @@
   },
   {
     "id": "129",
-    "code": "129",
     "title": " Diosníy Qanllapiña Confiani",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8282,7 +8153,6 @@
   },
   {
     "id": "130",
-    "code": "130",
     "title": " JESUCRISTO KUTIMONQA    130",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -8351,7 +8221,6 @@
   },
   {
     "id": "131",
-    "code": "131",
     "title": " Dioslla Ruwarqa  131",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -8400,7 +8269,6 @@
   },
   {
     "id": "132",
-    "code": "132",
     "title": " 132   Kay Mosoj Watapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8469,7 +8337,6 @@
   },
   {
     "id": "133",
-    "code": "133",
     "title": " Uj P'unchaypi Jesús     133",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -8558,7 +8425,6 @@
   },
   {
     "id": "134",
-    "code": "134",
     "title": " Diosta Yupaychana   134",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8587,7 +8453,6 @@
   },
   {
     "id": "135",
-    "code": "135",
     "title": " Munakoj Jesucristo 135",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -8636,7 +8501,6 @@
   },
   {
     "id": "136",
-    "code": "136",
     "title": " 136  Cristoj Santa Iglesianqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8725,7 +8589,6 @@
   },
   {
     "id": "137",
-    "code": "137",
     "title": " 137  Señor Jesucristo Noqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -8789,7 +8652,6 @@
   },
   {
     "id": "138",
-    "code": "138",
     "title": " 138  Casarakojkuna Canapi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -8833,7 +8695,6 @@
   },
   {
     "id": "139",
-    "code": "139",
     "title": " 139 Uj Pacha Juchapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8872,7 +8733,6 @@
   },
   {
     "id": "140",
-    "code": "140",
     "title": " 140   Gracias Dios Tatáy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8961,7 +8821,6 @@
   },
   {
     "id": "141",
-    "code": "141",
     "title": " Mana Yarqhay Kanchu   141",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -9030,7 +8889,6 @@
   },
   {
     "id": "142",
-    "code": "142",
     "title": " 142   Jesucristowan Mayllatapis",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -9119,7 +8977,6 @@
   },
   {
     "id": "143",
-    "code": "143",
     "title": " May Kusikuyniyojmin Kanqanku  143",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9188,7 +9045,6 @@
   },
   {
     "id": "144",
-    "code": "144",
     "title": " 144  Yuyarikuy Tukuy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -9222,7 +9078,6 @@
   },
   {
     "id": "145",
-    "code": "145",
     "title": " Sumaj Munakoj Jesuslla   145",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9291,7 +9146,6 @@
   },
   {
     "id": "146",
-    "code": "146",
     "title": " 146   Cristota Suyanachej",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -9360,7 +9214,6 @@
   },
   {
     "id": "147",
-    "code": "147",
     "title": " Señorníy Wajyawarqa    147",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9429,7 +9282,6 @@
   },
   {
     "id": "148",
-    "code": "148",
     "title": " 148 Amañapis Kankumanchu",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9498,7 +9350,6 @@
   },
   {
     "id": "149",
-    "code": "149",
     "title": " Señor Jesús Jamonqa    149",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9567,7 +9418,6 @@
   },
   {
     "id": "150",
-    "code": "150",
     "title": " 150   Santa Bibliaqa",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -9656,7 +9506,6 @@
   },
   {
     "id": "151",
-    "code": "151",
     "title": " Kallpachawayku Dios    151",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -9725,7 +9574,6 @@
   },
   {
     "id": "152",
-    "code": "152",
     "title": " 152   Señor Jesús Wajyasunki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9794,7 +9642,6 @@
   },
   {
     "id": "153",
-    "code": "153",
     "title": " 153 Diosninchej Wakichin",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -9843,7 +9690,6 @@
   },
   {
     "id": "154",
-    "code": "154",
     "title": " 154 Señorniypata Thaskisqanta",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -9912,7 +9758,6 @@
   },
   {
     "id": "155",
-    "code": "155",
     "title": " 155  Getsemaní Lugarpeqa",
     "musicalNote": "_",
     "chorus": [],
@@ -10021,7 +9866,6 @@
   },
   {
     "id": "156",
-    "code": "156",
     "title": " 156    Ima Llakiy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10060,7 +9904,6 @@
   },
   {
     "id": "157",
-    "code": "157",
     "title": " 157  Dios Wajyasunki",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10129,7 +9972,6 @@
   },
   {
     "id": "158",
-    "code": "158",
     "title": " 158   Munakoj Dios Tata",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10198,7 +10040,6 @@
   },
   {
     "id": "159",
-    "code": "159",
     "title": " Señor Jesusníy Yanapaway 159",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10267,7 +10108,6 @@
   },
   {
     "id": "160",
-    "code": "160",
     "title": " 160  Diospaj Llank'asaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10356,7 +10196,6 @@
   },
   {
     "id": "161",
-    "code": "161",
     "title": " 161  Jesucristo Jamonqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10445,7 +10284,6 @@
   },
   {
     "id": "162",
-    "code": "162",
     "title": " 162    Dios Tataj Llajtanman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10494,7 +10332,6 @@
   },
   {
     "id": "163",
-    "code": "163",
     "title": " 163    Jesucristo Jamonqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10563,7 +10400,6 @@
   },
   {
     "id": "164",
-    "code": "164",
     "title": " 164   Munakuyta Tarisun",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10632,7 +10468,6 @@
   },
   {
     "id": "165",
-    "code": "165",
     "title": " 165  Cristo Orashajtin",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10726,7 +10561,6 @@
   },
   {
     "id": "166",
-    "code": "166",
     "title": " Jesucristo Señorninchej   166",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10795,7 +10629,6 @@
   },
   {
     "id": "167",
-    "code": "167",
     "title": " 167  Señor Jesusniy Noqawan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10884,7 +10717,6 @@
   },
   {
     "id": "168",
-    "code": "168",
     "title": " 168   Diospi Confíaspa",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10923,7 +10755,6 @@
   },
   {
     "id": "169",
-    "code": "169",
     "title": " 169 Belén Llajtapi",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10982,7 +10813,6 @@
   },
   {
     "id": "170",
-    "code": "170",
     "title": " Jesuspa Jamunan 170",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -11056,7 +10886,6 @@
   },
   {
     "id": "171",
-    "code": "171",
     "title": " 171  Cieloman Ripunayqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11125,7 +10954,6 @@
   },
   {
     "id": "172",
-    "code": "172",
     "title": " Yachachiway Dios Tatáy   172",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11214,7 +11042,6 @@
   },
   {
     "id": "173",
-    "code": "173",
     "title": " 173    Chay Ancho Ñanta",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -11283,7 +11110,6 @@
   },
   {
     "id": "174",
-    "code": "174",
     "title": " 174  Señor Jesucristo",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -11322,7 +11148,6 @@
   },
   {
     "id": "175",
-    "code": "175",
     "title": " Janaj Pachapi Señor Jesusqa 175",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -11381,7 +11206,6 @@
   },
   {
     "id": "176",
-    "code": "176",
     "title": " 176   Laqha Juchapi",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11430,7 +11254,6 @@
   },
   {
     "id": "177",
-    "code": "177",
     "title": " Kutirina Jesusman  177",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -11499,7 +11322,6 @@
   },
   {
     "id": "178",
-    "code": "178",
     "title": " 178   Cristoqa Muñan Salvayta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11568,7 +11390,6 @@
   },
   {
     "id": "179",
-    "code": "179",
     "title": " May Kusisqa Rishani   179",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -11627,7 +11448,6 @@
   },
   {
     "id": "180",
-    "code": "180",
     "title": " 180  Orayta yachachiway",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -11716,7 +11536,6 @@
   },
   {
     "id": "181",
-    "code": "181",
     "title": " Kusikoyqa Tiyapuwanqa   181",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -11805,7 +11624,6 @@
   },
   {
     "id": "182",
-    "code": "182",
     "title": " 182 Jesucristo Wicharipunampaj",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11914,7 +11732,6 @@
   },
   {
     "id": "183",
-    "code": "183",
     "title": " Cristo Salvadorta   183",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -11963,7 +11780,6 @@
   },
   {
     "id": "184",
-    "code": "184",
     "title": " 184   Diospa Palabranta Tarpusaj",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -12032,7 +11848,6 @@
   },
   {
     "id": "185",
-    "code": "185",
     "title": " 185   Mana Cristo jiña",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -12096,7 +11911,6 @@
   },
   {
     "id": "186",
-    "code": "186",
     "title": " Jesús Wajyashasunki     186",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -12145,7 +11959,6 @@
   },
   {
     "id": "187",
-    "code": "187",
     "title": " 187 Jinallachu Diosman Risaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -12214,7 +12027,6 @@
   },
   {
     "id": "188",
-    "code": "188",
     "title": " Chinkasqa Kashajtiy   188",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -12263,7 +12075,6 @@
   },
   {
     "id": "189",
-    "code": "189",
     "title": " 189  Señor Jesús Wajyan",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -12297,7 +12108,6 @@
   },
   {
     "id": "190",
-    "code": "190",
     "title": " Kallpachakuna Hermanos 190",
     "musicalNote": " (Fa Menor)",
     "chorus": [],
@@ -12366,7 +12176,6 @@
   },
   {
     "id": "191",
-    "code": "191",
     "title": " 191  Jamuy Sonqoyman",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -12415,7 +12224,6 @@
   },
   {
     "id": "192",
-    "code": "192",
     "title": " Salvación Kasqanmanta 192",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -12464,7 +12272,6 @@
   },
   {
     "id": "193",
-    "code": "193",
     "title": " 193  Wañorqa Jesús Cruzpi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -12533,7 +12340,6 @@
   },
   {
     "id": "194",
-    "code": "194",
     "title": " Diosníy Mañakamuyki    194",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -12602,7 +12408,6 @@
   },
   {
     "id": "195",
-    "code": "195",
     "title": " 195 Dios Tatanchej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -12651,7 +12456,6 @@
   },
   {
     "id": "196",
-    "code": "196",
     "title": " Noqa Kaypi Wajcha  196",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -12720,7 +12524,6 @@
   },
   {
     "id": "197",
-    "code": "197",
     "title": " 197  Oh, Jehová Señorníy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -12759,7 +12562,6 @@
   },
   {
     "id": "198",
-    "code": "198",
     "title": " Cristo Wajyashan   198",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -12798,7 +12600,6 @@
   },
   {
     "id": "199",
-    "code": "199",
     "title": " 199 Santa Bibliapi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -12867,7 +12668,6 @@
   },
   {
     "id": "200",
-    "code": "200",
     "title": " Kunampacha Willamuna 200",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -12936,7 +12736,6 @@
   },
   {
     "id": "201",
-    "code": "201",
     "title": " 201   Dios Tatáy Munakoj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -12975,7 +12774,6 @@
   },
   {
     "id": "202",
-    "code": "202",
     "title": " K'anchaypiña Kaspa     202",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -13044,7 +12842,6 @@
   },
   {
     "id": "203",
-    "code": "203",
     "title": " 203   Cristo Kaypi Kashan",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -13113,7 +12910,6 @@
   },
   {
     "id": "204",
-    "code": "204",
     "title": " 204   Riy Creyente",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13222,7 +13018,6 @@
   },
   {
     "id": "205",
-    "code": "205",
     "title": " 205   Salvasojniykita",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -13291,7 +13086,6 @@
   },
   {
     "id": "206",
-    "code": "206",
     "title": " 206 Amaña Ari",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -13360,7 +13154,6 @@
   },
   {
     "id": "207",
-    "code": "207",
     "title": " Cristo Sapallantaña      207",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13449,7 +13242,6 @@
   },
   {
     "id": "208",
-    "code": "208",
     "title": " 208    Llank'aychej Señorpaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13518,7 +13310,6 @@
   },
   {
     "id": "209",
-    "code": "209",
     "title": " Qampaj Takisaj Diosníy   209",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -13567,7 +13358,6 @@
   },
   {
     "id": "210",
-    "code": "210",
     "title": " 210 Kaypi Kashan Señor Jesús",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13606,7 +13396,6 @@
   },
   {
     "id": "211",
-    "code": "211",
     "title": " 211  Janaj Pachaman Risaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -13675,7 +13464,6 @@
   },
   {
     "id": "212",
-    "code": "212",
     "title": " 212   Sonqowan confiani",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13724,7 +13512,6 @@
   },
   {
     "id": "213",
-    "code": "213",
     "title": " 213 Jesucristo Kay Pachaman",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13793,7 +13580,6 @@
   },
   {
     "id": "214",
-    "code": "214",
     "title": " Janaj Pachamanta  214",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -13882,7 +13668,6 @@
   },
   {
     "id": "215",
-    "code": "215",
     "title": " Munakuwan Jesusniy   215",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13961,7 +13746,6 @@
   },
   {
     "id": "216",
-    "code": "216",
     "title": " 216 Aswan Sumaj Mundomin",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14030,7 +13814,6 @@
   },
   {
     "id": "217",
-    "code": "217",
     "title": " Yachaychej Wasis   217",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14099,7 +13882,6 @@
   },
   {
     "id": "218",
-    "code": "218",
     "title": " 218  Cristoj Jamunanqa",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -14188,7 +13970,6 @@
   },
   {
     "id": "219",
-    "code": "219",
     "title": " 219  Hermanos Takinachej",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -14257,7 +14038,6 @@
   },
   {
     "id": "220",
-    "code": "220",
     "title": " 220  Diosta kasuspa",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -14296,7 +14076,6 @@
   },
   {
     "id": "221",
-    "code": "221",
     "title": " 221   Dios Tatáy Yachachiway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -14345,7 +14124,6 @@
   },
   {
     "id": "222",
-    "code": "222",
     "title": " 222  Yuraj P'achawan Kasaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14374,7 +14152,6 @@
   },
   {
     "id": "223",
-    "code": "223",
     "title": " May Munasqa Hermanóy 223",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -14443,7 +14220,6 @@
   },
   {
     "id": "224",
-    "code": "224",
     "title": " 224  Dios Tatayku",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -14512,7 +14288,6 @@
   },
   {
     "id": "225",
-    "code": "225",
     "title": " Kay Pacha Kawsaypi     225",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -14581,7 +14356,6 @@
   },
   {
     "id": "226",
-    "code": "226",
     "title": " 226  Jesuspa Kutimuynenqa",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14620,7 +14394,6 @@
   },
   {
     "id": "227",
-    "code": "227",
     "title": " 227  Kay Pachaman",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -14669,7 +14442,6 @@
   },
   {
     "id": "228",
-    "code": "228",
     "title": " 228   Kay Pachapi Kawsaypi",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -14708,7 +14480,6 @@
   },
   {
     "id": "229",
-    "code": "229",
     "title": " ImaraykuchusDios      229",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14777,7 +14548,6 @@
   },
   {
     "id": "230",
-    "code": "230",
     "title": " Khuyarikuway Dios Tatáy 230",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -14821,7 +14591,6 @@
   },
   {
     "id": "231",
-    "code": "231",
     "title": " 231 Jesús Jamonqa",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14860,7 +14629,6 @@
   },
   {
     "id": "232",
-    "code": "232",
     "title": " Kallpachakuychej Hermanos 232",
     "musicalNote": "_",
     "chorus": [],
@@ -14909,7 +14677,6 @@
   },
   {
     "id": "233",
-    "code": "233",
     "title": " Graciasta Qoyki  233",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14948,7 +14715,6 @@
   },
   {
     "id": "234",
-    "code": "234",
     "title": " 234  Kay Waseqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14997,7 +14763,6 @@
   },
   {
     "id": "235",
-    "code": "235",
     "title": " May Kusisqas Jaku   235",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15066,7 +14831,6 @@
   },
   {
     "id": "236",
-    "code": "236",
     "title": " 236  Hermanos Hermanas",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15095,7 +14859,6 @@
   },
   {
     "id": "237",
-    "code": "237",
     "title": " Ancha K'acha Señorniy    237",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -15124,7 +14887,6 @@
   },
   {
     "id": "238",
-    "code": "238",
     "title": " 238 Señor Jesusniy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15213,7 +14975,6 @@
   },
   {
     "id": "239",
-    "code": "239",
     "title": " Jaku Riña Llank'amoj    239",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15282,7 +15043,6 @@
   },
   {
     "id": "240",
-    "code": "240",
     "title": " 240  Jesús Salvawajniyta",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15351,7 +15111,6 @@
   },
   {
     "id": "241",
-    "code": "241",
     "title": " Uj P'unchay Chayamonqa  241",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -15400,7 +15159,6 @@
   },
   {
     "id": "242",
-    "code": "242",
     "title": " Bibliapi Niwanchej  242",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15469,7 +15227,6 @@
   },
   {
     "id": "243",
-    "code": "243",
     "title": " 243  Kawsarimporqa Cristoqa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -15518,7 +15275,6 @@
   },
   {
     "id": "244",
-    "code": "244",
     "title": " Diosninchejpa Obrampajqa",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15557,7 +15313,6 @@
   },
   {
     "id": "245",
-    "code": "245",
     "title": " 245  Bolivianchejta Pusana",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15626,7 +15381,6 @@
   },
   {
     "id": "246",
-    "code": "246",
     "title": " 246 Dios Tatáy Mañakuyki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15665,7 +15419,6 @@
   },
   {
     "id": "247",
-    "code": "247",
     "title": " 247   Llank'aspa Kawsana",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15734,7 +15487,6 @@
   },
   {
     "id": "248",
-    "code": "248",
     "title": " 248  Khuyakuymanta Juiciomantawan",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -15783,7 +15535,6 @@
   },
   {
     "id": "249",
-    "code": "249",
     "title": " 249  Qayllakuna Jesusman",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -15832,7 +15583,6 @@
   },
   {
     "id": "250",
-    "code": "250",
     "title": " Salvadorninchej Jesusta   250",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15901,7 +15651,6 @@
   },
   {
     "id": "251",
-    "code": "251",
     "title": " 251 Hermanóy Llakiypichu Qan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15970,7 +15719,6 @@
   },
   {
     "id": "252",
-    "code": "252",
     "title": " Diosniy Tatayqa  252",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15999,7 +15747,6 @@
   },
   {
     "id": "253",
-    "code": "253",
     "title": " 253  Jesucristo Diospa Churin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16068,7 +15815,6 @@
   },
   {
     "id": "254",
-    "code": "254",
     "title": " Cristo Noqawan Kashan   254",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16107,7 +15853,6 @@
   },
   {
     "id": "255",
-    "code": "255",
     "title": " 255 Qhatikusaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16136,7 +15881,6 @@
   },
   {
     "id": "256",
-    "code": "256",
     "title": " Chimpamuyku Señorníy   256",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16165,7 +15909,6 @@
   },
   {
     "id": "257",
-    "code": "257",
     "title": " Cristo Salvawarqa      257",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16204,7 +15947,6 @@
   },
   {
     "id": "258",
-    "code": "258",
     "title": " 258   Señor Nisunki Qanman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16233,7 +15975,6 @@
   },
   {
     "id": "259",
-    "code": "259",
     "title": " 259 Jamuy Ari Jesús",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16262,7 +16003,6 @@
   },
   {
     "id": "260",
-    "code": "260",
     "title": " 260  Cristo K'anehay Noqapi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16291,7 +16031,6 @@
   },
   {
     "id": "261",
-    "code": "261",
     "title": " 261  Gracias Qanman Diosníy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16321,7 +16060,6 @@
   {
     "title": " 262 Cristo Nerqa          ",
     "id": "262",
-    "code": "262",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
     "paragraphs": [
@@ -16359,7 +16097,6 @@
   },
   {
     "id": "263",
-    "code": "263",
     "title": " Diosníy May Jatunmin    263",
     "musicalNote": " (Sol Menor)",
     "chorus": [],
@@ -16388,7 +16125,6 @@
   },
   {
     "id": "264",
-    "code": "264",
     "title": " 264   Cristowan Wasinchejpi",
     "musicalNote": " (Si Mayor)",
     "chorus": [],
@@ -16417,7 +16153,6 @@
   },
   {
     "id": "265",
-    "code": "265",
     "title": " Kusisqa Kani  265",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16446,7 +16181,6 @@
   },
   {
     "id": "266",
-    "code": "266",
     "title": " Munakoj Cristo 266",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16515,7 +16249,6 @@
   },
   {
     "id": "267",
-    "code": "267",
     "title": " 267  Sinch'i Qayllana",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16544,7 +16277,6 @@
   },
   {
     "id": "268",
-    "code": "268",
     "title": " Cristo Kutimonqaña     268",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16573,7 +16305,6 @@
   },
   {
     "id": "269",
-    "code": "269",
     "title": " 269 Cristo Kawsan          ",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16592,7 +16323,6 @@
   },
   {
     "id": "270",
-    "code": "270",
     "title": " 270 Rijch'ariy",
     "musicalNote": " (La Menor)",
     "chorus": [],
@@ -16641,7 +16371,6 @@
   },
   {
     "id": "271",
-    "code": "271",
     "title": " 271  Cristollapaj Bolivianchej",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -16661,7 +16390,6 @@
   {
     "title": " 272 Vallesninta         ",
     "id": "272",
-    "code": "272",
     "musicalNote": " (Re Menor)",
     "chorus": [],
     "paragraphs": [
@@ -16679,7 +16407,6 @@
   },
   {
     "id": "273",
-    "code": "273",
     "title": " 273  Jamuy Diosman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16708,7 +16435,6 @@
   },
   {
     "id": "274",
-    "code": "274",
     "title": " 274 Chinkasqa Almasta",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -16737,7 +16463,6 @@
   },
   {
     "id": "275",
-    "code": "275",
     "title": " 275  Tukuy Jóvenes",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16756,7 +16481,6 @@
   },
   {
     "id": "276",
-    "code": "276",
     "title": " 276  Jesucristo Kutimojtin",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16775,7 +16499,6 @@
   },
   {
     "id": "277",
-    "code": "277",
     "title": " 277 Iskayrayasqas",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16794,7 +16517,6 @@
   },
   {
     "id": "278",
-    "code": "278",
     "title": " 278 Diosninchejpa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16823,7 +16545,6 @@
   },
   {
     "id": "279",
-    "code": "279",
     "title": " Cristoj Jamunán   279",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -16872,7 +16593,6 @@
   },
   {
     "id": "280",
-    "code": "280",
     "title": " Diospata Kajkunaqa     280",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16921,7 +16641,6 @@
   },
   {
     "id": "281",
-    "code": "281",
     "title": " 281   Jesuspa K'anchayninta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16960,7 +16679,6 @@
   },
   {
     "id": "282",
-    "code": "282",
     "title": " 282 Bibliataqa Leeypuni",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16989,7 +16707,6 @@
   },
   {
     "id": "283",
-    "code": "283",
     "title": " 283  Sumaj Kusiy Kachun",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -17018,7 +16735,6 @@
   },
   {
     "id": "284",
-    "code": "284",
     "title": " 284    Noqawanpuni Kashan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17037,7 +16753,6 @@
   },
   {
     "id": "285",
-    "code": "285",
     "title": " 285 Wasiy Tiyan",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17076,7 +16791,6 @@
   },
   {
     "id": "286",
-    "code": "286",
     "title": " 286  Jatun kusiywan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17095,7 +16809,6 @@
   },
   {
     "id": "287",
-    "code": "287",
     "title": " 287  Kachaway Señorniy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17119,7 +16832,6 @@
   },
   {
     "id": "288",
-    "code": "288",
     "title": " 288  Llajtasmanta Orqosmanta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17148,7 +16860,6 @@
   },
   {
     "id": "289",
-    "code": "289",
     "title": " Jesusniy Waqaychawan   289",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17177,7 +16888,6 @@
   },
   {
     "id": "290",
-    "code": "290",
     "title": " 290  Tukuyninchej Llank'ajtinchej",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17201,7 +16911,6 @@
   },
   {
     "id": "291",
-    "code": "291",
     "title": " 291  Jesucristo Kawsan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -17240,7 +16949,6 @@
   },
   {
     "id": "292",
-    "code": "292",
     "title": " Graciasta Qonachej   292",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -17260,7 +16968,6 @@
   {
     "title": " 293 Cristo Llimphuchawan    ",
     "id": "293",
-    "code": "293",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
     "paragraphs": [
@@ -17278,7 +16985,6 @@
   },
   {
     "id": "294",
-    "code": "294",
     "title": " Kay P'unchaypi   294",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17297,7 +17003,6 @@
   },
   {
     "id": "295",
-    "code": "295",
     "title": " Munakuypi Kawsanachej 295",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -17336,7 +17041,6 @@
   },
   {
     "id": "296",
-    "code": "296",
     "title": " Hermanóy Waturikuy    296",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17425,7 +17129,6 @@
   },
   {
     "id": "297",
-    "code": "297",
     "title": " 297   Mayta Rishanki Rumi",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -17484,7 +17187,6 @@
   },
   {
     "id": "298",
-    "code": "298",
     "title": " Jallp'allamanta Kani     298",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17533,7 +17235,6 @@
   },
   {
     "id": "299",
-    "code": "299",
     "title": " 299  Diosninchejta Kusikuywan",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -17562,7 +17263,6 @@
   },
   {
     "id": "300",
-    "code": "300",
     "title": " 300 Kay Pacha Kawsayneyqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17591,7 +17291,6 @@
   },
   {
     "id": "301",
-    "code": "301",
     "title": " Cristo Kutimunampajqa  301",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17660,7 +17359,6 @@
   },
   {
     "id": "302",
-    "code": "302",
     "title": " 302 Munasqa Hermanóy",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -17699,7 +17397,6 @@
   },
   {
     "id": "303",
-    "code": "303",
     "title": " Q'oñi Jallp'aspi   303",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -17748,7 +17445,6 @@
   },
   {
     "id": "304",
-    "code": "304",
     "title": " 304  Rikuy Señorpa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17797,7 +17493,6 @@
   },
   {
     "id": "305",
-    "code": "305",
     "title": " Jehová Nerqa        305",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17821,7 +17516,6 @@
   },
   {
     "id": "306",
-    "code": "306",
     "title": " Manchay K'achamin Diospa 306",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17870,7 +17564,6 @@
   },
   {
     "id": "307",
-    "code": "307",
     "title": " 307   Salmo Veintitrés",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -17889,7 +17582,6 @@
   },
   {
     "id": "308",
-    "code": "308",
     "title": " Gracias Qanman  308",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -17928,7 +17620,6 @@
   },
   {
     "id": "309",
-    "code": "309",
     "title": " Atipayqa Tiyan Kawsarimojpi  309",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17957,7 +17648,6 @@
   },
   {
     "id": "310",
-    "code": "310",
     "title": " 310  Chhikata Munakun",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17976,7 +17666,6 @@
   },
   {
     "id": "311",
-    "code": "311",
     "title": " 311  Jaqay cielopi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17995,7 +17684,6 @@
   },
   {
     "id": "312",
-    "code": "312",
     "title": " Kusikuni Sonqoy  312",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -18044,7 +17732,6 @@
   },
   {
     "id": "313",
-    "code": "313",
     "title": " Takisaj Señorllaman     313",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -18093,7 +17780,6 @@
   },
   {
     "id": "314",
-    "code": "314",
     "title": " 314  Noqanchej wampuni",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18182,7 +17868,6 @@
   },
   {
     "id": "315",
-    "code": "315",
     "title": " 315  Niraj Diosta Rejsishaspa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18221,7 +17906,6 @@
   },
   {
     "id": "316",
-    "code": "316",
     "title": " 316  Yupaychanachej Diosninchejtaqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18260,7 +17944,6 @@
   },
   {
     "id": "317",
-    "code": "317",
     "title": " 317           Señor Jesusqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18330,7 +18013,6 @@
   {
     "title": " 318 Santo Santo Santo       ",
     "id": "318",
-    "code": "318",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
     "paragraphs": [
@@ -18378,7 +18060,6 @@
   },
   {
     "id": "319",
-    "code": "319",
     "title": " 319  Cielo Ventanasta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -18417,7 +18098,6 @@
   },
   {
     "id": "320",
-    "code": "320",
     "title": " Jallp'a Kuyukuypis  320",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -18456,7 +18136,6 @@
   },
   {
     "id": "321",
-    "code": "321",
     "title": " 321   Señor Noqa Qopuyki",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18535,7 +18214,6 @@
   },
   {
     "id": "322",
-    "code": "322",
     "title": " Juchaj Atipasqan kaspa   322",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18644,7 +18322,6 @@
   },
   {
     "id": "323",
-    "code": "323",
     "title": " 323   Qaynapis Mana Oraspa",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -18723,7 +18400,6 @@
   },
   {
     "id": "324",
-    "code": "324",
     "title": " Jamuy Ari Jesucristo     324",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -18792,7 +18468,6 @@
   },
   {
     "id": "325",
-    "code": "325",
     "title": " 325 Heredero Kani Cristowan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18861,7 +18536,6 @@
   },
   {
     "id": "326",
-    "code": "326",
     "title": " Jesusnillaymin Librawarqa 326",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18900,7 +18574,6 @@
   },
   {
     "id": "327",
-    "code": "327",
     "title": " 327  Kusikuyniyojmin Kanku",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18924,7 +18597,6 @@
   },
   {
     "id": "328",
-    "code": "328",
     "title": " Ñawpajman Rinachej    328",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -18993,7 +18665,6 @@
   },
   {
     "id": "329",
-    "code": "329",
     "title": " 329    Pusaway Salvadorníy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19062,7 +18733,6 @@
   },
   {
     "id": "330",
-    "code": "330",
     "title": " Oraspallapuni Atipasim   330",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19081,7 +18751,6 @@
   },
   {
     "id": "331",
-    "code": "331",
     "title": " 331    Perdonqa Kashampuni",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -19150,7 +18819,6 @@
   },
   {
     "id": "332",
-    "code": "332",
     "title": " 332   Ofrendasta Apamunchej",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19179,7 +18847,6 @@
   },
   {
     "id": "333",
-    "code": "333",
     "title": " Cristo Kutimonqa Yuraj   333",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19248,7 +18915,6 @@
   },
   {
     "id": "334",
-    "code": "334",
     "title": " 334  Gracias Diosman Kachun",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19317,7 +18983,6 @@
   },
   {
     "id": "335",
-    "code": "335",
     "title": " Tukuy Imata Ruwaj Dios 335",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19381,7 +19046,6 @@
   },
   {
     "id": "336",
-    "code": "336",
     "title": " 336    Munakuypi Kawsana",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19400,7 +19064,6 @@
   },
   {
     "id": "337",
-    "code": "337",
     "title": " Kay Pacha Tukukonqaña 337",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -19469,7 +19132,6 @@
   },
   {
     "id": "338",
-    "code": "338",
     "title": "  338  May Munasqa Hermanitos",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -19508,7 +19170,6 @@
   },
   {
     "id": "339",
-    "code": "339",
     "title": " Jehová Dios Señorniyku   339",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -19577,7 +19238,6 @@
   },
   {
     "id": "340",
-    "code": "340",
     "title": " 340 Runaj Kawsaynenqa Qhora Jiña",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19646,7 +19306,6 @@
   },
   {
     "id": "341",
-    "code": "341",
     "title": " 341 Santo Santo Señorniy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -19695,7 +19354,6 @@
   },
   {
     "id": "342",
-    "code": "342",
     "title": " Qanllaman Chimpamunaypaj 342",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -19764,7 +19422,6 @@
   },
   {
     "id": "343",
-    "code": "343",
     "title": " 343  Yupaychanachej Señorta",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19833,7 +19490,6 @@
   },
   {
     "id": "344",
-    "code": "344",
     "title": " Jesusqa Bautizakorqa    344",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -19862,7 +19518,6 @@
   },
   {
     "id": "345",
-    "code": "345",
     "title": " 345  Santa Biblia Diospa\nPalabramin",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19931,7 +19586,6 @@
   },
   {
     "id": "346",
-    "code": "346",
     "title": " Llakisqachu Purishanki   346",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19980,7 +19634,6 @@
   },
   {
     "id": "347",
-    "code": "347",
     "title": " 347  Jesús Uyariway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20029,7 +19682,6 @@
   },
   {
     "id": "348",
-    "code": "348",
     "title": " Wajcha Kayqa May   348",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -20058,7 +19710,6 @@
   },
   {
     "id": "349",
-    "code": "349",
     "title": " Qayllaykamuy Cristoman 349",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20087,7 +19738,6 @@
   },
   {
     "id": "350",
-    "code": "350",
     "title": " 350   Santa Biblianejta",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -20156,7 +19806,6 @@
   },
   {
     "id": "351",
-    "code": "351",
     "title": " Ñawpaqeykiman Diosniy  351",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20205,7 +19854,6 @@
   },
   {
     "id": "352",
-    "code": "352",
     "title": " 352  Munasqa Hermanóy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -20249,7 +19897,6 @@
   },
   {
     "id": "353",
-    "code": "353",
     "title": " Waqaychaway Jesucristo 353",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -20288,7 +19935,6 @@
   },
   {
     "id": "354",
-    "code": "354",
     "title": " 354 Kay Jallp'api Kaspa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -20337,7 +19983,6 @@
   },
   {
     "id": "355",
-    "code": "355",
     "title": " 355   Noqarayku Saqerqanki",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -20426,7 +20071,6 @@
   },
   {
     "id": "356",
-    "code": "356",
     "title": " 356 Cristo Munakun Tukuy Juchasapasta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20475,7 +20119,6 @@
   },
   {
     "id": "357",
-    "code": "357",
     "title": " Santo Espíritu        357",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -20494,7 +20137,6 @@
   },
   {
     "id": "358",
-    "code": "358",
     "title": " Mañakuway Uyarisqayki 358",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -20513,7 +20155,6 @@
   },
   {
     "id": "359",
-    "code": "359",
     "title": " 359  Maypipis Santo Espíritu Kajtin",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -20532,7 +20173,6 @@
   },
   {
     "id": "360",
-    "code": "360",
     "title": " 360  Cristoj Ladonman Rispa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -20551,7 +20191,6 @@
   },
   {
     "id": "361",
-    "code": "361",
     "title": " Kusisqapuni Kaychej     361",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -20570,7 +20209,6 @@
   },
   {
     "id": "362",
-    "code": "362",
     "title": " Sonqoypi Kusisqa Kashani 362",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -20589,7 +20227,6 @@
   },
   {
     "id": "363",
-    "code": "363",
     "title": " 363  Juicio P'unchay",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -20638,7 +20275,6 @@
   },
   {
     "id": "364",
-    "code": "364",
     "title": " Sumaj Munakoj Señor    364",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20707,7 +20343,6 @@
   },
   {
     "id": "365",
-    "code": "365",
     "title": " Cristo Qan Sumaj      365",
     "musicalNote": " (La Menor)",
     "chorus": [],
@@ -20796,7 +20431,6 @@
   },
   {
     "id": "366",
-    "code": "366",
     "title": " 366 Qampaj Diosníy",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -20865,7 +20499,6 @@
   },
   {
     "id": "367",
-    "code": "367",
     "title": " 367  Juchasapa Kasqaymanta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20934,7 +20567,6 @@
   },
   {
     "id": "368",
-    "code": "368",
     "title": " 368 Sonqoypi Kusikushani",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -20983,7 +20615,6 @@
   },
   {
     "id": "369",
-    "code": "369",
     "title": " 369  Tarpuy Paqarimpi",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -21047,7 +20678,6 @@
   },
   {
     "id": "370",
-    "code": "370",
     "title": " 370 Kay Pachapeqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -21116,7 +20746,6 @@
   },
   {
     "id": "371",
-    "code": "371",
     "title": " 371 Jesucristo Jamonqaña",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -21135,7 +20764,6 @@
   },
   {
     "id": "372",
-    "code": "372",
     "title": " Ch'aska K'anchamoj 372",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -21204,7 +20832,6 @@
   },
   {
     "id": "373",
-    "code": "373",
     "title": " 373 Juchayoj Runa Riy",
     "musicalNote": "_",
     "chorus": [],
@@ -21243,7 +20870,6 @@
   },
   {
     "id": "374",
-    "code": "374",
     "title": " 374  Wakichisqañamin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -21332,7 +20958,6 @@
   },
   {
     "id": "375",
-    "code": "375",
     "title": " Diosninchejwan Kaspaqa  375",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -21421,7 +21046,6 @@
   },
   {
     "id": "376",
-    "code": "376",
     "title": " 376  Huertaspi Rikunchej",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -21490,7 +21114,6 @@
   },
   {
     "id": "377",
-    "code": "377",
     "title": " Juchapi Sayk'usqa 377",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -21569,7 +21192,6 @@
   },
   {
     "id": "378",
-    "code": "378",
     "title": " 378  Maypipis Kashaspa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -21658,7 +21280,6 @@
   },
   {
     "id": "379",
-    "code": "379",
     "title": " 379 Cristo Salvadorniypa",
     "musicalNote": " (Fa Menor)",
     "chorus": [],
@@ -21697,7 +21318,6 @@
   },
   {
     "id": "380",
-    "code": "380",
     "title": " 380 Ñapis Chayasajña",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -21786,7 +21406,6 @@
   },
   {
     "id": "381",
-    "code": "381",
     "title": " Waqáy Ni Salvanchu     381",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -21825,7 +21444,6 @@
   },
   {
     "id": "382",
-    "code": "382",
     "title": " 382  Maypitaj Ñawpa Hermanos kanku",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -21864,7 +21482,6 @@
   },
   {
     "id": "383",
-    "code": "383",
     "title": " Moisespaj Tiempompeqa 383",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -21923,7 +21540,6 @@
   },
   {
     "id": "384",
-    "code": "384",
     "title": " 384 Jesusníy Kay Millay",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -22012,7 +21628,6 @@
   },
   {
     "id": "385",
-    "code": "385",
     "title": " 385        Llakiyniykipi",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -22081,7 +21696,6 @@
   },
   {
     "id": "386",
-    "code": "386",
     "title": " Rerqa Tarpojqa Campoman 386",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22140,7 +21754,6 @@
   },
   {
     "id": "387",
-    "code": "387",
     "title": " 387 Niraj Sut'iyayta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -22189,7 +21802,6 @@
   },
   {
     "id": "388",
-    "code": "388",
     "title": " Cielomantapacha Jamun Jesús  388\n",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22298,7 +21910,6 @@
   },
   {
     "id": "389",
-    "code": "389",
     "title": " Jisq'on Chunka Jisq'onniyoj 389",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22347,7 +21958,6 @@
   },
   {
     "id": "390",
-    "code": "390",
     "title": " 390  Janaj Pachata Rishani",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22371,7 +21981,6 @@
   },
   {
     "id": "391",
-    "code": "391",
     "title": " Jatun P'unchay  391",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -22415,7 +22024,6 @@
   },
   {
     "id": "392",
-    "code": "392",
     "title": " Jesucristojta Yawarnin    392",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -22489,7 +22097,6 @@
   },
   {
     "id": "393",
-    "code": "393",
     "title": " 393 Cristota Qhawajqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22558,7 +22165,6 @@
   },
   {
     "id": "394",
-    "code": "394",
     "title": " Diosninchej Apachimonqa 394",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -22647,7 +22253,6 @@
   },
   {
     "id": "395",
-    "code": "395",
     "title": " Diospa Makinmanta     395",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22711,7 +22316,6 @@
   },
   {
     "id": "396",
-    "code": "396",
     "title": " 396   Juchasneyqa Mayllasqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22800,7 +22404,6 @@
   },
   {
     "id": "397",
-    "code": "397",
     "title": " Santo Runaspajqa 397",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -22849,7 +22452,6 @@
   },
   {
     "id": "398",
-    "code": "398",
     "title": " 398  Jatun Atiyniyoj Dios",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -22913,7 +22515,6 @@
   },
   {
     "id": "399",
-    "code": "399",
     "title": " Jehovamin Michejniy    399",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22982,7 +22583,6 @@
   },
   {
     "id": "400",
-    "code": "400",
     "title": " 400 Cristo Sumaj Kausaqe",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -23011,7 +22611,6 @@
   },
   {
     "id": "401",
-    "code": "401",
     "title": " Jesuspa Jatun Sutenqa    401",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23080,7 +22679,6 @@
   },
   {
     "id": "402",
-    "code": "402",
     "title": " 402 Jesucristoman Jamullayña",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23149,7 +22747,6 @@
   },
   {
     "id": "403",
-    "code": "403",
     "title": " Jesús Salvawajníy 403",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -23208,7 +22805,6 @@
   },
   {
     "id": "404",
-    "code": "404",
     "title": " Jesucristo Wajyasunki    404",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23267,7 +22863,6 @@
   },
   {
     "id": "405",
-    "code": "405",
     "title": " 405 Yupaychasuyku",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23376,7 +22971,6 @@
   },
   {
     "id": "406",
-    "code": "406",
     "title": " K'acha Takiykuna 406",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23445,7 +23039,6 @@
   },
   {
     "id": "407",
-    "code": "407",
     "title": " 407   Cristo Salvadorniytaqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -23504,7 +23097,6 @@
   },
   {
     "id": "408",
-    "code": "408",
     "title": " Willaj Jamuyki 408",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23533,7 +23125,6 @@
   },
   {
     "id": "409",
-    "code": "409",
     "title": " 409  Palabrayki Tarpusqata",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -23562,7 +23153,6 @@
   },
   {
     "id": "410",
-    "code": "410",
     "title": " Ñapis Llakiykuna 410",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -23611,7 +23201,6 @@
   },
   {
     "id": "411",
-    "code": "411",
     "title": " 411  Diospa Iglesianmanta",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -23630,7 +23219,6 @@
   },
   {
     "id": "412",
-    "code": "412",
     "title": " 412        Calvariokama",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23679,7 +23267,6 @@
   },
   {
     "id": "413",
-    "code": "413",
     "title": " Qayna Kunan        413",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23698,7 +23285,6 @@
   },
   {
     "id": "414",
-    "code": "414",
     "title": " Noqa Creeni Jesuspi     414",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -23787,7 +23373,6 @@
   },
   {
     "id": "415",
-    "code": "415",
     "title": " 415 Jesusta Rikúy Munayman",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23876,7 +23461,6 @@
   },
   {
     "id": "416",
-    "code": "416",
     "title": " Evangelio Barcoqa 416",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -23970,7 +23554,6 @@
   },
   {
     "id": "417",
-    "code": "417",
     "title": " Tukuy Uyarejqa  417",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24039,7 +23622,6 @@
   },
   {
     "id": "418",
-    "code": "418",
     "title": " 418 Danielqa Kinsata Oraj",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24068,7 +23650,6 @@
   },
   {
     "id": "419",
-    "code": "419",
     "title": " Kusisqalla Kawsakusaj   419",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24097,7 +23678,6 @@
   },
   {
     "id": "420",
-    "code": "420",
     "title": " 420 Señorpa Palabranta Willaychej",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24136,7 +23716,6 @@
   },
   {
     "id": "421",
-    "code": "421",
     "title": " Santa Biblia Noqapaj    421",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24175,7 +23754,6 @@
   },
   {
     "id": "422",
-    "code": "422",
     "title": " Ni Qolqewan Nitaj      422",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -24204,7 +23782,6 @@
   },
   {
     "id": "423",
-    "code": "423",
     "title": " 423 May Kusiy Kanqa Cristopi Tukuyninchej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -24233,7 +23810,6 @@
   },
   {
     "id": "424",
-    "code": "424",
     "title": " Kan Perdón Cristoj 424",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -24252,7 +23828,6 @@
   },
   {
     "id": "425",
-    "code": "425",
     "title": " Mayman Rishanki 425",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24321,7 +23896,6 @@
   },
   {
     "id": "426",
-    "code": "426",
     "title": " 426 Michiwaykupuni Jesusniyku",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24370,7 +23944,6 @@
   },
   {
     "id": "427",
-    "code": "427",
     "title": " 427  Atisaj Jesuswan Atisaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24419,7 +23992,6 @@
   },
   {
     "id": "428",
-    "code": "428",
     "title": " Takiy Jatun Kusiywan    428",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -24458,7 +24030,6 @@
   },
   {
     "id": "429",
-    "code": "429",
     "title": " 429 Rinachej Camposnejman",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24527,7 +24098,6 @@
   },
   {
     "id": "430",
-    "code": "430",
     "title": " Señor Jesusniy Pay 430 - Ap. 19:11-16",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -24566,7 +24136,6 @@
   },
   {
     "id": "431",
-    "code": "431",
     "title": " 431 Diospa Palabrampi Yachachiykuna",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -24635,7 +24204,6 @@
   },
   {
     "id": "432",
-    "code": "432",
     "title": " May kasqayta yuyakoj kani 432",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -24724,7 +24292,6 @@
   },
   {
     "id": "433",
-    "code": "433",
     "title": " Cristoj Soldadon Jina    433",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24773,7 +24340,6 @@
   },
   {
     "id": "434",
-    "code": "434",
     "title": " 434  Cristo Yawarninwan",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24862,7 +24428,6 @@
   },
   {
     "id": "435",
-    "code": "435",
     "title": " 435  Mayllawan Jesusniy",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24891,7 +24456,6 @@
   },
   {
     "id": "436",
-    "code": "436",
     "title": " 436 Maqanakuman Jesús",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24920,7 +24484,6 @@
   },
   {
     "id": "437",
-    "code": "437",
     "title": " Noqa Niyki Qanta   437",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -24939,7 +24502,6 @@
   },
   {
     "id": "438",
-    "code": "438",
     "title": " 438   Nawpajllaman Rinachej",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24958,7 +24520,6 @@
   },
   {
     "id": "439",
-    "code": "439",
     "title": " 439 Kutimuspa Jesusqa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24977,7 +24538,6 @@
   },
   {
     "id": "440",
-    "code": "440",
     "title": " Señor Diosniy Mask'aj    440",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -25006,7 +24566,6 @@
   },
   {
     "id": "441",
-    "code": "441",
     "title": " Domingo P'unchaypeqa   441",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25025,7 +24584,6 @@
   },
   {
     "id": "442",
-    "code": "442",
     "title": " 442   Tukuy Ima Nisqasneyqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25054,7 +24612,6 @@
   },
   {
     "id": "443",
-    "code": "443",
     "title": " 443        Jesús Reyniy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25073,7 +24630,6 @@
   },
   {
     "id": "444",
-    "code": "444",
     "title": " Amapuni Juchamanqa    444",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25092,7 +24648,6 @@
   },
   {
     "id": "445",
-    "code": "445",
     "title": " Uyariychej Allinta      445",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -25121,7 +24676,6 @@
   },
   {
     "id": "446",
-    "code": "446",
     "title": " 446 Qhuyaj sonqo Mama",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -25170,7 +24724,6 @@
   },
   {
     "id": "447",
-    "code": "447",
     "title": " 447 Muñan Jesús K'anchanayta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25229,7 +24782,6 @@
   },
   {
     "id": "448",
-    "code": "448",
     "title": " Munakuwaj Jesusníy 448",
     "musicalNote": "_",
     "chorus": [],
@@ -25298,7 +24850,6 @@
   },
   {
     "id": "449",
-    "code": "449",
     "title": " 449 Mosoj Testamento",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25392,7 +24943,6 @@
   },
   {
     "id": "450",
-    "code": "450",
     "title": " 450  Cielopi punku kichasqa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25461,7 +25011,6 @@
   },
   {
     "id": "451",
-    "code": "451",
     "title": " Sumaj willayta tukuy runasman 451",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25495,7 +25044,6 @@
   },
   {
     "id": "452",
-    "code": "452",
     "title": " 452 Takisaj Jesusmanta",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25564,7 +25112,6 @@
   },
   {
     "id": "453",
-    "code": "453",
     "title": " Qanpata kani Señor  453",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25653,7 +25200,6 @@
   },
   {
     "id": "454",
-    "code": "454",
     "title": " Punkusqa kichasqasña kanku 454",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25687,7 +25233,6 @@
   },
   {
     "id": "455",
-    "code": "455",
     "title": " 455        Señor Diosniy",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25781,7 +25326,6 @@
   },
   {
     "id": "456",
-    "code": "456",
     "title": " 456 Ch'inmanta Usqayta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25800,7 +25344,6 @@
   },
   {
     "id": "457",
-    "code": "457",
     "title": " 457  Cristo kawsayta qon",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25839,7 +25382,6 @@
   },
   {
     "id": "458",
-    "code": "458",
     "title": " Cristomanta Yacháy Munani 458",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25868,7 +25410,6 @@
   },
   {
     "id": "459",
-    "code": "459",
     "title": " Jesús Munakuyki        459",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25897,7 +25438,6 @@
   },
   {
     "id": "460",
-    "code": "460",
     "title": " 460 Juchaykiwan jamuy Jesusman",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25986,7 +25526,6 @@
   },
   {
     "id": "461",
-    "code": "461",
     "title": " Jesucristo Atiyniyoj 461",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -26075,7 +25614,6 @@
   },
   {
     "id": "462",
-    "code": "462",
     "title": " 462   Tukuy kayniyta qopuspa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -26184,7 +25722,6 @@
   },
   {
     "id": "463",
-    "code": "463",
     "title": " Imaynachus kasqay jina   463",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -26233,7 +25770,6 @@
   },
   {
     "id": "464",
-    "code": "464",
     "title": " 464         Gloria Kachun",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -26277,7 +25813,6 @@
   },
   {
     "id": "465",
-    "code": "465",
     "title": " Jesucristoj kutimunan chay 465",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26311,7 +25846,6 @@
   },
   {
     "id": "466",
-    "code": "466",
     "title": " 466  Kawsaqesniykita",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -26350,7 +25884,6 @@
   },
   {
     "id": "467",
-    "code": "467",
     "title": " Atiyniyoj Diosneyqa  467",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -26389,7 +25922,6 @@
   },
   {
     "id": "468",
-    "code": "468",
     "title": " 468 Jaqay p'unchayta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -26453,7 +25985,6 @@
   },
   {
     "id": "469",
-    "code": "469",
     "title": " 469  Qhuyakoj Salvawajniy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26487,7 +26018,6 @@
   },
   {
     "id": "470",
-    "code": "470",
     "title": " Señorniy wajyashawanki  470",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26566,7 +26096,6 @@
   },
   {
     "id": "471",
-    "code": "471",
     "title": " 471   Ama manchachikuychu",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26615,7 +26144,6 @@
   },
   {
     "id": "472",
-    "code": "472",
     "title": " 472         Jamuy Dios",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26644,7 +26172,6 @@
   },
   {
     "id": "473",
-    "code": "473",
     "title": " Qayllaykuna Jesusman 473",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26693,7 +26220,6 @@
   },
   {
     "id": "474",
-    "code": "474",
     "title": " 474   Cristo Sumaj Michejniy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26752,7 +26278,6 @@
   },
   {
     "id": "475",
-    "code": "475",
     "title": " 475  Cristoj Jamuynin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26821,7 +26346,6 @@
   },
   {
     "id": "476",
-    "code": "476",
     "title": " 476  Juchapi kawsakoj",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -26890,7 +26414,6 @@
   },
   {
     "id": "477",
-    "code": "477",
     "title": " 477   Waynakunaj kawsaynin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26939,7 +26462,6 @@
   },
   {
     "id": "478",
-    "code": "478",
     "title": " 478  Diosman Willanachej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26968,7 +26490,6 @@
   },
   {
     "id": "479",
-    "code": "479",
     "title": " 479 Cristollapi Suyay",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -27037,7 +26558,6 @@
   },
   {
     "id": "480",
-    "code": "480",
     "title": " 480 Diospaj Llank'asaj",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -27106,7 +26626,6 @@
   },
   {
     "id": "481",
-    "code": "481",
     "title": " Imarayku Diosniy 481",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -27190,7 +26709,6 @@
   },
   {
     "id": "482",
-    "code": "482",
     "title": " 482 Kay pachapeqa kawsayniypi",
     "musicalNote": " (Si Menor)",
     "chorus": [],

@@ -67,7 +67,6 @@ export const songV1ToNew = (data: ISongListV1): ISong => {
  return {
   ...data,
   id: id,
-  code: id,
   title: data.title,
   musicalNote: data.musicalNote,
   paragraphs: [],

@@ -44,10 +44,10 @@ const HimnoList = ({ changeSongBySearch, hasFavorite: hasFavorite, songsSearch, 
               .filter((_, i) => (i >= paginate.length * (paginate.page - 1) && i < paginate.length * paginate.page))
               .map((item) => {
                 return <HimnoItem
-                  key={item.code}
+                  key={item.id}
                   id={item.id}
                   title={item.title}
-                  num={item.code}
+                  num={null}
                   note={item.musicalNote}
                   description={item.paragraphs[0]?.paragraph || item.description || ""}
                   onClick={() => handlePress(item)}

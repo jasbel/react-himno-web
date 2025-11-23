@@ -12,7 +12,7 @@ import StarNote from "./elements/StarNoteNew";
 interface Props {
   id: ID,
   title: string,
-  num: string,
+  num: string | null,
   note: string,
   description: string,
   style?: React.CSSProperties;

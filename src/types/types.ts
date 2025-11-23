@@ -13,7 +13,6 @@ export interface IChoirOld {
 }
 
 export interface ISongListV1 {
-  num_song: string,
   title: string,
   description: string,
   musicalNote: TNote,
@@ -32,7 +31,6 @@ export interface IChoir {
 }
 
 export interface ISongBase {
-  code: string,
   title: string,
   musicalNote: TNote ,
   paragraphs: IParagraph[],
@@ -43,7 +41,6 @@ export interface ISongCreate extends ISongBase {}
 
 export interface ISongItem  {
   id: ID,
-  num_song: string,
   description: string,
   title: string,
   musicalNote: TNote ,
@@ -68,7 +65,6 @@ export interface ISong extends ISongBase {
 }
 
 export interface ISongSingle {
-  code: string,
   title: string,
   musicalNote: TNote,
   description: string,
