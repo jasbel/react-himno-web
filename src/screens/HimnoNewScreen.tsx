@@ -11,7 +11,7 @@ import { uuid } from "@/res/helpers";
 
 const HimnoNewScreen = () => {
   const navigate = useNavigate();
-  const {songFavorites, changeSongBySearch, songAllFilter: songsSearch} = useContext(SongNewContext)
+  const { changeSongBySearch, songAllFilter} = useContext(SongNewContext)
 
   const handlePress = useCallback(
     (himno: ISong) => {
@@ -38,8 +38,7 @@ const HimnoNewScreen = () => {
 
       <HimnoList
         changeSongBySearch={changeSongBySearch}
-        hasFavorite={!!songFavorites.length}
-        songsSearch={songsSearch}
+        songsSearch={songAllFilter}
         handlePress={handlePressPre}
       />
     </div>

@@ -12,12 +12,11 @@ const initPaginate = {
 
 interface Props {
   changeSongBySearch: (q: string) => void;
-  hasFavorite: boolean;
   songsSearch: ISong[];
   handlePress: Function
 }
 
-const HimnoList = ({ changeSongBySearch, hasFavorite: hasFavorite, songsSearch, handlePress }: Props) => {
+const HimnoList = ({ changeSongBySearch, songsSearch, handlePress }: Props) => {
   const [paginate, setPaginate] = useState(initPaginate);
 
   const resetPaginate = () => {
@@ -37,7 +36,7 @@ const HimnoList = ({ changeSongBySearch, hasFavorite: hasFavorite, songsSearch, 
         <HimnoSearch onChange={handleSearch} />
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-          {!hasFavorite && <FavoriteEmptyState />}
+          {/* {!hasFavorite && <FavoriteEmptyState />} */}
 
           <>
             {songsSearch

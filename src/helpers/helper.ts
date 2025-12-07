@@ -1,5 +1,5 @@
 import { uuid } from "@/res/helpers";
-import { IChorusPos, ID, IDPos, ISong, ISongListV1 } from "@/types/types";
+import { IChorusPos, ID, IDPos, ISong, ISong2, ISongListV1 } from "@/types/types";
 
 const convertDecimalToHex = (val: number) => {
   if (val >= 1) {
@@ -62,14 +62,11 @@ export const getIdPosByChoir = (chorusIdOrPos: IChorusPos) => {
   return res
 }
 
-export const songV1ToNew = (data: ISongListV1): ISong => {
-  const id = uuid()
+export const songDTOJson = (data: ISongListV1): ISong2 => {
  return {
   ...data,
-  id: id,
-  title: data.title,
-  musicalNote: data.musicalNote,
   paragraphs: [],
-  chorus: []
+  chorus: [],
+  favorite: false
 }
 }

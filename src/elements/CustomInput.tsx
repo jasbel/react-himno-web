@@ -1,7 +1,8 @@
+import { ID } from "@/types/types";
 import ControlForm from "./ControlForm";
 
 interface Props {
-  id: string;
+  id: ID;
   label: string;
   placeholder?: string;
   onInput: (v: string) => void;

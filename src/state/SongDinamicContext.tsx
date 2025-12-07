@@ -1,7 +1,7 @@
 import React, { ReactNode, useState } from "react";
 import { ID, ISong } from "../types/types";
 import { addFav, deleteFav } from "../libs/storage";
-import { removeAccents } from "@/res/removeAccents";
+import { rmAccents } from "@/res/removeAccents";
 import { useApiSong } from "@/hooks/useApiSong";
 import { initSong } from "@/res/constant";
 
@@ -62,7 +62,7 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
     }
   };
 
-  const addToFav = (id: string) => {
+  const addToFav = (id: ID) => {
     addFav(id);
 
     const itemToFav = songs.find((song) => song.id === id);
@@ -75,7 +75,7 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
     setSongFavorites(cFavs);
   };
 
-  const rmToFav = (id: string) => {
+  const rmToFav = (id: ID) => {
     deleteFav(id);
     const itemToSong = songFavorites.find((song) => song.id === id);
     if (!itemToSong) return;
@@ -92,8 +92,8 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
 
     const himnosFiltered = songs.filter((himno) => {
       return (
-        removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
+        rmAccents(himno.title).toLowerCase().includes(rmAccents(query).toLowerCase()) ||
+        rmAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(rmAccents(query).toLowerCase())
       );
     });
 

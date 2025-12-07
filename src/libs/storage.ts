@@ -1,5 +1,7 @@
 // import localStorage from '@react-native-async-storage/async-storage';
 
+import { ID } from "@/types/types"
+
 const keyFav = 'song-favorites'
 
 export const setFavs = (favIds: string[]) => {
@@ -11,19 +13,19 @@ export const getFavs =(): string[] => {
     return JSON.parse(sFavs)
 }
 
-export const deleteFav = (id: string) => {
+export const deleteFav = (id: ID) => {
     const favs = getFavs();
     const currFavs = favs.filter(favId => favId!==id)
     setFavs(currFavs)
 }
 
-export const findFav = (id: string) => {
+export const findFav = (id: ID) => {
     const favs = getFavs();
     const fav = favs.find(favId => favId === id)
     return fav
 }
 
-export const addFav = (id: string) => {
+export const addFav = (id: ID) => {
     const favs = getFavs();
     const isInFav = findFav(id);
     if (!isInFav) {

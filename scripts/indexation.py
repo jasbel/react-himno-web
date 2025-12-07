@@ -5,7 +5,7 @@ def main():
     """
     This script indexes all the songs from the json files in the public/jsons folder.
     """
-    json_folder = os.path.join(os.path.dirname(__file__), '..', 'public', 'jsons')
+    json_folder = os.path.join(os.path.dirname(__file__), '..', 'public', 'songs_v1')
     index_file = os.path.join(json_folder, 'index.json')
     
     songs_index = []
@@ -20,6 +20,7 @@ def main():
                     description = ' '.join([p['paragraph'] for p in song_data.get('paragraphs', [])]).replace('\n', ' ')
                     
                     song_info = {
+                        "id": song_data.get("id", "123"),
                         "title": song_data.get("title", ""),
                         "description": description,
                         "musicalNote": song_data.get("musicalNote", ""),

@@ -13,6 +13,7 @@ export interface IChoirOld {
 }
 
 export interface ISongListV1 {
+  id: ID,
   title: string,
   description: string,
   musicalNote: TNote,
@@ -58,10 +59,8 @@ export interface ISong extends ISongBase {
   filename?: string,
 }
 
-export interface ISong extends ISongBase {
-  id: ID,
-  description: string,
-  filename?: string,
+export interface ISong2 extends ISong {
+  favorite: boolean
 }
 
 export interface ISongSingle {
