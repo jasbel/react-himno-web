@@ -1,6 +1,6 @@
 import { useCallback, useContext } from "react";
 import { titleApp } from "../res/constant";
-import { ISong } from "../types/types";
+import { ISongModel } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import { ERoutes } from "../res/enum";
@@ -14,15 +14,15 @@ const HimnoNewScreen = () => {
   const { changeSongBySearch, songAllFilter} = useContext(SongNewContext)
 
   const handlePress = useCallback(
-    (himno: ISong) => {
+    (himno: ISongModel) => {
       navigate('/' + ERoutes.item, { state: { himno } });
     },
     [navigate]
   );
 
   const handlePressPre = 
-    async (himno: ISong) => {
-      let item: ISong = himno
+    async (himno: ISongModel) => {
+      let item: ISongModel = himno
       if (himno.filename) {
         // debugger
         const _item = await getSongV1Item(himno.filename)

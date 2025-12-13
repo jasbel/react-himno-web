@@ -2,8 +2,8 @@ import React, { ReactNode, useEffect, useRef, useState } from "react";
 import { ID, ISong } from "../types/types";
 import { addFav, deleteFav, findFav } from "../libs/storage";
 import { rmAccents } from "@/res/removeAccents";
-import { getListSongLocal, getListV1SongLocal } from "@/api/songLocalService";
-import { songDTOJson } from "@/helpers/helper";
+import { getListSongQuechuaLocal } from "@/api/songLocalService";
+import { songDTOQchJson } from "@/helpers/helper";
 
 interface InitialValues {
   songAllFilter: ISong[];
@@ -19,17 +19,17 @@ const defaultValue: InitialValues = {
   rmToFav: () => {},
 };
 
-export const SongNewContext = React.createContext<InitialValues>(defaultValue);
+export const SongQchContext = React.createContext<InitialValues>(defaultValue);
 
-export const SongNewProvider = ({ children }: { children: ReactNode }) => {
+export const SongQchProvider = ({ children }: { children: ReactNode }) => {
   const songAllRef = useRef<ISong[]>([]);
   const [songAllFilter, setSongAllFilter] = useState<ISong[]>([]);
 
-  const fetchData = async (): Promise<ISong[]> => {
+  const fetchData = async () => {
     try {
-      const data = await getListSongLocal();
-      const dataLocal = await getListV1SongLocal();
-      songAllRef.current = [...data, ...dataLocal.map((it) => songDTOJson(it))].sort((a, b) =>  a.title.localeCompare(b.title));
+      const dataSongs = await getListSongQuechuaLocal();
+
+      songAllRef.current = dataSongs.map((it) => songDTOQchJson(it));
       return songAllRef.current;
     } catch (err) {
       console.error(err);
@@ -60,6 +60,7 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
   const setSongs = () => {
     setSongAllFilter(_songsOrdered());
   };
+
   const addToFav = (id: ID) => {
     addFav(id);
     songAllRef.current = songAllRef.current.map((it) =>
@@ -99,7 +100,7 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
   }, []);
 
   return (
-    <SongNewContext.Provider
+    <SongQchContext.Provider
       value={{
         songAllFilter,
         addToFav,
@@ -108,6 +109,6 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
       }}
     >
       {children}
-    </SongNewContext.Provider>
+    </SongQchContext.Provider>
   );
 };

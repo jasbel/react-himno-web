@@ -4,11 +4,11 @@ import iconChoir from "../../assets/images/verse.png";
 import { responsive } from "../../utils/responsive";
 import { Box } from "@components/ui";
 import { useSetting } from "../../hooks/useSetting";
-const Separe = ({  isSmall = false }: {isSmall: boolean}) => {
+const Separe = ({ isSmall = false }: { isSmall: boolean }) => {
   return (
-      <div style={styles.containerIconChoir}>
-                <img style={isSmall ? styles.iconChoirSmall : styles.iconChoir} src={iconChoir} />
-              </div>
+    <div style={styles.containerIconChoir}>
+      <img style={isSmall ? styles.iconChoirSmall : styles.iconChoir} src={iconChoir} />
+    </div>
   );
 };
 
@@ -21,9 +21,10 @@ export interface ILetter {
 interface Props {
   item: ILetter;
   isSmall?: boolean;
+  hiddenSepare?: boolean;
 }
 
-const ItemHimnoLetter = ({ item, isSmall = false }: Props) => {
+const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
   const fontsmall = 12;
   const { customFontSize } = useSetting();
   return (
@@ -37,30 +38,41 @@ const ItemHimnoLetter = ({ item, isSmall = false }: Props) => {
       >
         <span style={{ whiteSpace: "pre-line" }}>{item.paragraph}</span>
       </p>
+      {
+         !hiddenSepare && <>
       <Separe isSmall={isSmall} />
-      
+
+         </>
+      }
+
       {item.choirs.map((choir) => (
         <>
           {choir !== "" && (
             <>
-              
               <p
                 style={{
                   ...styles.choir,
                   fontSize: isSmall ? fontsmall : customFontSize,
                 }}
               >
-                <span style={{ whiteSpace: "pre-line" }}>{item.choirs}</span>
+                <span className="whitespace-pre-line">{item.choirs}</span>
               </p>
-              <br />
               {
-              item.choirs.filter(it => it)?.length ? <Separe isSmall={isSmall} /> : <></>
+
+                !hiddenSepare && <>
+                <br />
+                  {
+                    item.choirs.filter(it => it)?.length ? <Separe isSmall={isSmall} /> : <></>
+                  }
+                </>
+
               }
+
             </>
           )}
         </>
       ))}
-      
+
     </Box>
   );
 };

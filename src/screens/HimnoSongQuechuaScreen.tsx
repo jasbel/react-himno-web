@@ -1,13 +1,13 @@
 import { FC, useContext } from "react";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { ISong } from "../types/types";
+import { ISongModel } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
 import { Box } from "@components/ui";
 import WrapItemHimno from "../components/himno/WrapItemHimno";
-import { SongQuechuaContext } from "../state/SongNewQuechuaContext";
+import { SongQchContext } from "../state/SongQchContext";
 import { ERoutes } from "../res/enum";
 import HimnoSongFooter from "@/components/himno/HimnoSongFooter";
 
@@ -20,8 +20,8 @@ export const initialValues = {
 interface Props {}
 
 const HimnoSongQuechuaScreen: FC<Props> = () => {
-  const { addToFav, rmToFav } = useContext(SongQuechuaContext);
-  const { state } = useLocation() as { state: { himno: ISong } };
+  const { addToFav, rmToFav } = useContext(SongQchContext);
+  const { state } = useLocation() as { state: { himno: ISongModel } };
   const { paragraphs, chorus, title } = state.himno;
 
   return (

@@ -1,11 +1,11 @@
-import { ID, ISong } from "@/types/types";
+import { ID, ISongModel } from "@/types/types";
 import { uuid } from "./helpers";
 import { ERoutes } from "./enum";
 
 export const titleApp = 'Himnos y Canticos';
 
 
-export const initSong: () => ISong = () =>  ({
+export const initSong: () => ISongModel = () =>  ({
     "id": uuid(),
     "description": "",
     "title": "",

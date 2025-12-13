@@ -1,16 +1,16 @@
 import React, { ReactNode, useState } from "react";
-import { ID, ISong } from "../types/types";
+import { ID, ISongModel } from "../types/types";
 import { addFav, deleteFav } from "../libs/storage";
 import { rmAccents } from "@/res/removeAccents";
 import { useApiSong } from "@/hooks/useApiSong";
 import { initSong } from "@/res/constant";
 
 interface InitialValues {
-  getSong: (id: ID) => Promise<ISong>;
+  getSong: (id: ID) => Promise<ISongModel>;
   getSongs: () => Promise<void>;
-  song: ISong;
-  songs: ISong[];
-  songsSearch: ISong[];
+  song: ISongModel;
+  songs: ISongModel[];
+  songsSearch: ISongModel[];
   addToFav: (favId: string) => void;
   changeSongBySearch: (q: string) => void;
   rmToFav: (favId: string) => void;
@@ -23,7 +23,7 @@ const defaultValue: InitialValues = {
   addToFav: () => { },
   changeSongBySearch: () => { },
   rmToFav: () => { },
-  getSong: () => ({ } as  Promise<ISong>),
+  getSong: () => ({ } as  Promise<ISongModel>),
   getSongs: () => ({ } as  Promise<void>),
 };
 
@@ -31,10 +31,10 @@ export const SongDinamicContext = React.createContext<InitialValues>(defaultValu
 
 export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
   const { fetchListSong, fetchOneSong } = useApiSong();
-  const [songs, setSongs] = useState<ISong[]>([]);
-  const [song, setSong] = useState<ISong>(initSong);
-  const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
-  const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
+  const [songs, setSongs] = useState<ISongModel[]>([]);
+  const [song, setSong] = useState<ISongModel>(initSong);
+  const [songsSearch, setSongsSearch] = useState<ISongModel[]>([]);
+  const [songFavorites, setSongFavorites] = useState<ISongModel[]>([]);
 
   const getSong = async (id: ID) => {
     let dataItem = initSong();

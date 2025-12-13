@@ -6,7 +6,7 @@ import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
 import { ILetter } from "../components/himno/ItemHimnoLetter";
-import { IChoir, ISong } from "@/types/types";
+import { IChoir, ISongModel } from "@/types/types";
 import { initSong } from "@/res/constant";
 import { uuid } from "@/res/helpers";
 import ChoirList from "@/components/ChoirList";

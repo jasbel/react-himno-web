@@ -1,19 +1,18 @@
 import { useCallback, useContext } from "react";
 import { titleApp } from "../res/constant";
-import { ISong } from "../types/types";
+import { ISongModel } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import { ERoutes } from "../res/enum";
 import HimnoList from "@/components/HimnoList";
-import { SongQuechuaContext } from "@/state/SongNewQuechuaContext";
+import { SongQchContext } from "@/state/SongQchContext";
 
 const HimnoNewQuechuaScreen = () => {
   const navigate = useNavigate();
-  // const { songFavorites, changeSongBySearch, songsSearch } = useSongQuechua();
-  const {songsSearch,  songFavorites, changeSongBySearch} = useContext(SongQuechuaContext)
+  const {songAllFilter: songsSearch, changeSongBySearch} = useContext(SongQchContext)
 
   const handlePress = useCallback(
-    (himno: ISong) => {
+    (himno: ISongModel) => {
       navigate('/' + ERoutes.itemQuechua, { state: { himno } });
     },
     [navigate]
@@ -25,7 +24,6 @@ const HimnoNewQuechuaScreen = () => {
 
       <HimnoList
         changeSongBySearch={changeSongBySearch}
-        hasFavorite={!!songFavorites.length}
         songsSearch={songsSearch}
         handlePress={handlePress}
       />

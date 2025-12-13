@@ -3,15 +3,6 @@ export type IDPos = ID|number;
 export type TNote = '_' | 'G|Sol' | 'A|La' | 'C|Do' | 'D|Re' | 'E|Mi' | 'B|Si' | 'F|Fa' | 'F#|Fa#' | 'C/D|Do-Re'
 ;
 
-export interface IParagraphOld {
-  paragraph: string,
-}
-
-export interface IChoirOld {
-  choir: string,
-  noPositions: number[],
-}
-
 export interface ISongListV1 {
   id: ID,
   title: string,
@@ -50,16 +41,16 @@ export interface ISongItem  {
   }[],
   chorus: IChoir[],
 }
-export interface ISongV1 extends ISongBase {
+export interface ISongV1Model extends ISongBase {
   id: ID,
 }
-export interface ISong extends ISongBase {
+export interface ISongModel extends ISongBase {
   id: ID,
   description: string,
   filename?: string,
 }
 
-export interface ISong2 extends ISong {
+export interface ISong extends ISongModel {
   favorite: boolean
 }
 

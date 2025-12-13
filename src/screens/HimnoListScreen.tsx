@@ -1,6 +1,6 @@
 import { useCallback, useEffect } from "react";
 import { routeList, titleApp } from "../res/constant";
-import { ISong } from "../types/types";
+import { ISongModel } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import HimnoList from "@/components/HimnoList";
@@ -11,7 +11,7 @@ const HimnoListScreen = () => {
   const { changeSongBySearch, songsSearch, getSongs } = useDinamicSong();
 
   const handlePress = useCallback(
-    (himno: ISong) => {
+    (himno: ISongModel) => {
       navigate(routeList.edit(himno.id));
     },
     [navigate]

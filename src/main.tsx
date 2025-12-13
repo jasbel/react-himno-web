@@ -4,7 +4,7 @@ import App from "./App";
 import "./index.css";
 import { SettingProvider } from "./state/SettingContext";
 import { SongNewProvider } from "./state/SongNewContext";
-import { SongNewQuechuaProvider } from "./state/SongNewQuechuaContext";
+import { SongQchProvider } from "./state/SongQchContext";
 import { AddProvider } from "./state/AddContext";
 import { SongDinamicProvider } from "./state/SongDinamicContext";
 
@@ -12,13 +12,13 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <SongNewProvider>
         <SongDinamicProvider>
-          <SongNewQuechuaProvider>
+          <SongQchProvider>
             <SettingProvider>
               <AddProvider>
                 <App />
               </AddProvider>
             </SettingProvider>
-          </SongNewQuechuaProvider>
+          </SongQchProvider>
         </SongDinamicProvider>
     </SongNewProvider>
   </React.StrictMode>
