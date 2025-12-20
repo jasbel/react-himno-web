@@ -1,0 +1,41 @@
+{
+    "id": "a4d29ce1-389b-361f-0149-732bc9ce7b53",
+    "code": "18",
+    "title": "EL SEÑOR ES MI PASTOR",
+    "musicalNote": "A|La",
+    "chorus": [
+        {
+            "choir": "Jamás me dejaras\nEn tu fidelidad, Jesús\nConfiado esta mi corazón\n\nDe ti dependeré\nTu voz escuchare, Jesús\nTe seguiré, mi buen pastor",
+            "id": "c42c8f89-422f-a4ea-6fef-7dddf58d51f3"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "7886103f-da7d-5d09-217b-a4ab1497db6d",
+            "paragraph": "El Señor es mi pastor\nNada a mí me faltara\nEn sus verdes pastos\nMe hace descansar\n\nDe sus aguas me dará\nMi alma el restaurara\nPor senderos de justicia me guiara\nPor amor de su nombre",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "6f008a88-e495-421e-cf58-6d96ea2d83e6",
+            "paragraph": "El Señor es mi pastor\nNo hay razón para el temor\nPues su vara me da aliento y protección\n\nSi en el valle de aflicción\nMe rodea la opresión\nEl conmigo esta y bendecido soy\nPor amor de su nombre",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "dc36e5fe-3fcc-7682-2672-f7699d45878f",
+            "paragraph": "//Misericordia y bien me seguirán\nTu plenitud me saciara\nEn tu morada por la eternidad//",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        }
+    ]
+}

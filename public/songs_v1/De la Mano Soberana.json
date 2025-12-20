@@ -1,31 +1,55 @@
 {
-    "id": "141",
-    "num_song": "141",
-    "title": "De la Mano Soberana",
-    "description": "Cuan feroz llega la prueba acecha...",
-    "musicalNote": "",
-    "paragraphs": [
+    "id": "c28cae3f-7802-b276-35c3-7ccc908e9e19",
+    "code": "9",
+    "title": "DE LA MANO SOBERANA",
+    "musicalNote": "A|La",
+    "chorus": [
         {
-            "paragraph": "Cuan feroz llega la prueba acechando el corazón, \n amenaza con sus dudas, destruir mi convicción; \n Cuando todo es incierto; cuando es fácil tropezar, \n El refugio de mi alma, sé que no se moverá."
+            "choir": "/Venga lo que venga, prevaleceré\nDios es mi esperanza\nSu promesa es ﬁel/",
+            "id": "2bca7eb6-dec8-80dc-70b3-cecc60666e93"
         },
         {
-            "paragraph": "De la mano soberana de mi Dios me sostendré, \n en Su sabia providencia yo paciente esperaré. \n Porque eterna es Su justicia y perfecto Su poder, \n Él ordena mis pasos y aﬁrmando está mi fe."
+            "choir": "De la mano soberana de mi Dios me sostendré\nEn Su sabia providencia yo paciente esperaré\nPorque eterna es Su justicia y perfecto Su poder\nÉl ordena mis pasos y\naﬁrmando está mi fe",
+            "id": "26b0a4fe-1c0d-d851-dfb6-e659b57df54c"
         },
         {
-            "paragraph": "¡Oh! Cuan altos Sus caminos, cuan supremo es Su plan, \n todo lo ha hecho hermoso en Su tiempo y voluntad. \n Aunque frágiles mis pasos; limitado mi entender, \n Su palabra me asegura: Todo obra para bien."
-        },
-        {
-            "paragraph": "De la mano soberana de mi Dios me sostendré, \n en Su sabia providencia yo paciente esperaré. \n Porque eterna es Su justicia y perfecto Su poder, \n Él ordena mis pasos y aﬁrmando está mi fe."
-        },
-        {
-            "paragraph": "/Venga lo que venga, \n prevaleceré. \n Dios es mi esperanza, \n Su promesa es fiel./"
-        },
-        {
-            "paragraph": "De la mano soberana de mi Dios me sostendré, \n en Su sabia providencia yo paciente esperaré. \n Porque eterna es Su justicia y perfecto Su poder, \n Él ordena mis pasos y aﬁrmando está mi fe."
-        },
-        {
-            "paragraph": "Tú ordenas mis pasos; \n Y aﬁrmando estás mi fe."
+            "choir": "Tú ordenas mis pasos\ny afirmando estás mi fe",
+            "id": "c443420e-4700-e8b8-c62f-ffdb4e4b775a"
         }
     ],
-    "chorus": []
+    "paragraphs": [
+        {
+            "id": "e7d3fcda-bb18-63f5-6705-ba991eb9cd4c",
+            "paragraph": "Cuan feroz llega la prueba acechando el corazón\nAmenaza con sus dudas, destruir mi convicción\nCuando todo es incierto; cuando es fácil tropezar\nEl refugio de mi alma, sé que no se moverá.",
+            "chorusPos": [
+                [
+                    2
+                ]
+            ]
+        },
+        {
+            "id": "5d0c62ab-3037-4dc1-df90-3e73c87f62d7",
+            "paragraph": "Oh cuan altos Sus caminos; cuan supremo es Su plan\nTodo lo ha hecho hermoso en Su tiempo y voluntad\nAunque frágiles mis pasos; limitado mi entender\nSu palabra me asegura: todo obra para bien",
+            "chorusPos": [
+                [
+                    2
+                ]
+            ]
+        },
+        {
+            "id": "53fd7418-a420-a9f6-79a2-acc3ff1f81a3",
+            "paragraph": "",
+            "chorusPos": [
+                [
+                    1
+                ],
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ]
+        }
+    ]
 }

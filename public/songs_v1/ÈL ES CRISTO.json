@@ -1,0 +1,36 @@
+{
+    "id": "6c4d3d5c-5472-11f5-f8e3-0a50e997443c",
+    "code": "17",
+    "title": "ÈL ES CRISTO",
+    "musicalNote": "_",
+    "chorus": [],
+    "paragraphs": [
+        {
+            "id": "8d00ea1d-8711-fe71-2333-b6bc0eca95cc",
+            "paragraph": "Quién ayuda al herido\nSana todo dolor\nPermanece por siempre\nDa descanso en su amor\nÉl es cristo.\nÉl es cristo\nNuestro salvador.\nÉl es cristo\nNo hay otro nombre solo Cristo",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "3ecb0f83-32f0-11f0-e70f-1a718290364f",
+            "paragraph": "Quién llevó nuestras cargas\nCambia el llanto en canción\nDio su vida en la cruz\nPara darnos perdón\nÉl es cristo\nÉl es cristo\nNuestro salvador\nÉl es cristo\nÉl es cristo\nRey por siempre\nNuestro redentor",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "884b50e9-76b1-972a-947f-e197e2938a7a",
+            "paragraph": "Él es cristo\nQuién moriría por un ladrón\nY tomaría mi lugar\nTodo el precio pago\n// Libres somos el venció //\nEl venció Libre somos\n\n//// No hay otro nombre solo cristo\nNo hay otra vida vivimos por él\nTodo el mal está vencido\n/ Tu reinas señor / ////\n\n/ Él es cristo /\nNuestro salvador\n/ Él es cristo /\nRey por siempre\nNuestro redentor\nÉl es cristo",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        }
+    ]
+}

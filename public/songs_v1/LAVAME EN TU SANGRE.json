@@ -1,0 +1,63 @@
+{
+    "id": "eeaf4878-b6af-fd39-f0f6-2789d7fdec08",
+    "code": "28",
+    "title": "LAVAME EN TU SANGRE",
+    "musicalNote": "A|La",
+    "chorus": [
+        {
+            "choir": "Lávame en tu sangre, Salvador;\nLímpiame de toda mi maldad.\nTraigo a ti mi vida para ser, Señor,\nTuya por la eternidad.",
+            "id": "15eac77b-989a-67ab-f917-32d595142671"
+        },
+        {
+            "choir": "Lávame en tu sangre, Salvador;\nLímpiame de toda mi maldad.\n/ Traigo a ti mi vida para ser, Señor,\nTuya por la eternidad. /",
+            "id": "00a8b7d3-1a31-298f-2b18-f2569198f3a5"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "980ff8e8-a677-bc13-9b82-a7662582caf8",
+            "paragraph": "Que mi vida entera esté\nConsagrada a ti, Señor;\nQue a mis manos pueda guiar\nEl impulso de tu amor.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "8911dc18-9c3a-78f8-0af9-5d0605cc6372",
+            "paragraph": "Que mis pies tan solo en pos\nDe lo santo puedan ir,\nY que, a ti, Señor, mi voz\nSe complazca en bendecir.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "8e128386-a207-9c52-4c6b-3f975d6d3a6a",
+            "paragraph": "Que mi tiempo todo esté\nConsagrado a tu loor.\nQue mis labios, al hablar,\nHablen solo de tu amor",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "938178d4-2e63-dd3f-8ff9-fabd91a3e4ab",
+            "paragraph": "Toma, oh Dios, mi voluntad,\nY hazla tuya, nada más.\nToma, sí, mi corazón,\nPor tu trono lo tendrás.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "437e0a11-9145-3328-8cbe-5b4118fff895",
+            "paragraph": "Toma tú mi amor, que hoy\nA tus pies vengo a poner.\nToma todo lo que soy,\nTodo tuyo quiero ser",
+            "chorusPos": [
+                [
+                    2
+                ]
+            ]
+        }
+    ]
+}

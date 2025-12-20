@@ -1,0 +1,50 @@
+{
+    "id": "a87413a1-c0c4-e91e-f290-64d1474265ea",
+    "code": "7",
+    "title": "DESDE QUE TE CONOCÍ",
+    "musicalNote": "D|Re",
+    "chorus": [
+        {
+            "choir": "Quiero amar Oh Cristo,\nquiero dar Oh Cristo,\nquiero ser Oh Cristo como tu\nAl caído levantar al enfermo consolar\nA este mundo que agoniza tu remedio alcanzar",
+            "id": "e2d0c003-e796-06ef-4870-3293f3cc6551"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "0c27cbea-0878-f773-2e87-208f1dba420c",
+            "paragraph": "Desde que te conocí, desde que viniste a mi\nDesde que experimente, tu perdón, tu amor, tu paz.\nAlgo nuevo en mi empezó por tu espíritu de amor.\nEs tu vida cual semilla que brotó en mi corazón.",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "4ab0bf36-6381-b734-f632-c8528e56d95c",
+            "paragraph": "¡Qué momento tan feliz!\nQue alegría recibí;\nal tener en mi vida tu presencia celestial.\nSé de dónde vengo sé a dónde voy,\nsé quién soy, porque existo y tu propósito en mí.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "898f1125-9095-9aa3-24c1-01cbe20570d3",
+            "paragraph": "Ahora que vives en mí,\nahora que te puedo oír,\nahora que crece en mí;\ntu persona sin igual\nQuiero dejar que seas tú para que no sea yo;\nEl que manda al que vean pues en mi a ti han de ver.",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "93fd7ea7-ff60-01dc-2bb1-14884e8fa895",
+            "paragraph": "Correré hasta alcanzar,\nla corona que darás\nEn el día que regreses y nos lleves al hogar,\nAllí llanto no habrá, la justicia reinará\nDesde el trono santo y justo reinaras.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        }
+    ]
+}

@@ -1,49 +1,59 @@
 {
-    "id": "158",
-    "num_song": "158",
-    "title": "El Dios que Adoramos",
-    "description": "El Dios que hizo los cielos y la ...",
-    "musicalNote": "",
-    "paragraphs": [
+    "id": "242e94b0-9c22-1d34-e3ab-0f7fd9633bb6",
+    "code": "13",
+    "title": "EL DIOS QUE ADORAMOS",
+    "musicalNote": "F#|Fa#",
+    "chorus": [
         {
-            "paragraph": "El Dios que hizo los cielos y la tierra,  \n con el poder de Su palabra, \n reina con autoridad."
-        },
-        {
-            "paragraph": "El Dios que aún los vientos le obedecen,   \n una palabra es suficiente,  \n para los muertos levantar."
-        },
-        {
-            "paragraph": "Nadie es como Él, \n oh gran YO SOY."
-        },
-        {
-            "paragraph": "Tú eres el Dios que adoramos, \n todopoderoso y soberano;  \n Grande en misericordia, \n y poder para salvar."
-        },
-        {
-            "paragraph": "Tú eres el Dios que adoramos,   \n quien derrotó la muerte y el pecado;  \n Glorioso Redentor, \n y Rey, te adoramos."
-        },
-        {
-            "paragraph": "El Dios que descendió desde Su trono,  \n para llevar sobre Sus hombros,  \n nuestra culpa y transgresión."
-        },
-        {
-            "paragraph": "Jesús, exaltado sobre todo,   \n nombre sobre todo nombre, \n solo en Él hay salvación."
-        },
-        {
-            "paragraph": "Nadie es como Él, \n oh gran YO SOY."
-        },
-        {
-            "paragraph": "Tú eres el Dios que adoramos, \n todopoderoso y soberano;  \n Grande en misericordia, \n y poder para salvar."
-        },
-        {
-            "paragraph": "Tú eres el Dios que adoramos,   \n quien derrotó la muerte y el pecado;  \n Glorioso Redentor, \n y Rey, te adoramos."
-        },
-        {
-            "paragraph": "/A Él sea la gloria y el poder, Todo es de Él y para Él./"
-        },
-        {
-            "paragraph": "Tú eres el Dios que adoramos, \n todopoderoso y soberano;  \n Grande en misericordia, \n y poder para salvar."
-        },
-        {
-            "paragraph": "Tú eres el Dios que adoramos,   \n quien derrotó la muerte y el pecado;  \n Glorioso Redentor, \n y Rey, te adoramos."
+            "choir": "Nadie es como El, oh gran YO SOY",
+            "id": "febb57d1-1957-1037-ed9e-885188f14850"
         }
     ],
-    "chorus": []
+    "paragraphs": [
+        {
+            "id": "9cc718eb-9b52-4da7-6996-b21a65ecc8c4",
+            "paragraph": "El Dios que hizo\nlos cielos y la tierra\nCon el poder de Su palabra\nReina con autoridad",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "db092dc2-aa87-08f3-cc3a-e4a4df9203ba",
+            "paragraph": "El Dios que aún\nlos vientos le obedecen\nUna palabra es suficiente\nPara los muertos levanta",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "37bde357-f6f6-7ddb-b7df-6cb43d31e0ad",
+            "paragraph": "Tú eres el Dios que adoramos\nTodopoderoso y soberano\nGrande en misericordia y poder para salvar",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "2787ebe7-481f-f438-3a48-474aa7422894",
+            "paragraph": "Tú eres el Dios que adoramos\nQuien derrotó la muerte\ny el pecado\nGlorioso Redentor y Rey,\nTe adoramos",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "1177243f-14cf-26ee-6342-727438b7dc02",
+            "paragraph": "El Dios que descendió desde Su trono\nPara llevar sobre Sus hombros\nNuestra culpa y transgresión\nJesús, exaltado sobre todo\nNombre sobre todo nombre\nSolo en Él hay salvación.\n\nA Él sea la gloria y el poder\nTodo es de Él y para Él",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        }
+    ]
 }

@@ -1,0 +1,41 @@
+{
+    "id": "3b1aef0f-ea4d-ed4b-c29d-4163acf18ab7",
+    "code": "32",
+    "title": "MIENTRAS TENGA ALIENTO",
+    "musicalNote": "_",
+    "chorus": [
+        {
+            "choir": "//Mientras tenga aliento te alabare,\nMientras viva te cantare,\nMientras lata mi corazón te bendeciré//.",
+            "id": "e25f4560-6615-6f78-aa67-28aafc1360d7"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "9687c573-42ef-ac05-06d8-75e13c0ff8a3",
+            "paragraph": "Como agradezco Señor\nTomaste en la cruz mi lugar.\nComo agradezco Señor\nTu gran amor y bondades.\nPor acercarme a ti, por permitirme oír,\ny abrir mi corazón al evangelio.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "4ff29b1d-bf63-650e-0304-3c78a4319baa",
+            "paragraph": "Como agradezco Señor\npor tanto, amor en tus ojos.\ncomo agradezco Señor\nel cambio que has hecho en mí.\npor darme tu poder, tu gozo y tu favor,\ny permitirme ver tus bondades.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "78c3ceaa-4765-4960-4ee3-c55ac0fe031e",
+            "paragraph": "Como agradezco Señor\nTomaste en la cruz mi lugar.\nComo agradezco Señor\nTu gran amor y bondades.\nPor acercarme a ti, por permitirme oír,\ny abrir mi corazón al evangelio.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        }
+    ]
+}

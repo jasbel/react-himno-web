@@ -1,0 +1,45 @@
+{
+    "id": "d78585e4-cf40-99a9-0a49-efeca453dc32",
+    "code": "35",
+    "title": "NOBLE SOSTÉN",
+    "musicalNote": "D|Re",
+    "chorus": [
+        {
+            "choir": "Mi sostén es Jesús\nNunca en la lucha desmayar podré\nMi sostén es Jesús el Señor\nnunca en la lucha desmayar podré",
+            "id": "7d72edf8-bad5-624e-10d8-802d9386a97b"
+        },
+        {
+            "choir": "Alelu., alelu.,\nnunca en la lucha desmayar podre\n\n/ Alelu., aleluya,\n/ nunca en la lucha desmayar podre / /",
+            "id": "a4782d56-304a-3d78-07ea-c5272d19b2df"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "94c39b89-7af2-0ca0-0cae-39e34eb005dd",
+            "paragraph": "Noble sostén de la esperanza mía\nFuente bendita, de vida eterna\nTan solo el alma, que en tus fuerzas fía\nTiene paz, tiene paz.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "f1711d47-479b-d8b4-9a11-e7c4f896b736",
+            "paragraph": "Dura es la lucha, difícil la carrera\nNunca en la lucha desmayar podré\nMi espíritu renuevas con la idea nueva\nDe vencer, de vencer.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "bbbadf30-00fe-acb3-238d-95008e6c2ed1",
+            "paragraph": "Yo soy muy débil, pero en ti soy fuerte\nPues tú me dotas de tu gran poder\nSi tu estás conmigo ni a la misma muerte\nTemeré, no temeré",
+            "chorusPos": [
+                [
+                    2
+                ]
+            ]
+        }
+    ]
+}

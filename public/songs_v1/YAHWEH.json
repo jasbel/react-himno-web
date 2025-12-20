@@ -1,0 +1,48 @@
+{
+    "id": "d2e65938-1ea0-637d-f37e-ab83e0864274",
+    "code": "48",
+    "title": "YAHWEH",
+    "musicalNote": "_",
+    "chorus": [
+        {
+            "choir": "YAHWEH, YAHWEH.\nPoderoso, Dios eterno ,verdadero.\n¿Ohh quién es como tú?\n\nYAHWEH, YAHWEH.\nTú nombre permanecerá para siempre\nOhhh YAHWEH",
+            "id": "85fbe665-87b2-0c64-c00a-c23f83e533c1"
+        },
+        {
+            "choir": "YAHWEH ES TU NOMBRE :YAHWEH.\nOhhh ¡YAHWEH!",
+            "id": "4be8c61b-d567-5b29-74be-262bfd6b1a23"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "af3ffba5-526e-d52d-4ae9-bcb1121e5e32",
+            "paragraph": "Con tu palabra el mundo afirmaste Señor.\nTú aliento de vida;\ndel polvo la humanidad formó.\nDespliegas tu nombre, y gloria en toda la creación.\nSANTO DIOS, SANTO DIOS.\n\nAun cuando el pecado, tu creación corrompió.\nEn tú fidelidad nos prometiste redención.\nun plan soberano por gracia y justicia mostró\nSANTO DIOS, SANTO DIOS\n\nSiempre guardas tus palabras, siempre\ncumples tus promesas.\nPor amor de tu nombre; Santo nombre.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "943c1bcd-32a0-0775-19e2-d70b7bc896d7",
+            "paragraph": "En tiempo preciso el verbo carne se hizo.\nA que por bien esperamos,\nEl prometido en el principio.\nY vimos tu rostro llena de gracia y verdad.\nEn Jesús hijo de Dios SANTO DIOS.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "48f2a351-4368-c457-999b-032b106c76ef",
+            "paragraph": "Nos aferramos a tus palabras,\nY creemos en tus promesas,\nY adoramos hoy tu nombre;\nSANTO NOMBRE.",
+            "chorusPos": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ]
+        }
+    ]
+}

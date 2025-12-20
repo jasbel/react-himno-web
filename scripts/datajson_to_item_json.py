@@ -32,12 +32,12 @@ def main():
                 title_arr = [t.strip() for t in song['title'].split() if t.strip()]
                 title_num = [t for t in title_arr if t.isdigit()]
                 title_num = title_num[0] if len(title_num) else "0"
-                title_str = "_".join([t for t in title_arr if not t.isdigit()])
-                title = f"{title_num}_{title_str}"
+                title_str = " ".join([t for t in title_arr if not t.isdigit()])
+                title = f"{title_str}"
                 # Create a valid filename from the title
                 filename = f"{title}.json"
                 # Basic sanitization for file paths
-                filename = filename.replace('/', '_').replace('\\', '_')
+                filename = filename.replace('/', ' ').replace('\\', ' ')
                 
                 output_filepath = os.path.join(output_dir, filename)
                 
@@ -47,8 +47,8 @@ def main():
             else:
                 print(f"Skipping item, not a valid song object with a title: {song}")
 
-    except FileNotFoundError:
-        print(f"Error: Input file not found at {input_json_path}")
+    except FileNotFoundError as e:
+        print(f"Error: Input file not found at {input_json_path}  {e}")
     except json.JSONDecodeError:
         print(f"Error: Could not decode JSON from {input_json_path}")
     except Exception as e:

@@ -27,9 +27,9 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
 
   const fetchData = async (): Promise<ISong[]> => {
     try {
-      const data = await getListSongLocal();
+      // const data = await getListSongLocal();
       const dataLocal = await getListV1SongLocal();
-      songAllRef.current = [...data, ...dataLocal.map((it) => songDTOJson(it))].sort((a, b) =>  a.title.localeCompare(b.title));
+      songAllRef.current = [ ...dataLocal.map((it) => songDTOJson(it))].sort((a, b) =>  a.title.localeCompare(b.title));
       return songAllRef.current;
     } catch (err) {
       console.error(err);
