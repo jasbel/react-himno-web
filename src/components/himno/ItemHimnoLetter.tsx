@@ -7,7 +7,9 @@ import { useSetting } from "../../hooks/useSetting";
 const Separe = ({ isSmall = false }: { isSmall: boolean }) => {
   return (
     <div style={styles.containerIconChoir}>
-      <img style={isSmall ? styles.iconChoirSmall : styles.iconChoir} src={iconChoir} />
+      <div>
+        <img style={isSmall ? styles.iconChoirSmall : styles.iconChoir} src={iconChoir} />
+      </div>
     </div>
   );
 };

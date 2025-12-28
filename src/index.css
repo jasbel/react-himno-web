@@ -86,6 +86,12 @@ code {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   background: #ffe7d0;
+
+  @media only screen and (max-width: 600px) {
+    padding-left: 0;
+   padding-right: 0;
+    background: transparent;
+  }
 }
 .AppGlobalContent {
   max-width: 768px;
