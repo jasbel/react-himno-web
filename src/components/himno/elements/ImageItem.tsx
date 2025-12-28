@@ -4,7 +4,7 @@ import { responsive } from "../../../res/responsive";
 import icon from "../../../assets/images/play.png";
 
 interface Props {
-  num: string;
+  num: string | null;
   select: boolean;
 }
 
@@ -13,6 +13,7 @@ const ImageItem = ({ select: isFavorite, num }: Props) => {
   const fav = !!isFavorite ? styles.numberHimnoFavorite : {};
 
   const getNumber = () => {
+    if (typeof num !== "string") return "";
     if (typeof Number(num) !== "number") return num;
     return parseInt(num, 10) + 1;
   };

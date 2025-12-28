@@ -1,16 +1,23 @@
 {
-    "id": "144",
-    "num_song": "144",
-    "title": "Dios Supremo Eres",
-    "description": "/Dios supremo eres,    Soberano e...",
-    "musicalNote": "",
-    "paragraphs": [
+    "id": "b5551eaf-7519-baa9-0f67-22aaf0c98974",
+    "code": "10",
+    "title": "DIOS SUPREMO ERES",
+    "musicalNote": "G|Sol",
+    "chorus": [
         {
-            "paragraph": "/Dios supremo eres,  \n Soberano en gloria. \n Eres incomparable, en tu hermosura; \n Eres incomparable en tu majestad./"
-        },
-        {
-            "paragraph": "/No hay otro Dios como Jehová, \n no hay otro Dios como el Señor, \n no hay en los cielos, no hay en la tierra, no hay en el mar./ \n Dios como el Señor."
+            "choir": "/No hay otro Dios como Jehová\nNo hay otro Dios como el Señor\nNo hay en los cielos,\nNo hay en la tierra, no hay en el mar/\nDios como el Señor.",
+            "id": "1c59c06a-f878-576d-cdf4-faa7d49daf32"
         }
     ],
-    "chorus": []
+    "paragraphs": [
+        {
+            "id": "a994c68a-f511-baf1-91d1-da302f0c7021",
+            "paragraph": "/Dios supremo eres,\nSoberano en gloria.\nEres incomparable, en tu hermosura\nEres incomparable en tu majestad/",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        }
+    ]
 }

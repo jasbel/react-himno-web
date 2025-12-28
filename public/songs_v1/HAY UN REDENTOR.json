@@ -1,31 +1,45 @@
 {
-    "id": "178",
-    "num_song": "178",
+    "id": "bb93f7c0-1e4c-0700-a4a7-234bbe290686",
+    "code": "23",
     "title": "HAY UN REDENTOR",
-    "description": "Hay un redentor    es Jesús Dios ...",
-    "musicalNote": "",
-    "paragraphs": [
+    "musicalNote": "C/D|Do-Re",
+    "chorus": [
         {
-            "paragraph": "Hay un redentor \n  es Jesús Dios hijo \n Es mesías rey cordero \n  el santísimo."
+            "choir": "Gracias Padre mío\npor darle a sufrir\nY dejar su Espíritu\ntu obra aquí para cumplir",
+            "id": "d6730ae3-53da-95d0-24b9-dd040b8d4127"
         },
         {
-            "paragraph": "Gracias Padre mío por darle a sufrir  \n Y dejar su Espíritu tu obra aquí para cumplir."
-        },
-        {
-            "paragraph": "Jesús me redime  \n nombre sobre todos; \n ÉL ha muerto por nosotros por la voluntad de Dios."
-        },
-        {
-            "paragraph": "Gracias Padre mío por darle a sufrir  \n Y dejar su Espíritu tu obra aquí para cumplir."
-        },
-        {
-            "paragraph": "Cuando esté en la gloria  \n yo veré su cara  \n Serviré a mi rey por siempre \n  en lugar sagrado."
-        },
-        {
-            "paragraph": "/Gracias Padre mío por darle a sufrir  \n Y dejar su Espíritu tu obra aquí para cumplir./"
-        },
-        {
-            "paragraph": "Y dejar su Espíritu tu obra aquí para cumplir."
+            "choir": "/ Gracias Padre mío\npor darle a sufrir\nY dejar su Espíritu\ntu obra aquí para cumplir /\n\nY dejar su Espíritu\ntu obra aquí para cumplir.",
+            "id": "a37dbbda-8099-3530-736e-a9b8c487b968"
         }
     ],
-    "chorus": []
+    "paragraphs": [
+        {
+            "id": "46fb2b2c-3c25-5648-e19b-3e6df63bbb3e",
+            "paragraph": "Hay un redentor\nes Jesús Dios hijo\nEs mesías rey cordero\nel santísimo.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "6dc19fa5-06a6-e8c9-cc5b-f610cd76d624",
+            "paragraph": "Jesús me redime\nnombre sobre todos;\nÉL ha muerto por nosotros\npor la voluntad de Dios.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "7ac1710c-a549-9971-35da-cebfb0173a6f",
+            "paragraph": "Cuando esté en la gloria\nyo veré su cara\nServiré a mi rey por siempre\nen lugar sagrado.",
+            "chorusPos": [
+                [
+                    2
+                ]
+            ]
+        }
+    ]
 }

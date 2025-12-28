@@ -1,7 +1,6 @@
 [
   {
     "id": "1",
-    "code": "1",
     "title": " 1  Ujchasqas Chimpamuyku",
     "musicalNote": " (Re menor)",
     "chorus": [],
@@ -45,7 +44,6 @@
   },
   {
     "id": "2",
-    "code": "2",
     "title": " 2  Yupaychana Diosninchejta",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -74,7 +72,6 @@
   },
   {
     "id": "3",
-    "code": "3",
     "title": " 3  Yupaychay Qan Almáy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -113,7 +110,6 @@
   },
   {
     "id": "4",
-    "code": "4",
     "title": " 4  Gloria Kachun Jesusman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -162,7 +158,6 @@
   },
   {
     "id": "5",
-    "code": "5",
     "title": " 5  Salvador Bendito",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -211,7 +206,6 @@
   },
   {
     "id": "6",
-    "code": "6",
     "title": " 6  Munasqa Cristo",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -245,7 +239,6 @@
   },
   {
     "id": "7",
-    "code": "7",
     "title": " 7  Sonqoy Kusisqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -263,7 +256,7 @@
      {
       "id": "39",
       "chorusPos": [],
-      "paragraph": " /Cruzpi wañorqa Cristo Jesusqa./ \n /&quot;Kawsarisaj&quot;, nispa nerqa Santa Bibliapi/"
+      "paragraph": " /Cruzpi wañorqa Cristo Jesusqa./ \n /\"Kawsarisaj\", nispa nerqa Santa Bibliapi/"
     },
      {
       "id": "40",
@@ -299,7 +292,6 @@
   },
   {
     "id": "8",
-    "code": "8",
     "title": " 8 Tiyan Sumaj Amigoy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -348,7 +340,6 @@
   },
   {
     "id": "9",
-    "code": "9",
     "title": " 9 Salvacionta Qowan Jesús",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -392,7 +383,6 @@
   },
   {
     "id": "10",
-    "code": "10",
     "title": " 10  Cristoj Atiynenqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -441,7 +431,6 @@
   },
   {
     "id": "11",
-    "code": "11",
     "title": " 11 Jesusmin Wajyawanchej",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -449,7 +438,7 @@
      {
       "id": "69",
       "chorusPos": [],
-      "paragraph": " /Jesusmin wajyawanchej: &quot;Pitaj rinman willamoj\nRunas uyarinampaj santo Evangeliota?&rdquo;/"
+      "paragraph": " /Jesusmin wajyawanchej: \"Pitaj rinman willamoj\nRunas uyarinampaj santo Evangeliota?&rdquo;/"
     },
      {
       "id": "70",
@@ -459,7 +448,7 @@
      {
       "id": "71",
       "chorusPos": [],
-      "paragraph": " /Pay munan kachasuyta, manachu kasukunki?  Pitaj rispa junt'anqa? &quot;Kay, Señor, noqa risaj&rdquo;/"
+      "paragraph": " /Pay munan kachasuyta, manachu kasukunki?  Pitaj rispa junt'anqa? \"Kay, Señor, noqa risaj&rdquo;/"
     },
      {
       "id": "72",
@@ -484,7 +473,7 @@
      {
       "id": "76",
       "chorusPos": [],
-      "paragraph": " /Dios te llama con amor a su viña a trabajar. \n ¿Quien podrá obedecer? &quot;Yo estoy listo mi Jesús&quot;./"
+      "paragraph": " /Dios te llama con amor a su viña a trabajar. \n ¿Quien podrá obedecer? \"Yo estoy listo mi Jesús\"./"
     },
      {
       "id": "77",
@@ -500,7 +489,6 @@
   },
   {
     "id": "12",
-    "code": "12",
     "title": " Hermanos Jap'ikunachej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -564,7 +552,6 @@
   },
   {
     "id": "13",
-    "code": "13",
     "title": " Kusisqa Kani",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -613,7 +600,6 @@
   },
   {
     "id": "14",
-    "code": "14",
     "title": " Munasqa Hermanóy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -652,7 +638,6 @@
   },
   {
     "id": "15",
-    "code": "15",
     "title": " 15  Imawan Runa Ñanninta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -711,7 +696,6 @@
   },
   {
     "id": "16",
-    "code": "16",
     "title": " 16 Tentaconespi",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -729,7 +713,7 @@
      {
       "id": "116",
       "chorusPos": [],
-      "paragraph": " &quot;Wañuykamapis&quot;, nerqa Señorqa, \n &quot;Fielpuni kaway, sirviwaytaj&quot;. \n Llakiykunaqa qhepakonqanku,\n Cielo llajtaman ripojtinchej"
+      "paragraph": " \"Wañuykamapis\", nerqa Señorqa, \n \"Fielpuni kaway, sirviwaytaj\". \n Llakiykunaqa qhepakonqanku,\n Cielo llajtaman ripojtinchej"
     },
      {
       "id": "117",
@@ -749,7 +733,7 @@
      {
       "id": "120",
       "chorusPos": [],
-      "paragraph": " &quot;Hasta la muerte&quot;, dijo el Maestro,&quot; \n Serás tú fiel y trabajarás; \n Todo tu afán tan grande dejado\n Cuando al celeste hogar entrarás&quot;."
+      "paragraph": " \"Hasta la muerte\", dijo el Maestro,\" \n Serás tú fiel y trabajarás; \n Todo tu afán tan grande dejado\n Cuando al celeste hogar entrarás\"."
     },
      {
       "id": "121",
@@ -760,7 +744,6 @@
   },
   {
     "id": "17",
-    "code": "17",
     "title": " 17  Jesucristo Salvadorqa",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -773,12 +756,12 @@
      {
       "id": "123",
       "chorusPos": [],
-      "paragraph": " Jesusneyqa manapuni saqepuwanqachu, \n Sinch'i jatun atiyninwan jark'awan, \n Mundopi kusikuymanta t'aqakapuniña, \n Llimphu kawsayniyta Señorman qosaj. \n Mundo chejnikuwajtin, pruebas jamojtimpis,  \n Cristollapi confíaspa kawsasaj. \n Pay atipachiwampuni, chayrayku takisaj:        \n &quot;Sumaj imasta Señor ruwapuwan&quot;."
+      "paragraph": " Jesusneyqa manapuni saqepuwanqachu, \n Sinch'i jatun atiyninwan jark'awan, \n Mundopi kusikuymanta t'aqakapuniña, \n Llimphu kawsayniyta Señorman qosaj. \n Mundo chejnikuwajtin, pruebas jamojtimpis,  \n Cristollapi confíaspa kawsasaj. \n Pay atipachiwampuni, chayrayku takisaj:        \n \"Sumaj imasta Señor ruwapuwan\"."
     },
      {
       "id": "124",
       "chorusPos": [],
-      "paragraph": " Jesucristo Señorneyqa kutimonqañamin, \n Wasiyta wakichiyta tukuytawan. \n Dios Tataypa liajtampeqa kusiyllamin kanqa;\n Tukuy wawasnin chaypi kawsamusun. \n Jaqay cieloman rispa, Paywan kusikusaj, \n Diospa uyanta rikusaj wiñaypaj. \n Tukuy santoswan ujchasqa takisaj Diosniyman: \n &quot;Sumaj imasta Señor ruwapuwan&quot;."
+      "paragraph": " Jesucristo Señorneyqa kutimonqañamin, \n Wasiyta wakichiyta tukuytawan. \n Dios Tataypa liajtampeqa kusiyllamin kanqa;\n Tukuy wawasnin chaypi kawsamusun. \n Jaqay cieloman rispa, Paywan kusikusaj, \n Diospa uyanta rikusaj wiñaypaj. \n Tukuy santoswan ujchasqa takisaj Diosniyman: \n \"Sumaj imasta Señor ruwapuwan\"."
     },
      {
       "id": "125",
@@ -788,18 +771,17 @@
      {
       "id": "126",
       "chorusPos": [],
-      "paragraph": " Jesús jamás me falta, jamás me dejará. \n Es mi fuerte y poderoso protector. \n Del mundo yo me aparto y toda vanidad\n Para consagrar mi vida a mi Señor. \n Si el mundo me persigue, si sufro tentación, \n Confiado en Cristo puedo resistir. \n La victoria me es segura y elevo mi canción: \n &quot;Grandes cosas Cristo ha hecho para mí&rdquo;"
+      "paragraph": " Jesús jamás me falta, jamás me dejará. \n Es mi fuerte y poderoso protector. \n Del mundo yo me aparto y toda vanidad\n Para consagrar mi vida a mi Señor. \n Si el mundo me persigue, si sufro tentación, \n Confiado en Cristo puedo resistir. \n La victoria me es segura y elevo mi canción: \n \"Grandes cosas Cristo ha hecho para mí&rdquo;"
     },
      {
       "id": "127",
       "chorusPos": [],
-      "paragraph": " Yo sé que Jesucristo muy pronto volverá; \n Y        entre tanto me prepara un lugar \n En la casa de su Padre, mansión de luz y paz,\n Do el creyente fiel con El ha de morar. \n Llegándome a la gloria, con Él yo estaré \n Y        contemplaré su rostro siempre allí; \n Con los santos redimidos gozoso cantaré: \n &quot;Grandes cosas Cristo ha hecho para mí/"
+      "paragraph": " Yo sé que Jesucristo muy pronto volverá; \n Y        entre tanto me prepara un lugar \n En la casa de su Padre, mansión de luz y paz,\n Do el creyente fiel con El ha de morar. \n Llegándome a la gloria, con Él yo estaré \n Y        contemplaré su rostro siempre allí; \n Con los santos redimidos gozoso cantaré: \n \"Grandes cosas Cristo ha hecho para mí/"
     }
     ]
   },
   {
     "id": "18",
-    "code": "18",
     "title": " 18   Janaj Pachamanta Señor",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -848,7 +830,6 @@
   },
   {
     "id": "19",
-    "code": "19",
     "title": " 19 Tukuynin Hermanos",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -897,7 +878,6 @@
   },
   {
     "id": "20",
-    "code": "20",
     "title": " 20  Hermanóy Ama Puñuychu",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -956,7 +936,6 @@
   },
   {
     "id": "21",
-    "code": "21",
     "title": " 21 Señorniypata Qori Llajtan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1025,7 +1004,6 @@
   },
   {
     "id": "22",
-    "code": "22",
     "title": " 22 Llakisqachu Kanki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1094,7 +1072,6 @@
   },
   {
     "id": "23",
-    "code": "23",
     "title": " 23    Noqa Wajcha Purishani",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -1107,7 +1084,7 @@
      {
       "id": "179",
       "chorusPos": [],
-      "paragraph": " &quot;Juchallikoj chay wañonqa&quot;, nejta uyarishani. &quot;Yanqhamin ruwasqasniyki&quot;, Santa Biblia nishawan \n Mayallapitaj salvacionta juchaymanta tarisaj? Jesucristoj yawarnimpi, chaypi salvación kashan."
+      "paragraph": " \"Juchallikoj chay wañonqa\", nejta uyarishani. \"Yanqhamin ruwasqasniyki\", Santa Biblia nishawan \n Mayallapitaj salvacionta juchaymanta tarisaj? Jesucristoj yawarnimpi, chaypi salvación kashan."
     },
      {
       "id": "180",
@@ -1133,7 +1110,6 @@
   },
   {
     "id": "24",
-    "code": "24",
     "title": " 24 Evangelio May Sumaj",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -1146,7 +1122,7 @@
      {
       "id": "185",
       "chorusPos": [],
-      "paragraph": " /Jesucristo Salvador wajyashawanchej \n Sapa p'unchay munakuyninwan./ \n /&quot;Juchayojkunatarí Noqa samarichisaj&quot;, nispa./"
+      "paragraph": " /Jesucristo Salvador wajyashawanchej \n Sapa p'unchay munakuyninwan./ \n /\"Juchayojkunatarí Noqa samarichisaj\", nispa./"
     },
      {
       "id": "186",
@@ -1161,7 +1137,7 @@
      {
       "id": "188",
       "chorusPos": [],
-      "paragraph": " /Jesucristo el Salvador invitando está. \n Cada día en su tierno amor./ \n /Dice El &quot;Paz os daré,&quot; a los cansados en su maldad./"
+      "paragraph": " /Jesucristo el Salvador invitando está. \n Cada día en su tierno amor./ \n /Dice El \"Paz os daré,\" a los cansados en su maldad./"
     },
      {
       "id": "189",
@@ -1172,7 +1148,6 @@
   },
   {
     "id": "25",
-    "code": "25",
     "title": " 25  Dios Tatanchej Kawsayta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1221,7 +1196,6 @@
   },
   {
     "id": "26",
-    "code": "26",
     "title": " 26  Kay Pachapeqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -1270,7 +1244,6 @@
   },
   {
     "id": "27",
-    "code": "27",
     "title": " 27  Juchasniy Q'epirisqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1324,7 +1297,6 @@
   },
   {
     "id": "28",
-    "code": "28",
     "title": " 28 Cristo Diospa Churi",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -1373,7 +1345,6 @@
   },
   {
     "id": "29",
-    "code": "29",
     "title": " 29   Laqhayayllapi Purerqani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1381,7 +1352,7 @@
      {
       "id": "223",
       "chorusPos": [],
-      "paragraph": " Laqhayayllapi purerqani \n Diosmanta chinkasqa. \n /Cristo niwarqa uj p'unchaypi: \n &quot;Chimpamuy, juchayoj'/"
+      "paragraph": " Laqhayayllapi purerqani \n Diosmanta chinkasqa. \n /Cristo niwarqa uj p'unchaypi: \n \"Chimpamuy, juchayoj'/"
     },
      {
       "id": "224",
@@ -1411,7 +1382,7 @@
      {
       "id": "229",
       "chorusPos": [],
-      "paragraph": " En las tinieblas de la maldad. \n Anduve sin mi Dios. \n /Pero un día Cristo me dijo,\n &quot;Ven, pecador, a mí&quot;./"
+      "paragraph": " En las tinieblas de la maldad. \n Anduve sin mi Dios. \n /Pero un día Cristo me dijo,\n \"Ven, pecador, a mí\"./"
     },
      {
       "id": "230",
@@ -1442,7 +1413,6 @@
   },
   {
     "id": "30",
-    "code": "30",
     "title": " 30  Señor Jesucristo",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -1511,7 +1481,6 @@
   },
   {
     "id": "31",
-    "code": "31",
     "title": " 31  Tukuy Suyanachej",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -1519,7 +1488,7 @@
      {
       "id": "247",
       "chorusPos": [],
-      "paragraph": " Tukuy suyanachej pisi tiempotawan \n Ña kutirimonqaña Jesusninchej. \n Oraspa, leespa, takispa qhawana. Uyarisunchejña, &quot;Kaypiña&quot; nejta."
+      "paragraph": " Tukuy suyanachej pisi tiempotawan \n Ña kutirimonqaña Jesusninchej. \n Oraspa, leespa, takispa qhawana. Uyarisunchejña, \"Kaypiña\" nejta."
     },
      {
       "id": "248",
@@ -1569,7 +1538,7 @@
      {
       "id": "257",
       "chorusPos": [],
-      "paragraph": " Un poco, un poquito de tiempo esperamos, \n Jesús de los cielos muy pronto vendrá; \n Orando, leyendo y cantando velemos\n Pues pronto oiremos el grito &quot;Aquí está!&quot;"
+      "paragraph": " Un poco, un poquito de tiempo esperamos, \n Jesús de los cielos muy pronto vendrá; \n Orando, leyendo y cantando velemos\n Pues pronto oiremos el grito \"Aquí está!\""
     },
      {
       "id": "258",
@@ -1625,7 +1594,6 @@
   },
   {
     "id": "32",
-    "code": "32",
     "title": " 32  Señor Jesucristoj Kutimuynin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1663,7 +1631,7 @@
      {
       "id": "274",
       "chorusPos": [],
-      "paragraph": " /Señor Jesucristo regresará muy pronto, \n &quot;Día y noche velad&quot;, dijo Cristo el Señor./"
+      "paragraph": " /Señor Jesucristo regresará muy pronto, \n \"Día y noche velad\", dijo Cristo el Señor./"
     },
      {
       "id": "275",
@@ -1694,7 +1662,6 @@
   },
   {
     "id": "33",
-    "code": "33",
     "title": " 33   Señor Jamojtin Angelqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -1743,7 +1710,6 @@
   },
   {
     "id": "34",
-    "code": "34",
     "title": " 34 Rey Jesús Jamonqaña",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -1812,7 +1778,6 @@
   },
   {
     "id": "35",
-    "code": "35",
     "title": " Señor Jesusneyqa Munakuyniyoj  35",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -1850,7 +1815,7 @@
      {
       "id": "306",
       "chorusPos": [],
-      "paragraph": " Señor Jesusninchej phuyus chawpillapi Pusariwasunchej janaj pachaman. \n Tukuy wawasnintaj Payman takisunchej: \n &quot;Gloria kachun Diosman, gloria Jesusman&quot;."
+      "paragraph": " Señor Jesusninchej phuyus chawpillapi Pusariwasunchej janaj pachaman. \n Tukuy wawasnintaj Payman takisunchej: \n \"Gloria kachun Diosman, gloria Jesusman\"."
     },
      {
       "id": "307",
@@ -1890,7 +1855,7 @@
      {
       "id": "314",
       "chorusPos": [],
-      "paragraph": " Señor Jesucristo luego del encuentro \n Llevará a los suyos allá en el aire. \n Donde cantaremos todos los salvados:\n &quot;Gloria sea a Dios, gloria al Señor&quot;."
+      "paragraph": " Señor Jesucristo luego del encuentro \n Llevará a los suyos allá en el aire. \n Donde cantaremos todos los salvados:\n \"Gloria sea a Dios, gloria al Señor\"."
     },
      {
       "id": "315",
@@ -1901,7 +1866,6 @@
   },
   {
     "id": "36",
-    "code": "36",
     "title": " 36  Cristoj Kutimuynin",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -1959,7 +1923,7 @@
      {
       "id": "326",
       "chorusPos": [],
-      "paragraph": " La palabra de Dios dice: &quot;Prepárense&quot; \n Al glorioso Cristo a recibir. \n Vida eterna gozosa Jesús nos dará,\n Si con fe le esperamos a Él."
+      "paragraph": " La palabra de Dios dice: \"Prepárense\" \n Al glorioso Cristo a recibir. \n Vida eterna gozosa Jesús nos dará,\n Si con fe le esperamos a Él."
     },
      {
       "id": "327",
@@ -1970,7 +1934,6 @@
   },
   {
     "id": "37",
-    "code": "37",
     "title": " 37  Ashkha Kuti Wajyawanki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -2039,7 +2002,6 @@
   },
   {
     "id": "38",
-    "code": "38",
     "title": " Tukuy Sonqonchejwan Takina 38",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -2108,7 +2070,6 @@
   },
   {
     "id": "39",
-    "code": "39",
     "title": " 39 Qanman Diosníy Oraciompi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -2147,7 +2108,6 @@
   },
   {
     "id": "40",
-    "code": "40",
     "title": " 40 Diosta Munakuywan",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -2216,7 +2176,6 @@
   },
   {
     "id": "41",
-    "code": "41",
     "title": " 41  Dios Tataj Sutimpi Tantakuna",
     "musicalNote": " (Fa mayor)",
     "chorus": [],
@@ -2305,7 +2264,6 @@
   },
   {
     "id": "42",
-    "code": "42",
     "title": " 42 Juchamanta Jark'away",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -2354,7 +2312,6 @@
   },
   {
     "id": "43",
-    "code": "43",
     "title": " 43  Pusaway Munasqa Cristo",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -2443,7 +2400,6 @@
   },
   {
     "id": "44",
-    "code": "44",
     "title": " 44 Testimonioywan",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -2487,7 +2443,6 @@
   },
   {
     "id": "45",
-    "code": "45",
     "title": " 45  Sutiykita Oqharispa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -2576,7 +2531,6 @@
   },
   {
     "id": "46",
-    "code": "46",
     "title": " 46 Kusikorqani chay nishawajtinku",
     "musicalNote": " (Re menor)",
     "chorus": [],
@@ -2589,7 +2543,7 @@
      {
       "id": "434",
       "chorusPos": [],
-      "paragraph": " Gloriataj kachun Diosman, aleluya, Yupaychasqata j chay santo sutenqa. \n Nerqa Señorqa: &quot;Qankunawan kasaj, \n Iskay, kinsapis sutiypi kajtinku&quot;."
+      "paragraph": " Gloriataj kachun Diosman, aleluya, Yupaychasqata j chay santo sutenqa. \n Nerqa Señorqa: \"Qankunawan kasaj, \n Iskay, kinsapis sutiypi kajtinku\"."
     },
      {
       "id": "435",
@@ -2609,7 +2563,7 @@
      {
       "id": "438",
       "chorusPos": [],
-      "paragraph": " Glorifiquemos a Dios, aleluya. \n Su nombre santo sea alabado. \n Él nos promete: &quot;Estoy con vosotros,\n Si en mi nombre dos o tres se reúnen&quot;."
+      "paragraph": " Glorifiquemos a Dios, aleluya. \n Su nombre santo sea alabado. \n Él nos promete: \"Estoy con vosotros,\n Si en mi nombre dos o tres se reúnen\"."
     },
      {
       "id": "439",
@@ -2625,7 +2579,6 @@
   },
   {
     "id": "47",
-    "code": "47",
     "title": " 47  Kay Pacha Kawsaypi",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -2714,7 +2667,6 @@
   },
   {
     "id": "48",
-    "code": "48",
     "title": " 48  Llakiypipis Pruebaspipis",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -2753,7 +2705,6 @@
   },
   {
     "id": "49",
-    "code": "49",
     "title": " 49  Juchapimin Kasharqani",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -2771,7 +2722,7 @@
      {
       "id": "465",
       "chorusPos": [],
-      "paragraph": " Llakisqalla purej kani \n Juchasniypa ñit'isqan. \n Señor, Qantaj niwarqanki:\n &quot;Noqa samachisqayki&quot;."
+      "paragraph": " Llakisqalla purej kani \n Juchasniypa ñit'isqan. \n Señor, Qantaj niwarqanki:\n \"Noqa samachisqayki\"."
     },
      {
       "id": "466",
@@ -2791,7 +2742,7 @@
      {
       "id": "469",
       "chorusPos": [],
-      "paragraph": " Yakuman chinkarispaqa, \n Tukuy man willaykichej: \n &quot;Cristopi noqa creeni; \n Pay k'atalla salvawan&quot;."
+      "paragraph": " Yakuman chinkarispaqa, \n Tukuy man willaykichej: \n \"Cristopi noqa creeni; \n Pay k'atalla salvawan\"."
     },
      {
       "id": "470",
@@ -2811,7 +2762,7 @@
      {
       "id": "473",
       "chorusPos": [],
-      "paragraph": " Tuve el corazón muy triste \n Por en vano paz buscar. \n Pero a mí. Señor, dijiste:\n &quot;Yo haréte descansar&quot;."
+      "paragraph": " Tuve el corazón muy triste \n Por en vano paz buscar. \n Pero a mí. Señor, dijiste:\n \"Yo haréte descansar\"."
     },
      {
       "id": "474",
@@ -2847,7 +2798,6 @@
   },
   {
     "id": "50",
-    "code": "50",
     "title": " 50   Cenaykipi Tantakuyku",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -2887,7 +2837,6 @@
   {
     "title": " 51  Nawpaqeykiman Señor Diosníy",
     "id": "51",
-    "code": "51",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
     "paragraphs": [
@@ -2944,7 +2893,7 @@
      {
       "id": "496",
       "chorusPos": [],
-      "paragraph": " Cuando en la lucha falta la fe, \n Y el alma siente desfallecer, \n Cristo nos dice: &quot;Yo os colmaré\n De rica gracia, santo poder&quot;."
+      "paragraph": " Cuando en la lucha falta la fe, \n Y el alma siente desfallecer, \n Cristo nos dice: \"Yo os colmaré\n De rica gracia, santo poder\"."
     },
      {
       "id": "497",
@@ -2955,7 +2904,6 @@
   },
   {
     "id": "52",
-    "code": "52",
     "title": " 52   Cristollaman Qoni",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -3044,7 +2992,6 @@
   },
   {
     "id": "53",
-    "code": "53",
     "title": " 53 Huerto Edenmantamin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3072,7 +3019,7 @@
      {
       "id": "518",
       "chorusPos": [],
-      "paragraph": " Kay matrimoniota Dios bendicenqa. \n Kusikuna noqanchejpis. \n &quot;Allinta kawsakuychej&rdquo;nishawanchej Señorninchej Palabrampí."
+      "paragraph": " Kay matrimoniota Dios bendicenqa. \n Kusikuna noqanchejpis. \n \"Allinta kawsakuychej&rdquo;nishawanchej Señorninchej Palabrampí."
     },
      {
       "id": "519",
@@ -3082,7 +3029,7 @@
      {
       "id": "520",
       "chorusPos": [],
-      "paragraph": " Dios lata kamacherqa Palabrampí; \n &quot;Warmiykita munakunki&quot;. \n Qhari-warmita nishan Palabrampí: &quot;Kawsakuychej munakuypi&quot;."
+      "paragraph": " Dios lata kamacherqa Palabrampí; \n \"Warmiykita munakunki\". \n Qhari-warmita nishan Palabrampí: \"Kawsakuychej munakuypi\"."
     },
      {
       "id": "521",
@@ -3122,7 +3069,7 @@
      {
       "id": "528",
       "chorusPos": [],
-      "paragraph": " Como a si mismo amen a la esposa \n Que nuestro Dios les ha dado. \n &quot;En la vida conyugal reine el amor&rdquo;\n En la Biblia Dios nos dice"
+      "paragraph": " Como a si mismo amen a la esposa \n Que nuestro Dios les ha dado. \n \"En la vida conyugal reine el amor&rdquo;\n En la Biblia Dios nos dice"
     },
      {
       "id": "529",
@@ -3133,7 +3080,6 @@
   },
   {
     "id": "54",
-    "code": "54",
     "title": " 54  Munakoj Salvador",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -3242,7 +3188,6 @@
   },
   {
     "id": "55",
-    "code": "55",
     "title": " 55  Sonqoyqa Kusisqallapuni",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -3301,7 +3246,6 @@
   },
   {
     "id": "56",
-    "code": "56",
     "title": " 56  Dios Tatáy Uyarimuway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3370,7 +3314,6 @@
   },
   {
     "id": "57",
-    "code": "57",
     "title": " 57  Khuyakoj Dios Tata",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3439,7 +3382,6 @@
   },
   {
     "id": "58",
-    "code": "58",
     "title": " 58 Kusikunachej Santo Diosmanta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -3478,7 +3420,6 @@
   },
   {
     "id": "59",
-    "code": "59",
     "title": " 59 Dios Tatáy Qan Yanapaway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3547,7 +3488,6 @@
   },
   {
     "id": "60",
-    "code": "60",
     "title": " 60  Manchay Kusikuypuni",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3636,7 +3576,6 @@
   },
   {
     "id": "61",
-    "code": "61",
     "title": " 61  Pilla salvasonqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3695,7 +3634,6 @@
   },
   {
     "id": "62",
-    "code": "62",
     "title": " 62 Jesucristo Wajyawajtin",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -3708,7 +3646,7 @@
      {
       "id": "629",
       "chorusPos": [],
-      "paragraph": " Jaqaypi lista pasajtin, \n &quot;Jampuy qan&quot;; Jesús niwajtin, \n Llojsipusaj Diosniypaman,\n Mayta munakoj Salvawajniypaman."
+      "paragraph": " Jaqaypi lista pasajtin, \n \"Jampuy qan\"; Jesús niwajtin, \n Llojsipusaj Diosniypaman,\n Mayta munakoj Salvawajniypaman."
     },
      {
       "id": "630",
@@ -3718,17 +3656,17 @@
      {
       "id": "631",
       "chorusPos": [],
-      "paragraph": " Jaqaypi lista pasajtin, \n &quot;Jampuy qan&quot;; Jesús niwajtin, \n Llojsipusaj Diosniypaman,\n Mayta munakoj Salvawajniypaman."
+      "paragraph": " Jaqaypi lista pasajtin, \n \"Jampuy qan\"; Jesús niwajtin, \n Llojsipusaj Diosniypaman,\n Mayta munakoj Salvawajniypaman."
     },
      {
       "id": "632",
       "chorusPos": [],
-      "paragraph": " Jesuspa munakuyninta tukuyman yachachisaj. &quot;Jamuychej juchallikojkuna&quot;, nisaj. Kamachiwasqanta tukuspa, Jesusman ripusaj. Ruwasqayman jinataj qopuwanqa."
+      "paragraph": " Jesuspa munakuyninta tukuyman yachachisaj. \"Jamuychej juchallikojkuna\", nisaj. Kamachiwasqanta tukuspa, Jesusman ripusaj. Ruwasqayman jinataj qopuwanqa."
     },
      {
       "id": "633",
       "chorusPos": [],
-      "paragraph": " Jaqaypi lista pasajtin, \n &quot;Jampuy qan&quot;; Jesús niwajtin, \n Llojsipusaj Diosniypaman,\n Mayta munakoj Salvawajniypaman."
+      "paragraph": " Jaqaypi lista pasajtin, \n \"Jampuy qan\"; Jesús niwajtin, \n Llojsipusaj Diosniypaman,\n Mayta munakoj Salvawajniypaman."
     },
      {
       "id": "634",
@@ -3764,7 +3702,6 @@
   },
   {
     "id": "63",
-    "code": "63",
     "title": " Cristo Diospa Churin  63",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3833,7 +3770,6 @@
   },
   {
     "id": "64",
-    "code": "64",
     "title": " 64   Kunan P'unchay Kashan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3882,7 +3818,6 @@
   },
   {
     "id": "65",
-    "code": "65",
     "title": " Cristo Wajyashan Runasta 65",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -3890,7 +3825,7 @@
      {
       "id": "660",
       "chorusPos": [],
-      "paragraph": " /Cristo wajyashan tukuy runasta./ \n /&quot;Jampuway wawáy&quot;, \n Nispa, niwanchej munakoj Cristo/"
+      "paragraph": " /Cristo wajyashan tukuy runasta./ \n /\"Jampuway wawáy\", \n Nispa, niwanchej munakoj Cristo/"
     },
      {
       "id": "661",
@@ -3931,7 +3866,6 @@
   },
   {
     "id": "66",
-    "code": "66",
     "title": " 66   Jaku Riña Runamasi",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -3970,7 +3904,6 @@
   },
   {
     "id": "67",
-    "code": "67",
     "title": " Jesucristo Wajyashan     67",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4009,7 +3942,6 @@
   },
   {
     "id": "68",
-    "code": "68",
     "title": " Kay Pachaqa Llakiylla  68",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4078,7 +4010,6 @@
   },
   {
     "id": "69",
-    "code": "69",
     "title": " 69   Jesucristoj Yawarnin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4101,7 +4032,7 @@
      {
       "id": "695",
       "chorusPos": [],
-      "paragraph": " /Sichus tardanki chayqa, \n Dios punkuta wisq'akaponqa \n &quot;Ña tardeña&quot;, nispa, nisonqa/\n /Diosta mana kasuspa, \n Perdonta qhesachaspa, \n Nina larwayman yaykushanki/"
+      "paragraph": " /Sichus tardanki chayqa, \n Dios punkuta wisq'akaponqa \n \"Ña tardeña\", nispa, nisonqa/\n /Diosta mana kasuspa, \n Perdonta qhesachaspa, \n Nina larwayman yaykushanki/"
     },
      {
       "id": "696",
@@ -4122,7 +4053,6 @@
   },
   {
     "id": "70",
-    "code": "70",
     "title": " 70  May Kusisqas Ujtawan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4191,7 +4121,6 @@
   },
   {
     "id": "71",
-    "code": "71",
     "title": " 71   Jesusneyqa Llimphuchan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4260,7 +4189,6 @@
   },
   {
     "id": "72",
-    "code": "72",
     "title": " Maytapis Riyman Jesuswan  72",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4349,7 +4277,6 @@
   },
   {
     "id": "73",
-    "code": "73",
     "title": " 73  Cristo Waqaychawan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -4413,7 +4340,6 @@
   },
   {
     "id": "74",
-    "code": "74",
     "title": " 74  Sumaj Munakoj Jesusníy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4452,7 +4378,6 @@
   },
   {
     "id": "75",
-    "code": "75",
     "title": " 75   Janaj Pacha Llajta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4511,7 +4436,6 @@
   },
   {
     "id": "76",
-    "code": "76",
     "title": " 76 Qan aparqanki",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4620,7 +4544,6 @@
   },
   {
     "id": "77",
-    "code": "77",
     "title": " Cristolla Munakim  77",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -4659,7 +4582,6 @@
   },
   {
     "id": "78",
-    "code": "78",
     "title": " 78  Dios Kaypi Kashan",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -4667,7 +4589,7 @@
      {
       "id": "792",
       "chorusPos": [],
-      "paragraph": " /Dios kaypi kashan, may jatun kusiy. Señorninchej nerqa: &quot;Iskay, kinsapis Tantakojtinku Noqaj sutiypi, \n Paykunawan kashani&quot;."
+      "paragraph": " /Dios kaypi kashan, may jatun kusiy. Señorninchej nerqa: \"Iskay, kinsapis Tantakojtinku Noqaj sutiypi, \n Paykunawan kashani\"."
     },
      {
       "id": "793",
@@ -4677,7 +4599,7 @@
      {
       "id": "794",
       "chorusPos": [],
-      "paragraph": " Dios está aquí, qué precioso es. \n Él nos prometió: &quot;Dónde están dos o tres, \n Estaré allí&quot;. Qué gozo será\n Estar en su comunión."
+      "paragraph": " Dios está aquí, qué precioso es. \n Él nos prometió: \"Dónde están dos o tres, \n Estaré allí\". Qué gozo será\n Estar en su comunión."
     },
      {
       "id": "795",
@@ -4688,7 +4610,6 @@
   },
   {
     "id": "79",
-    "code": "79",
     "title": " 79   Karunchakuni Diosmanta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -4777,7 +4698,6 @@
   },
   {
     "id": "80",
-    "code": "80",
     "title": " 80 Punkumin Kani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -4785,48 +4705,47 @@
      {
       "id": "812",
       "chorusPos": [],
-      "paragraph": " &quot;Punkumin kani&quot;, Jesucristo nin. \n /&quot;Noqanejta yaykojkuna \n Wiñay salvos kanqanku &rdquo;/"
+      "paragraph": " \"Punkumin kani\", Jesucristo nin. \n /\"Noqanejta yaykojkuna \n Wiñay salvos kanqanku &rdquo;/"
     },
      {
       "id": "813",
       "chorusPos": [],
-      "paragraph": " &quot;K'anchaymin kani&quot;. Jesucristo nin. /&quot;K'anchayniyman jamojkuna \n Wiñay salvos kanqanku ' /"
+      "paragraph": " \"K'anchaymin kani\". Jesucristo nin. /\"K'anchayniyman jamojkuna \n Wiñay salvos kanqanku ' /"
     },
      {
       "id": "814",
       "chorusPos": [],
-      "paragraph": " &quot;Michejmin kani&quot;, Jesucristo nin. \n /&quot;Wañusqaypi creejkuna \n Wiñay salvos kanqanku ' /"
+      "paragraph": " \"Michejmin kani\", Jesucristo nin. \n /\"Wañusqaypi creejkuna \n Wiñay salvos kanqanku ' /"
     },
      {
       "id": "815",
       "chorusPos": [],
-      "paragraph": " &quot;Kawsay ñan kani&quot;, Jesucristo nin. \n /&quot;Noqanejta rejkunaqa \n Wiñay salvos kanqanku ' /"
+      "paragraph": " \"Kawsay ñan kani\", Jesucristo nin. \n /\"Noqanejta rejkunaqa \n Wiñay salvos kanqanku ' /"
     },
      {
       "id": "816",
       "chorusPos": [],
-      "paragraph": " /Díjoles Jesús: &quot;La puerta yo soy \n /Todo aquél que por Mí entrare, \n Será salvo por siempre&quot;./"
+      "paragraph": " /Díjoles Jesús: \"La puerta yo soy \n /Todo aquél que por Mí entrare, \n Será salvo por siempre\"./"
     },
      {
       "id": "817",
       "chorusPos": [],
-      "paragraph": " Díjoles Jesús: &quot;Luz del mundo soy \n /Los que vienen a mi lumbre \n En tinieblas no andarán&quot;./"
+      "paragraph": " Díjoles Jesús: \"Luz del mundo soy \n /Los que vienen a mi lumbre \n En tinieblas no andarán\"./"
     },
      {
       "id": "818",
       "chorusPos": [],
-      "paragraph": " Díjoles Jesús: &quot;Soy el Buen Pastor. \n /Todo aquél que me siguiere \n Vida eterna El tendrá&quot;./"
+      "paragraph": " Díjoles Jesús: \"Soy el Buen Pastor. \n /Todo aquél que me siguiere \n Vida eterna El tendrá\"./"
     },
      {
       "id": "819",
       "chorusPos": [],
-      "paragraph": " Díjoles Jesús: &quot;El camino soy \n /El que viene a mi Padre \n Será salvo por siempre&quot;./"
+      "paragraph": " Díjoles Jesús: \"El camino soy \n /El que viene a mi Padre \n Será salvo por siempre\"./"
     }
     ]
   },
   {
     "id": "81",
-    "code": "81",
     "title": " 81  Señor Jesusninchej",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -4834,7 +4753,7 @@
      {
       "id": "820",
       "chorusPos": [],
-      "paragraph": " /Señor Jesusninchej nisunki: \n &quot;Jamuy noqaman, wawáy, \n Wiñay kawsay kashan qampaj.&rdquo;/"
+      "paragraph": " /Señor Jesusninchej nisunki: \n \"Jamuy noqaman, wawáy, \n Wiñay kawsay kashan qampaj.&rdquo;/"
     },
      {
       "id": "821",
@@ -4895,7 +4814,6 @@
   },
   {
     "id": "82",
-    "code": "82",
     "title": " 82  Evangeliota Qhatisajpuni",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -4939,7 +4857,6 @@
   },
   {
     "id": "83",
-    "code": "83",
     "title": " 83  Cielosta Rikuspa",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -4988,7 +4905,6 @@
   },
   {
     "id": "84",
-    "code": "84",
     "title": " Kay Pacha Kawsaypi  84",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -5057,7 +4973,6 @@
   },
   {
     "id": "85",
-    "code": "85",
     "title": " 85  Cielopimin Cristo Kashan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -5146,7 +5061,6 @@
   },
   {
     "id": "86",
-    "code": "86",
     "title": " 86 Creejkuna Alabaychej",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -5185,7 +5099,6 @@
   },
   {
     "id": "87",
-    "code": "87",
     "title": " Obrerosta Cristo Mask'ashan 87",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -5193,7 +5106,7 @@
      {
       "id": "881",
       "chorusPos": [],
-      "paragraph": " Obrerosta Cristo mask'ashan \n Paywan riy munajta. \n Pi nenqa: &quot;Señor, Qanwan risaj,\n Noqa kasusqayki&quot;?"
+      "paragraph": " Obrerosta Cristo mask'ashan \n Paywan riy munajta. \n Pi nenqa: \"Señor, Qanwan risaj,\n Noqa kasusqayki\"?"
     },
      {
       "id": "882",
@@ -5203,7 +5116,7 @@
      {
       "id": "883",
       "chorusPos": [],
-      "paragraph": " Cristo mask'an willajkunata \n Cheqa Palabranta. \n Pi nenqa: &quot;Señor, rillasajña \n Munayniyki junt'aj?&quot;."
+      "paragraph": " Cristo mask'an willajkunata \n Cheqa Palabranta. \n Pi nenqa: \"Señor, rillasajña \n Munayniyki junt'aj?\"."
     },
      {
       "id": "884",
@@ -5233,7 +5146,7 @@
      {
       "id": "889",
       "chorusPos": [],
-      "paragraph": " Cristo está buscando obreros hoy \n Que quieran ir con Él. \n ¿Quién dirá: &quot;Señor Contigo voy,\n Yo quiero serte fiel&quot;?"
+      "paragraph": " Cristo está buscando obreros hoy \n Que quieran ir con Él. \n ¿Quién dirá: \"Señor Contigo voy,\n Yo quiero serte fiel\"?"
     },
      {
       "id": "890",
@@ -5243,7 +5156,7 @@
      {
       "id": "891",
       "chorusPos": [],
-      "paragraph": " Cristo quiere mensajeros hoy, \n Que anuncien su verdad, \n ¿Quién dirá: &quot;Señor yo listo estoy&rdquo;                Haré tu voluntad&quot;?"
+      "paragraph": " Cristo quiere mensajeros hoy, \n Que anuncien su verdad, \n ¿Quién dirá: \"Señor yo listo estoy&rdquo;                Haré tu voluntad\"?"
     },
      {
       "id": "892",
@@ -5274,7 +5187,6 @@
   },
   {
     "id": "88",
-    "code": "88",
     "title": " 88   Gracias Kachun",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -5343,7 +5255,6 @@
   },
   {
     "id": "89",
-    "code": "89",
     "title": " 89 Laqhayayllapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -5361,7 +5272,7 @@
      {
       "id": "911",
       "chorusPos": [],
-      "paragraph": " /Uyarinachej Cristoj nisqanta \n Kay pachapi kaj wawasninman/ \n &quot;Noqa ujtawan kutimusaj\n Salvos kajta pusarikapoj \n Noqawan khuska rinankupaj \n Wiñay wiñaypaj kusikuyman /"
+      "paragraph": " /Uyarinachej Cristoj nisqanta \n Kay pachapi kaj wawasninman/ \n \"Noqa ujtawan kutimusaj\n Salvos kajta pusarikapoj \n Noqawan khuska rinankupaj \n Wiñay wiñaypaj kusikuyman /"
     },
      {
       "id": "912",
@@ -5376,18 +5287,17 @@
      {
       "id": "914",
       "chorusPos": [],
-      "paragraph": " /Querido hermano, una promesa \n Jesús, el Salvador, nos dejó./ \n Él dijo: &quot;Yo vendré otra vez"
+      "paragraph": " /Querido hermano, una promesa \n Jesús, el Salvador, nos dejó./ \n Él dijo: \"Yo vendré otra vez"
     },
      {
       "id": "915",
       "chorusPos": [],
-      "paragraph": " a los salvados llevaré Conmigo \n a la mansión celestial \n gozarán por la eternidad&quot;."
+      "paragraph": " a los salvados llevaré Conmigo \n a la mansión celestial \n gozarán por la eternidad\"."
     }
     ]
   },
   {
     "id": "90",
-    "code": "90",
     "title": " 90 Jovenesqa Diospi Confíanachej",
     "musicalNote": " (Mib)",
     "chorus": [],
@@ -5456,7 +5366,6 @@
   },
   {
     "id": "91",
-    "code": "91",
     "title": " 91 Qan Sapallayki Diosníy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -5525,7 +5434,6 @@
   },
   {
     "id": "92",
-    "code": "92",
     "title": " 92  Munakoj Dios Tata",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5604,7 +5512,6 @@
   },
   {
     "id": "93",
-    "code": "93",
     "title": " 93  Dioswan Purinapaj",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5693,7 +5600,6 @@
   },
   {
     "id": "94",
-    "code": "94",
     "title": " Jesucristo Jamonqa 94",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -5782,7 +5688,6 @@
   },
   {
     "id": "95",
-    "code": "95",
     "title": " 95  Jesús Nerqa: Noqamin Sach'a Kani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5790,7 +5695,7 @@
      {
       "id": "986",
       "chorusPos": [],
-      "paragraph": " Jesús nerqa: &quot;Noqamin cheqamanta \n Sach'a kani, Tataytajrí poqochejniymin. \n Tukuy ramasnin má poqoj \n K'utusqasmin qhepanqanku&quot;."
+      "paragraph": " Jesús nerqa: \"Noqamin cheqamanta \n Sach'a kani, Tataytajrí poqochejniymin. \n Tukuy ramasnin má poqoj \n K'utusqasmin qhepanqanku\"."
     },
      {
       "id": "987",
@@ -5820,7 +5725,7 @@
      {
       "id": "992",
       "chorusPos": [],
-      "paragraph": " Jesús dijo: Yo soy como una planta \n Verdadera, y mi Padre es el Labrador. \n Todo pámpano que en Mí\n No da fruto lo quitará&quot;."
+      "paragraph": " Jesús dijo: Yo soy como una planta \n Verdadera, y mi Padre es el Labrador. \n Todo pámpano que en Mí\n No da fruto lo quitará\"."
     },
      {
       "id": "993",
@@ -5851,7 +5756,6 @@
   },
   {
     "id": "96",
-    "code": "96",
     "title": " 96  Señor Jesucristo Yanaparillaway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -5920,7 +5824,6 @@
   },
   {
     "id": "97",
-    "code": "97",
     "title": " 97  Jamonqaña Jesús",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -6029,7 +5932,6 @@
   },
   {
     "id": "98",
-    "code": "98",
     "title": " 98  Tukuy Sonqonchejwan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -6127,7 +6029,7 @@
      {
       "id": "1048",
       "chorusPos": [],
-      "paragraph": " No faltarán pruebas, en Cristo confía, \n Ni al diablo &quot;el astuto&quot; nunca des lugar."
+      "paragraph": " No faltarán pruebas, en Cristo confía, \n Ni al diablo \"el astuto\" nunca des lugar."
     },
      {
       "id": "1049",
@@ -6138,7 +6040,6 @@
   },
   {
     "id": "99",
-    "code": "99",
     "title": " 99  Jesús Salvawajniypi",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -6207,7 +6108,6 @@
   },
   {
     "id": "100",
-    "code": "100",
     "title": " 100   Señor Jesusniy Pusaway",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -6296,7 +6196,6 @@
   },
   {
     "id": "101",
-    "code": "101",
     "title": " 101 Dios Tatayman Takisaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -6385,7 +6284,6 @@
   },
   {
     "id": "102",
-    "code": "102",
     "title": " Kawsayniyta Qopusaj  102",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -6454,7 +6352,6 @@
   },
   {
     "id": "103",
-    "code": "103",
     "title": " 103 Señor Qanman Mañakuni",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -6503,7 +6400,6 @@
   },
   {
     "id": "104",
-    "code": "104",
     "title": " Señorníy Yanapaway     104",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -6562,7 +6458,6 @@
   },
   {
     "id": "105",
-    "code": "105",
     "title": " 105   Munakoj Señorníy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -6651,7 +6546,6 @@
   },
   {
     "id": "106",
-    "code": "106",
     "title": " Rikuchiway Ñanniykita   106",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -6694,7 +6588,7 @@
      {
       "id": "1147",
       "chorusPos": [],
-      "paragraph": " &quot;Lámpara es a mis pies tu Palabra, Señor                  Y lumbrera a mi camino, ¡maravilloso Dios!&quot;"
+      "paragraph": " \"Lámpara es a mis pies tu Palabra, Señor                  Y lumbrera a mi camino, ¡maravilloso Dios!\""
     },
      {
       "id": "1148",
@@ -6704,7 +6598,7 @@
      {
       "id": "1149",
       "chorusPos": [],
-      "paragraph": " &quot;Lámpara es a mis pies tu Palabra, Señor                  Y lumbrera a mi camino, ¡maravilloso Dios!&quot;"
+      "paragraph": " \"Lámpara es a mis pies tu Palabra, Señor                  Y lumbrera a mi camino, ¡maravilloso Dios!\""
     },
      {
       "id": "1150",
@@ -6714,13 +6608,12 @@
      {
       "id": "1151",
       "chorusPos": [],
-      "paragraph": " &quot;Lámpara es a mis pies tu Palabra, Señor                  Y lumbrera a mi camino, ¡maravilloso Dios!&quot;"
+      "paragraph": " \"Lámpara es a mis pies tu Palabra, Señor                  Y lumbrera a mi camino, ¡maravilloso Dios!\""
     }
     ]
   },
   {
     "id": "107",
-    "code": "107",
     "title": " 107      Señor Jesusniywan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -6759,7 +6652,6 @@
   },
   {
     "id": "108",
-    "code": "108",
     "title": " Salvador Khuyakuwajníy 108",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -6828,7 +6720,6 @@
   },
   {
     "id": "109",
-    "code": "109",
     "title": " 109 Señorpa Chajrampi Llank'amusaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -6897,7 +6788,6 @@
   },
   {
     "id": "110",
-    "code": "110",
     "title": " 110  Cristoj Chakisninman",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -6966,7 +6856,6 @@
   },
   {
     "id": "111",
-    "code": "111",
     "title": " 111  Señor Jamonqaña",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -7025,7 +6914,6 @@
   },
   {
     "id": "112",
-    "code": "112",
     "title": " 112 Señor Qanman Jamuni",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -7094,7 +6982,6 @@
   },
   {
     "id": "113",
-    "code": "113",
     "title": " 113  Jallp'a Chinkanqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7183,7 +7070,6 @@
   },
   {
     "id": "114",
-    "code": "114",
     "title": " 114 Gracias Dios Tataman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -7237,7 +7123,6 @@
   },
   {
     "id": "115",
-    "code": "115",
     "title": " Diosta Yupaychaychej",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7311,7 +7196,6 @@
   },
   {
     "id": "116",
-    "code": "116",
     "title": " Cristoj Jamunán Suyani",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -7380,7 +7264,6 @@
   },
   {
     "id": "117",
-    "code": "117",
     "title": " Diosman Chimpaykojtiy   117",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7419,7 +7302,6 @@
   },
   {
     "id": "118",
-    "code": "118",
     "title": " Dios Tataman Qopunachej 118",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7468,7 +7350,6 @@
   },
   {
     "id": "119",
-    "code": "119",
     "title": " 119  Kay Pachata Cielotawan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -7557,7 +7438,6 @@
   },
   {
     "id": "120",
-    "code": "120",
     "title": " 120 Santa Bibliapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7646,7 +7526,6 @@
   },
   {
     "id": "121",
-    "code": "121",
     "title": " Munakoj Jatun Dios     121",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7715,7 +7594,6 @@
   },
   {
     "id": "122",
-    "code": "122",
     "title": " Kawsayqa Tukukonqa  122",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -7723,7 +7601,7 @@
      {
       "id": "1324",
       "chorusPos": [],
-      "paragraph": " Kawsayqa tukukonqa, laqhes jiña urmanqa, Llant'a jiña ninapaj. Mask'awaj. \n P'unchaykuna phawashan, tukuynejpi nikushan: &quot;Jamuy cuenta qoj Diosman&quot;. Mask'awaj."
+      "paragraph": " Kawsayqa tukukonqa, laqhes jiña urmanqa, Llant'a jiña ninapaj. Mask'awaj. \n P'unchaykuna phawashan, tukuynejpi nikushan: \"Jamuy cuenta qoj Diosman\". Mask'awaj."
     },
      {
       "id": "1325",
@@ -7753,12 +7631,12 @@
      {
       "id": "1330",
       "chorusPos": [],
-      "paragraph": " Nuestra vida acabará cual las hojas caerá, \n Cual el haz se ligará; Busca a Dios. \n Vuela cada día veloz y volando da su voz:\n &quot;Ven a dar tu cuenta a Dios&quot;. Busca a Dios."
+      "paragraph": " Nuestra vida acabará cual las hojas caerá, \n Cual el haz se ligará; Busca a Dios. \n Vuela cada día veloz y volando da su voz:\n \"Ven a dar tu cuenta a Dios\". Busca a Dios."
     },
      {
       "id": "1331",
       "chorusPos": [],
-      "paragraph": " Busca a Dios, busca a Dios \n Entre tanto tengas tiempo busca a Dios. \n Si te atreves a esperar,\n Dios la puerta cerrará; \n Te dirá: &quot;Es tarde ya&quot;. Busca a Dios."
+      "paragraph": " Busca a Dios, busca a Dios \n Entre tanto tengas tiempo busca a Dios. \n Si te atreves a esperar,\n Dios la puerta cerrará; \n Te dirá: \"Es tarde ya\". Busca a Dios."
     },
      {
       "id": "1332",
@@ -7768,7 +7646,7 @@
      {
       "id": "1333",
       "chorusPos": [],
-      "paragraph": " Busca a Dios, busca a Dios \n Entre tanto tengas tiempo busca a Dios. \n Si te atreves a esperar,\n Dios la puerta cerrará; \n Te dirá: &quot;Es tarde ya&quot;. Busca a Dios."
+      "paragraph": " Busca a Dios, busca a Dios \n Entre tanto tengas tiempo busca a Dios. \n Si te atreves a esperar,\n Dios la puerta cerrará; \n Te dirá: \"Es tarde ya\". Busca a Dios."
     },
      {
       "id": "1334",
@@ -7778,13 +7656,12 @@
      {
       "id": "1335",
       "chorusPos": [],
-      "paragraph": " Busca a Dios, busca a Dios \n Entre tanto tengas tiempo busca a Dios. \n Si te atreves a esperar,\n Dios la puerta cerrará; \n Te dirá: &quot;Es tarde ya&quot;. Busca a Dios."
+      "paragraph": " Busca a Dios, busca a Dios \n Entre tanto tengas tiempo busca a Dios. \n Si te atreves a esperar,\n Dios la puerta cerrará; \n Te dirá: \"Es tarde ya\". Busca a Dios."
     }
     ]
   },
   {
     "id": "123",
-    "code": "123",
     "title": " 123   Diosníy Chimpamuyku",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -7848,7 +7725,6 @@
   },
   {
     "id": "124",
-    "code": "124",
     "title": " Señor Qan Pusaway  124",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -7937,7 +7813,6 @@
   },
   {
     "id": "125",
-    "code": "125",
     "title": " 125    Señor Jesucristo",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8006,7 +7881,6 @@
   },
   {
     "id": "126",
-    "code": "126",
     "title": " Kay Pacha Kawsayllaqa 126",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -8019,7 +7893,7 @@
      {
       "id": "1376",
       "chorusPos": [],
-      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n &quot;Cristo ni jamunmanchu&quot; /"
+      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n \"Cristo ni jamunmanchu\" /"
     },
      {
       "id": "1377",
@@ -8029,7 +7903,7 @@
      {
       "id": "1378",
       "chorusPos": [],
-      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n &quot;Cristo ni jamunmanchu&quot; /"
+      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n \"Cristo ni jamunmanchu\" /"
     },
      {
       "id": "1379",
@@ -8039,7 +7913,7 @@
      {
       "id": "1380",
       "chorusPos": [],
-      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n &quot;Cristo ni jamunmanchu&quot; /"
+      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n \"Cristo ni jamunmanchu\" /"
     },
      {
       "id": "1381",
@@ -8049,7 +7923,7 @@
      {
       "id": "1382",
       "chorusPos": [],
-      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n &quot;Cristo ni jamunmanchu&quot; /"
+      "paragraph": " /Cristo kutimonqaña, punkupiñamin kashan. Mashkhastajchus nishanku: \n \"Cristo ni jamunmanchu\" /"
     },
      {
       "id": "1383",
@@ -8095,7 +7969,6 @@
   },
   {
     "id": "127",
-    "code": "127",
     "title": " 127   Kusikuyniyojmin kanku",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8154,7 +8027,6 @@
   },
   {
     "id": "128",
-    "code": "128",
     "title": " Señor Jesusníy Khuyakuway 128",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8193,7 +8065,6 @@
   },
   {
     "id": "129",
-    "code": "129",
     "title": " Diosníy Qanllapiña Confiani",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8282,7 +8153,6 @@
   },
   {
     "id": "130",
-    "code": "130",
     "title": " JESUCRISTO KUTIMONQA    130",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -8351,7 +8221,6 @@
   },
   {
     "id": "131",
-    "code": "131",
     "title": " Dioslla Ruwarqa  131",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -8400,7 +8269,6 @@
   },
   {
     "id": "132",
-    "code": "132",
     "title": " 132   Kay Mosoj Watapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8469,7 +8337,6 @@
   },
   {
     "id": "133",
-    "code": "133",
     "title": " Uj P'unchaypi Jesús     133",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -8497,7 +8364,7 @@
      {
       "id": "1459",
       "chorusPos": [],
-      "paragraph": " Zaqueo Jesusta rikorqa \n Sach'a patamantapacha. \n Jesustaj payta rikuytawan:\n &quot;Usqayta uraykamuy&quot;, nerqa."
+      "paragraph": " Zaqueo Jesusta rikorqa \n Sach'a patamantapacha. \n Jesustaj payta rikuytawan:\n \"Usqayta uraykamuy\", nerqa."
     },
      {
       "id": "1460",
@@ -8558,7 +8425,6 @@
   },
   {
     "id": "134",
-    "code": "134",
     "title": " Diosta Yupaychana   134",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8587,7 +8453,6 @@
   },
   {
     "id": "135",
-    "code": "135",
     "title": " Munakoj Jesucristo 135",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -8636,7 +8501,6 @@
   },
   {
     "id": "136",
-    "code": "136",
     "title": " 136  Cristoj Santa Iglesianqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8725,7 +8589,6 @@
   },
   {
     "id": "137",
-    "code": "137",
     "title": " 137  Señor Jesucristo Noqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -8789,7 +8652,6 @@
   },
   {
     "id": "138",
-    "code": "138",
     "title": " 138  Casarakojkuna Canapi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -8833,7 +8695,6 @@
   },
   {
     "id": "139",
-    "code": "139",
     "title": " 139 Uj Pacha Juchapi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -8861,18 +8722,17 @@
      {
       "id": "1521",
       "chorusPos": [],
-      "paragraph": " /Caminando con Dios, cuantas veces me vi \n En la tentación./ \n /Pero Cristo, el Señor, con su voz de amor\n Me fortaleció./ \n /&quot;Ten valor, sin temor, resiste al tentador, \n Que a tu lado estoy&quot;./"
+      "paragraph": " /Caminando con Dios, cuantas veces me vi \n En la tentación./ \n /Pero Cristo, el Señor, con su voz de amor\n Me fortaleció./ \n /\"Ten valor, sin temor, resiste al tentador, \n Que a tu lado estoy\"./"
     },
      {
       "id": "1522",
       "chorusPos": [],
-      "paragraph": " /No sé cuando será, tenga yo que dejar \n Esta vida acá./ \n /Pero me llamará a su lado el Señor\n En su amor dirá;/ \n /&quot;Siervo fiel, ven a Mí, en el cielo tendrás \n Gozo eternal&quot;./"
+      "paragraph": " /No sé cuando será, tenga yo que dejar \n Esta vida acá./ \n /Pero me llamará a su lado el Señor\n En su amor dirá;/ \n /\"Siervo fiel, ven a Mí, en el cielo tendrás \n Gozo eternal\"./"
     }
     ]
   },
   {
     "id": "140",
-    "code": "140",
     "title": " 140   Gracias Dios Tatáy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -8961,7 +8821,6 @@
   },
   {
     "id": "141",
-    "code": "141",
     "title": " Mana Yarqhay Kanchu   141",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -9030,7 +8889,6 @@
   },
   {
     "id": "142",
-    "code": "142",
     "title": " 142   Jesucristowan Mayllatapis",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -9119,7 +8977,6 @@
   },
   {
     "id": "143",
-    "code": "143",
     "title": " May Kusikuyniyojmin Kanqanku  143",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9188,7 +9045,6 @@
   },
   {
     "id": "144",
-    "code": "144",
     "title": " 144  Yuyarikuy Tukuy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -9222,7 +9078,6 @@
   },
   {
     "id": "145",
-    "code": "145",
     "title": " Sumaj Munakoj Jesuslla   145",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9291,7 +9146,6 @@
   },
   {
     "id": "146",
-    "code": "146",
     "title": " 146   Cristota Suyanachej",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -9360,7 +9214,6 @@
   },
   {
     "id": "147",
-    "code": "147",
     "title": " Señorníy Wajyawarqa    147",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9429,7 +9282,6 @@
   },
   {
     "id": "148",
-    "code": "148",
     "title": " 148 Amañapis Kankumanchu",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9498,7 +9350,6 @@
   },
   {
     "id": "149",
-    "code": "149",
     "title": " Señor Jesús Jamonqa    149",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9567,7 +9418,6 @@
   },
   {
     "id": "150",
-    "code": "150",
     "title": " 150   Santa Bibliaqa",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -9656,7 +9506,6 @@
   },
   {
     "id": "151",
-    "code": "151",
     "title": " Kallpachawayku Dios    151",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -9725,7 +9574,6 @@
   },
   {
     "id": "152",
-    "code": "152",
     "title": " 152   Señor Jesús Wajyasunki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -9733,7 +9581,7 @@
      {
       "id": "1672",
       "chorusPos": [],
-      "paragraph": " /Señor Jesús wajyasunki: \n &quot;Jampuway, wawáy&quot;, nisunki. \n Jamullayña makisninman,\n Paymin Salvasojniykeqa/"
+      "paragraph": " /Señor Jesús wajyasunki: \n \"Jampuway, wawáy\", nisunki. \n Jamullayña makisninman,\n Paymin Salvasojniykeqa/"
     },
      {
       "id": "1673",
@@ -9743,7 +9591,7 @@
      {
       "id": "1674",
       "chorusPos": [],
-      "paragraph": " /&quot;Jamuychej tukuy sayk'usqas&quot; \n Nispa, Jesús wajyawanchej. \n Juchayojkuna, chimpaychej,\n Salvacionta tarinkichej/"
+      "paragraph": " /\"Jamuychej tukuy sayk'usqas\" \n Nispa, Jesús wajyawanchej. \n Juchayojkuna, chimpaychej,\n Salvacionta tarinkichej/"
     },
      {
       "id": "1675",
@@ -9763,7 +9611,7 @@
      {
       "id": "1678",
       "chorusPos": [],
-      "paragraph": " El Señor Jesús te llama: \n &quot;Hijo, ven a Mí&quot;, te dice. \n Oh amigo, acepta a Cristo,\n El Salvador de tu alma."
+      "paragraph": " El Señor Jesús te llama: \n \"Hijo, ven a Mí\", te dice. \n Oh amigo, acepta a Cristo,\n El Salvador de tu alma."
     },
      {
       "id": "1679",
@@ -9773,7 +9621,7 @@
      {
       "id": "1680",
       "chorusPos": [],
-      "paragraph": " &quot;Venid a Mí&quot;, dijo Cristo, \n &quot;Los cansados, trabajados&quot;. \n Cristo quiere perdonarles\n A quienes a Él acuden."
+      "paragraph": " \"Venid a Mí\", dijo Cristo, \n \"Los cansados, trabajados\". \n Cristo quiere perdonarles\n A quienes a Él acuden."
     },
      {
       "id": "1681",
@@ -9794,7 +9642,6 @@
   },
   {
     "id": "153",
-    "code": "153",
     "title": " 153 Diosninchej Wakichin",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -9843,7 +9690,6 @@
   },
   {
     "id": "154",
-    "code": "154",
     "title": " 154 Señorniypata Thaskisqanta",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -9912,7 +9758,6 @@
   },
   {
     "id": "155",
-    "code": "155",
     "title": " 155  Getsemaní Lugarpeqa",
     "musicalNote": "_",
     "chorus": [],
@@ -9920,7 +9765,7 @@
      {
       "id": "1704",
       "chorusPos": [],
-      "paragraph": " Getsemaní lugarpeqa \n Señor Jesús orasharqa: \n &quot;Munayniyki kachun, Tatáy&quot;,\n Nispa, orarqa Pay."
+      "paragraph": " Getsemaní lugarpeqa \n Señor Jesús orasharqa: \n \"Munayniyki kachun, Tatáy\",\n Nispa, orarqa Pay."
     },
      {
       "id": "1705",
@@ -10021,7 +9866,6 @@
   },
   {
     "id": "156",
-    "code": "156",
     "title": " 156    Ima Llakiy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10060,7 +9904,6 @@
   },
   {
     "id": "157",
-    "code": "157",
     "title": " 157  Dios Wajyasunki",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10129,7 +9972,6 @@
   },
   {
     "id": "158",
-    "code": "158",
     "title": " 158   Munakoj Dios Tata",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10198,7 +10040,6 @@
   },
   {
     "id": "159",
-    "code": "159",
     "title": " Señor Jesusníy Yanapaway 159",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10267,7 +10108,6 @@
   },
   {
     "id": "160",
-    "code": "160",
     "title": " 160  Diospaj Llank'asaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10356,7 +10196,6 @@
   },
   {
     "id": "161",
-    "code": "161",
     "title": " 161  Jesucristo Jamonqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10445,7 +10284,6 @@
   },
   {
     "id": "162",
-    "code": "162",
     "title": " 162    Dios Tataj Llajtanman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10494,7 +10332,6 @@
   },
   {
     "id": "163",
-    "code": "163",
     "title": " 163    Jesucristo Jamonqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10563,7 +10400,6 @@
   },
   {
     "id": "164",
-    "code": "164",
     "title": " 164   Munakuyta Tarisun",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10632,7 +10468,6 @@
   },
   {
     "id": "165",
-    "code": "165",
     "title": " 165  Cristo Orashajtin",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -10640,7 +10475,7 @@
      {
       "id": "1830",
       "chorusPos": [],
-      "paragraph": " Cristo orashajtin Getsemanipi, \n Judasqa entregaykorqa. \n Presota jap'ispa, ch'ataykorqanku: \n &quot;Chakatasqa kachun&quot;, nispa."
+      "paragraph": " Cristo orashajtin Getsemanipi, \n Judasqa entregaykorqa. \n Presota jap'ispa, ch'ataykorqanku: \n \"Chakatasqa kachun\", nispa."
     },
      {
       "id": "1831",
@@ -10660,7 +10495,7 @@
      {
       "id": "1834",
       "chorusPos": [],
-      "paragraph": " &quot;Perdonapuy, Tatáy, juchasapasta&quot; \n Cristoqa nispa, mañarqa. \n Wañunampaj nerqa: &quot;Tukuychasqaña&quot;, Salvación tukuy runaspaj."
+      "paragraph": " \"Perdonapuy, Tatáy, juchasapasta\" \n Cristoqa nispa, mañarqa. \n Wañunampaj nerqa: \"Tukuychasqaña\", Salvación tukuy runaspaj."
     },
      {
       "id": "1835",
@@ -10685,7 +10520,7 @@
      {
       "id": "1839",
       "chorusPos": [],
-      "paragraph": " una turba le apresó. \n clamó a una voz: &quot;Crucifícale&quot; \n Al nazareno Rey Jesús."
+      "paragraph": " una turba le apresó. \n clamó a una voz: \"Crucifícale\" \n Al nazareno Rey Jesús."
     },
      {
       "id": "1840",
@@ -10705,7 +10540,7 @@
      {
       "id": "1843",
       "chorusPos": [],
-      "paragraph": " &quot;Padre perdónalos&quot; dijo en la cruz \n El Señor quien murió por mí. \n También El exclamó: &quot;Consumado es&quot;.\n Hay salud para el que cree en El."
+      "paragraph": " \"Padre perdónalos\" dijo en la cruz \n El Señor quien murió por mí. \n También El exclamó: \"Consumado es\".\n Hay salud para el que cree en El."
     },
      {
       "id": "1844",
@@ -10726,7 +10561,6 @@
   },
   {
     "id": "166",
-    "code": "166",
     "title": " Jesucristo Señorninchej   166",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10795,7 +10629,6 @@
   },
   {
     "id": "167",
-    "code": "167",
     "title": " 167  Señor Jesusniy Noqawan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -10884,7 +10717,6 @@
   },
   {
     "id": "168",
-    "code": "168",
     "title": " 168   Diospi Confíaspa",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10923,7 +10755,6 @@
   },
   {
     "id": "169",
-    "code": "169",
     "title": " 169 Belén Llajtapi",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -10982,7 +10813,6 @@
   },
   {
     "id": "170",
-    "code": "170",
     "title": " Jesuspa Jamunan 170",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -11056,7 +10886,6 @@
   },
   {
     "id": "171",
-    "code": "171",
     "title": " 171  Cieloman Ripunayqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11114,7 +10943,7 @@
      {
       "id": "1914",
       "chorusPos": [],
-      "paragraph": " Mientras haya de vivir, y al momento de morir, \n Mis labios repetirán: &quot;eres Tú mi Salvador&quot;."
+      "paragraph": " Mientras haya de vivir, y al momento de morir, \n Mis labios repetirán: \"eres Tú mi Salvador\"."
     },
      {
       "id": "1915",
@@ -11125,7 +10954,6 @@
   },
   {
     "id": "172",
-    "code": "172",
     "title": " Yachachiway Dios Tatáy   172",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11214,7 +11042,6 @@
   },
   {
     "id": "173",
-    "code": "173",
     "title": " 173    Chay Ancho Ñanta",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -11232,7 +11059,7 @@
      {
       "id": "1934",
       "chorusPos": [],
-      "paragraph": " Wakenqa: &quot;Rina&quot;, niwanku \n Chay wañuyman pusaj iianla. \n Chayninta mana riymanchu,\n Cieloman noqa rishani."
+      "paragraph": " Wakenqa: \"Rina\", niwanku \n Chay wañuyman pusaj iianla. \n Chayninta mana riymanchu,\n Cieloman noqa rishani."
     },
      {
       "id": "1935",
@@ -11283,7 +11110,6 @@
   },
   {
     "id": "174",
-    "code": "174",
     "title": " 174  Señor Jesucristo",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -11322,7 +11148,6 @@
   },
   {
     "id": "175",
-    "code": "175",
     "title": " Janaj Pachapi Señor Jesusqa 175",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -11381,7 +11206,6 @@
   },
   {
     "id": "176",
-    "code": "176",
     "title": " 176   Laqha Juchapi",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11430,7 +11254,6 @@
   },
   {
     "id": "177",
-    "code": "177",
     "title": " Kutirina Jesusman  177",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -11499,7 +11322,6 @@
   },
   {
     "id": "178",
-    "code": "178",
     "title": " 178   Cristoqa Muñan Salvayta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11568,7 +11390,6 @@
   },
   {
     "id": "179",
-    "code": "179",
     "title": " May Kusisqa Rishani   179",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -11627,7 +11448,6 @@
   },
   {
     "id": "180",
-    "code": "180",
     "title": " 180  Orayta yachachiway",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -11716,7 +11536,6 @@
   },
   {
     "id": "181",
-    "code": "181",
     "title": " Kusikoyqa Tiyapuwanqa   181",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -11805,7 +11624,6 @@
   },
   {
     "id": "182",
-    "code": "182",
     "title": " 182 Jesucristo Wicharipunampaj",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -11823,7 +11641,7 @@
      {
       "id": "2036",
       "chorusPos": [],
-      "paragraph": " Dios Tatanchej nishan: &quot;Sapa p'unchay Palabrayta willay tukuy runasman&quot;."
+      "paragraph": " Dios Tatanchej nishan: \"Sapa p'unchay Palabrayta willay tukuy runasman\"."
     },
      {
       "id": "2037",
@@ -11914,7 +11732,6 @@
   },
   {
     "id": "183",
-    "code": "183",
     "title": " Cristo Salvadorta   183",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -11963,7 +11780,6 @@
   },
   {
     "id": "184",
-    "code": "184",
     "title": " 184   Diospa Palabranta Tarpusaj",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -12032,7 +11848,6 @@
   },
   {
     "id": "185",
-    "code": "185",
     "title": " 185   Mana Cristo jiña",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -12096,7 +11911,6 @@
   },
   {
     "id": "186",
-    "code": "186",
     "title": " Jesús Wajyashasunki     186",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -12145,7 +11959,6 @@
   },
   {
     "id": "187",
-    "code": "187",
     "title": " 187 Jinallachu Diosman Risaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -12214,7 +12027,6 @@
   },
   {
     "id": "188",
-    "code": "188",
     "title": " Chinkasqa Kashajtiy   188",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -12263,7 +12075,6 @@
   },
   {
     "id": "189",
-    "code": "189",
     "title": " 189  Señor Jesús Wajyan",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -12297,7 +12108,6 @@
   },
   {
     "id": "190",
-    "code": "190",
     "title": " Kallpachakuna Hermanos 190",
     "musicalNote": " (Fa Menor)",
     "chorus": [],
@@ -12366,7 +12176,6 @@
   },
   {
     "id": "191",
-    "code": "191",
     "title": " 191  Jamuy Sonqoyman",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -12415,7 +12224,6 @@
   },
   {
     "id": "192",
-    "code": "192",
     "title": " Salvación Kasqanmanta 192",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -12464,7 +12272,6 @@
   },
   {
     "id": "193",
-    "code": "193",
     "title": " 193  Wañorqa Jesús Cruzpi",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -12533,7 +12340,6 @@
   },
   {
     "id": "194",
-    "code": "194",
     "title": " Diosníy Mañakamuyki    194",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -12541,7 +12347,7 @@
      {
       "id": "2158",
       "chorusPos": [],
-      "paragraph": " Diosníy, mañakamuyki Qanman qonqorikuspa: &quot;Juchasniyta pampachay, kawsayta qoway&quot;."
+      "paragraph": " Diosníy, mañakamuyki Qanman qonqorikuspa: \"Juchasniyta pampachay, kawsayta qoway\"."
     },
      {
       "id": "2159",
@@ -12602,7 +12408,6 @@
   },
   {
     "id": "195",
-    "code": "195",
     "title": " 195 Dios Tatanchej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -12651,7 +12456,6 @@
   },
   {
     "id": "196",
-    "code": "196",
     "title": " Noqa Kaypi Wajcha  196",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -12720,7 +12524,6 @@
   },
   {
     "id": "197",
-    "code": "197",
     "title": " 197  Oh, Jehová Señorníy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -12759,7 +12562,6 @@
   },
   {
     "id": "198",
-    "code": "198",
     "title": " Cristo Wajyashan   198",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -12767,12 +12569,12 @@
      {
       "id": "2196",
       "chorusPos": [],
-      "paragraph": " /Cristo wajyashan runasta: \n &quot;Kunan jampuway&quot;, nispa./ \n /Uyarispa, usqhayllata qhatikusunchej,\n Kasuspa Palabranta./"
+      "paragraph": " /Cristo wajyashan runasta: \n \"Kunan jampuway\", nispa./ \n /Uyarispa, usqhayllata qhatikusunchej,\n Kasuspa Palabranta./"
     },
      {
       "id": "2197",
       "chorusPos": [],
-      "paragraph": " /Jesucristo Diospa Churin \n Runasman sut'inchashan./ \n /&quot;Pichus Noqaman jamonqa, chay runaspajpis \n Salvacionqa wakisqa ' /"
+      "paragraph": " /Jesucristo Diospa Churin \n Runasman sut'inchashan./ \n /\"Pichus Noqaman jamonqa, chay runaspajpis \n Salvacionqa wakisqa ' /"
     },
      {
       "id": "2198",
@@ -12782,7 +12584,7 @@
      {
       "id": "2199",
       "chorusPos": [],
-      "paragraph": " /Jesucristo llama a todos: \n &quot;Venid a mí y descansad&quot;./ \n /Sigamos a Jesucristo muy presurosos,\n Obedeceremos a Él./"
+      "paragraph": " /Jesucristo llama a todos: \n \"Venid a mí y descansad\"./ \n /Sigamos a Jesucristo muy presurosos,\n Obedeceremos a Él./"
     },
      {
       "id": "2200",
@@ -12798,7 +12600,6 @@
   },
   {
     "id": "199",
-    "code": "199",
     "title": " 199 Santa Bibliapi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -12806,7 +12607,7 @@
      {
       "id": "2202",
       "chorusPos": [],
-      "paragraph": " Santa Bibliapi willawanchej Dios \n Mayta munakuwasqanchejta Pay. \n Mayllashaspa juchasninchejtaqa:\n &quot;Wawasniy kankichej&rdquo;, niwarqanchej."
+      "paragraph": " Santa Bibliapi willawanchej Dios \n Mayta munakuwasqanchejta Pay. \n Mayllashaspa juchasninchejtaqa:\n \"Wawasniy kankichej&rdquo;, niwarqanchej."
     },
      {
       "id": "2203",
@@ -12826,7 +12627,7 @@
      {
       "id": "2206",
       "chorusPos": [],
-      "paragraph": " &quot;Sonqosniykichejta qowaychej&quot;, nin, &quot;Qhatiwaychejtaj cheqan ñanniypi&quot;. \n Cruzpi wañuspa, rantiwarqanchej. \n Kunan chimpaykuwajchej Payllaman."
+      "paragraph": " \"Sonqosniykichejta qowaychej\", nin, \"Qhatiwaychejtaj cheqan ñanniypi\". \n Cruzpi wañuspa, rantiwarqanchej. \n Kunan chimpaykuwajchej Payllaman."
     },
      {
       "id": "2207",
@@ -12846,7 +12647,7 @@
      {
       "id": "2210",
       "chorusPos": [],
-      "paragraph": " Me ama Jesús, pues su vichi  entregó. \n Por mi salud y de niños habló: \n &quot;Dejad a los niños que vengan a Mí,\n Para salvarlos mi sangre vertí&quot;."
+      "paragraph": " Me ama Jesús, pues su vichi  entregó. \n Por mi salud y de niños habló: \n \"Dejad a los niños que vengan a Mí,\n Para salvarlos mi sangre vertí\"."
     },
      {
       "id": "2211",
@@ -12856,7 +12657,7 @@
      {
       "id": "2212",
       "chorusPos": [],
-      "paragraph": " Si alguien pregúntame cómo yo sé, \n &quot;Busca a Jesús, pecador&quot;, le diré. \n &quot;Por su Palabra que tienes aquí,\n Puedes saber que Jesús te ama a tí&quot;."
+      "paragraph": " Si alguien pregúntame cómo yo sé, \n \"Busca a Jesús, pecador\", le diré. \n \"Por su Palabra que tienes aquí,\n Puedes saber que Jesús te ama a tí\"."
     },
      {
       "id": "2213",
@@ -12867,7 +12668,6 @@
   },
   {
     "id": "200",
-    "code": "200",
     "title": " Kunampacha Willamuna 200",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -12936,7 +12736,6 @@
   },
   {
     "id": "201",
-    "code": "201",
     "title": " 201   Dios Tatáy Munakoj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -12975,7 +12774,6 @@
   },
   {
     "id": "202",
-    "code": "202",
     "title": " K'anchaypiña Kaspa     202",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -13044,7 +12842,6 @@
   },
   {
     "id": "203",
-    "code": "203",
     "title": " 203   Cristo Kaypi Kashan",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -13052,7 +12849,7 @@
      {
       "id": "2244",
       "chorusPos": [],
-      "paragraph": " Cristo kaypi kashan, ancha kusikuy. \n Ni manchikuy kanchu, noqawan kajtin. Niwasqanta junt'an k'acha Salvador: \n &quot;Mana saqesqaykichu, qanllawampuni kani&quot;"
+      "paragraph": " Cristo kaypi kashan, ancha kusikuy. \n Ni manchikuy kanchu, noqawan kajtin. Niwasqanta junt'an k'acha Salvador: \n \"Mana saqesqaykichu, qanllawampuni kani\""
     },
      {
       "id": "2245",
@@ -13062,7 +12859,7 @@
      {
       "id": "2246",
       "chorusPos": [],
-      "paragraph": " Ashkha enemigos chimpamuwanku, \n Cristotaj ladoypi waqaychashawan. &quot;Kallpachakuy&quot;, niwan, &quot;Yanapasqayki. \n Mana saqesqaykichu, qanllawampunl kani&quot;."
+      "paragraph": " Ashkha enemigos chimpamuwanku, \n Cristotaj ladoypi waqaychashawan. \"Kallpachakuy\", niwan, \"Yanapasqayki. \n Mana saqesqaykichu, qanllawampunl kani\"."
     },
      {
       "id": "2247",
@@ -13072,7 +12869,7 @@
      {
       "id": "2248",
       "chorusPos": [],
-      "paragraph": " Almayta jark'ajqa mana puñunchu. \n Chakiy misk'ajtenqa, Pay sayachiwan. \n Sapa p'unchay Payqa waqaychashawan, Palabrampi niwan: &quot;Qanllawampuni kani&quot;."
+      "paragraph": " Almayta jark'ajqa mana puñunchu. \n Chakiy misk'ajtenqa, Pay sayachiwan. \n Sapa p'unchay Payqa waqaychashawan, Palabrampi niwan: \"Qanllawampuni kani\"."
     },
      {
       "id": "2249",
@@ -13082,38 +12879,37 @@
      {
       "id": "2250",
       "chorusPos": [],
-      "paragraph": " Cristo está conmigo; ¡qué consolación! \n Su presencia quita todo mi temor; \n Tengo la promesa de mi Salvador:\n &quot;No te dejaré nunca; siempre contigo estoy&quot;."
+      "paragraph": " Cristo está conmigo; ¡qué consolación! \n Su presencia quita todo mi temor; \n Tengo la promesa de mi Salvador:\n \"No te dejaré nunca; siempre contigo estoy\"."
     },
      {
       "id": "2251",
       "chorusPos": [],
-      "paragraph": " /No tengo temor, no tengo temor; \n Jesús me ha prometido: &quot;Siempre contigo estoy&quot;./"
+      "paragraph": " /No tengo temor, no tengo temor; \n Jesús me ha prometido: \"Siempre contigo estoy\"./"
     },
      {
       "id": "2252",
       "chorusPos": [],
-      "paragraph": " Fuertes enemigos siempre cerca están. \n Cristo está más cerca, guárdame del mal. \n &quot;Ten valor&quot;, me dice, &quot;Soy tu ayudador;\n No te dejaré nunca, siempre contigo estoy&quot;."
+      "paragraph": " Fuertes enemigos siempre cerca están. \n Cristo está más cerca, guárdame del mal. \n \"Ten valor\", me dice, \"Soy tu ayudador;\n No te dejaré nunca, siempre contigo estoy\"."
     },
      {
       "id": "2253",
       "chorusPos": [],
-      "paragraph": " /No tengo temor, no tengo temor; \n Jesús me ha prometido: &quot;Siempre contigo estoy&quot;./"
+      "paragraph": " /No tengo temor, no tengo temor; \n Jesús me ha prometido: \"Siempre contigo estoy\"./"
     },
      {
       "id": "2254",
       "chorusPos": [],
-      "paragraph": " El que guarda mi alma, nunca dormirá. \n Si mi pie resbala, El me sostendrá; \n En mi vida diaria El es mi guardador;\n ¡Oh, qué fiel su Palabra: &quot;Siempre contigo estoy&quot;"
+      "paragraph": " El que guarda mi alma, nunca dormirá. \n Si mi pie resbala, El me sostendrá; \n En mi vida diaria El es mi guardador;\n ¡Oh, qué fiel su Palabra: \"Siempre contigo estoy\""
     },
      {
       "id": "2255",
       "chorusPos": [],
-      "paragraph": " /No tengo temor, no tengo temor; \n Jesús me ha prometido: &quot;Siempre contigo estoy&quot;./"
+      "paragraph": " /No tengo temor, no tengo temor; \n Jesús me ha prometido: \"Siempre contigo estoy\"./"
     }
     ]
   },
   {
     "id": "204",
-    "code": "204",
     "title": " 204   Riy Creyente",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13222,7 +13018,6 @@
   },
   {
     "id": "205",
-    "code": "205",
     "title": " 205   Salvasojniykita",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -13291,7 +13086,6 @@
   },
   {
     "id": "206",
-    "code": "206",
     "title": " 206 Amaña Ari",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -13329,7 +13123,7 @@
      {
       "id": "2294",
       "chorusPos": [],
-      "paragraph": " &quot;No se preocupen&quot;, dice la Biblia, \n &quot;Por esta vida y su afán, \n Por la comida, por la bebida,\n Ni como vestirán&quot;."
+      "paragraph": " \"No se preocupen\", dice la Biblia, \n \"Por esta vida y su afán, \n Por la comida, por la bebida,\n Ni como vestirán\"."
     },
      {
       "id": "2295",
@@ -13360,7 +13154,6 @@
   },
   {
     "id": "207",
-    "code": "207",
     "title": " Cristo Sapallantaña      207",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13449,7 +13242,6 @@
   },
   {
     "id": "208",
-    "code": "208",
     "title": " 208    Llank'aychej Señorpaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13518,7 +13310,6 @@
   },
   {
     "id": "209",
-    "code": "209",
     "title": " Qampaj Takisaj Diosníy   209",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -13526,7 +13317,7 @@
      {
       "id": "2328",
       "chorusPos": [],
-      "paragraph": " Qampaj takisaj, Diosníy, mana runaspajchu \n Nitaj lantikunapajchu, Qanllapajña takisaj. \n Runasqa qhaparenqanku: &quot;Maypi kashan Diosniyki?&quot;"
+      "paragraph": " Qampaj takisaj, Diosníy, mana runaspajchu \n Nitaj lantikunapajchu, Qanllapajña takisaj. \n Runasqa qhaparenqanku: \"Maypi kashan Diosniyki?\""
     },
      {
       "id": "2329",
@@ -13546,7 +13337,7 @@
      {
       "id": "2332",
       "chorusPos": [],
-      "paragraph": " No a los hombres, Jehová, ni a los ídolos. \n Sino a tu nombre doy loor por tu verdad y tu amor. \n Porque la gente exclamará: &quot;¿Dónde está tu Señor?&quot;"
+      "paragraph": " No a los hombres, Jehová, ni a los ídolos. \n Sino a tu nombre doy loor por tu verdad y tu amor. \n Porque la gente exclamará: \"¿Dónde está tu Señor?\""
     },
      {
       "id": "2333",
@@ -13567,7 +13358,6 @@
   },
   {
     "id": "210",
-    "code": "210",
     "title": " 210 Kaypi Kashan Señor Jesús",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13606,7 +13396,6 @@
   },
   {
     "id": "211",
-    "code": "211",
     "title": " 211  Janaj Pachaman Risaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -13675,7 +13464,6 @@
   },
   {
     "id": "212",
-    "code": "212",
     "title": " 212   Sonqowan confiani",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13698,7 +13486,7 @@
      {
       "id": "2357",
       "chorusPos": [],
-      "paragraph": " Juchayoj runasman nenqa Señorninchejqa: &quot;Riychej Noqamanta juchata ruwajkuna. \n /Millay ruwajkuna; q'olamuychej Nina qhochapi '/ \n /&quot;¡Ay! ¡ay! ¡ay!&quot; nenqanku chay infíernopi/"
+      "paragraph": " Juchayoj runasman nenqa Señorninchejqa: \"Riychej Noqamanta juchata ruwajkuna. \n /Millay ruwajkuna; q'olamuychej Nina qhochapi '/ \n /\"¡Ay! ¡ay! ¡ay!\" nenqanku chay infíernopi/"
     },
      {
       "id": "2358",
@@ -13718,13 +13506,12 @@
      {
       "id": "2361",
       "chorusPos": [],
-      "paragraph": " Al que no cree en El, Jesucristo le dirá: \n &quot;Apártate de Mí, tú que no amas la verdad. \n /Por negar mi perdón, al infierno tendrás que entrar./ /Ay, ay, ay, llorarás por la eternidad&quot;./"
+      "paragraph": " Al que no cree en El, Jesucristo le dirá: \n \"Apártate de Mí, tú que no amas la verdad. \n /Por negar mi perdón, al infierno tendrás que entrar./ /Ay, ay, ay, llorarás por la eternidad\"./"
     }
     ]
   },
   {
     "id": "213",
-    "code": "213",
     "title": " 213 Jesucristo Kay Pachaman",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13793,7 +13580,6 @@
   },
   {
     "id": "214",
-    "code": "214",
     "title": " Janaj Pachamanta  214",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -13801,7 +13587,7 @@
      {
       "id": "2374",
       "chorusPos": [],
-      "paragraph": " Janaj pachamanta uyarikushan; \n &quot;K'anchayta apaychej. \n Ashkha runas laqhayaypi kashanku, \n K'anchayta apaychej&quot;."
+      "paragraph": " Janaj pachamanta uyarikushan; \n \"K'anchayta apaychej. \n Ashkha runas laqhayaypi kashanku, \n K'anchayta apaychej\"."
     },
      {
       "id": "2375",
@@ -13841,7 +13627,7 @@
      {
       "id": "2382",
       "chorusPos": [],
-      "paragraph": " Una voz del cielo se oye resonar: \n &quot;Dad la luz, dad la luz&quot;. \n Muchas almas viven en la oscuridad,\n Dadles luz, dadles luz."
+      "paragraph": " Una voz del cielo se oye resonar: \n \"Dad la luz, dad la luz\". \n Muchas almas viven en la oscuridad,\n Dadles luz, dadles luz."
     },
      {
       "id": "2383",
@@ -13851,7 +13637,7 @@
      {
       "id": "2384",
       "chorusPos": [],
-      "paragraph": " Escuchad la voz que dice sin cesar: \n &quot;Dad la luz, dad la luz&quot; \n La misión cumplamos que el Señor nos da,\n Demos luz, demos luz."
+      "paragraph": " Escuchad la voz que dice sin cesar: \n \"Dad la luz, dad la luz\" \n La misión cumplamos que el Señor nos da,\n Demos luz, demos luz."
     },
      {
       "id": "2385",
@@ -13882,7 +13668,6 @@
   },
   {
     "id": "215",
-    "code": "215",
     "title": " Munakuwan Jesusniy   215",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -13961,7 +13746,6 @@
   },
   {
     "id": "216",
-    "code": "216",
     "title": " 216 Aswan Sumaj Mundomin",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14030,7 +13814,6 @@
   },
   {
     "id": "217",
-    "code": "217",
     "title": " Yachaychej Wasis   217",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14099,7 +13882,6 @@
   },
   {
     "id": "218",
-    "code": "218",
     "title": " 218  Cristoj Jamunanqa",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -14188,7 +13970,6 @@
   },
   {
     "id": "219",
-    "code": "219",
     "title": " 219  Hermanos Takinachej",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -14257,7 +14038,6 @@
   },
   {
     "id": "220",
-    "code": "220",
     "title": " 220  Diosta kasuspa",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -14296,7 +14076,6 @@
   },
   {
     "id": "221",
-    "code": "221",
     "title": " 221   Dios Tatáy Yachachiway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -14345,7 +14124,6 @@
   },
   {
     "id": "222",
-    "code": "222",
     "title": " 222  Yuraj P'achawan Kasaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14374,7 +14152,6 @@
   },
   {
     "id": "223",
-    "code": "223",
     "title": " May Munasqa Hermanóy 223",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -14392,7 +14169,7 @@
      {
       "id": "2476",
       "chorusPos": [],
-      "paragraph": " Diospa Palabrampeqa Señor Jesús niwanchej, &quot;Noqamin ñanqa kani, verdadtaj, kawsaytaj&rdquo;"
+      "paragraph": " Diospa Palabrampeqa Señor Jesús niwanchej, \"Noqamin ñanqa kani, verdadtaj, kawsaytaj&rdquo;"
     },
      {
       "id": "2477",
@@ -14422,7 +14199,7 @@
      {
       "id": "2482",
       "chorusPos": [],
-      "paragraph": " Jesucristo díjoles: &quot;Camino al cielo yo Soy. \n Nadie viene al padre si no fuera por Mí&quot;."
+      "paragraph": " Jesucristo díjoles: \"Camino al cielo yo Soy. \n Nadie viene al padre si no fuera por Mí\"."
     },
      {
       "id": "2483",
@@ -14443,7 +14220,6 @@
   },
   {
     "id": "224",
-    "code": "224",
     "title": " 224  Dios Tatayku",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -14512,7 +14288,6 @@
   },
   {
     "id": "225",
-    "code": "225",
     "title": " Kay Pacha Kawsaypi     225",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -14581,7 +14356,6 @@
   },
   {
     "id": "226",
-    "code": "226",
     "title": " 226  Jesuspa Kutimuynenqa",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14620,7 +14394,6 @@
   },
   {
     "id": "227",
-    "code": "227",
     "title": " 227  Kay Pachaman",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -14669,7 +14442,6 @@
   },
   {
     "id": "228",
-    "code": "228",
     "title": " 228   Kay Pachapi Kawsaypi",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -14708,7 +14480,6 @@
   },
   {
     "id": "229",
-    "code": "229",
     "title": " ImaraykuchusDios      229",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14777,7 +14548,6 @@
   },
   {
     "id": "230",
-    "code": "230",
     "title": " Khuyarikuway Dios Tatáy 230",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -14821,7 +14591,6 @@
   },
   {
     "id": "231",
-    "code": "231",
     "title": " 231 Jesús Jamonqa",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14860,7 +14629,6 @@
   },
   {
     "id": "232",
-    "code": "232",
     "title": " Kallpachakuychej Hermanos 232",
     "musicalNote": "_",
     "chorus": [],
@@ -14909,7 +14677,6 @@
   },
   {
     "id": "233",
-    "code": "233",
     "title": " Graciasta Qoyki  233",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -14948,7 +14715,6 @@
   },
   {
     "id": "234",
-    "code": "234",
     "title": " 234  Kay Waseqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -14997,7 +14763,6 @@
   },
   {
     "id": "235",
-    "code": "235",
     "title": " May Kusisqas Jaku   235",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15066,7 +14831,6 @@
   },
   {
     "id": "236",
-    "code": "236",
     "title": " 236  Hermanos Hermanas",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15079,7 +14843,7 @@
      {
       "id": "2590",
       "chorusPos": [],
-      "paragraph": " /Señor niwarqanchej, &quot;Qankunawan kasaj Tukukuykama/ \n /Makimpi jap'iwasun tukuy wawasnintaqa \n Sumaj Michiwajninchejqa/"
+      "paragraph": " /Señor niwarqanchej, \"Qankunawan kasaj Tukukuykama/ \n /Makimpi jap'iwasun tukuy wawasnintaqa \n Sumaj Michiwajninchejqa/"
     },
      {
       "id": "2591",
@@ -15089,13 +14853,12 @@
      {
       "id": "2592",
       "chorusPos": [],
-      "paragraph": " /Cristo ha prometido: &quot;Estoy con vosotros \n Hasta el fin, Amén&quot;./ \n /Con poder te guardará Jesús, nuestro Buen Pastor, Donde quiera que tu vayas./"
+      "paragraph": " /Cristo ha prometido: \"Estoy con vosotros \n Hasta el fin, Amén\"./ \n /Con poder te guardará Jesús, nuestro Buen Pastor, Donde quiera que tu vayas./"
     }
     ]
   },
   {
     "id": "237",
-    "code": "237",
     "title": " Ancha K'acha Señorniy    237",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -15124,7 +14887,6 @@
   },
   {
     "id": "238",
-    "code": "238",
     "title": " 238 Señor Jesusniy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15137,7 +14899,7 @@
      {
       "id": "2598",
       "chorusPos": [],
-      "paragraph": " /Chayrayku takishani: &quot;Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
+      "paragraph": " /Chayrayku takishani: \"Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
     },
      {
       "id": "2599",
@@ -15147,7 +14909,7 @@
      {
       "id": "2600",
       "chorusPos": [],
-      "paragraph": " /Chayrayku takishani: &quot;Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
+      "paragraph": " /Chayrayku takishani: \"Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
     },
      {
       "id": "2601",
@@ -15157,7 +14919,7 @@
      {
       "id": "2602",
       "chorusPos": [],
-      "paragraph": " /Chayrayku takishani: &quot;Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
+      "paragraph": " /Chayrayku takishani: \"Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
     },
      {
       "id": "2603",
@@ -15167,7 +14929,7 @@
      {
       "id": "2604",
       "chorusPos": [],
-      "paragraph": " /Chayrayku takishani: &quot;Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
+      "paragraph": " /Chayrayku takishani: \"Munakuwan&rdquo; \n Señor Jesusniy, Salvawajniy ./"
     },
      {
       "id": "2605",
@@ -15213,7 +14975,6 @@
   },
   {
     "id": "239",
-    "code": "239",
     "title": " Jaku Riña Llank'amoj    239",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15282,7 +15043,6 @@
   },
   {
     "id": "240",
-    "code": "240",
     "title": " 240  Jesús Salvawajniyta",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15351,7 +15111,6 @@
   },
   {
     "id": "241",
-    "code": "241",
     "title": " Uj P'unchay Chayamonqa  241",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -15400,7 +15159,6 @@
   },
   {
     "id": "242",
-    "code": "242",
     "title": " Bibliapi Niwanchej  242",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15469,7 +15227,6 @@
   },
   {
     "id": "243",
-    "code": "243",
     "title": " 243  Kawsarimporqa Cristoqa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -15518,7 +15275,6 @@
   },
   {
     "id": "244",
-    "code": "244",
     "title": " Diosninchejpa Obrampajqa",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -15557,7 +15313,6 @@
   },
   {
     "id": "245",
-    "code": "245",
     "title": " 245  Bolivianchejta Pusana",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15626,7 +15381,6 @@
   },
   {
     "id": "246",
-    "code": "246",
     "title": " 246 Dios Tatáy Mañakuyki",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15665,7 +15419,6 @@
   },
   {
     "id": "247",
-    "code": "247",
     "title": " 247   Llank'aspa Kawsana",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -15734,7 +15487,6 @@
   },
   {
     "id": "248",
-    "code": "248",
     "title": " 248  Khuyakuymanta Juiciomantawan",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -15783,7 +15535,6 @@
   },
   {
     "id": "249",
-    "code": "249",
     "title": " 249  Qayllakuna Jesusman",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -15832,7 +15583,6 @@
   },
   {
     "id": "250",
-    "code": "250",
     "title": " Salvadorninchej Jesusta   250",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15901,7 +15651,6 @@
   },
   {
     "id": "251",
-    "code": "251",
     "title": " 251 Hermanóy Llakiypichu Qan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15970,7 +15719,6 @@
   },
   {
     "id": "252",
-    "code": "252",
     "title": " Diosniy Tatayqa  252",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -15999,7 +15747,6 @@
   },
   {
     "id": "253",
-    "code": "253",
     "title": " 253  Jesucristo Diospa Churin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16068,7 +15815,6 @@
   },
   {
     "id": "254",
-    "code": "254",
     "title": " Cristo Noqawan Kashan   254",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16107,7 +15853,6 @@
   },
   {
     "id": "255",
-    "code": "255",
     "title": " 255 Qhatikusaj",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16136,7 +15881,6 @@
   },
   {
     "id": "256",
-    "code": "256",
     "title": " Chimpamuyku Señorníy   256",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16165,7 +15909,6 @@
   },
   {
     "id": "257",
-    "code": "257",
     "title": " Cristo Salvawarqa      257",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16204,7 +15947,6 @@
   },
   {
     "id": "258",
-    "code": "258",
     "title": " 258   Señor Nisunki Qanman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16233,7 +15975,6 @@
   },
   {
     "id": "259",
-    "code": "259",
     "title": " 259 Jamuy Ari Jesús",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16262,7 +16003,6 @@
   },
   {
     "id": "260",
-    "code": "260",
     "title": " 260  Cristo K'anehay Noqapi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16291,7 +16031,6 @@
   },
   {
     "id": "261",
-    "code": "261",
     "title": " 261  Gracias Qanman Diosníy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16321,14 +16060,13 @@
   {
     "title": " 262 Cristo Nerqa          ",
     "id": "262",
-    "code": "262",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
     "paragraphs": [
      {
       "id": "2793",
       "chorusPos": [],
-      "paragraph": " Cristo nerqa: &quot;Jamuwaychej,/jamuwaychej&quot;/ \n Cristo nerqa:  &ldquo; Jamuwaychej,//samarinkichej &rdquo;//"
+      "paragraph": " Cristo nerqa: \"Jamuwaychej,/jamuwaychej\"/ \n Cristo nerqa:  &ldquo; Jamuwaychej,//samarinkichej &rdquo;//"
     },
      {
       "id": "2794",
@@ -16343,7 +16081,7 @@
      {
       "id": "2796",
       "chorusPos": [],
-      "paragraph": " Cristo dijo: &quot;Venid a Mí, /venid a Mí&quot;./ \n Cristo dijo: &quot;Venid a Mí //y descansaréis&quot;.//"
+      "paragraph": " Cristo dijo: \"Venid a Mí, /venid a Mí\"./ \n Cristo dijo: \"Venid a Mí //y descansaréis\".//"
     },
      {
       "id": "2797",
@@ -16359,7 +16097,6 @@
   },
   {
     "id": "263",
-    "code": "263",
     "title": " Diosníy May Jatunmin    263",
     "musicalNote": " (Sol Menor)",
     "chorus": [],
@@ -16388,7 +16125,6 @@
   },
   {
     "id": "264",
-    "code": "264",
     "title": " 264   Cristowan Wasinchejpi",
     "musicalNote": " (Si Mayor)",
     "chorus": [],
@@ -16417,7 +16153,6 @@
   },
   {
     "id": "265",
-    "code": "265",
     "title": " Kusisqa Kani  265",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16446,7 +16181,6 @@
   },
   {
     "id": "266",
-    "code": "266",
     "title": " Munakoj Cristo 266",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16515,7 +16249,6 @@
   },
   {
     "id": "267",
-    "code": "267",
     "title": " 267  Sinch'i Qayllana",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16544,7 +16277,6 @@
   },
   {
     "id": "268",
-    "code": "268",
     "title": " Cristo Kutimonqaña     268",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16573,7 +16305,6 @@
   },
   {
     "id": "269",
-    "code": "269",
     "title": " 269 Cristo Kawsan          ",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16592,7 +16323,6 @@
   },
   {
     "id": "270",
-    "code": "270",
     "title": " 270 Rijch'ariy",
     "musicalNote": " (La Menor)",
     "chorus": [],
@@ -16610,7 +16340,7 @@
      {
       "id": "2835",
       "chorusPos": [],
-      "paragraph": " /&quot;Noqamin ñan kani, cheqataj kawsaytaj. Tatayman renqanku Noqanejllata&rdquo;./"
+      "paragraph": " /\"Noqamin ñan kani, cheqataj kawsaytaj. Tatayman renqanku Noqanejllata&rdquo;./"
     },
      {
       "id": "2836",
@@ -16630,7 +16360,7 @@
      {
       "id": "2839",
       "chorusPos": [],
-      "paragraph": " /Cristo dijo: &quot;Yo soy verdad y la vida. \n Nadie viene al Padre sino es por mí&quot;./"
+      "paragraph": " /Cristo dijo: \"Yo soy verdad y la vida. \n Nadie viene al Padre sino es por mí\"./"
     },
      {
       "id": "2840",
@@ -16641,7 +16371,6 @@
   },
   {
     "id": "271",
-    "code": "271",
     "title": " 271  Cristollapaj Bolivianchej",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -16661,7 +16390,6 @@
   {
     "title": " 272 Vallesninta         ",
     "id": "272",
-    "code": "272",
     "musicalNote": " (Re Menor)",
     "chorus": [],
     "paragraphs": [
@@ -16679,7 +16407,6 @@
   },
   {
     "id": "273",
-    "code": "273",
     "title": " 273  Jamuy Diosman",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16708,7 +16435,6 @@
   },
   {
     "id": "274",
-    "code": "274",
     "title": " 274 Chinkasqa Almasta",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -16737,7 +16463,6 @@
   },
   {
     "id": "275",
-    "code": "275",
     "title": " 275  Tukuy Jóvenes",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -16756,7 +16481,6 @@
   },
   {
     "id": "276",
-    "code": "276",
     "title": " 276  Jesucristo Kutimojtin",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16775,7 +16499,6 @@
   },
   {
     "id": "277",
-    "code": "277",
     "title": " 277 Iskayrayasqas",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16794,7 +16517,6 @@
   },
   {
     "id": "278",
-    "code": "278",
     "title": " 278 Diosninchejpa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -16823,7 +16545,6 @@
   },
   {
     "id": "279",
-    "code": "279",
     "title": " Cristoj Jamunán   279",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -16872,7 +16593,6 @@
   },
   {
     "id": "280",
-    "code": "280",
     "title": " Diospata Kajkunaqa     280",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -16921,7 +16641,6 @@
   },
   {
     "id": "281",
-    "code": "281",
     "title": " 281   Jesuspa K'anchayninta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -16960,7 +16679,6 @@
   },
   {
     "id": "282",
-    "code": "282",
     "title": " 282 Bibliataqa Leeypuni",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -16989,7 +16707,6 @@
   },
   {
     "id": "283",
-    "code": "283",
     "title": " 283  Sumaj Kusiy Kachun",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -17002,7 +16719,7 @@
      {
       "id": "2887",
       "chorusPos": [],
-      "paragraph": " Diosqa nishawanchej Santa Palabrampi:\n&quot;Qanwan kashani wiñaypajmin&quot;.\nWaqaychawasun sajra kajmanta,\nDiospi confiana sonqomanta."
+      "paragraph": " Diosqa nishawanchej Santa Palabrampi:\n\"Qanwan kashani wiñaypajmin\".\nWaqaychawasun sajra kajmanta,\nDiospi confiana sonqomanta."
     },
      {
       "id": "2888",
@@ -17012,13 +16729,12 @@
      {
       "id": "2889",
       "chorusPos": [],
-      "paragraph": " En la Biblia vemos las promesas de Dios:\n&quot;No tengas miedo, contigo estoy&quot;.\nDe los peligros siempre nos cuida.\nEn Dios confía de corazón."
+      "paragraph": " En la Biblia vemos las promesas de Dios:\n\"No tengas miedo, contigo estoy\".\nDe los peligros siempre nos cuida.\nEn Dios confía de corazón."
     }
     ]
   },
   {
     "id": "284",
-    "code": "284",
     "title": " 284    Noqawanpuni Kashan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17037,7 +16753,6 @@
   },
   {
     "id": "285",
-    "code": "285",
     "title": " 285 Wasiy Tiyan",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17076,7 +16791,6 @@
   },
   {
     "id": "286",
-    "code": "286",
     "title": " 286  Jatun kusiywan",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17095,7 +16809,6 @@
   },
   {
     "id": "287",
-    "code": "287",
     "title": " 287  Kachaway Señorniy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17119,7 +16832,6 @@
   },
   {
     "id": "288",
-    "code": "288",
     "title": " 288  Llajtasmanta Orqosmanta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17148,7 +16860,6 @@
   },
   {
     "id": "289",
-    "code": "289",
     "title": " Jesusniy Waqaychawan   289",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17177,7 +16888,6 @@
   },
   {
     "id": "290",
-    "code": "290",
     "title": " 290  Tukuyninchej Llank'ajtinchej",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17201,7 +16911,6 @@
   },
   {
     "id": "291",
-    "code": "291",
     "title": " 291  Jesucristo Kawsan",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -17240,7 +16949,6 @@
   },
   {
     "id": "292",
-    "code": "292",
     "title": " Graciasta Qonachej   292",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -17260,14 +16968,13 @@
   {
     "title": " 293 Cristo Llimphuchawan    ",
     "id": "293",
-    "code": "293",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
     "paragraphs": [
      {
       "id": "2922",
       "chorusPos": [],
-      "paragraph": " Cristo llimphuchawan, kusisqaña kani.\nCristo llimphuchawan, niwasqampi creeni.\nJuanpa cartampi &quot;uno-sietepi&quot; Pay munakuwan\nLlimphuchawantaj  yawarninwan."
+      "paragraph": " Cristo llimphuchawan, kusisqaña kani.\nCristo llimphuchawan, niwasqampi creeni.\nJuanpa cartampi \"uno-sietepi\" Pay munakuwan\nLlimphuchawantaj  yawarninwan."
     },
      {
       "id": "2923",
@@ -17278,7 +16985,6 @@
   },
   {
     "id": "294",
-    "code": "294",
     "title": " Kay P'unchaypi   294",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17297,7 +17003,6 @@
   },
   {
     "id": "295",
-    "code": "295",
     "title": " Munakuypi Kawsanachej 295",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -17325,7 +17030,7 @@
      {
       "id": "2930",
       "chorusPos": [],
-      "paragraph": " /También a los forasteros hospedemos con amor./\n/En la Biblia Dios dice: &quot;Hagamos siempre con amor&quot;./"
+      "paragraph": " /También a los forasteros hospedemos con amor./\n/En la Biblia Dios dice: \"Hagamos siempre con amor\"./"
     },
      {
       "id": "2931",
@@ -17336,7 +17041,6 @@
   },
   {
     "id": "296",
-    "code": "296",
     "title": " Hermanóy Waturikuy    296",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17425,7 +17129,6 @@
   },
   {
     "id": "297",
-    "code": "297",
     "title": " 297   Mayta Rishanki Rumi",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -17484,7 +17187,6 @@
   },
   {
     "id": "298",
-    "code": "298",
     "title": " Jallp'allamanta Kani     298",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17533,7 +17235,6 @@
   },
   {
     "id": "299",
-    "code": "299",
     "title": " 299  Diosninchejta Kusikuywan",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -17562,7 +17263,6 @@
   },
   {
     "id": "300",
-    "code": "300",
     "title": " 300 Kay Pacha Kawsayneyqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17591,7 +17291,6 @@
   },
   {
     "id": "301",
-    "code": "301",
     "title": " Cristo Kutimunampajqa  301",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17660,7 +17359,6 @@
   },
   {
     "id": "302",
-    "code": "302",
     "title": " 302 Munasqa Hermanóy",
     "musicalNote": " (Si Menor)",
     "chorus": [],
@@ -17699,7 +17397,6 @@
   },
   {
     "id": "303",
-    "code": "303",
     "title": " Q'oñi Jallp'aspi   303",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -17748,7 +17445,6 @@
   },
   {
     "id": "304",
-    "code": "304",
     "title": " 304  Rikuy Señorpa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -17797,7 +17493,6 @@
   },
   {
     "id": "305",
-    "code": "305",
     "title": " Jehová Nerqa        305",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17810,18 +17505,17 @@
      {
       "id": "3009",
       "chorusPos": [],
-      "paragraph": " /Kay imasta Dios parlarqa; Israel ayllumanta\nWaj suyu jallp'asmantapis kutimpunankumanta/\n/&quot;Espirituyta qojtiy/ samaríy tarinkichej &rdquo; /"
+      "paragraph": " /Kay imasta Dios parlarqa; Israel ayllumanta\nWaj suyu jallp'asmantapis kutimpunankumanta/\n/\"Espirituyta qojtiy/ samaríy tarinkichej &rdquo; /"
     },
      {
       "id": "3010",
       "chorusPos": [],
-      "paragraph": " /Jehová le dijo al profeta: &quot;¿Estos huesos vivirán?&quot;.\nProfeta le respondió: &quot;Tú lo sabes, mi Señor./\n// //Estos huesos vivirán.// Tú lo sabes, mi    Señor&quot;.// \n //Jehová Dios se refería a su pueblo de Israel,\nDe todas las naciones El los haría volver./\n// //Y pondré mi Espíritu// los haré yo reposar&quot;.//"
+      "paragraph": " /Jehová le dijo al profeta: \"¿Estos huesos vivirán?\".\nProfeta le respondió: \"Tú lo sabes, mi Señor./\n// //Estos huesos vivirán.// Tú lo sabes, mi    Señor\".// \n //Jehová Dios se refería a su pueblo de Israel,\nDe todas las naciones El los haría volver./\n// //Y pondré mi Espíritu// los haré yo reposar\".//"
     }
     ]
   },
   {
     "id": "306",
-    "code": "306",
     "title": " Manchay K'achamin Diospa 306",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17870,7 +17564,6 @@
   },
   {
     "id": "307",
-    "code": "307",
     "title": " 307   Salmo Veintitrés",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -17889,7 +17582,6 @@
   },
   {
     "id": "308",
-    "code": "308",
     "title": " Gracias Qanman  308",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -17928,7 +17620,6 @@
   },
   {
     "id": "309",
-    "code": "309",
     "title": " Atipayqa Tiyan Kawsarimojpi  309",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17957,7 +17648,6 @@
   },
   {
     "id": "310",
-    "code": "310",
     "title": " 310  Chhikata Munakun",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -17976,7 +17666,6 @@
   },
   {
     "id": "311",
-    "code": "311",
     "title": " 311  Jaqay cielopi",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -17995,7 +17684,6 @@
   },
   {
     "id": "312",
-    "code": "312",
     "title": " Kusikuni Sonqoy  312",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -18044,7 +17732,6 @@
   },
   {
     "id": "313",
-    "code": "313",
     "title": " Takisaj Señorllaman     313",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -18093,7 +17780,6 @@
   },
   {
     "id": "314",
-    "code": "314",
     "title": " 314  Noqanchej wampuni",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18171,7 +17857,7 @@
      {
       "id": "3060",
       "chorusPos": [],
-      "paragraph": " Dios nos guarde en su santo amor.\nCon su gracia Él nos sostenga,\nHasta que el &quot;Amado&quot; venga\nA llevarnos con Él en fulgor."
+      "paragraph": " Dios nos guarde en su santo amor.\nCon su gracia Él nos sostenga,\nHasta que el \"Amado\" venga\nA llevarnos con Él en fulgor."
     },
      {
       "id": "3061",
@@ -18182,7 +17868,6 @@
   },
   {
     "id": "315",
-    "code": "315",
     "title": " 315  Niraj Diosta Rejsishaspa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18221,7 +17906,6 @@
   },
   {
     "id": "316",
-    "code": "316",
     "title": " 316  Yupaychanachej Diosninchejtaqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18260,7 +17944,6 @@
   },
   {
     "id": "317",
-    "code": "317",
     "title": " 317           Señor Jesusqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18330,7 +18013,6 @@
   {
     "title": " 318 Santo Santo Santo       ",
     "id": "318",
-    "code": "318",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
     "paragraphs": [
@@ -18378,7 +18060,6 @@
   },
   {
     "id": "319",
-    "code": "319",
     "title": " 319  Cielo Ventanasta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -18417,7 +18098,6 @@
   },
   {
     "id": "320",
-    "code": "320",
     "title": " Jallp'a Kuyukuypis  320",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -18456,7 +18136,6 @@
   },
   {
     "id": "321",
-    "code": "321",
     "title": " 321   Señor Noqa Qopuyki",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18535,7 +18214,6 @@
   },
   {
     "id": "322",
-    "code": "322",
     "title": " Juchaj Atipasqan kaspa   322",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18644,7 +18322,6 @@
   },
   {
     "id": "323",
-    "code": "323",
     "title": " 323   Qaynapis Mana Oraspa",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -18723,7 +18400,6 @@
   },
   {
     "id": "324",
-    "code": "324",
     "title": " Jamuy Ari Jesucristo     324",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -18792,7 +18468,6 @@
   },
   {
     "id": "325",
-    "code": "325",
     "title": " 325 Heredero Kani Cristowan",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18861,7 +18536,6 @@
   },
   {
     "id": "326",
-    "code": "326",
     "title": " Jesusnillaymin Librawarqa 326",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -18900,7 +18574,6 @@
   },
   {
     "id": "327",
-    "code": "327",
     "title": " 327  Kusikuyniyojmin Kanku",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -18924,7 +18597,6 @@
   },
   {
     "id": "328",
-    "code": "328",
     "title": " Ñawpajman Rinachej    328",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -18993,7 +18665,6 @@
   },
   {
     "id": "329",
-    "code": "329",
     "title": " 329    Pusaway Salvadorníy",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19062,7 +18733,6 @@
   },
   {
     "id": "330",
-    "code": "330",
     "title": " Oraspallapuni Atipasim   330",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19081,7 +18751,6 @@
   },
   {
     "id": "331",
-    "code": "331",
     "title": " 331    Perdonqa Kashampuni",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -19150,7 +18819,6 @@
   },
   {
     "id": "332",
-    "code": "332",
     "title": " 332   Ofrendasta Apamunchej",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19179,7 +18847,6 @@
   },
   {
     "id": "333",
-    "code": "333",
     "title": " Cristo Kutimonqa Yuraj   333",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19248,7 +18915,6 @@
   },
   {
     "id": "334",
-    "code": "334",
     "title": " 334  Gracias Diosman Kachun",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19291,7 +18957,7 @@
      {
       "id": "3248",
       "chorusPos": [],
-      "paragraph": " /&quot;Por medio nosotros manifiesta siempre\nGrato olor de Cristo &quot; ./"
+      "paragraph": " /\"Por medio nosotros manifiesta siempre\nGrato olor de Cristo \" ./"
     },
      {
       "id": "3249",
@@ -19301,7 +18967,7 @@
      {
       "id": "3250",
       "chorusPos": [],
-      "paragraph": " /&quot;Por medio nosotros manifiesta siempre\nGrato olor de Cristo &quot; ./"
+      "paragraph": " /\"Por medio nosotros manifiesta siempre\nGrato olor de Cristo \" ./"
     },
      {
       "id": "3251",
@@ -19311,13 +18977,12 @@
      {
       "id": "3252",
       "chorusPos": [],
-      "paragraph": " /&quot;Por medio nosotros manifiesta siempre\nGrato olor de Cristo &quot; ./"
+      "paragraph": " /\"Por medio nosotros manifiesta siempre\nGrato olor de Cristo \" ./"
     }
     ]
   },
   {
     "id": "335",
-    "code": "335",
     "title": " Tukuy Imata Ruwaj Dios 335",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19381,7 +19046,6 @@
   },
   {
     "id": "336",
-    "code": "336",
     "title": " 336    Munakuypi Kawsana",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19394,13 +19058,12 @@
      {
       "id": "3265",
       "chorusPos": [],
-      "paragraph": " /Amémonos, hermanos, de todo  corazón.\n Una familia somos con nuestro Padre Dios./\n/El Señor Jesucristo nos ha dejado,\nUn mandamiento nuevo: &quot;Primero es el    amor&quot;./"
+      "paragraph": " /Amémonos, hermanos, de todo  corazón.\n Una familia somos con nuestro Padre Dios./\n/El Señor Jesucristo nos ha dejado,\nUn mandamiento nuevo: \"Primero es el    amor\"./"
     }
     ]
   },
   {
     "id": "337",
-    "code": "337",
     "title": " Kay Pacha Tukukonqaña 337",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -19469,7 +19132,6 @@
   },
   {
     "id": "338",
-    "code": "338",
     "title": "  338  May Munasqa Hermanitos",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -19508,7 +19170,6 @@
   },
   {
     "id": "339",
-    "code": "339",
     "title": " Jehová Dios Señorniyku   339",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -19566,7 +19227,7 @@
      {
       "id": "3294",
       "chorusPos": [],
-      "paragraph": " Cuando veo los cielos,\nLa luna y las estrellas, \n Me pregunto &quot;¿Qué es el hombre?&quot;. Aleluya."
+      "paragraph": " Cuando veo los cielos,\nLa luna y las estrellas, \n Me pregunto \"¿Qué es el hombre?\". Aleluya."
     },
      {
       "id": "3295",
@@ -19577,7 +19238,6 @@
   },
   {
     "id": "340",
-    "code": "340",
     "title": " 340 Runaj Kawsaynenqa Qhora Jiña",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19646,7 +19306,6 @@
   },
   {
     "id": "341",
-    "code": "341",
     "title": " 341 Santo Santo Señorniy",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -19695,7 +19354,6 @@
   },
   {
     "id": "342",
-    "code": "342",
     "title": " Qanllaman Chimpamunaypaj 342",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -19764,7 +19422,6 @@
   },
   {
     "id": "343",
-    "code": "343",
     "title": " 343  Yupaychanachej Señorta",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19833,7 +19490,6 @@
   },
   {
     "id": "344",
-    "code": "344",
     "title": " Jesusqa Bautizakorqa    344",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -19856,13 +19512,12 @@
      {
       "id": "3343",
       "chorusPos": [],
-      "paragraph": " En las aguas de la muerte sumergido fue Jesús,\nMás su amor no fue apagado por sus penas en la cruz.\nLevantóse de la tumba, sus cadenas quebrantó.\nY triunfante y victorioso a los cielos    ascendió. \n in las aguas del bautismo, hoy confieso yo mi fe:\n&quot;Jesucristo me ha salvado y en su amor me gozaré,\nlín las aguas humillantes, a Jesús siguiendo estoy&quot;.\nDesde ahora para el mundo y el pecado muerto    estoy. \n Ya que estoy crucificado, ¿cómo más podré pecar?\nYa que estoy resucitado, Santa Vida he de llevar.\nPues, no reine, no en mi cuerpo el pecado engañador.\nMi deber es presentarlo al servicio del    Señor."
+      "paragraph": " En las aguas de la muerte sumergido fue Jesús,\nMás su amor no fue apagado por sus penas en la cruz.\nLevantóse de la tumba, sus cadenas quebrantó.\nY triunfante y victorioso a los cielos    ascendió. \n in las aguas del bautismo, hoy confieso yo mi fe:\n\"Jesucristo me ha salvado y en su amor me gozaré,\nlín las aguas humillantes, a Jesús siguiendo estoy\".\nDesde ahora para el mundo y el pecado muerto    estoy. \n Ya que estoy crucificado, ¿cómo más podré pecar?\nYa que estoy resucitado, Santa Vida he de llevar.\nPues, no reine, no en mi cuerpo el pecado engañador.\nMi deber es presentarlo al servicio del    Señor."
     }
     ]
   },
   {
     "id": "345",
-    "code": "345",
     "title": " 345  Santa Biblia Diospa\nPalabramin",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -19931,7 +19586,6 @@
   },
   {
     "id": "346",
-    "code": "346",
     "title": " Llakisqachu Purishanki   346",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -19980,7 +19634,6 @@
   },
   {
     "id": "347",
-    "code": "347",
     "title": " 347  Jesús Uyariway",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20029,7 +19682,6 @@
   },
   {
     "id": "348",
-    "code": "348",
     "title": " Wajcha Kayqa May   348",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -20058,7 +19710,6 @@
   },
   {
     "id": "349",
-    "code": "349",
     "title": " Qayllaykamuy Cristoman 349",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20087,7 +19738,6 @@
   },
   {
     "id": "350",
-    "code": "350",
     "title": " 350   Santa Biblianejta",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -20095,7 +19745,7 @@
      {
       "id": "3380",
       "chorusPos": [],
-      "paragraph": " Santa Biblianejta willawanchej Dios Tata\nMunakuwasqanchejta.\nYawarninwantaj juchasta Jesús mayllarqa.\n&quot;Wawasniy kaychej&quot;, nerqa."
+      "paragraph": " Santa Biblianejta willawanchej Dios Tata\nMunakuwasqanchejta.\nYawarninwantaj juchasta Jesús mayllarqa.\n\"Wawasniy kaychej\", nerqa."
     },
      {
       "id": "3381",
@@ -20115,7 +19765,7 @@
      {
       "id": "3384",
       "chorusPos": [],
-      "paragraph": " San Juan libropi Cristo Nin: &quot;Noqa ñan kani,\nKawsay taj, cheqa kajpis&quot;.\nSeñornejta chayasunchej Dios Tatanchejman,\nJanaj pacha llajtanman."
+      "paragraph": " San Juan libropi Cristo Nin: \"Noqa ñan kani,\nKawsay taj, cheqa kajpis\".\nSeñornejta chayasunchej Dios Tatanchejman,\nJanaj pacha llajtanman."
     },
      {
       "id": "3385",
@@ -20145,7 +19795,7 @@
      {
       "id": "3390",
       "chorusPos": [],
-      "paragraph": " En San Juan catorce, seis, Él nos dijo ya;\n&quot;El Camino y Verdad soy&quot;.\nSólo por Jesús el Señor llegaremos ya\nA la Patria celestial."
+      "paragraph": " En San Juan catorce, seis, Él nos dijo ya;\n\"El Camino y Verdad soy\".\nSólo por Jesús el Señor llegaremos ya\nA la Patria celestial."
     },
      {
       "id": "3391",
@@ -20156,7 +19806,6 @@
   },
   {
     "id": "351",
-    "code": "351",
     "title": " Ñawpaqeykiman Diosniy  351",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20205,7 +19854,6 @@
   },
   {
     "id": "352",
-    "code": "352",
     "title": " 352  Munasqa Hermanóy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -20249,7 +19897,6 @@
   },
   {
     "id": "353",
-    "code": "353",
     "title": " Waqaychaway Jesucristo 353",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -20288,7 +19935,6 @@
   },
   {
     "id": "354",
-    "code": "354",
     "title": " 354 Kay Jallp'api Kaspa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -20337,7 +19983,6 @@
   },
   {
     "id": "355",
-    "code": "355",
     "title": " 355   Noqarayku Saqerqanki",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -20426,7 +20071,6 @@
   },
   {
     "id": "356",
-    "code": "356",
     "title": " 356 Cristo Munakun Tukuy Juchasapasta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20475,7 +20119,6 @@
   },
   {
     "id": "357",
-    "code": "357",
     "title": " Santo Espíritu        357",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -20494,7 +20137,6 @@
   },
   {
     "id": "358",
-    "code": "358",
     "title": " Mañakuway Uyarisqayki 358",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -20502,18 +20144,17 @@
      {
       "id": "3446",
       "chorusPos": [],
-      "paragraph": " &quot;Mañakuway, uyarisqayki, mañakuway,\nYachachisqayki. \n Mana atinki chay imasta&quot;. Chayta nishan Dios.\nAmataj iskayrayaspa mañakuna bendicionninta.\nAtipasun mañakuspa. Gloria Diosman."
+      "paragraph": " \"Mañakuway, uyarisqayki, mañakuway,\nYachachisqayki. \n Mana atinki chay imasta\". Chayta nishan Dios.\nAmataj iskayrayaspa mañakuna bendicionninta.\nAtipasun mañakuspa. Gloria Diosman."
     },
      {
       "id": "3447",
       "chorusPos": [],
-      "paragraph": " &quot;Clama a Mí, te responderé; clama a Mí, te enseñaré.\nCosas grandes que no sabes&quot;, dice nuestro Dios\nPues oremos sin dudar jamás,\nY tendremos bendición y paz.\nGanaremos la    victoria. Gloria a Dios."
+      "paragraph": " \"Clama a Mí, te responderé; clama a Mí, te enseñaré.\nCosas grandes que no sabes\", dice nuestro Dios\nPues oremos sin dudar jamás,\nY tendremos bendición y paz.\nGanaremos la    victoria. Gloria a Dios."
     }
     ]
   },
   {
     "id": "359",
-    "code": "359",
     "title": " 359  Maypipis Santo Espíritu Kajtin",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -20532,7 +20173,6 @@
   },
   {
     "id": "360",
-    "code": "360",
     "title": " 360  Cristoj Ladonman Rispa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -20551,7 +20191,6 @@
   },
   {
     "id": "361",
-    "code": "361",
     "title": " Kusisqapuni Kaychej     361",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -20559,18 +20198,17 @@
      {
       "id": "3452",
       "chorusPos": [],
-      "paragraph": " /&quot;Kusisqaspuni kaychej, oraychejpuni&quot;/\nGraciastapis qoychej Diosninchej Tatanchejman.\n/Chaymin Paypa munaynenqa Cristo Jesuspi/"
+      "paragraph": " /\"Kusisqaspuni kaychej, oraychejpuni\"/\nGraciastapis qoychej Diosninchej Tatanchejman.\n/Chaymin Paypa munaynenqa Cristo Jesuspi/"
     },
      {
       "id": "3453",
       "chorusPos": [],
-      "paragraph": " /&quot;Estad siempre gozosos, orad sin cesar./ \n Dad gracias en todo&quot;. \n Porque esta es la voluntad\n /De Dios para con nosotros en Cristo Jesús./"
+      "paragraph": " /\"Estad siempre gozosos, orad sin cesar./ \n Dad gracias en todo\". \n Porque esta es la voluntad\n /De Dios para con nosotros en Cristo Jesús./"
     }
     ]
   },
   {
     "id": "362",
-    "code": "362",
     "title": " Sonqoypi Kusisqa Kashani 362",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -20589,7 +20227,6 @@
   },
   {
     "id": "363",
-    "code": "363",
     "title": " 363  Juicio P'unchay",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -20638,7 +20275,6 @@
   },
   {
     "id": "364",
-    "code": "364",
     "title": " Sumaj Munakoj Señor    364",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20707,7 +20343,6 @@
   },
   {
     "id": "365",
-    "code": "365",
     "title": " Cristo Qan Sumaj      365",
     "musicalNote": " (La Menor)",
     "chorus": [],
@@ -20796,7 +20431,6 @@
   },
   {
     "id": "366",
-    "code": "366",
     "title": " 366 Qampaj Diosníy",
     "musicalNote": " (Do Menor)",
     "chorus": [],
@@ -20865,7 +20499,6 @@
   },
   {
     "id": "367",
-    "code": "367",
     "title": " 367  Juchasapa Kasqaymanta",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -20934,7 +20567,6 @@
   },
   {
     "id": "368",
-    "code": "368",
     "title": " 368 Sonqoypi Kusikushani",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -20983,7 +20615,6 @@
   },
   {
     "id": "369",
-    "code": "369",
     "title": " 369  Tarpuy Paqarimpi",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -21021,7 +20652,7 @@
      {
       "id": "3530",
       "chorusPos": [],
-      "paragraph": " Siembra en la mañana &quot;preciosa semilla&quot;.\nSiembra al medio día  y  al atardecer.\nLa cosecha aguarda en propicio tiempo.\nCuando volveremos con dorada mies."
+      "paragraph": " Siembra en la mañana \"preciosa semilla\".\nSiembra al medio día  y  al atardecer.\nLa cosecha aguarda en propicio tiempo.\nCuando volveremos con dorada mies."
     },
      {
       "id": "3531",
@@ -21047,7 +20678,6 @@
   },
   {
     "id": "370",
-    "code": "370",
     "title": " 370 Kay Pachapeqa",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -21065,7 +20695,7 @@
      {
       "id": "3537",
       "chorusPos": [],
-      "paragraph": " Jesusqa nerqa: &quot;Wañuykamapis\nQhatiwaypuni, fieltaj kaway&quot;.\nNanaykunapis waqaykunapis\nJaqay cielopi ni kanqachu."
+      "paragraph": " Jesusqa nerqa: \"Wañuykamapis\nQhatiwaypuni, fieltaj kaway\".\nNanaykunapis waqaykunapis\nJaqay cielopi ni kanqachu."
     },
      {
       "id": "3538",
@@ -21095,7 +20725,7 @@
      {
       "id": "3543",
       "chorusPos": [],
-      "paragraph": " &quot;Hasta la muerte&quot;, dijo el Maestro,\n&quot;Sigúeme fiel y sin desmayar&quot;.\nTodo pesar y toda angustia,\nAllí en el cielo ya no habrá."
+      "paragraph": " \"Hasta la muerte\", dijo el Maestro,\n\"Sigúeme fiel y sin desmayar\".\nTodo pesar y toda angustia,\nAllí en el cielo ya no habrá."
     },
      {
       "id": "3544",
@@ -21116,7 +20746,6 @@
   },
   {
     "id": "371",
-    "code": "371",
     "title": " 371 Jesucristo Jamonqaña",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -21135,7 +20764,6 @@
   },
   {
     "id": "372",
-    "code": "372",
     "title": " Ch'aska K'anchamoj 372",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -21148,7 +20776,7 @@
      {
       "id": "3549",
       "chorusPos": [],
-      "paragraph": " Takinku, ángeles; &quot;Gloria kachun Diosman,\nAllin kawsakuytaj runaspaj&quot;."
+      "paragraph": " Takinku, ángeles; \"Gloria kachun Diosman,\nAllin kawsakuytaj runaspaj\"."
     },
      {
       "id": "3550",
@@ -21158,7 +20786,7 @@
      {
       "id": "3551",
       "chorusPos": [],
-      "paragraph": " Takinku, ángeles; &quot;Gloria kachun Diosman,\nAllin kawsakuytaj runaspaj&quot;."
+      "paragraph": " Takinku, ángeles; \"Gloria kachun Diosman,\nAllin kawsakuytaj runaspaj\"."
     },
      {
       "id": "3552",
@@ -21168,7 +20796,7 @@
      {
       "id": "3553",
       "chorusPos": [],
-      "paragraph": " Takinku, ángeles; &quot;Gloria kachun Diosman,\nAllin kawsakuytaj runaspaj&quot;."
+      "paragraph": " Takinku, ángeles; \"Gloria kachun Diosman,\nAllin kawsakuytaj runaspaj\"."
     },
      {
       "id": "3554",
@@ -21178,7 +20806,7 @@
      {
       "id": "3555",
       "chorusPos": [],
-      "paragraph": " &quot;En las alturas gloria, en la tierra paz...&quot;.\nLos angeles cantaron así."
+      "paragraph": " \"En las alturas gloria, en la tierra paz...\".\nLos angeles cantaron así."
     },
      {
       "id": "3556",
@@ -21188,7 +20816,7 @@
      {
       "id": "3557",
       "chorusPos": [],
-      "paragraph": " &quot;En las alturas gloria, en la tierra paz...&quot;.\nLos angeles cantaron así."
+      "paragraph": " \"En las alturas gloria, en la tierra paz...\".\nLos angeles cantaron así."
     },
      {
       "id": "3558",
@@ -21198,13 +20826,12 @@
      {
       "id": "3559",
       "chorusPos": [],
-      "paragraph": " &quot;En las alturas gloria, en la tierra paz...&quot;.\nLos angeles cantaron así."
+      "paragraph": " \"En las alturas gloria, en la tierra paz...\".\nLos angeles cantaron así."
     }
     ]
   },
   {
     "id": "373",
-    "code": "373",
     "title": " 373 Juchayoj Runa Riy",
     "musicalNote": "_",
     "chorus": [],
@@ -21222,7 +20849,7 @@
      {
       "id": "3562",
       "chorusPos": [],
-      "paragraph": " /Kunampacha qayllaykuy Diosman;\nSichus qan ninki: &quot;K'aya,&quot; nispa./\n/Ichapis k'aya qhepaña kanman,\nNitaj jamuyta atiwajchu/"
+      "paragraph": " /Kunampacha qayllaykuy Diosman;\nSichus qan ninki: \"K'aya,\" nispa./\n/Ichapis k'aya qhepaña kanman,\nNitaj jamuyta atiwajchu/"
     },
      {
       "id": "3563",
@@ -21243,7 +20870,6 @@
   },
   {
     "id": "374",
-    "code": "374",
     "title": " 374  Wakichisqañamin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -21332,7 +20958,6 @@
   },
   {
     "id": "375",
-    "code": "375",
     "title": " Diosninchejwan Kaspaqa  375",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -21421,7 +21046,6 @@
   },
   {
     "id": "376",
-    "code": "376",
     "title": " 376  Huertaspi Rikunchej",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -21434,7 +21058,7 @@
      {
       "id": "3599",
       "chorusPos": [],
-      "paragraph": " Para kajtinkama, pampas q'omeryanku,\nP'isqos takirinku, qhoraspis wiñanku.\nCh ' uwa yakus jamun orqosmantapacha\nCristo, &quot;kawsay yaku&quot; tukuy ch' akisqaspaj."
+      "paragraph": " Para kajtinkama, pampas q'omeryanku,\nP'isqos takirinku, qhoraspis wiñanku.\nCh ' uwa yakus jamun orqosmantapacha\nCristo, \"kawsay yaku\" tukuy ch' akisqaspaj."
     },
      {
       "id": "3600",
@@ -21444,7 +21068,7 @@
      {
       "id": "3601",
       "chorusPos": [],
-      "paragraph": " Para kajtinkama, pampas q'omeryanku,\nP'isqos takirinku, qhoraspis wiñanku.\nCh ' uwa yakus jamun orqosmantapacha\nCristo, &quot;kawsay yaku&quot; tukuy ch' akisqaspaj."
+      "paragraph": " Para kajtinkama, pampas q'omeryanku,\nP'isqos takirinku, qhoraspis wiñanku.\nCh ' uwa yakus jamun orqosmantapacha\nCristo, \"kawsay yaku\" tukuy ch' akisqaspaj."
     },
      {
       "id": "3602",
@@ -21454,7 +21078,7 @@
      {
       "id": "3603",
       "chorusPos": [],
-      "paragraph": " Para kajtinkama, pampas q'omeryanku,\nP'isqos takirinku, qhoraspis wiñanku.\nCh ' uwa yakus jamun orqosmantapacha\nCristo, &quot;kawsay yaku&quot; tukuy ch' akisqaspaj."
+      "paragraph": " Para kajtinkama, pampas q'omeryanku,\nP'isqos takirinku, qhoraspis wiñanku.\nCh ' uwa yakus jamun orqosmantapacha\nCristo, \"kawsay yaku\" tukuy ch' akisqaspaj."
     },
      {
       "id": "3604",
@@ -21490,7 +21114,6 @@
   },
   {
     "id": "377",
-    "code": "377",
     "title": " Juchapi Sayk'usqa 377",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -21569,7 +21192,6 @@
   },
   {
     "id": "378",
-    "code": "378",
     "title": " 378  Maypipis Kashaspa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -21637,7 +21259,7 @@
      {
       "id": "3636",
       "chorusPos": [],
-      "paragraph": " El es quien da salud, y plena libertad,\nA los que encadenó, &quot;el fiero tentador&quot;.\nLos rotos hierros hoy dirán, que vino ya\nEl fiel Consolador."
+      "paragraph": " El es quien da salud, y plena libertad,\nA los que encadenó, \"el fiero tentador\".\nLos rotos hierros hoy dirán, que vino ya\nEl fiel Consolador."
     },
      {
       "id": "3637",
@@ -21658,7 +21280,6 @@
   },
   {
     "id": "379",
-    "code": "379",
     "title": " 379 Cristo Salvadorniypa",
     "musicalNote": " (Fa Menor)",
     "chorus": [],
@@ -21697,7 +21318,6 @@
   },
   {
     "id": "380",
-    "code": "380",
     "title": " 380 Ñapis Chayasajña",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -21786,7 +21406,6 @@
   },
   {
     "id": "381",
-    "code": "381",
     "title": " Waqáy Ni Salvanchu     381",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -21825,7 +21444,6 @@
   },
   {
     "id": "382",
-    "code": "382",
     "title": " 382  Maypitaj Ñawpa Hermanos kanku",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -21833,7 +21451,7 @@
      {
       "id": "3668",
       "chorusPos": [],
-      "paragraph": " /Maypitaj ñawpa hermanos kanku\nDiosninchejta yupaychajkuna?/\n/Chayri ñachu qonqakapunkuña\n&quot;Qhatisqayki&quot; nerqanku, chayta./"
+      "paragraph": " /Maypitaj ñawpa hermanos kanku\nDiosninchejta yupaychajkuna?/\n/Chayri ñachu qonqakapunkuña\n\"Qhatisqayki\" nerqanku, chayta./"
     },
      {
       "id": "3669",
@@ -21864,7 +21482,6 @@
   },
   {
     "id": "383",
-    "code": "383",
     "title": " Moisespaj Tiempompeqa 383",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -21892,7 +21509,7 @@
      {
       "id": "3678",
       "chorusPos": [],
-      "paragraph": " /Tukuy qhapaj kayninchej Diospatamin, hermanóy./\n/Diosqa Palabrampi nin: &quot;Qori, qolqe noqajta&rdquo;/"
+      "paragraph": " /Tukuy qhapaj kayninchej Diospatamin, hermanóy./\n/Diosqa Palabrampi nin: \"Qori, qolqe noqajta&rdquo;/"
     },
      {
       "id": "3679",
@@ -21917,13 +21534,12 @@
      {
       "id": "3683",
       "chorusPos": [],
-      "paragraph": " /Oh hermanos, de Dios es la riqueza terrenal,\nEn la Biblia dice El, &quot;Plata y oro Míos son&quot;./"
+      "paragraph": " /Oh hermanos, de Dios es la riqueza terrenal,\nEn la Biblia dice El, \"Plata y oro Míos son\"./"
     }
     ]
   },
   {
     "id": "384",
-    "code": "384",
     "title": " 384 Jesusníy Kay Millay",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -22012,7 +21628,6 @@
   },
   {
     "id": "385",
-    "code": "385",
     "title": " 385        Llakiyniykipi",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -22081,7 +21696,6 @@
   },
   {
     "id": "386",
-    "code": "386",
     "title": " Rerqa Tarpojqa Campoman 386",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22140,7 +21754,6 @@
   },
   {
     "id": "387",
-    "code": "387",
     "title": " 387 Niraj Sut'iyayta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -22189,7 +21802,6 @@
   },
   {
     "id": "388",
-    "code": "388",
     "title": " Cielomantapacha Jamun Jesús  388\n",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22207,7 +21819,7 @@
      {
       "id": "3732",
       "chorusPos": [],
-      "paragraph": " Kusikuytamin ángel khaparin:\n&quot;K'anchay jamun. sumaj kawsay.\nUj Salvador qankunaman jamun,\nCristo Jesús, Jesús&quot;."
+      "paragraph": " Kusikuytamin ángel khaparin:\n\"K'anchay jamun. sumaj kawsay.\nUj Salvador qankunaman jamun,\nCristo Jesús, Jesús\"."
     },
      {
       "id": "3733",
@@ -22217,7 +21829,7 @@
      {
       "id": "3734",
       "chorusPos": [],
-      "paragraph": " Angeles takinku: &quot;Kusiy kachun&quot;.\nGloria Diosman, gloria Diosman.\nPaymin apamun kay man kusiy ta,\nGloria Diosman, Giosman."
+      "paragraph": " Angeles takinku: \"Kusiy kachun\".\nGloria Diosman, gloria Diosman.\nPaymin apamun kay man kusiy ta,\nGloria Diosman, Giosman."
     },
      {
       "id": "3735",
@@ -22237,7 +21849,7 @@
      {
       "id": "3738",
       "chorusPos": [],
-      "paragraph": " Magos jamunku mask'aspa Reyta,\nTapunkutaj: &quot;Maypi kashan&quot;?\nEscriturastaj sut'incharqanku,\nBelenpi kasqanta."
+      "paragraph": " Magos jamunku mask'aspa Reyta,\nTapunkutaj: \"Maypi kashan\"?\nEscriturastaj sut'incharqanku,\nBelenpi kasqanta."
     },
      {
       "id": "3739",
@@ -22257,7 +21869,7 @@
      {
       "id": "3742",
       "chorusPos": [],
-      "paragraph": " /Pregona el ángel mensaje de amor./\n&quot;Vino la luz, vino salud.\nOs ha nacido hoy un Salvador,\nCristo Jesús, Jesús&quot;."
+      "paragraph": " /Pregona el ángel mensaje de amor./\n\"Vino la luz, vino salud.\nOs ha nacido hoy un Salvador,\nCristo Jesús, Jesús\"."
     },
      {
       "id": "3743",
@@ -22267,7 +21879,7 @@
      {
       "id": "3744",
       "chorusPos": [],
-      "paragraph": " Cantan los ángeles: &quot;Al mundo paz&quot;,\n¡Gloria a Dios! ¡Gloria a Dios!\nPaz en la tierra y al hombre solas,\n¡Gloria a Dios, a Dios!"
+      "paragraph": " Cantan los ángeles: \"Al mundo paz\",\n¡Gloria a Dios! ¡Gloria a Dios!\nPaz en la tierra y al hombre solas,\n¡Gloria a Dios, a Dios!"
     },
      {
       "id": "3745",
@@ -22277,7 +21889,7 @@
      {
       "id": "3746",
       "chorusPos": [],
-      "paragraph": " Vienen los magos en busca del rey\nAl preguntar: ¿Dónde están?&quot;\nLas Escrituras contestan su fe:\n&quot;En Belén Él está&quot;."
+      "paragraph": " Vienen los magos en busca del rey\nAl preguntar: ¿Dónde están?\"\nLas Escrituras contestan su fe:\n\"En Belén Él está\"."
     },
      {
       "id": "3747",
@@ -22298,7 +21910,6 @@
   },
   {
     "id": "389",
-    "code": "389",
     "title": " Jisq'on Chunka Jisq'onniyoj 389",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22311,7 +21922,7 @@
      {
       "id": "3751",
       "chorusPos": [],
-      "paragraph": " Jisq'on chunka jisq'onniyoj ovejasraj kanku.\nSeñor, imamanña riwaj ujsituraykuri?\nSalvawajtaj kuticherqa:\n/&quot;Chinkasqa ovejay purikushan '/"
+      "paragraph": " Jisq'on chunka jisq'onniyoj ovejasraj kanku.\nSeñor, imamanña riwaj ujsituraykuri?\nSalvawajtaj kuticherqa:\n/\"Chinkasqa ovejay purikushan '/"
     },
      {
       "id": "3752",
@@ -22347,7 +21958,6 @@
   },
   {
     "id": "390",
-    "code": "390",
     "title": " 390  Janaj Pachata Rishani",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22371,7 +21981,6 @@
   },
   {
     "id": "391",
-    "code": "391",
     "title": " Jatun P'unchay  391",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -22379,7 +21988,7 @@
      {
       "id": "3761",
       "chorusPos": [],
-      "paragraph": " Jatun p'unchay qayllamushan,\nSeñorpata p'unchaynin.\n/Imata qan kutichinki,\nJesucristo tapusojtin?/\n \n Juchapi purejkunata\nJesús nenqa: &quot;Karunchaychej;\n/Mana rejsiykichejchu,\nJuchasta ruwajkunata '/"
+      "paragraph": " Jatun p'unchay qayllamushan,\nSeñorpata p'unchaynin.\n/Imata qan kutichinki,\nJesucristo tapusojtin?/\n \n Juchapi purejkunata\nJesús nenqa: \"Karunchaychej;\n/Mana rejsiykichejchu,\nJuchasta ruwajkunata '/"
     },
      {
       "id": "3762",
@@ -22399,7 +22008,7 @@
      {
       "id": "3765",
       "chorusPos": [],
-      "paragraph": " ¿Has andado en pecado?,\nOs dirá: &quot;Apartaos, apartaos,\n/Yo nunca les conocí,\nObradores de la maldad&quot;./"
+      "paragraph": " ¿Has andado en pecado?,\nOs dirá: \"Apartaos, apartaos,\n/Yo nunca les conocí,\nObradores de la maldad\"./"
     },
      {
       "id": "3766",
@@ -22409,13 +22018,12 @@
      {
       "id": "3767",
       "chorusPos": [],
-      "paragraph": " ¿Has sufrido en la vida,\nHas llorado sin cesar?\n&quot;Hijo mío ya no sufras&quot;.\nMas llantos, allí no habrá."
+      "paragraph": " ¿Has sufrido en la vida,\nHas llorado sin cesar?\n\"Hijo mío ya no sufras\".\nMas llantos, allí no habrá."
     }
     ]
   },
   {
     "id": "392",
-    "code": "392",
     "title": " Jesucristojta Yawarnin    392",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -22489,7 +22097,6 @@
   },
   {
     "id": "393",
-    "code": "393",
     "title": " 393 Cristota Qhawajqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22558,7 +22165,6 @@
   },
   {
     "id": "394",
-    "code": "394",
     "title": " Diosninchej Apachimonqa 394",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -22606,7 +22212,7 @@
      {
       "id": "3801",
       "chorusPos": [],
-      "paragraph": " &quot;Lluvias de bendición grandes&quot;\nEs la promesa de amor.\nHoy te pedimos las mandes\nDe tu presencia, Señor."
+      "paragraph": " \"Lluvias de bendición grandes\"\nEs la promesa de amor.\nHoy te pedimos las mandes\nDe tu presencia, Señor."
     },
      {
       "id": "3802",
@@ -22616,7 +22222,7 @@
      {
       "id": "3803",
       "chorusPos": [],
-      "paragraph": " &quot;Lluvias de bendición grandes&quot;\n¡Cuánta falta hacen aquí!\nLas gotas ya recibimos,\nLluvias pedimos a Tí."
+      "paragraph": " \"Lluvias de bendición grandes\"\n¡Cuánta falta hacen aquí!\nLas gotas ya recibimos,\nLluvias pedimos a Tí."
     },
      {
       "id": "3804",
@@ -22647,7 +22253,6 @@
   },
   {
     "id": "395",
-    "code": "395",
     "title": " Diospa Makinmanta     395",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22711,7 +22316,6 @@
   },
   {
     "id": "396",
-    "code": "396",
     "title": " 396   Juchasneyqa Mayllasqa",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22800,7 +22404,6 @@
   },
   {
     "id": "397",
-    "code": "397",
     "title": " Santo Runaspajqa 397",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -22849,7 +22452,6 @@
   },
   {
     "id": "398",
-    "code": "398",
     "title": " 398  Jatun Atiyniyoj Dios",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -22913,7 +22515,6 @@
   },
   {
     "id": "399",
-    "code": "399",
     "title": " Jehovamin Michejniy    399",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -22982,7 +22583,6 @@
   },
   {
     "id": "400",
-    "code": "400",
     "title": " 400 Cristo Sumaj Kausaqe",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -23011,7 +22611,6 @@
   },
   {
     "id": "401",
-    "code": "401",
     "title": " Jesuspa Jatun Sutenqa    401",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23080,7 +22679,6 @@
   },
   {
     "id": "402",
-    "code": "402",
     "title": " 402 Jesucristoman Jamullayña",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23088,7 +22686,7 @@
      {
       "id": "3883",
       "chorusPos": [],
-      "paragraph": " Jesucristoman jamullayña\nNoqachejwanmin Payqa kashan.\nWajyashasunki munakuywan,\n&quot;Jampuy wawáy&quot;, nispa."
+      "paragraph": " Jesucristoman jamullayña\nNoqachejwanmin Payqa kashan.\nWajyashasunki munakuywan,\n\"Jampuy wawáy\", nispa."
     },
      {
       "id": "3884",
@@ -23118,7 +22716,7 @@
      {
       "id": "3889",
       "chorusPos": [],
-      "paragraph": " A Jesucristo ven sin tardar,\nQue entre nosotros, hoy El está. \n Y        te convida con dulce afán,\nTierno, diciendo: &quot;Ven&quot;."
+      "paragraph": " A Jesucristo ven sin tardar,\nQue entre nosotros, hoy El está. \n Y        te convida con dulce afán,\nTierno, diciendo: \"Ven\"."
     },
      {
       "id": "3890",
@@ -23128,7 +22726,7 @@
      {
       "id": "3891",
       "chorusPos": [],
-      "paragraph": " Piensa que Él sólo puede colmar,\nTu triste pecho de gozo y paz. \n Y        porque anhela tu bienestar,\nVuelve a decirte; &quot;Ven&quot;."
+      "paragraph": " Piensa que Él sólo puede colmar,\nTu triste pecho de gozo y paz. \n Y        porque anhela tu bienestar,\nVuelve a decirte; \"Ven\"."
     },
      {
       "id": "3892",
@@ -23138,7 +22736,7 @@
      {
       "id": "3893",
       "chorusPos": [],
-      "paragraph": " Su voz escucha sin vacilar, \n Y        grato acepta lo que hoy te da.\nTalvez mañana no habrá lugar,\nNo te detengas, &quot;Ven&quot;."
+      "paragraph": " Su voz escucha sin vacilar, \n Y        grato acepta lo que hoy te da.\nTalvez mañana no habrá lugar,\nNo te detengas, \"Ven\"."
     },
      {
       "id": "3894",
@@ -23149,7 +22747,6 @@
   },
   {
     "id": "403",
-    "code": "403",
     "title": " Jesús Salvawajníy 403",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -23192,23 +22789,22 @@
      {
       "id": "3902",
       "chorusPos": [],
-      "paragraph": " Que permanezca no pidáis\nEntre el bullicio y el vaivén.\nEl mundo alegre hoy dejará\nAún cuando fuese algún edén.\nLa cita nada más aguardo.\nQue el Rey me diga: &quot;Hijo,    ven&rdquo;. \n En mi Señor Jesús confío,\nSu sangre clama a mi favor.\nEs dueño Él de mi albedrío,\nEstar con Él es lo mejor."
+      "paragraph": " Que permanezca no pidáis\nEntre el bullicio y el vaivén.\nEl mundo alegre hoy dejará\nAún cuando fuese algún edén.\nLa cita nada más aguardo.\nQue el Rey me diga: \"Hijo,    ven&rdquo;. \n En mi Señor Jesús confío,\nSu sangre clama a mi favor.\nEs dueño Él de mi albedrío,\nEstar con Él es lo mejor."
     },
      {
       "id": "3903",
       "chorusPos": [],
-      "paragraph": " Que permanezca no pidáis\nEntre el bullicio y el vaivén.\nEl mundo alegre hoy dejará\nAún cuando fuese algún edén.\nLa cita nada más aguardo.\nQue el Rey me diga: &quot;Hijo,    ven&rdquo;. \n Consuélome en su larga ausencia\nPensando: &quot;Pronto volverá.\nEntonces su gloriosa herencia,\nA cada fiel Jesús dará&quot;."
+      "paragraph": " Que permanezca no pidáis\nEntre el bullicio y el vaivén.\nEl mundo alegre hoy dejará\nAún cuando fuese algún edén.\nLa cita nada más aguardo.\nQue el Rey me diga: \"Hijo,    ven&rdquo;. \n Consuélome en su larga ausencia\nPensando: \"Pronto volverá.\nEntonces su gloriosa herencia,\nA cada fiel Jesús dará\"."
     },
      {
       "id": "3904",
       "chorusPos": [],
-      "paragraph": " Que permanezca no pidáis\nEntre el bullicio y el vaivén.\nEl mundo alegre hoy dejará\nAún cuando fuese algún edén.\nLa cita nada más aguardo.\nQue el Rey me diga: &quot;Hijo,    ven&rdquo;."
+      "paragraph": " Que permanezca no pidáis\nEntre el bullicio y el vaivén.\nEl mundo alegre hoy dejará\nAún cuando fuese algún edén.\nLa cita nada más aguardo.\nQue el Rey me diga: \"Hijo,    ven&rdquo;."
     }
     ]
   },
   {
     "id": "404",
-    "code": "404",
     "title": " Jesucristo Wajyasunki    404",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23216,7 +22812,7 @@
      {
       "id": "3905",
       "chorusPos": [],
-      "paragraph": " Jesucristo wajyasunki, sonqoykita kichariy.\nTuta, p'unchay nishasunki, &quot;Jamullayña Noqaman&quot;."
+      "paragraph": " Jesucristo wajyasunki, sonqoykita kichariy.\nTuta, p'unchay nishasunki, \"Jamullayña Noqaman\"."
     },
      {
       "id": "3906",
@@ -23226,12 +22822,12 @@
      {
       "id": "3907",
       "chorusPos": [],
-      "paragraph": " Jesucristo chimpaykorqa Lázaro puñushajtin.\n&quot;Kawsarimpuy&quot;, nerqa Cristo; Payman kawsayta qorqa."
+      "paragraph": " Jesucristo chimpaykorqa Lázaro puñushajtin.\n\"Kawsarimpuy\", nerqa Cristo; Payman kawsayta qorqa."
     },
      {
       "id": "3908",
       "chorusPos": [],
-      "paragraph": " Llasa juchawan sayk'usqas, uyariychej Jesusta.\n&quot;Samariyta qosqaykichej, chimpamuychej&quot;, nin Jesús."
+      "paragraph": " Llasa juchawan sayk'usqas, uyariychej Jesusta.\n\"Samariyta qosqaykichej, chimpamuychej\", nin Jesús."
     },
      {
       "id": "3909",
@@ -23241,22 +22837,22 @@
      {
       "id": "3910",
       "chorusPos": [],
-      "paragraph": " Es la voz de Cristo urgente, llama a nuestro corazón.\nDia y noche tan paciente, suave dice: &quot;Ven a mí&quot;."
+      "paragraph": " Es la voz de Cristo urgente, llama a nuestro corazón.\nDia y noche tan paciente, suave dice: \"Ven a mí\"."
     },
      {
       "id": "3911",
       "chorusPos": [],
-      "paragraph": " I os apostóles oyeron su llamada; &quot;A mi venid,&quot;\nY obedientes le siguieron, encantados por su amor."
+      "paragraph": " I os apostóles oyeron su llamada; \"A mi venid,\"\nY obedientes le siguieron, encantados por su amor."
     },
      {
       "id": "3912",
       "chorusPos": [],
-      "paragraph": " A la tumba do dormido, Lázaro el amado está,\n&quot;Ven, tú, fuera&quot;, llama Cristo, y llamando, vida da."
+      "paragraph": " A la tumba do dormido, Lázaro el amado está,\n\"Ven, tú, fuera\", llama Cristo, y llamando, vida da."
     },
      {
       "id": "3913",
       "chorusPos": [],
-      "paragraph": " &quot;Ven, cargado y trabajado&quot;, suena de Jesús la voz,\n&quot;Yo a todos doy descanso, los que en Mí confían hoy&quot;."
+      "paragraph": " \"Ven, cargado y trabajado\", suena de Jesús la voz,\n\"Yo a todos doy descanso, los que en Mí confían hoy\"."
     },
      {
       "id": "3914",
@@ -23267,7 +22863,6 @@
   },
   {
     "id": "405",
-    "code": "405",
     "title": " 405 Yupaychasuyku",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23376,7 +22971,6 @@
   },
   {
     "id": "406",
-    "code": "406",
     "title": " K'acha Takiykuna 406",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23445,7 +23039,6 @@
   },
   {
     "id": "407",
-    "code": "407",
     "title": " 407   Cristo Salvadorniytaqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -23504,7 +23097,6 @@
   },
   {
     "id": "408",
-    "code": "408",
     "title": " Willaj Jamuyki 408",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23533,7 +23125,6 @@
   },
   {
     "id": "409",
-    "code": "409",
     "title": " 409  Palabrayki Tarpusqata",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -23562,7 +23153,6 @@
   },
   {
     "id": "410",
-    "code": "410",
     "title": " Ñapis Llakiykuna 410",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -23611,7 +23201,6 @@
   },
   {
     "id": "411",
-    "code": "411",
     "title": " 411  Diospa Iglesianmanta",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -23630,7 +23219,6 @@
   },
   {
     "id": "412",
-    "code": "412",
     "title": " 412        Calvariokama",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -23679,7 +23267,6 @@
   },
   {
     "id": "413",
-    "code": "413",
     "title": " Qayna Kunan        413",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23698,7 +23285,6 @@
   },
   {
     "id": "414",
-    "code": "414",
     "title": " Noqa Creeni Jesuspi     414",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -23787,7 +23373,6 @@
   },
   {
     "id": "415",
-    "code": "415",
     "title": " 415 Jesusta Rikúy Munayman",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -23876,7 +23461,6 @@
   },
   {
     "id": "416",
-    "code": "416",
     "title": " Evangelio Barcoqa 416",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -23889,7 +23473,7 @@
      {
       "id": "4018",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria kachun Diosman&quot;, \n  Nispa takinku chay rejkunaqa. \n  &quot;Gloria kachun ... , Capitanninchejman."
+      "paragraph": " \"Gloria kachun Diosman\", \n  Nispa takinku chay rejkunaqa. \n  \"Gloria kachun ... , Capitanninchejman."
     },
      {
       "id": "4019",
@@ -23899,7 +23483,7 @@
      {
       "id": "4020",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria kachun Diosman&quot;, \n  Nispa takinku chay rejkunaqa. \n  &quot;Gloria kachun ... , Capitanninchejman."
+      "paragraph": " \"Gloria kachun Diosman\", \n  Nispa takinku chay rejkunaqa. \n  \"Gloria kachun ... , Capitanninchejman."
     },
      {
       "id": "4021",
@@ -23909,27 +23493,27 @@
      {
       "id": "4022",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria kachun Diosman&quot;, \n  Nispa takinku chay rejkunaqa. \n  &quot;Gloria kachun ... , Capitanninchejman."
+      "paragraph": " \"Gloria kachun Diosman\", \n  Nispa takinku chay rejkunaqa. \n  \"Gloria kachun ... , Capitanninchejman."
     },
      {
       "id": "4023",
       "chorusPos": [],
-      "paragraph": " &quot;Noqawan riychej&quot;, nishan Señor Jesús;\n&quot;Noqawan riychej&quot;, nishan juchaswan atipasqas.\nSamarichisqaykichej juchamanta;\nSamarichisqaykichej cielo, qori llajtaypi."
+      "paragraph": " \"Noqawan riychej\", nishan Señor Jesús;\n\"Noqawan riychej\", nishan juchaswan atipasqas.\nSamarichisqaykichej juchamanta;\nSamarichisqaykichej cielo, qori llajtaypi."
     },
      {
       "id": "4024",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria kachun Diosman&quot;, \n  Nispa takinku chay rejkunaqa. \n  &quot;Gloria kachun ... , Capitanninchejman."
+      "paragraph": " \"Gloria kachun Diosman\", \n  Nispa takinku chay rejkunaqa. \n  \"Gloria kachun ... , Capitanninchejman."
     },
      {
       "id": "4025",
       "chorusPos": [],
-      "paragraph": " La nave &quot;Evangelista&quot; marcha, marcha.\nLa nave &quot;Evangelista&quot; marcha para Canaán.\nLos que embarcarse quieran, quieran, quieran,\nLos que embarcarse quieran, bienvenidos, sí, serán."
+      "paragraph": " La nave \"Evangelista\" marcha, marcha.\nLa nave \"Evangelista\" marcha para Canaán.\nLos que embarcarse quieran, quieran, quieran,\nLos que embarcarse quieran, bienvenidos, sí, serán."
     },
      {
       "id": "4026",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria en las alturas&quot; los de abordo cantan dulcemente,\n u Gloria en las alturas&quot; a nuestro Capitán."
+      "paragraph": " \"Gloria en las alturas\" los de abordo cantan dulcemente,\n u Gloria en las alturas\" a nuestro Capitán."
     },
      {
       "id": "4027",
@@ -23944,7 +23528,7 @@
      {
       "id": "4029",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria en las alturas&quot; los de abordo cantan dulcemente,\n u Gloria en las alturas&quot; a nuestro Capitán."
+      "paragraph": " \"Gloria en las alturas\" los de abordo cantan dulcemente,\n u Gloria en las alturas\" a nuestro Capitán."
     },
      {
       "id": "4030",
@@ -23954,7 +23538,7 @@
      {
       "id": "4031",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria en las alturas&quot; los de abordo cantan dulcemente,\n u Gloria en las alturas&quot; a nuestro Capitán."
+      "paragraph": " \"Gloria en las alturas\" los de abordo cantan dulcemente,\n u Gloria en las alturas\" a nuestro Capitán."
     },
      {
       "id": "4032",
@@ -23964,13 +23548,12 @@
      {
       "id": "4033",
       "chorusPos": [],
-      "paragraph": " &quot;Gloria en las alturas&quot; los de abordo cantan dulcemente,\n u Gloria en las alturas&quot; a nuestro Capitán."
+      "paragraph": " \"Gloria en las alturas\" los de abordo cantan dulcemente,\n u Gloria en las alturas\" a nuestro Capitán."
     }
     ]
   },
   {
     "id": "417",
-    "code": "417",
     "title": " Tukuy Uyarejqa  417",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -23978,37 +23561,37 @@
      {
       "id": "4034",
       "chorusPos": [],
-      "paragraph": " Tukuy uyarejqa willaramuchun,\nSalvación kasqanta creesqanrayku.\nChinkasqa mundoman willamuy, nispa:\n&quot;Riy Salvador Jesusman"
+      "paragraph": " Tukuy uyarejqa willaramuchun,\nSalvación kasqanta creesqanrayku.\nChinkasqa mundoman willamuy, nispa:\n\"Riy Salvador Jesusman"
     },
      {
       "id": "4035",
       "chorusPos": [],
-      "paragraph": " Tukuy creejkuna willaramuna,\nEvangeliomanta sumaj willayta.\nQhasilla qóy muñan perdonta Jesús.\n&quot;Riy Salvador Jesusman&quot;."
+      "paragraph": " Tukuy creejkuna willaramuna,\nEvangeliomanta sumaj willayta.\nQhasilla qóy muñan perdonta Jesús.\n\"Riy Salvador Jesusman\"."
     },
      {
       "id": "4036",
       "chorusPos": [],
-      "paragraph": " Salvakuyta munaj usqhayta richun,\nPunku kichasgaña yaykúy munajpaj.\nCristollamin Nanqa janaj pachaman.\n&quot;Riy, Salvador Jesusman&quot;."
+      "paragraph": " Salvakuyta munaj usqhayta richun,\nPunku kichasgaña yaykúy munajpaj.\nCristollamin Nanqa janaj pachaman.\n\"Riy, Salvador Jesusman\"."
     },
      {
       "id": "4037",
       "chorusPos": [],
-      "paragraph": " Tukuy creejkuna willaramuna,\nEvangeliomanta sumaj willayta.\nQhasilla qóy muñan perdonta Jesús.\n&quot;Riy Salvador Jesusman&quot;."
+      "paragraph": " Tukuy creejkuna willaramuna,\nEvangeliomanta sumaj willayta.\nQhasilla qóy muñan perdonta Jesús.\n\"Riy Salvador Jesusman\"."
     },
      {
       "id": "4038",
       "chorusPos": [],
-      "paragraph": " Nisqanta Jesusqa junt' anqapuni,\nUyariy juchayoj, chimpay Señorman.\nPayqa munakuywan tukuy ta wajyan.\n&quot;Riy, Salvador Jesusman&quot;."
+      "paragraph": " Nisqanta Jesusqa junt' anqapuni,\nUyariy juchayoj, chimpay Señorman.\nPayqa munakuywan tukuy ta wajyan.\n\"Riy, Salvador Jesusman\"."
     },
      {
       "id": "4039",
       "chorusPos": [],
-      "paragraph": " Tukuy creejkuna willaramuna,\nEvangeliomanta sumaj willayta.\nQhasilla qóy muñan perdonta Jesús.\n&quot;Riy Salvador Jesusman&quot;."
+      "paragraph": " Tukuy creejkuna willaramuna,\nEvangeliomanta sumaj willayta.\nQhasilla qóy muñan perdonta Jesús.\n\"Riy Salvador Jesusman\"."
     },
      {
       "id": "4040",
       "chorusPos": [],
-      "paragraph": " Todo aquel que oye vaya a proclamar:\n&quot;Salvación de gracia puédese aceptar&quot;.\nAl perdido mundo débese anunciar:\n&quot;Id al Salvador Jesús&quot;."
+      "paragraph": " Todo aquel que oye vaya a proclamar:\n\"Salvación de gracia puédese aceptar\".\nAl perdido mundo débese anunciar:\n\"Id al Salvador Jesús\"."
     },
      {
       "id": "4041",
@@ -24018,7 +23601,7 @@
      {
       "id": "4042",
       "chorusPos": [],
-      "paragraph": " Todo aquel que quiere, vaya sin tardar,\nFranca está la puerta y podéis entrar.\nCristo es el camino al celeste hogar:\n&quot;Id al Salvador Jesús&quot;."
+      "paragraph": " Todo aquel que quiere, vaya sin tardar,\nFranca está la puerta y podéis entrar.\nCristo es el camino al celeste hogar:\n\"Id al Salvador Jesús\"."
     },
      {
       "id": "4043",
@@ -24028,7 +23611,7 @@
      {
       "id": "4044",
       "chorusPos": [],
-      "paragraph": " Firme es la promesa, oye pecador,\n¿Quieres tu la vida? Mira al Salvador.\nEl a todos llama con divino amor,\n&quot;Id al Salvador Jesús.&quot;"
+      "paragraph": " Firme es la promesa, oye pecador,\n¿Quieres tu la vida? Mira al Salvador.\nEl a todos llama con divino amor,\n\"Id al Salvador Jesús.\""
     },
      {
       "id": "4045",
@@ -24039,7 +23622,6 @@
   },
   {
     "id": "418",
-    "code": "418",
     "title": " 418 Danielqa Kinsata Oraj",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24052,7 +23634,7 @@
      {
       "id": "4047",
       "chorusPos": [],
-      "paragraph": " Mañakusqanchejta Dios uyariwanchej,\nApóstol Pablo nin, &quot;Mañallaychejpuni&quot;.\nDiosmanta mañana tutapis, p'unchaypis.\nCreespa mañana Pay uyariwasun."
+      "paragraph": " Mañakusqanchejta Dios uyariwanchej,\nApóstol Pablo nin, \"Mañallaychejpuni\".\nDiosmanta mañana tutapis, p'unchaypis.\nCreespa mañana Pay uyariwasun."
     },
      {
       "id": "4048",
@@ -24062,13 +23644,12 @@
      {
       "id": "4049",
       "chorusPos": [],
-      "paragraph": " Oraciones nuestras, así Dios contesta.\nPues, &quot;Orad sin cesar.&quot; dice apóstol Pablo\nHermanos, oremos &quot;en todo tiempo&quot; a Dios,\nY recibiremos, cuando oramos con fe."
+      "paragraph": " Oraciones nuestras, así Dios contesta.\nPues, \"Orad sin cesar.\" dice apóstol Pablo\nHermanos, oremos \"en todo tiempo\" a Dios,\nY recibiremos, cuando oramos con fe."
     }
     ]
   },
   {
     "id": "419",
-    "code": "419",
     "title": " Kusisqalla Kawsakusaj   419",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24097,7 +23678,6 @@
   },
   {
     "id": "420",
-    "code": "420",
     "title": " 420 Señorpa Palabranta Willaychej",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24136,7 +23716,6 @@
   },
   {
     "id": "421",
-    "code": "421",
     "title": " Santa Biblia Noqapaj    421",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24149,7 +23728,7 @@
      {
       "id": "4061",
       "chorusPos": [],
-      "paragraph": " Sapa p'unchay noqata Diosman qayllachiwanki.\nSapa kuti almayta: &quot;Diospi suyay&quot;, nishanki.\nPantay ñanta rishajtiy, Diosman pusawarqanki."
+      "paragraph": " Sapa p'unchay noqata Diosman qayllachiwanki.\nSapa kuti almayta: \"Diospi suyay\", nishanki.\nPantay ñanta rishajtiy, Diosman pusawarqanki."
     },
      {
       "id": "4062",
@@ -24175,7 +23754,6 @@
   },
   {
     "id": "422",
-    "code": "422",
     "title": " Ni Qolqewan Nitaj      422",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -24204,7 +23782,6 @@
   },
   {
     "id": "423",
-    "code": "423",
     "title": " 423 May Kusiy Kanqa Cristopi Tukuyninchej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -24233,7 +23810,6 @@
   },
   {
     "id": "424",
-    "code": "424",
     "title": " Kan Perdón Cristoj 424",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -24241,7 +23817,7 @@
      {
       "id": "4074",
       "chorusPos": [],
-      "paragraph": " Kan perdón Cristoj yawarninrayku,\nKan perdón cruzpi wañusqanrayku.\nTukuy man willaychej:\n&quot;Kan perdón tukuypajmin,\nJesucristoman jamojpajqa&quot;."
+      "paragraph": " Kan perdón Cristoj yawarninrayku,\nKan perdón cruzpi wañusqanrayku.\nTukuy man willaychej:\n\"Kan perdón tukuypajmin,\nJesucristoman jamojpajqa\"."
     },
      {
       "id": "4075",
@@ -24252,7 +23828,6 @@
   },
   {
     "id": "425",
-    "code": "425",
     "title": " Mayman Rishanki 425",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24321,7 +23896,6 @@
   },
   {
     "id": "426",
-    "code": "426",
     "title": " 426 Michiwaykupuni Jesusniyku",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24370,7 +23944,6 @@
   },
   {
     "id": "427",
-    "code": "427",
     "title": " 427  Atisaj Jesuswan Atisaj",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -24419,7 +23992,6 @@
   },
   {
     "id": "428",
-    "code": "428",
     "title": " Takiy Jatun Kusiywan    428",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -24458,7 +24030,6 @@
   },
   {
     "id": "429",
-    "code": "429",
     "title": " 429 Rinachej Camposnejman",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24527,7 +24098,6 @@
   },
   {
     "id": "430",
-    "code": "430",
     "title": " Señor Jesusniy Pay 430 - Ap. 19:11-16",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -24555,7 +24125,7 @@
      {
       "id": "4126",
       "chorusPos": [],
-      "paragraph": " /Él se llamaba &quot;Fiel, Verdadero&quot;,\nY su nombre es: &quot;El Verbo de Dios&quot;./\n \n /De su boca sale una gran espada,\nEs palabra pura con toda justicia./"
+      "paragraph": " /Él se llamaba \"Fiel, Verdadero\",\nY su nombre es: \"El Verbo de Dios\"./\n \n /De su boca sale una gran espada,\nEs palabra pura con toda justicia./"
     },
      {
       "id": "4127",
@@ -24566,7 +24136,6 @@
   },
   {
     "id": "431",
-    "code": "431",
     "title": " 431 Diospa Palabrampi Yachachiykuna",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -24635,7 +24204,6 @@
   },
   {
     "id": "432",
-    "code": "432",
     "title": " May kasqayta yuyakoj kani 432",
     "musicalNote": " (Mi Mayor)",
     "chorus": [],
@@ -24724,7 +24292,6 @@
   },
   {
     "id": "433",
-    "code": "433",
     "title": " Cristoj Soldadon Jina    433",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24762,7 +24329,7 @@
      {
       "id": "4162",
       "chorusPos": [],
-      "paragraph": " Estad por Cristo firmes, las fuerzas son de El.\nEl brazo de los hombres por débil no es fiel.\n&quot;Vestios la armadura, velad en oración&quot;.\nDeberes y peligros demandan más tesón."
+      "paragraph": " Estad por Cristo firmes, las fuerzas son de El.\nEl brazo de los hombres por débil no es fiel.\n\"Vestios la armadura, velad en oración\".\nDeberes y peligros demandan más tesón."
     },
      {
       "id": "4163",
@@ -24773,7 +24340,6 @@
   },
   {
     "id": "434",
-    "code": "434",
     "title": " 434  Cristo Yawarninwan",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -24862,7 +24428,6 @@
   },
   {
     "id": "435",
-    "code": "435",
     "title": " 435  Mayllawan Jesusniy",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24891,7 +24456,6 @@
   },
   {
     "id": "436",
-    "code": "436",
     "title": " 436 Maqanakuman Jesús",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24920,7 +24484,6 @@
   },
   {
     "id": "437",
-    "code": "437",
     "title": " Noqa Niyki Qanta   437",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -24928,7 +24491,7 @@
      {
       "id": "4188",
       "chorusPos": [],
-      "paragraph": " /Noqa niyki qauta, &quot;Kallpachakuy,\nWapuchakuypuni, Noqa qanwan kani./\n/Amapuni sayk'uychu, nitaj manchikuychu.\nJehová Diosniyki qanwampuni kashani'/"
+      "paragraph": " /Noqa niyki qauta, \"Kallpachakuy,\nWapuchakuypuni, Noqa qanwan kani./\n/Amapuni sayk'uychu, nitaj manchikuychu.\nJehová Diosniyki qanwampuni kashani'/"
     },
      {
       "id": "4189",
@@ -24939,7 +24502,6 @@
   },
   {
     "id": "438",
-    "code": "438",
     "title": " 438   Nawpajllaman Rinachej",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24952,13 +24514,12 @@
      {
       "id": "4191",
       "chorusPos": [],
-      "paragraph": " Adelante con valor, sin temor \n Porque &quot;Dios es amor&quot;. \n En el amor no hay temor\n Porque el amor echa fuera el temor \n //Porque, &quot;Dios es amor&quot;// Dios es amor."
+      "paragraph": " Adelante con valor, sin temor \n Porque \"Dios es amor\". \n En el amor no hay temor\n Porque el amor echa fuera el temor \n //Porque, \"Dios es amor\"// Dios es amor."
     }
     ]
   },
   {
     "id": "439",
-    "code": "439",
     "title": " 439 Kutimuspa Jesusqa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -24977,7 +24538,6 @@
   },
   {
     "id": "440",
-    "code": "440",
     "title": " Señor Diosniy Mask'aj    440",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -25006,7 +24566,6 @@
   },
   {
     "id": "441",
-    "code": "441",
     "title": " Domingo P'unchaypeqa   441",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25025,7 +24584,6 @@
   },
   {
     "id": "442",
-    "code": "442",
     "title": " 442   Tukuy Ima Nisqasneyqa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25054,7 +24612,6 @@
   },
   {
     "id": "443",
-    "code": "443",
     "title": " 443        Jesús Reyniy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25073,7 +24630,6 @@
   },
   {
     "id": "444",
-    "code": "444",
     "title": " Amapuni Juchamanqa    444",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25092,7 +24648,6 @@
   },
   {
     "id": "445",
-    "code": "445",
     "title": " Uyariychej Allinta      445",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -25121,7 +24676,6 @@
   },
   {
     "id": "446",
-    "code": "446",
     "title": " 446 Qhuyaj sonqo Mama",
     "musicalNote": " (Mi Menor)",
     "chorus": [],
@@ -25170,7 +24724,6 @@
   },
   {
     "id": "447",
-    "code": "447",
     "title": " 447 Muñan Jesús K'anchanayta",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25229,7 +24782,6 @@
   },
   {
     "id": "448",
-    "code": "448",
     "title": " Munakuwaj Jesusníy 448",
     "musicalNote": "_",
     "chorus": [],
@@ -25287,7 +24839,7 @@
      {
       "id": "4239",
       "chorusPos": [],
-      "paragraph": " Cuando vengan las pruebas &quot;clama a Mí&quot;, nos dijo Él \n Si nos vienen penurias, nos promete Él su paz."
+      "paragraph": " Cuando vengan las pruebas \"clama a Mí\", nos dijo Él \n Si nos vienen penurias, nos promete Él su paz."
     },
      {
       "id": "4240",
@@ -25298,7 +24850,6 @@
   },
   {
     "id": "449",
-    "code": "449",
     "title": " 449 Mosoj Testamento",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25392,7 +24943,6 @@
   },
   {
     "id": "450",
-    "code": "450",
     "title": " 450  Cielopi punku kichasqa",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25461,7 +25011,6 @@
   },
   {
     "id": "451",
-    "code": "451",
     "title": " Sumaj willayta tukuy runasman 451",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25495,7 +25044,6 @@
   },
   {
     "id": "452",
-    "code": "452",
     "title": " 452 Takisaj Jesusmanta",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25564,7 +25112,6 @@
   },
   {
     "id": "453",
-    "code": "453",
     "title": " Qanpata kani Señor  453",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25653,7 +25200,6 @@
   },
   {
     "id": "454",
-    "code": "454",
     "title": " Punkusqa kichasqasña kanku 454",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25676,7 +25222,7 @@
      {
       "id": "4306",
       "chorusPos": [],
-      "paragraph": " Wiñay kawsayta jap'enqanku cielopi wiñaypaj\nTata Diosman kawsayninta qoj. Qanpaj kanchu noqapajri?\nKaypi tukusaj llank'anayta Jesusniypa yanapayninwan\nChaypeqa wiñaypaj kusiy kanqa. Qanpaj kanqa    noqapajpis. \n Francas las puertas encontrarán, unos sí; otros no.\nDe alguien las glorias serán sin fin /¿y tú? ¿y yo?/\n&quot;Calles de oro&quot;, mar de cristal, Pleno reposo, perfecto amor;\nunos    tendrán celestial hogar, /¿y tú? ¿y yo?/ \n Fieles discípulos de Jesús, unos si; otros no;\n Logran corona en vez de cruz, /¿y tú? ¿y yo?/ \n Mora el Señor en gloriosa luz; Con El no puede haber dolor; \n De alguien es esta beatitud, /¿y tú? ¿y yo?/"
+      "paragraph": " Wiñay kawsayta jap'enqanku cielopi wiñaypaj\nTata Diosman kawsayninta qoj. Qanpaj kanchu noqapajri?\nKaypi tukusaj llank'anayta Jesusniypa yanapayninwan\nChaypeqa wiñaypaj kusiy kanqa. Qanpaj kanqa    noqapajpis. \n Francas las puertas encontrarán, unos sí; otros no.\nDe alguien las glorias serán sin fin /¿y tú? ¿y yo?/\n\"Calles de oro\", mar de cristal, Pleno reposo, perfecto amor;\nunos    tendrán celestial hogar, /¿y tú? ¿y yo?/ \n Fieles discípulos de Jesús, unos si; otros no;\n Logran corona en vez de cruz, /¿y tú? ¿y yo?/ \n Mora el Señor en gloriosa luz; Con El no puede haber dolor; \n De alguien es esta beatitud, /¿y tú? ¿y yo?/"
     },
      {
       "id": "4307",
@@ -25687,7 +25233,6 @@
   },
   {
     "id": "455",
-    "code": "455",
     "title": " 455        Señor Diosniy",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25781,7 +25326,6 @@
   },
   {
     "id": "456",
-    "code": "456",
     "title": " 456 Ch'inmanta Usqayta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -25800,7 +25344,6 @@
   },
   {
     "id": "457",
-    "code": "457",
     "title": " 457  Cristo kawsayta qon",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -25839,7 +25382,6 @@
   },
   {
     "id": "458",
-    "code": "458",
     "title": " Cristomanta Yacháy Munani 458",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25868,7 +25410,6 @@
   },
   {
     "id": "459",
-    "code": "459",
     "title": " Jesús Munakuyki        459",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -25897,7 +25438,6 @@
   },
   {
     "id": "460",
-    "code": "460",
     "title": " 460 Juchaykiwan jamuy Jesusman",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -25986,7 +25526,6 @@
   },
   {
     "id": "461",
-    "code": "461",
     "title": " Jesucristo Atiyniyoj 461",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -26075,7 +25614,6 @@
   },
   {
     "id": "462",
-    "code": "462",
     "title": " 462   Tukuy kayniyta qopuspa",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -26184,7 +25722,6 @@
   },
   {
     "id": "463",
-    "code": "463",
     "title": " Imaynachus kasqay jina   463",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -26233,7 +25770,6 @@
   },
   {
     "id": "464",
-    "code": "464",
     "title": " 464         Gloria Kachun",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -26277,7 +25813,6 @@
   },
   {
     "id": "465",
-    "code": "465",
     "title": " Jesucristoj kutimunan chay 465",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26311,7 +25846,6 @@
   },
   {
     "id": "466",
-    "code": "466",
     "title": " 466  Kawsaqesniykita",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -26350,7 +25884,6 @@
   },
   {
     "id": "467",
-    "code": "467",
     "title": " Atiyniyoj Diosneyqa  467",
     "musicalNote": " (La Mayor)",
     "chorus": [],
@@ -26389,7 +25922,6 @@
   },
   {
     "id": "468",
-    "code": "468",
     "title": " 468 Jaqay p'unchayta",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -26453,7 +25985,6 @@
   },
   {
     "id": "469",
-    "code": "469",
     "title": " 469  Qhuyakoj Salvawajniy",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26487,7 +26018,6 @@
   },
   {
     "id": "470",
-    "code": "470",
     "title": " Señorniy wajyashawanki  470",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26566,7 +26096,6 @@
   },
   {
     "id": "471",
-    "code": "471",
     "title": " 471   Ama manchachikuychu",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -26574,48 +26103,47 @@
      {
       "id": "4455",
       "chorusPos": [],
-      "paragraph": " /&quot;Ama manchachikuychu&quot; niwan Señor\n&quot;Atiyniyoj Diosniyki kani&quot;./"
+      "paragraph": " /\"Ama manchachikuychu\" niwan Señor\n\"Atiyniyoj Diosniyki kani\"./"
     },
      {
       "id": "4456",
       "chorusPos": [],
-      "paragraph": " /&quot;Mañakuway, noqa qosqayki;\nMosoj willáy yachachisqayki&quot;./"
+      "paragraph": " /\"Mañakuway, noqa qosqayki;\nMosoj willáy yachachisqayki\"./"
     },
      {
       "id": "4457",
       "chorusPos": [],
-      "paragraph": " /&quot;Kallpachakuy, chanta wapuchakuytaj qan&quot;/\n/Kamachisniyta ama saqespa./"
+      "paragraph": " /\"Kallpachakuy, chanta wapuchakuytaj qan\"/\n/Kamachisniyta ama saqespa./"
     },
      {
       "id": "4458",
       "chorusPos": [],
-      "paragraph": " /&quot;Mañakuway, noqa qosqayki;\nMosoj willáy yachachisqayki&quot;./"
+      "paragraph": " /\"Mañakuway, noqa qosqayki;\nMosoj willáy yachachisqayki\"./"
     },
      {
       "id": "4459",
       "chorusPos": [],
-      "paragraph": " /&quot;No temas que yo estoy contigo,\nNo temas que yo soy Tu Dios&quot;./"
+      "paragraph": " /\"No temas que yo estoy contigo,\nNo temas que yo soy Tu Dios\"./"
     },
      {
       "id": "4460",
       "chorusPos": [],
-      "paragraph": " /&quot;Clama a mí y te responderé\nCosas nuevas te enseñaré&quot;./"
+      "paragraph": " /\"Clama a mí y te responderé\nCosas nuevas te enseñaré\"./"
     },
      {
       "id": "4461",
       "chorusPos": [],
-      "paragraph": " /&quot;Esfuérzate y sé muy valiente&quot;,\nDe este libro no te apartes./"
+      "paragraph": " /\"Esfuérzate y sé muy valiente\",\nDe este libro no te apartes./"
     },
      {
       "id": "4462",
       "chorusPos": [],
-      "paragraph": " /&quot;Clama a mí y te responderé\nCosas nuevas te enseñaré&quot;./"
+      "paragraph": " /\"Clama a mí y te responderé\nCosas nuevas te enseñaré\"./"
     }
     ]
   },
   {
     "id": "472",
-    "code": "472",
     "title": " 472         Jamuy Dios",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26644,7 +26172,6 @@
   },
   {
     "id": "473",
-    "code": "473",
     "title": " Qayllaykuna Jesusman 473",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26693,7 +26220,6 @@
   },
   {
     "id": "474",
-    "code": "474",
     "title": " 474   Cristo Sumaj Michejniy",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26752,7 +26278,6 @@
   },
   {
     "id": "475",
-    "code": "475",
     "title": " 475  Cristoj Jamuynin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26821,7 +26346,6 @@
   },
   {
     "id": "476",
-    "code": "476",
     "title": " 476  Juchapi kawsakoj",
     "musicalNote": " (Do Mayor)",
     "chorus": [],
@@ -26890,7 +26414,6 @@
   },
   {
     "id": "477",
-    "code": "477",
     "title": " 477   Waynakunaj kawsaynin",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26939,7 +26462,6 @@
   },
   {
     "id": "478",
-    "code": "478",
     "title": " 478  Diosman Willanachej",
     "musicalNote": " (Re Menor)",
     "chorus": [],
@@ -26968,7 +26490,6 @@
   },
   {
     "id": "479",
-    "code": "479",
     "title": " 479 Cristollapi Suyay",
     "musicalNote": " (Sol Mayor)",
     "chorus": [],
@@ -27037,7 +26558,6 @@
   },
   {
     "id": "480",
-    "code": "480",
     "title": " 480 Diospaj Llank'asaj",
     "musicalNote": " (Fa Mayor)",
     "chorus": [],
@@ -27106,7 +26626,6 @@
   },
   {
     "id": "481",
-    "code": "481",
     "title": " Imarayku Diosniy 481",
     "musicalNote": " (Re Mayor)",
     "chorus": [],
@@ -27190,7 +26709,6 @@
   },
   {
     "id": "482",
-    "code": "482",
     "title": " 482 Kay pachapeqa kawsayniypi",
     "musicalNote": " (Si Menor)",
     "chorus": [],

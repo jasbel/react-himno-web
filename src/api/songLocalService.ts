@@ -1,4 +1,4 @@
-import { ID, ISong, ISongCreate, ISongItem, ISongListV1, ISongV1 } from '@/types/types';
+import { ID, ISongModel, ISong, ISongCreate, ISongItem, ISongListV1, ISongV1Model } from '@/types/types';
 import axiosClient, { axiosClientLocal } from './axiosClient';
 
 export const getListSongLocal = async (): Promise<ISong[]> => {
@@ -9,17 +9,17 @@ export const getListSongLocal = async (): Promise<ISong[]> => {
         if (!response.ok) {
           throw new Error('Failed to fetch config')
         }
-        const configData: ISong[] = await response.json()
-        console.log({ configData });
+        const configData: ISongModel[] = await response.json()
 
         return configData
       } catch (err) {
+        console.error(err);
         return []
-        // setError(err.message)
       }
     }
 
-    const response = await fetchData();
+    const _response = await fetchData();
+    const response: ISong[] = _response.map(it => ({...it, favorite: false}));
     return response;
   } catch (error) {
     throw error;
@@ -67,7 +67,7 @@ export const getListV1SongLocal = async ():  Promise<ISongListV1[]> => {
   }
 };
 
-export const getListSongQuechuaLocal = async ():  Promise<ISongV1[]> => {
+export const getListSongQuechuaLocal = async ():  Promise<ISongV1Model[]> => {
   try {
     const fetchData = async () => {
       try {
@@ -75,8 +75,7 @@ export const getListSongQuechuaLocal = async ():  Promise<ISongV1[]> => {
         if (!response.ok) {
           throw new Error('Failed to fetch config')
         }
-        const configData: ISongV1[] = await response.json()
-        console.log({ configData });
+        const configData: ISongV1Model[] = await response.json()
 
         return configData
       } catch (err: any) {
@@ -94,7 +93,7 @@ export const getListSongQuechuaLocal = async ():  Promise<ISongV1[]> => {
 
 export const getListSong = async () => {
   try {
-    const response = await axiosClient.get<ISong[]>('/songs');
+    const response = await axiosClient.get<ISongModel[]>('/songs');
     return response.data;
   } catch (error) {
     throw error;
@@ -103,7 +102,7 @@ export const getListSong = async () => {
 
 export const getSong = async (id: ID) => {
   try {
-    const response = await axiosClient.get<ISong>(`/songs/${id}`);
+    const response = await axiosClient.get<ISongModel>(`/songs/${id}`);
     return response.data;
   } catch (error) {
     throw error;
@@ -112,17 +111,17 @@ export const getSong = async (id: ID) => {
 
 export const createSong = async (songData: ISongCreate) => {
   try {
-    const response = await axiosClient.post<ISong>('/songs', songData);
+    const response = await axiosClient.post<ISongModel>('/songs', songData);
     return response.data;
   } catch (error) {
     throw error;
   }
 };
 
-export const updateSong = async (songData: ISong) => {
+export const updateSong = async (songData: ISongModel) => {
   try {
     const { id, ..._songData } = songData;
-    const response = await axiosClient.put<ISong>(`/songs/${id}`, _songData);
+    const response = await axiosClient.put<ISongModel>(`/songs/${id}`, _songData);
     return response.data;
   } catch (error) {
     throw error;

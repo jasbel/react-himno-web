@@ -1,8 +1,8 @@
 import ItemHimnoLetter, { ILetter } from "./ItemHimnoLetter";
-import { ISong } from "../../types/types";
+import { ISongModel } from "../../types/types";
 import { IChoir } from "../../types/types";
 
-interface Props extends Pick<ISong, "paragraphs" | "chorus"> {
+interface Props extends Pick<ISongModel, "paragraphs" | "chorus"> {
   isSmall?: boolean;
 }
 
@@ -41,8 +41,8 @@ const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
 
   return (
     <>
-      {verses.map((v, i) => {
-        return <ItemHimnoLetter key={i} item={v} isSmall={isSmall} />;
+      {verses.map((it, i) => {
+        return <ItemHimnoLetter key={i} item={it} isSmall={isSmall} hiddenSepare={verses.length <= i + 1} />;
       })}
     </>
   );

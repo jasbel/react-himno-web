@@ -30,7 +30,7 @@ export const AlertDialogStar: FC<Props> = ({ open, onClose, title, description, 
     <>
       <AlertDialog open={open}>
         <AlertDialogTrigger>{children}</AlertDialogTrigger>
-        <AlertDialogContent>
+        <AlertDialogContent className="bg-neutral-50">
           <AlertDialogHeader>
             <AlertDialogTitle>{title}</AlertDialogTitle>
             <AlertDialogDescription>

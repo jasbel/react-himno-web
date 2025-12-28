@@ -1,0 +1,32 @@
+.containerIconChoir {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: responsive(15, 10);
+    margin-bottom: responsive(15, 10);
+  }
+  
+  .iconChoir {
+    width: responsive(350, 70);
+    height: responsive(20, 11);
+    margin: auto;
+  };
+
+  .iconChoirSmall {
+    width: 60;
+    height: 8;
+    margin: auto;
+  };
+
+  .paragraph {
+    text-align: center;
+    color: #061013;
+    line-height: 1;
+  };
+
+  .choir {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #173B46;
+    line-height: 1;
+  };

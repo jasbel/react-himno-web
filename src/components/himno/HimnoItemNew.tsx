@@ -12,7 +12,7 @@ import StarNote from "./elements/StarNoteNew";
 interface Props {
   id: ID,
   title: string,
-  num: string,
+  num: string | null,
   note: string,
   description: string,
   style?: React.CSSProperties;
@@ -35,7 +35,7 @@ const HimnoItem = ({
       const inFav = findFav(id);
       setIsFavorite(!!inFav);
     } catch (error) {
-      console.log(" Get Favorite Error:  ", error);
+      console.error(" Get Favorite Error:  ", error);
     }
   };
 
@@ -47,7 +47,7 @@ const HimnoItem = ({
   return (
     <Flex style={{ ...style, order: isFavorite ? -1 : undefined }}>
       <button style={styles.container} onClick={onClick}>
-        <ImageItem num={num} select={isFavorite} />
+        <ImageItem num={num} select={isFavorite}  />
 
         <div style={styles.content}>
           <Flex
@@ -67,7 +67,7 @@ const HimnoItem = ({
           </Flex>
         </div>
       </button>
-      <StarNote isFavorite={isFavorite} musicalNote={note} songId={id} />
+      <StarNote isFavorite={isFavorite} musicalNote={note} songId={id} refresh={() => getFavorite()} />
     </Flex>
   );
 };

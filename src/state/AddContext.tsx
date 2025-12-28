@@ -1,10 +1,10 @@
 import { initSong } from "@/res/constant";
-import { IChorusPos, ID, IDPos, ISong } from "@/types/types";
+import { IChorusPos, ID, IDPos, ISongModel } from "@/types/types";
 import { createContext, useState } from "react";
 
 interface IAddContext {
-  state: ISong,
-  updateState: (newValues: Partial<ISong>) => void,
+  state: ISongModel,
+  updateState: (newValues: Partial<ISongModel>) => void,
   updateChorusInParagraph: (id: ID, chorusPos: IChorusPos) => void,
 }
 // @ts-ignore
@@ -13,9 +13,9 @@ export const AddContext = createContext<IAddContext>({
 });
 
 export const AddProvider = ({ children }: any) => {
-  const [state, setState] = useState<ISong>(initSong());
+  const [state, setState] = useState<ISongModel>(initSong());
 
-  const updateState = (newValues: Partial<ISong>) => {
+  const updateState = (newValues: Partial<ISongModel>) => {
     setState(prevState => ({
       ...prevState,
       ...newValues,

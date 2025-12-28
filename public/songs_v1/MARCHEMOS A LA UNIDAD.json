@@ -1,0 +1,32 @@
+{
+    "id": "e029d2f3-fbac-cb20-1996-7d5a06a886e8",
+    "code": "30",
+    "title": "MARCHEMOS A LA UNIDAD",
+    "musicalNote": "G|Sol",
+    "chorus": [
+        {
+            "choir": "//Y mediante el Espíritu Santo\nProclamamos hoy aquí.\nQue pagaremos el precio de ser\nTodos un corazón en Jesús.\n\nY si las tinieblas militan\nY nos quieran separar\nCon nuestros ojos en Cristo\nMarchemos a la unidad//.",
+            "id": "9dbf9cb8-ac40-81ea-1b2e-de5ee6d94b8f"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "b26b8eb6-95f1-6186-dfce-9d562ac4ba6b",
+            "paragraph": "Yo sé que fue pagado un alto precio,\nPara que seamos uno tu y yo.\nCuando Jesús derramaba su vida,\nÉl pensaba en ti, Él pensaba en mi\nEn nuestra unidad.",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "98c81f96-9b7a-0306-daee-122a202e9409",
+            "paragraph": "Nos veía redimidos por su sangre\nCombatiendo la batalla de la fé\nCodo a codo trabajando\nSu iglesia edificando\nY rompiendo las cadenas por amor.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        }
+    ]
+}

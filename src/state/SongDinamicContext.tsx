@@ -1,16 +1,16 @@
 import React, { ReactNode, useState } from "react";
-import { ID, ISong } from "../types/types";
+import { ID, ISongModel } from "../types/types";
 import { addFav, deleteFav } from "../libs/storage";
-import { removeAccents } from "@/res/removeAccents";
+import { rmAccents } from "@/res/removeAccents";
 import { useApiSong } from "@/hooks/useApiSong";
 import { initSong } from "@/res/constant";
 
 interface InitialValues {
-  getSong: (id: ID) => Promise<ISong>;
+  getSong: (id: ID) => Promise<ISongModel>;
   getSongs: () => Promise<void>;
-  song: ISong;
-  songs: ISong[];
-  songsSearch: ISong[];
+  song: ISongModel;
+  songs: ISongModel[];
+  songsSearch: ISongModel[];
   addToFav: (favId: string) => void;
   changeSongBySearch: (q: string) => void;
   rmToFav: (favId: string) => void;
@@ -23,7 +23,7 @@ const defaultValue: InitialValues = {
   addToFav: () => { },
   changeSongBySearch: () => { },
   rmToFav: () => { },
-  getSong: () => ({ } as  Promise<ISong>),
+  getSong: () => ({ } as  Promise<ISongModel>),
   getSongs: () => ({ } as  Promise<void>),
 };
 
@@ -31,10 +31,10 @@ export const SongDinamicContext = React.createContext<InitialValues>(defaultValu
 
 export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
   const { fetchListSong, fetchOneSong } = useApiSong();
-  const [songs, setSongs] = useState<ISong[]>([]);
-  const [song, setSong] = useState<ISong>(initSong);
-  const [songsSearch, setSongsSearch] = useState<ISong[]>([]);
-  const [songFavorites, setSongFavorites] = useState<ISong[]>([]);
+  const [songs, setSongs] = useState<ISongModel[]>([]);
+  const [song, setSong] = useState<ISongModel>(initSong);
+  const [songsSearch, setSongsSearch] = useState<ISongModel[]>([]);
+  const [songFavorites, setSongFavorites] = useState<ISongModel[]>([]);
 
   const getSong = async (id: ID) => {
     let dataItem = initSong();
@@ -62,7 +62,7 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
     }
   };
 
-  const addToFav = (id: string) => {
+  const addToFav = (id: ID) => {
     addFav(id);
 
     const itemToFav = songs.find((song) => song.id === id);
@@ -75,7 +75,7 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
     setSongFavorites(cFavs);
   };
 
-  const rmToFav = (id: string) => {
+  const rmToFav = (id: ID) => {
     deleteFav(id);
     const itemToSong = songFavorites.find((song) => song.id === id);
     if (!itemToSong) return;
@@ -92,8 +92,8 @@ export const SongDinamicProvider = ({ children }: { children: ReactNode }) => {
 
     const himnosFiltered = songs.filter((himno) => {
       return (
-        removeAccents(himno.title).toLowerCase().includes(removeAccents(query).toLowerCase()) ||
-        removeAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(removeAccents(query).toLowerCase())
+        rmAccents(himno.title).toLowerCase().includes(rmAccents(query).toLowerCase()) ||
+        rmAccents(himno.paragraphs[0]?.paragraph).toLowerCase().includes(rmAccents(query).toLowerCase())
       );
     });
 

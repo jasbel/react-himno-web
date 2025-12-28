@@ -1,7 +1,7 @@
 import { FC, useContext } from "react";
 import Colors from "../res/colors";
 import { responsive } from "../res/responsive";
-import { ISong } from "../types/types";
+import { ISongModel } from "../types/types";
 
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -20,7 +20,7 @@ export const initialValues = {
 interface Props {}
 
 const HimnoSongScreen: FC<Props> = () => {
-  const { state } = useLocation() as { state: { himno: ISong } };
+  const { state } = useLocation() as { state: { himno: ISongModel } };
   const { addToFav, rmToFav } = useContext(SongNewContext);
 
 

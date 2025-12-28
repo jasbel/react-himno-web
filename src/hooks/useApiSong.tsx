@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { getSong, getListSong, createSong, updateSong, deleteSong } from '../api/songService';
-import { ID, ISong, ISongCreate } from '@/types/types';
+import { ID, ISongModel, ISongCreate } from '@/types/types';
 
 export const useApiSong = () => {
   const fetchOneSong = async (id: ID) => {
-    let resp = { data: {} as ISong, error: '', ok: false }
+    let resp = { data: {} as ISongModel, error: '', ok: false }
     try {
       const data = await getSong(id);
       resp['data'] = data;
@@ -16,7 +16,7 @@ export const useApiSong = () => {
     }
   };
   const fetchListSong = async () => {
-    let resp = { data: [] as ISong[], error: '', ok: false }
+    let resp = { data: [] as ISongModel[], error: '', ok: false }
     try {
       const data = await getListSong();
       resp['data'] = data;
@@ -39,8 +39,8 @@ export const useApiSong = () => {
       return resp;
     }
   };
-  const fetchUpdateSong = async (dataUpdate: ISong) => {
-    let resp = { data: {} as ISong, error: '', ok: false }
+  const fetchUpdateSong = async (dataUpdate: ISongModel) => {
+    let resp = { data: {} as ISongModel, error: '', ok: false }
     try {
       const data = await updateSong(dataUpdate);
       resp['data'] = data;
@@ -52,7 +52,7 @@ export const useApiSong = () => {
     }
   };
   const fetchDeleteSong = async (id: ID) => {
-    let resp = { data: {} as ISong, error: '', ok: false }
+    let resp = { data: {} as ISongModel, error: '', ok: false }
     try {
       const data = await deleteSong(id);
       resp['data'] = data;

@@ -1,18 +1,26 @@
 import { uuid } from "@/res/helpers";
-import { IChorusPos, ID, IDPos, ISong, ISongListV1 } from "@/types/types";
+import {
+  IChorusPos,
+  ID,
+  IDPos,
+  ISongModel,
+  ISong,
+  ISongListV1,
+  ISongV1Model,
+} from "@/types/types";
 
 const convertDecimalToHex = (val: number) => {
   if (val >= 1) {
-    return 'ff';
+    return "ff";
   }
   if (val <= 0) {
-    return '00';
+    return "00";
   }
 
   let convert: number | string = parseInt((255 * val).toString(), 10);
   convert = convert.toString(16);
   if (convert.length === 1) {
-    convert = '0' + convert;
+    convert = "0" + convert;
   }
   return convert;
 };
@@ -24,7 +32,7 @@ export const opacityColor = (color: string, opacity = 0.5) => {
 };
 
 interface IChoirObj {
-  type: "idx" | 'id';
+  type: "idx" | "id";
   value: IDPos;
   id?: ID;
   pos?: number;
@@ -33,44 +41,47 @@ interface IChoirObj {
 
 const getChoirObject = (posOrId: IDPos, repeat: number = 1): IChoirObj => {
   return {
-    pos: typeof posOrId === 'number' ? posOrId : undefined,
-    id: typeof posOrId === 'string' ? posOrId : undefined,
+    pos: typeof posOrId === "number" ? posOrId : undefined,
+    id: typeof posOrId === "string" ? posOrId : undefined,
     value: posOrId,
-    type: typeof posOrId === 'number' ? 'idx' : 'id',
-    repeat: repeat||1
-  }
-}
+    type: typeof posOrId === "number" ? "idx" : "id",
+    repeat: repeat || 1,
+  };
+};
 
 export const getIdPosByChoir = (chorusIdOrPos: IChorusPos) => {
   const res: IChoirObj[] = [];
 
-  if (typeof chorusIdOrPos === 'string' || typeof chorusIdOrPos === 'number') {
-    res.push(getChoirObject(chorusIdOrPos))
+  if (typeof chorusIdOrPos === "string" || typeof chorusIdOrPos === "number") {
+    res.push(getChoirObject(chorusIdOrPos));
   }
 
   if (Array.isArray(chorusIdOrPos)) {
-    chorusIdOrPos.forEach(it => {
+    chorusIdOrPos.forEach((it) => {
       if (Array.isArray(it)) {
-        res.push(getChoirObject(it[0], it[1]))
+        res.push(getChoirObject(it[0], it[1]));
         return;
       }
-      if (typeof it === 'string' || typeof it === 'number') {
-        res.push(getChoirObject(it))
+      if (typeof it === "string" || typeof it === "number") {
+        res.push(getChoirObject(it));
       }
     });
   }
-  return res
-}
+  return res;
+};
 
-export const songV1ToNew = (data: ISongListV1): ISong => {
-  const id = uuid()
- return {
-  ...data,
-  id: id,
-  code: id,
-  title: data.title,
-  musicalNote: data.musicalNote,
-  paragraphs: [],
-  chorus: []
-}
-}
+export const songDTOJson = (data: ISongListV1): ISong => {
+  return {
+    ...data,
+    paragraphs: [],
+    chorus: [],
+    favorite: false,
+  };
+};
+export const songDTOQchJson = (it: ISongV1Model): ISong => {
+  return {
+    ...it,
+    description: it.paragraphs[0]?.paragraph || "",
+    favorite: false,
+  };
+};

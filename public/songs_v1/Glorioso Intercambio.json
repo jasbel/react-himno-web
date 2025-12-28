@@ -1,28 +1,36 @@
 {
-    "id": "173",
-    "num_song": "173",
-    "title": "Glorioso Intercambio",
-    "description": "¿Cómo puede ser que el bueno y ju...",
-    "musicalNote": "",
-    "paragraphs": [
+    "id": "a2451635-a59b-4a56-9519-f136dce6b41d",
+    "code": "22",
+    "title": "GLORIOSO INTERCAMBIO",
+    "musicalNote": "_",
+    "chorus": [
         {
-            "paragraph": "¿Cómo puede ser que el bueno y justo  \n se hizo hombre y fuera a morir por el mas vil pecador ? \n ¿Como siendo yo su enemigo  \n el sufrimiento en mi lugar tomó en aquella cruz?"
+            "choir": "Y cargo mi maldad sobre Él\nSu rectitud, por la fe, mía es\n\nAleluya, glorioso intercambio,\nOh cuan gran misterio.\nQue por gracia salvo soy\nAleluya, gloria sea a Cristo,\npor su sacrificio\nDeclarado justo soy en Él.",
+            "id": "77234725-6e6c-b46c-1d44-b722ea66c3b5"
         },
         {
-            "paragraph": "Y cargo mi maldad sobre Él, \n Su rectitud, por la fe, mía es."
-        },
-        {
-            "paragraph": "Aleluya, glorioso intercambio, oh cuan gran misterio, \n que por gracia salvo soy.  \n Aleluya, gloria sea a Cristo, por su sacrificio,  \n declarado justo soy en Él."
-        },
-        {
-            "paragraph": "¿Como es posible que en Jesús  \n como a su hijo Él me recibió y su nombre llevo hoy? \n Su perfecta vida de obediencia al Padre \n al yo creer, Él me otorgo y perdón me dio."
-        },
-        {
-            "paragraph": "Y cargo mi maldad sobre Él, \n Su rectitud, por la fe, mía es."
-        },
-        {
-            "paragraph": "/Aleluya, glorioso intercambio, oh cuan gran misterio, \n que por gracia salvo soy.  \n Aleluya, gloria sea a Cristo, por su sacrificio,  \n declarado justo soy/ en Él."
+            "choir": "Y cargo mi maldad sobre Él\nSu rectitud, por la fe, mía es\n\n/Aleluya, glorioso intercambio,\nOh cuan gran misterio.\nQue por gracia salvo soy\nAleluya, gloria sea a Cristo,\npor su sacrificio\nDeclarado justo soy/ …en Él.",
+            "id": "27c9de06-f334-7776-f08b-31d08661bea4"
         }
     ],
-    "chorus": []
+    "paragraphs": [
+        {
+            "id": "bf2c799d-0ec4-f5db-b1f2-4f773521bda3",
+            "paragraph": "¿Cómo puede ser que el bueno y justo\nSe hizo hombre y fuera a morir\npor el más vil pecador?\n\n¿Cómo siendo yo su enemigo\nel sufrimiento en mi lugar tomó\nen aquella cruz?",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "60a11dd5-b8dc-3b76-5dd2-54e93dfdf88c",
+            "paragraph": "¿Como es posible que en Jesús\nComo a su hijo Él me recibió\ny su nombre llevo hoy?\n\nSu perfecta vida de obediencia\nal Padre Al yo creer,\nÉl me otorgó y perdón me dio.",
+            "chorusPos": [
+                [
+                    2
+                ]
+            ]
+        }
+    ]
 }

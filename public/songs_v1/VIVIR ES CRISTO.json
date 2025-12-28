@@ -1,0 +1,66 @@
+{
+    "id": "c6ce2ee1-8405-29c8-d77b-c86e7baed8a7",
+    "code": "46",
+    "title": "VIVIR ES CRISTO",
+    "musicalNote": "G|Sol",
+    "chorus": [
+        {
+            "choir": "Bendito sea el nombre del Señor, en todo tiempo\nSe haga tu perfecta voluntad, en mí.\nDaré gloria a tu nombre a través de mi aflicción\nDame tu gracia para ver: que vivir es Cristo.",
+            "id": "0fd6c903-3093-07f6-8677-46bdd6a1b266"
+        },
+        {
+            "choir": "…VIVIR ES CRISTO",
+            "id": "6082b4b8-4825-4195-dd28-167462478add"
+        }
+    ],
+    "paragraphs": [
+        {
+            "id": "1cbf6275-2cde-4c53-ff41-21e80ddde955",
+            "paragraph": "Como recibiré de ti el bien,\nY el mal rechazare.\nSí se que tú eres Señor\nSoberano y justo.",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "e547d2cd-f45f-bcc0-92c2-3b00c26f1099",
+            "paragraph": "Como he de alabarte en bendición\ny olvidarte en dolor.\nSi sé que tienes el control,\nde toda tu creación.",
+            "chorusPos": [
+                [
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "89d1a1fc-0fcc-09b2-b36e-d4992b43cce5",
+            "paragraph": "Como he de creer en ti al tener, y dudar en la escasez\nSi sé que tú eres siempre fiel, y que nunca cambias.\nComo he de seguir en libertad y huir en la opresión\nSi sé que guardas para mí una eterna posesión.",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "9786e116-ebd4-755c-3b11-e049c4c8cdcf",
+            "paragraph": "Como he de confiar en tu bondad y tu gran amor por mí,\nSi enviaste a Jesús en mi lugar a morir en una Cruz.\n//Tu gracia es suficiente//",
+            "chorusPos": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "e06586a3-a83b-06ba-ab10-dd7a5ec71736",
+            "paragraph": "Fija mis ojos solo en ti en lo eterno, en el\ncielo\nLa aflicción de este mundo jamás se\ncompara con la gloria que ha de venir.\n//Vivir es Cristo, vivir es Cristo//",
+            "chorusPos": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ]
+        }
+    ]
+}
