@@ -1,9 +1,9 @@
 import React, { ReactNode, useEffect, useRef, useState } from "react";
 import { ID, ISong } from "../types/types";
-import { addFav, deleteFav, findFav } from "../libs/storage";
-import { rmAccents } from "@/res/removeAccents";
+import { addFav, deleteFav, findFav } from "../lib/storage";
+import { rmAccents } from "@/utils/removeAccents";
 import { getListSongLocal, getListV1SongLocal } from "@/api/songLocalService";
-import { songDTOJson } from "@/helpers/helper";
+import { songDTOJson } from "@/utils/helper";
 
 interface InitialValues {
   songAllFilter: ISong[];

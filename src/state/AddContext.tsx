@@ -1,4 +1,4 @@
-import { initSong } from "@/res/constant";
+import { initSong } from "@/utils/constant";
 import { IChorusPos, ID, IDPos, ISongModel } from "@/types/types";
 import { createContext, useState } from "react";
 

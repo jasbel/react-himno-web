@@ -1,12 +1,12 @@
 import { FC, useContext } from "react";
 
 import { Box, Flex } from "@components/ui";
-import ButtonSingle from "@/elements/ButtonSingle";
+import ButtonSingle from "@/components/elements/ButtonSingle";
 import { responsiveStr } from "@/utils/responsive";
 import { ID } from "@/types/types";
 import { SettingContext } from "@/state/SettingContext";
 import ButtonStar, { TypeStar } from "../ButtonStar";
-import { findFav } from "@/libs/storage";
+import { findFav } from "@/lib/storage";
 
 export const initialValues = {
   fontSize: responsiveStr(80, 20),

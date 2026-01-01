@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Colors from "../res/colors";
+import Colors from "@/utils/colors";
 import HimnoSearch from "./himno/HimnoSearch";
 import HimnoItem from "./himno/HimnoItemNew";
 import { ISongModel } from "../types/types";

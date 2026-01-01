@@ -1,9 +1,9 @@
 import { useCallback, useContext } from "react";
-import { titleApp } from "../res/constant";
+import { titleApp } from "@/utils/constant";
 import { ISongModel } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
-import { ERoutes } from "../res/enum";
+import { ERoutes } from "@/utils/enum";
 import HimnoList from "@/components/HimnoList";
 import { SongQchContext } from "@/state/SongQchContext";
 

@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 // import { Modal } from "./Modal";
 import type { IChoir, IChorusPos, ID, IDPos } from "@/types/types";
 import Modal from "./ui/modal/Modal";
-import { getIdPosByChoir } from "@/helpers/helper";
+import { getIdPosByChoir } from "@/utils/helper";
 
 interface Props {
   idParagraph: ID;

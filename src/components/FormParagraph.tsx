@@ -1,5 +1,5 @@
 import { ChangeEventHandler, useState } from "react";
-import FormTextArea from "../elements/FormTextArea";
+import FormTextArea from "@/components/elements/FormTextArea";
 
 interface Props {
   value: string;

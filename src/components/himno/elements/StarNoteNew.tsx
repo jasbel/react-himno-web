@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { responsive } from "../../../res/responsive";
-import Colors from "../../../res/colors";
+import { responsiveCalc } from "@/utils/responsive";
+import Colors from "@/utils/colors";
 
 import { useDisclosure } from "@hooks/use";
 import { Flex, TextSingle } from "@components/ui";
-import { AlertDialogStar } from "../../../elements/AlertDialog";
+import { AlertDialogStar } from "@/components/elements/AlertDialog";
 import { SongNewContext } from "../../../state/SongNewContext";
 import StarIcon from "@/assets/icons/star";
 import { SongQchContext } from "@/state/SongQchContext";
@@ -44,7 +44,7 @@ const StarNote = ({ isFavorite, musicalNote, songId, refresh}: Props) => {
       <TextSingle
         style={{
           fontWeight: "bold",
-          fontSize: responsive(16, 14),
+          fontSize: responsiveCalc(16, 14),
           color: Colors.txtPrimary,
         }}
       >

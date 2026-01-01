@@ -1,9 +1,9 @@
 import React, { ReactNode, useState } from "react";
 import { ID, ISongModel } from "../types/types";
-import { addFav, deleteFav } from "../libs/storage";
-import { rmAccents } from "@/res/removeAccents";
+import { addFav, deleteFav } from "../lib/storage";
+import { rmAccents } from "@/utils/removeAccents";
 import { useApiSong } from "@/hooks/useApiSong";
-import { initSong } from "@/res/constant";
+import { initSong } from "@/utils/constant";
 
 interface InitialValues {
   getSong: (id: ID) => Promise<ISongModel>;

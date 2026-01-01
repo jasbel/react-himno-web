@@ -1,5 +1,5 @@
 import React from 'react';
-import Colors from '../../res/colors';
+import Colors from '@/utils/colors';
 
 const FavoriteEmptyState = () => {
     return (

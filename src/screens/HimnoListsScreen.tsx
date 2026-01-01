@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from "react";
-import { routeList, titleApp } from "../res/constant";
+import { routeList, titleApp } from "@/utils/constant";
 import { ISongModel } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";

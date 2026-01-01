@@ -1,5 +1,5 @@
 import "./App.css";
-import HimnoStack from "./navigate/HimnoStack";
+import HimnoStack from "./HimnoStack";
 
 const App = () => {
   return <HimnoStack />;

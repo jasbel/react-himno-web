@@ -1,14 +1,14 @@
-import HimnoHomeScreen from "../screens/HimnoHomeScreen";
+import HimnoHomeScreen from "./screens/HimnoHomeScreen";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AddHimnoScreen from "../screens/AddHimnoScreen";
-import HimnoNewScreen from "../screens/HimnoNewScreen";
-import HimnoSongScreen from "../screens/HimnoSong2Screen";
-import HimnoNewQuechuaScreen from "../screens/HimnoNewQuechuaScreen";
-import HimnoSongQuechuaScreen from "../screens/HimnoSongQuechuaScreen";
-import { ERoutes } from "../res/enum";
+import AddHimnoScreen from "./screens/AddHimnoScreen";
+import HimnoNewScreen from "./screens/HimnoNewScreen";
+import HimnoSongScreen from "./screens/HimnoSong2Screen";
+import HimnoNewQuechuaScreen from "./screens/HimnoNewQuechuaScreen";
+import HimnoSongQuechuaScreen from "./screens/HimnoSongQuechuaScreen";
+import { ERoutes } from "@/utils/enum";
 import HimnoListScreen from "@/screens/HimnoListScreen";
 import EditHimnoScreen from "@/screens/EditHimnoScreen";
-import { routeList } from "@/res/constant";
+import { routeList } from "@/utils/constant";
 import HimnoListsScreen from "@/screens/HimnoListsScreen";
 import LayoutGlobal from "@/layout/LayoutGlobal";
 

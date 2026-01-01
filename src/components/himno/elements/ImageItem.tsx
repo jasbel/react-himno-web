@@ -1,6 +1,6 @@
 import React from "react";
-import Colors from "../../../res/colors";
-import { responsive } from "../../../res/responsive";
+import Colors from "@/utils/colors";
+import { responsiveCalc } from "@/utils/responsive";
 import icon from "../../../assets/images/play.png";
 
 interface Props {
@@ -31,7 +31,7 @@ export default ImageItem;
 const styles: { [key in any]: React.CSSProperties } = {
   numberHimno: {
     fontFamily: "sans-serif-condensed",
-    fontSize: responsive(16, 15),
+    fontSize: responsiveCalc(16, 15),
     lineHeight: 1,
     fontWeight: "bold",
     position: "absolute",
@@ -43,8 +43,8 @@ const styles: { [key in any]: React.CSSProperties } = {
     color: Colors.bkgPrimary,
   },
   icon: {
-    width: responsive(30, 23),
-    height: responsive(34, 28),
+    width: responsiveCalc(30, 23),
+    height: responsiveCalc(34, 28),
   },
   figure: {
     backgroundColor: Colors.white,

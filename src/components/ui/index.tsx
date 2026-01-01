@@ -1,4 +1,4 @@
-import Colors from "@/res/colors";
+import Colors from "@/utils/colors";
 import { responsive } from "@/utils/responsive";
 
 interface GenericStyledProps<T extends React.ElementType> {

@@ -1,8 +1,8 @@
 import { Flex, TextSingle } from "@components/ui";
 import React, { useEffect, useState } from "react";
-import { findFav } from "../../libs/storage";
-import Colors from "../../res/colors";
-import { responsive } from "../../res/responsive";
+import { findFav } from "../../lib/storage";
+import Colors from "@/utils/colors";
+import { responsiveCalc } from "@/utils/responsive";
 import { type ID } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNote from "./elements/StarNoteNew";
@@ -93,13 +93,13 @@ const styles: { [key in any]: React.CSSProperties } = {
   },
   title: {
     fontWeight: "bold",
-    fontSize: responsive(20, 18),
+    fontSize: responsiveCalc(20, 18),
     color: Colors.txtPrimary,
     textTransform: "uppercase",
     lineHeight: 1,
   },
   description: {
-    fontSize: responsive(17, 16),
+    fontSize: responsiveCalc(17, 16),
     color: Colors.txtBlack,
     paddingLeft: 8,
   },

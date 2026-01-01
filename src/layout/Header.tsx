@@ -1,5 +1,5 @@
 import { Flex } from "@components/ui";
-import Colors from "../res/colors";
+import Colors from "@/utils/colors";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {

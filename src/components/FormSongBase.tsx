@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import CustomInput from "../elements/CustomInput";
+import CustomInput from "@/components/elements/CustomInput";
 import { AddContext } from "@/state/AddContext";
 import { TNote } from "@/types/types";
 

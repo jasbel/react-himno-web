@@ -1,5 +1,5 @@
 import React from "react";
-import Colors from "../../res/colors";
+import Colors from "@/utils/colors";
 import iconChoir from "../../assets/images/verse.png";
 import { responsive } from "../../utils/responsive";
 import { Box } from "@components/ui";

@@ -1,11 +1,11 @@
 import React from "react";
 
-import Colors from "../res/colors";
+import Colors from "@/utils/colors";
 import logo from "../assets/images/logoHome.png";
 import imgChurch from "../assets/images/church.png";
 import { Link } from "react-router-dom";
 import { responsiveStr } from "../utils/responsive";
-import { ERoutes } from "../res/enum";
+import { ERoutes } from "@/utils/enum";
 import { Button } from "@/components/ui/button";
   
 interface Props {

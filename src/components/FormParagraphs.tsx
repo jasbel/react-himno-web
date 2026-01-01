@@ -1,9 +1,9 @@
 import { Fragment, useContext, useEffect, useState } from "react";
-import Button from "../elements/Button";
+import Button from "@/components/elements/Button";
 import FormParagraph from "./FormParagraph";
 import { IParagraph } from "../types/types";
 import FormChoir from "./FormChoir";
-import { uuid } from "@/res/helpers";
+import { uuid } from "@/utils/helpers";
 import { AddContext } from "@/state/AddContext";
 
 const FormParagraphs = () => {
@@ -38,7 +38,7 @@ const FormParagraphs = () => {
       {paragraphs.map((p, i) => 
         (
           <Fragment key={p.id}>
-            <FormParagraph key={p.id} label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} value={p.paragraph} />
+            <FormParagraph label={"Parrafo " + (i + 1)} handleChange={(v) => onChange(v, i)} value={p.paragraph} />
             <FormChoir idParagraph={p.id} chorusIdOrPos={p.chorusPos} />
           </Fragment>
         )

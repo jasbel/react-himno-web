@@ -1,8 +1,8 @@
 import { Box, Flex, Heading } from "@components/ui";
 import { useNavigate } from "react-router-dom";
-import ButtonHero from "../elements/ButtonHero";
-import Colors from "../res/colors";
-import { responsive } from "../res/responsive";
+import ButtonHero from "@/components/elements/ButtonHero";
+import Colors from "@/utils/colors";
+import { responsiveCalc } from "@/utils/responsive";
 
 interface Props {
   title: string;
@@ -24,7 +24,7 @@ const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
       </Box>
       
       <Box style={{ backgroundColor:Colors.orangeDark, justifyContent: "center" , padding: 2}}  >
-        <Heading style={{fontSize: responsive(36, 22), color: Colors.txtWhite,textAlign: "center"}}>
+        <Heading style={{fontSize: responsiveCalc(36, 22), color: Colors.txtWhite,textAlign: "center"}}>
           {title}
         </Heading>
       </Box>

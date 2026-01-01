@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Colors from "../res/colors";
+import Colors from "@/utils/colors";
 import { Box } from "@components/ui";
 import { responsive } from "../utils/responsive";
 import StarIcon from "../assets/icons/star";

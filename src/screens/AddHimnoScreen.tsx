@@ -7,8 +7,8 @@ import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
 import { ILetter } from "../components/himno/ItemHimnoLetter";
 import { IChoir, ISongModel } from "@/types/types";
-import { initSong } from "@/res/constant";
-import { uuid } from "@/res/helpers";
+import { initSong } from "@/utils/constant";
+import { uuid } from "@/utils/helpers";
 import ChoirList from "@/components/ChoirList";
 
 

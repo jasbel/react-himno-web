@@ -1,4 +1,4 @@
-import { uuid } from "@/res/helpers";
+import { uuid } from "@/utils/helpers";
 import {
   IChorusPos,
   ID,
