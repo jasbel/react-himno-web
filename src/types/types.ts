@@ -31,14 +31,18 @@ export interface ISongBase {
 
 export interface ISongCreate extends ISongBase {}
 
+export interface IParagraphItem {
+  id: ID;
+  paragraph: string;
+  chorusPos?: IChorusPos;
+}
+
 export interface ISongItem  {
   id: ID,
   description: string,
   title: string,
   musicalNote: TNote ,
-  paragraphs: {
-    paragraph: string
-  }[],
+  paragraphs: IParagraphItem[],
   chorus: IChoir[],
 }
 export interface ISongV1Model extends ISongBase {
