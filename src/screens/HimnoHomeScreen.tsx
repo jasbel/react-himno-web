@@ -83,9 +83,17 @@ const styles: { [key in any]: React.CSSProperties } = {
   button: {
     backgroundColor: Colors.orangeDark,
     color: "white",
-    fontSize: responsiveStr(28, 20),
+    fontSize: '18px',
     marginBottom: 20,
-
+    width: "100%",
+    textAlign: "center",
+    padding: responsiveStr(30, 10),
+    paddingLeft: responsiveStr(46, 36),
+    paddingRight: responsiveStr(46, 36),
+    borderRadius: responsiveStr(46, 26),
+    letterSpacing: 3,
+    textTransform: "uppercase",
+    fontWeight: "bold",
   },
   button2: {
     fontSize: 14,
@@ -97,6 +105,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     borderRadius: "25px",
     fontWeight: 'bold',
     textTransform: "uppercase",
+    width: "auto", // Override width 100%
   },
   footer: {},
   textFooter: {

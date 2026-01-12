@@ -11,6 +11,8 @@ import EditHimnoScreen from "@/screens/EditHimnoScreen";
 import { routeList } from "@/utils/constant";
 import HimnoListsScreen from "@/screens/HimnoListsScreen";
 import LayoutGlobal from "@/layout/LayoutGlobal";
+import LoginScreen from "./screens/LoginScreen";
+import ProtectedRoute from "@/components/ProtectedRoute";
 
 const HimnoStack = () => {
     
@@ -22,14 +24,18 @@ const HimnoStack = () => {
           <Route index element={<HimnoHomeScreen  admin={false}/>} />
           <Route path={ERoutes.principal} element={<HimnoHomeScreen admin={false} />} />
         </Route>
+        <Route path="/login" element={<LoginScreen />} />
         <Route path={ERoutes.himnos} element={<HimnoNewScreen />} />
         <Route path={ERoutes.homeQuechua} element={<HimnoNewQuechuaScreen />} />
         <Route path={ERoutes.homeList} element={<HimnoListScreen />} />
         <Route path={ERoutes.homeLists} element={<HimnoListsScreen />} />
         <Route path={ERoutes.item}  element={<HimnoSongScreen />} />
         <Route path={ERoutes.itemQuechua}  element={<HimnoSongQuechuaScreen />} />
-        <Route path={ERoutes.addHimno}  element={<AddHimnoScreen />} />
-        <Route path={routeList.edit(':id')}  element={<EditHimnoScreen />} />
+        
+        <Route element={<ProtectedRoute />}>
+          <Route path={ERoutes.addHimno}  element={<AddHimnoScreen />} />
+          <Route path={routeList.edit(':id')}  element={<EditHimnoScreen />} />
+        </Route>
       </Routes>
     </BrowserRouter>
     </LayoutGlobal>

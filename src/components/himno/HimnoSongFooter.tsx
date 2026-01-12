@@ -8,11 +8,6 @@ import { SettingContext } from "@/state/SettingContext";
 import ButtonStar, { TypeStar } from "../ButtonStar";
 import { findFav } from "@/lib/storage";
 
-export const initialValues = {
-  fontSize: responsiveStr(80, 20),
-
-  fontSizeIncremental: 1,
-};
 
 interface Props {
   id: ID;

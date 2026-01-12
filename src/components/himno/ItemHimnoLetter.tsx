@@ -38,7 +38,7 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
           fontSize: isSmall ? fontsmall : customFontSize,
         }}
       >
-        <span style={{ whiteSpace: "pre-line" }}>{item.paragraph}</span>
+        <span style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}>{item.paragraph}</span>
       </p>
       {
          !hiddenSepare && <>
@@ -57,17 +57,15 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
                   fontSize: isSmall ? fontsmall : customFontSize,
                 }}
               >
-                <span className="whitespace-pre-line">{item.choirs}</span>
+                <span className="whitespace-pre-wrap break-words">{item.choirs}</span>
               </p>
               {
-
-                !hiddenSepare && <>
-                <br />
-                  {
-                    item.choirs.filter(it => it)?.length ? <Separe isSmall={isSmall} /> : <></>
-                  }
-                </>
-
+                (!hiddenSepare && item.choirs.length > 0) && (
+                  <>
+                    <br />
+                    <Separe isSmall={isSmall} />
+                  </>
+                )
               }
 
             </>

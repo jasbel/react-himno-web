@@ -7,12 +7,12 @@ const Header = () => {
     <header className="header bg-blue-800">
       <Flex
         style={{
-          backgroundColor: Colors.bkgPrimary,
+          // backgroundColor: Colors.bkgPrimary,
           justifyContent: 'space-between',
           alignItems:  "center",
         }}
       >
-        <Button style={{backgroundColor: Colors.bkgDark}} color={"white"}>
+        <Button className={`text-white`} variant="secondary">
           Crear Nueva Alabanza
         </Button>
       </Flex>

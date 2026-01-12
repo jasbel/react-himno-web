@@ -5,7 +5,7 @@ interface Props {
   onClick?: React.MouseEventHandler<HTMLButtonElement> | undefined;
 }
 
-const Button = ({ title, onClick }: Props) => {
+const Button2 = ({ title, onClick }: Props) => {
   return (
     <button className="rounded-full bg-blue-700 hover:bg-blue-900 text-rose-100 hover:text-white p-2 py-0" onClick={onClick}>
       {title}
@@ -13,4 +13,4 @@ const Button = ({ title, onClick }: Props) => {
   );
 };
 
-export default Button;
+export default Button2;
