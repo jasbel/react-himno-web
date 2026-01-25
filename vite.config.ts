@@ -12,26 +12,28 @@ const pwaOptions: Partial<VitePWAOptions> = {
     enabled: true,
   },
   base: "/",
-  includeAssets: ["favicon.svg"],
+  includeAssets: ["favicon.svg", "*.png", "*.jpg", "*.ico", "*.svg"],
   manifest: {
     name: "Himnos Web",
     short_name: "Himnos",
     // start_url: '/?source=pwa',
     description: "Esta app cuenta con canticos y alabanzas",
     theme_color: "#ffffff",
+    background_color: "#ffffff",
+    display: "standalone",
     icons: [
       {
-        src: "/android-chrome-192x192.png", // <== don't add slash, for testing
+        src: "/android-chrome-192x192.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/android-chrome-512x512.png", // <== don't remove slash, for testing
+        src: "/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png",
       },
       {
-        src: "android-chrome-512x512.png", // <== don't add slash, for testing
+        src: "android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "any maskable",
@@ -39,7 +41,38 @@ const pwaOptions: Partial<VitePWAOptions> = {
     ],
   },
   workbox: {
-    globPatterns: ['**/*.{js,css,html,ico,png,svg}'], // Archivos que se cachean
+    globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,json}'],
+    runtimeCaching: [
+      {
+        urlPattern: /^https:\/\/.*\.(?:png|jpg|jpeg|svg|gif|webp)$/i,
+        handler: 'CacheFirst',
+        options: {
+          cacheName: 'images-cache',
+          expiration: {
+            maxEntries: 100,
+            maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+          },
+        },
+      },
+      {
+        urlPattern: /\.json$/i,
+        handler: 'CacheFirst',
+        options: {
+          cacheName: 'json-cache',
+          expiration: {
+            maxEntries: 50,
+            maxAgeSeconds: 365 * 24 * 60 * 60, // 1 year
+          },
+        },
+      },
+      {
+        urlPattern: /\.(?:js|css)$/i,
+        handler: 'StaleWhileRevalidate',
+        options: {
+          cacheName: 'static-resources',
+        },
+      },
+    ],
   },
 };
 
@@ -49,7 +82,7 @@ export default defineConfig({
   build: {
     sourcemap: process.env.SOURCE_MAP === "true",
   },
-  plugins: [react(), tailwindcss(), VitePWA(/* pwaOptions */)],
+  plugins: [react(), tailwindcss(), VitePWA(pwaOptions)],
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
