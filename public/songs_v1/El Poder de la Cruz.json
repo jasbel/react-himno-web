@@ -1,54 +1,54 @@
 {
-    "id": "17ce943a-93c2-ebab-12cc-f256accbae22",
-    "code": "16",
-    "title": "EL PODER DE LA CRUZ",
-    "musicalNote": "G|Sol",
-    "chorus": [
-        {
-            "choir": "El poder de la Cruz:\nmi lugar Él tomó\nMi castigo sufrió,\nEn esa Cruz halle perdón",
-            "id": "90f55883-b079-3449-eca9-2782139ac93f"
-        },
-        {
-            "choir": "/El poder de la Cruz:\nDios al hijo inmoló\nQue alto precio pagó,\nEn esa Cruz halle perdón./",
-            "id": "1d1c471d-cbd4-a224-afea-e07bae90802e"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "be49237e-f7ae-269b-0f19-57be4b9ea44a",
-            "paragraph": "Oh, el ver aquel negro amanecer\nRumbo al calvario va Jesús\nGrande fue el dolor\ny la humillación\nCuando en la Cruz murió.",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "a364db7c-7a4c-b5cf-d21f-94d4aec2ede8",
-            "paragraph": "Oh, ver el dolor que tu faz mostró Cargando\nmi pecado atroz Todo mal pensar, toda\nmala acción Coronaron tu humillación.",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "1aa9d0e5-f2ae-9bd6-fb3b-9bc0ad3ad54f",
-            "paragraph": "La tierra tembló, todo oscureció\nSu rostro inclina su Creador\nVelo roto en dos, triunfante exclamo: “Ya\ntodo terminó”",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "1fe5aaa6-d11b-2f2c-5654-581e47212950",
-            "paragraph": "Oh mi nombre ver escrito\nen tu cruz\nPorque sufriste libre soy\nYa no moriré, vida me otorgó\nTu generoso amor.",
-            "chorusPos": [
-                [
-                    2
-                ]
-            ]
-        }
-    ]
+  "id": "17ce943a-93c2-ebab-12cc-f256accbae22",
+  "code": "16",
+  "title": "EL PODER DE LA CRUZ",
+  "musicalNote": "G|Sol",
+  "chorus": [
+    {
+      "choir": "El poder de la Cruz:\nmi lugar Él tomó\nMi castigo sufrió,\nEn esa Cruz halle perdón",
+      "id": "90f55883-b079-3449-eca9-2782139ac93f"
+    },
+    {
+      "choir": "/El poder de la Cruz:\nDios al hijo inmoló\nQue alto precio pagó,\nEn esa Cruz halle perdón./",
+      "id": "1d1c471d-cbd4-a224-afea-e07bae90802e"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "be49237e-f7ae-269b-0f19-57be4b9ea44a",
+      "paragraph": "Oh, el ver aquel negro amanecer\nRumbo al calvario va Jesús\nGrande fue el dolor\ny la humillación\nCuando en la Cruz murió.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "a364db7c-7a4c-b5cf-d21f-94d4aec2ede8",
+      "paragraph": "Oh, ver el dolor que tu faz mostró Cargando\nmi pecado atroz Todo mal pensar, toda\nmala acción Coronaron tu humillación.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "1aa9d0e5-f2ae-9bd6-fb3b-9bc0ad3ad54f",
+      "paragraph": "La tierra tembló, todo oscureció\nSu rostro inclina su Creador\nVelo roto en dos, triunfante exclamo: “Ya\ntodo terminó”",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "1fe5aaa6-d11b-2f2c-5654-581e47212950",
+      "paragraph": "Oh mi nombre ver escrito\nen tu cruz\nPorque sufriste libre soy\nYa no moriré, vida me otorgó\nTu generoso amor.",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    }
+  ]
 }

@@ -20,7 +20,7 @@ const Header = () => {
             </Button>
           </Link>
           <Link to={ERoutes.addHimno}>
-            <Button size="sm" className="bg-primary hover:bg-primary/90 text-white">
+            <Button size="sm" className="bg-primary hover:bg-primary/90">
               Nuevo Himno
             </Button>
           </Link>

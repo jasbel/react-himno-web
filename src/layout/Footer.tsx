@@ -24,7 +24,7 @@ const Footer = () => {
           .
         </p>
         <p className="text-center text-sm text-muted-foreground md:text-left">
-          © {new Date().getFullYear()} Iglesia Bautista Biblica. All rights reserved.
+          © {new Date().getFullYear()} Iglesia Biblica Bet-el. All rights reserved.
         </p>
       </div>
     </footer>

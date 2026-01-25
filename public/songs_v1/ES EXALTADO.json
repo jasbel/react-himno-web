@@ -1,48 +1,48 @@
 {
-    "id": "dce16c12-d672-87e1-fa88-ad3f80083d4f",
-    "code": "31",
-    "title": "ES EXALTADO",
-    "musicalNote": "A|La",
-    "chorus": [
-        {
-            "choir": "Él es Señor, por siempre reinarás\nSu creación en él se gozará\n//Es exaltado en lo alto exaltado es el Rey//",
-            "id": "b91c7d8f-0f2c-bf5c-4244-5a2e1a1b27ff"
-        },
-        {
-            "choir": "Alabad y exaltad el nombre de Cristo\nMagnificad y glorificad a Cristo el Rey.\nMajestad, te adoro majestad,\n//Aquel que murió y resucitó es Rey mi Señor//",
-            "id": "d05a64dc-9314-36cb-cf48-acdc8ca74ca8"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "08375bfb-c1bc-e85d-046b-ca02396ea829",
-            "paragraph": "Es exaltado en lo alto exaltado es el Rey.\nLe alabaré.\nEs exaltado por siempre exaltado\nY yo le alabaré.",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "532ff07c-6a0b-caa8-4872-155aa8ec7972",
-            "paragraph": "Majestad, te adoro majestad\nDoy a Cristo toda gloria alabanza y honor.\nMajestad, reino y autoridad.\nDesde tu trono fluye por siempre tu majestad.",
-            "chorusPos": [
-                [
-                    2
-                ]
-            ]
-        },
-        {
-            "id": "9c0f11dc-11eb-ea6c-efe7-febb09ca7596",
-            "paragraph": "",
-            "chorusPos": [
-                [
-                    1
-                ],
-                [
-                    2
-                ]
-            ]
-        }
-    ]
+  "id": "dce16c12-d672-87e1-fa88-ad3f80083d4f",
+  "code": "31",
+  "title": "ES EXALTADO",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "Él es Señor, por siempre reinarás\nSu creación en él se gozará\n//Es exaltado en lo alto exaltado es el Rey//",
+      "id": "b91c7d8f-0f2c-bf5c-4244-5a2e1a1b27ff"
+    },
+    {
+      "choir": "Alabad y exaltad el nombre de Cristo\nMagnificad y glorificad a Cristo el Rey.\nMajestad, te adoro majestad,\n//Aquel que murió y resucitó es Rey mi Señor//",
+      "id": "d05a64dc-9314-36cb-cf48-acdc8ca74ca8"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "08375bfb-c1bc-e85d-046b-ca02396ea829",
+      "paragraph": "Es exaltado en lo alto exaltado es el Rey.\nLe alabaré.\nEs exaltado por siempre exaltado\nY yo le alabaré.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "532ff07c-6a0b-caa8-4872-155aa8ec7972",
+      "paragraph": "Majestad, te adoro majestad\nDoy a Cristo toda gloria alabanza y honor.\nMajestad, reino y autoridad.\nDesde tu trono fluye por siempre tu majestad.",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "9c0f11dc-11eb-ea6c-efe7-febb09ca7596",
+      "paragraph": "",
+      "chorusPos": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    }
+  ]
 }

@@ -1,23 +1,23 @@
 {
-    "id": "074c0c32-3523-fa44-a7a1-4c18c66e87ee",
-    "code": "33",
-    "title": "MIRAD CUAL AMOR",
-    "musicalNote": "A|La",
-    "chorus": [
-        {
-            "choir": "///Para ser llamados\nhijos de Dios///",
-            "id": "bae4fe9f-b3df-1ab0-c324-3460c679e700"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "2d026d1f-9e05-b82a-bbc2-b944a487f0c9",
-            "paragraph": "Mirad cual amor\nnos ha dado el Padre\nal hacernos\nhijos de Dios",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        }
-    ]
+  "id": "074c0c32-3523-fa44-a7a1-4c18c66e87ee",
+  "code": "33",
+  "title": "MIRAD CUAL AMOR",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "///Para ser llamados\nhijos de Dios///",
+      "id": "bae4fe9f-b3df-1ab0-c324-3460c679e700"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "2d026d1f-9e05-b82a-bbc2-b944a487f0c9",
+      "paragraph": "Mirad cual amor\nnos ha dado el Padre\nal hacernos\nhijos de Dios",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
 }

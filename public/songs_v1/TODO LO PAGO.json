@@ -1,66 +1,66 @@
 {
-    "id": "de002f37-3c87-f7e3-ada1-887bfe528bfe",
-    "code": "43",
-    "title": "TODO LO PAGO",
-    "musicalNote": "C|Do",
-    "chorus": [
-        {
-            "choir": "/ Cantaré /\nEl cordero digno es\nSalvador pagó mi deuda\nSe lo debo todo a Él\n\n/ Cantaré /\nSiempre yo le alabaré\nEl mis manchas ha lavado\n/ Suyo siempre yo seré /",
-            "id": "ae038f89-36a6-dfbc-3783-2f8989f70aef"
-        },
-        {
-            "choir": "Todo lo pago quien por mi murió\nY mis manchas él lavo\n\n/ Con sangre carmesí /",
-            "id": "7bca1e3b-4115-3a17-93d4-09cb471d101c"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "266dcbbe-35f0-76a1-c1eb-94621ad4737e",
-            "paragraph": "Puedo oír la voz de Cristo\nQue me llama hacia Él,\nTodo cuanto necesito\nLo encuentro sólo en Él",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "910a5168-f048-837b-5fd1-7b3ba0495bf6",
-            "paragraph": "Buen pastor, refugio eterno,\nMi todo en todo es Él.\nDe la vida, Él es la fuente,\nMi esperanza en Él pondré.",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "3cee88a4-fc6b-ad53-19c7-c9c8872dc197",
-            "paragraph": "Siendo yo su enemigo\nDe mi tuvo compasión,\nRechazaba yo su gracia\nY Él abrió mi corazón.",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "9cdc56ac-5803-5c01-2c63-0b75673e4128",
-            "paragraph": "Nada bueno en mi yo encuentro\nMi virtud viene de Él\nY cuando en Él yo esté completo\n/ Para siempre cantaré /",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "47c4eaa6-98e7-4e92-44de-9320ce148f5a",
-            "paragraph": "Jesucristo es mi deleite\nGrande gozo tengo en Él\nNada más me satisface\n/ Cristo mi tesoro es /",
-            "chorusPos": [
-                [
-                    1
-                ],
-                [
-                    2
-                ]
-            ]
-        }
-    ]
+  "id": "de002f37-3c87-f7e3-ada1-887bfe528bfe",
+  "code": "43",
+  "title": "TODO LO PAGO",
+  "musicalNote": "C|Do",
+  "chorus": [
+    {
+      "choir": "/ Cantaré /\nEl cordero digno es\nSalvador pagó mi deuda\nSe lo debo todo a Él\n\n/ Cantaré /\nSiempre yo le alabaré\nEl mis manchas ha lavado\n/ Suyo siempre yo seré /",
+      "id": "ae038f89-36a6-dfbc-3783-2f8989f70aef"
+    },
+    {
+      "choir": "Todo lo pago quien por mi murió\nY mis manchas él lavo\n\n/ Con sangre carmesí /",
+      "id": "7bca1e3b-4115-3a17-93d4-09cb471d101c"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "266dcbbe-35f0-76a1-c1eb-94621ad4737e",
+      "paragraph": "Puedo oír la voz de Cristo\nQue me llama hacia Él,\nTodo cuanto necesito\nLo encuentro sólo en Él",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "910a5168-f048-837b-5fd1-7b3ba0495bf6",
+      "paragraph": "Buen pastor, refugio eterno,\nMi todo en todo es Él.\nDe la vida, Él es la fuente,\nMi esperanza en Él pondré.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "3cee88a4-fc6b-ad53-19c7-c9c8872dc197",
+      "paragraph": "Siendo yo su enemigo\nDe mi tuvo compasión,\nRechazaba yo su gracia\nY Él abrió mi corazón.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "9cdc56ac-5803-5c01-2c63-0b75673e4128",
+      "paragraph": "Nada bueno en mi yo encuentro\nMi virtud viene de Él\nY cuando en Él yo esté completo\n/ Para siempre cantaré /",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "47c4eaa6-98e7-4e92-44de-9320ce148f5a",
+      "paragraph": "Jesucristo es mi deleite\nGrande gozo tengo en Él\nNada más me satisface\n/ Cristo mi tesoro es /",
+      "chorusPos": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    }
+  ]
 }

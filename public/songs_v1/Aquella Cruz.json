@@ -1,50 +1,50 @@
 {
-    "id": "0b78131d-a741-1d41-9a82-1f5e2a234988",
-    "code": "2",
-    "title": "AQUELLA CRUZ",
-    "musicalNote": "A|La",
-    "chorus": [
-        {
-            "choir": "En aquella cruz me salvaste\nDerramaste allí tu amor\nMi alma cantará Aleluya\nGloria y honra a ti Señor",
-            "id": "92da4e7e-bdea-5865-e5f4-fce74b7ab3e7"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "fe7c1a78-21ba-4ef0-b672-a0b738fdbb7c",
-            "paragraph": "El cordero que sufrió\nTraicionado fue\nEl peso de nuestra maldad\nFue puesto sobre Él",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "3c8b2e54-23be-dd34-d1b4-dee64ffc4b4c",
-            "paragraph": "En silencio soportó\nDolor y humillación\nObediente al Padre fue\nLa cruz por mí cargó",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "ffb7f306-96ff-9772-adb6-0ddcd5d9648c",
-            "paragraph": "Unigénito de Dios\nViniste a redimir\nY perdonar a todo aquel\nQue se acerca a ti",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "7dd9cf4b-12d5-ea3c-5f29-b709d8be42af",
-            "paragraph": "A la muerte Él venció\nLa tumba abierta está\nAleluya al Salvador\nJesús resucitó",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        }
-    ]
+  "id": "0b78131d-a741-1d41-9a82-1f5e2a234988",
+  "code": "2",
+  "title": "AQUELLA CRUZ",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "En aquella cruz me salvaste\nDerramaste allí tu amor\nMi alma cantará Aleluya\nGloria y honra a ti Señor",
+      "id": "92da4e7e-bdea-5865-e5f4-fce74b7ab3e7"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "fe7c1a78-21ba-4ef0-b672-a0b738fdbb7c",
+      "paragraph": "El cordero que sufrió\nTraicionado fue\nEl peso de nuestra maldad\nFue puesto sobre Él",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "3c8b2e54-23be-dd34-d1b4-dee64ffc4b4c",
+      "paragraph": "En silencio soportó\nDolor y humillación\nObediente al Padre fue\nLa cruz por mí cargó",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ffb7f306-96ff-9772-adb6-0ddcd5d9648c",
+      "paragraph": "Unigénito de Dios\nViniste a redimir\nY perdonar a todo aquel\nQue se acerca a ti",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "7dd9cf4b-12d5-ea3c-5f29-b709d8be42af",
+      "paragraph": "A la muerte Él venció\nLa tumba abierta está\nAleluya al Salvador\nJesús resucitó",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
 }

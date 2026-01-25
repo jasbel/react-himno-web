@@ -1,41 +1,41 @@
 {
-    "id": "02db95a5-811a-8b42-599b-bbdb7eb36b01",
-    "code": "12",
-    "title": "BELLAS PALABRAS DE VIDA",
-    "musicalNote": "A|La",
-    "chorus": [
-        {
-            "choir": "Qué bellas son, qué bellas son!\nBellas palabras de vida;\nQué bellas son, qué bellas son!\nBellas palabras de vida.",
-            "id": "62c0c73a-b5e2-9619-45fc-e7ca22b22b22"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "aca3185f-e9fb-f229-27d2-50eabc4b9bb1",
-            "paragraph": "Oh! cantádmelas otra vez,\nBellas palabras de vida;\nHallo en ellas mi gozo y luz,\nBellas palabras de vida.\nSí, de luz y vida son sostén y guía",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "e26f1554-a1ea-08c1-e041-9abdd475e7a1",
-            "paragraph": "Jesucristo a todos da\nBellas palabras de vida;\nOye su dulce voz, mortal,\nbellas palabras de vida.\nBondadoso te salva, y al cielo te llama.",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "6a21ec9c-6142-26f1-592b-5775e825b28a",
-            "paragraph": "Grato el cántico sonará,\nBellas palabras de vida;\nTus pecados perdonará,\nbellas palabras de vida.\nSólo Cristo redime, vida nueva te ofrece",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        }
-    ]
+  "id": "02db95a5-811a-8b42-599b-bbdb7eb36b01",
+  "code": "12",
+  "title": "BELLAS PALABRAS DE VIDA",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "Qué bellas son, qué bellas son!\nBellas palabras de vida;\nQué bellas son, qué bellas son!\nBellas palabras de vida.",
+      "id": "62c0c73a-b5e2-9619-45fc-e7ca22b22b22"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "aca3185f-e9fb-f229-27d2-50eabc4b9bb1",
+      "paragraph": "Oh! cantádmelas otra vez,\nBellas palabras de vida;\nHallo en ellas mi gozo y luz,\nBellas palabras de vida.\nSí, de luz y vida son sostén y guía",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "e26f1554-a1ea-08c1-e041-9abdd475e7a1",
+      "paragraph": "Jesucristo a todos da\nBellas palabras de vida;\nOye su dulce voz, mortal,\nbellas palabras de vida.\nBondadoso te salva, y al cielo te llama.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "6a21ec9c-6142-26f1-592b-5775e825b28a",
+      "paragraph": "Grato el cántico sonará,\nBellas palabras de vida;\nTus pecados perdonará,\nbellas palabras de vida.\nSólo Cristo redime, vida nueva te ofrece",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
 }

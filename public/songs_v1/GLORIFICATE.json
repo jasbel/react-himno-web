@@ -1,67 +1,67 @@
 {
-    "id": "c1656a97-eccd-f3f4-f4c0-58a5d58c18cc",
-    "code": "21",
-    "title": "GLORIFICATE",
-    "musicalNote": "_",
-    "chorus": [
-        {
-            "choir": "Al cantar abre los cielos\nY haz llover, muestra tu gloria,\nTe queremos ver\nY al adorarte, exáltate\nGlorifícate.",
-            "id": "f5bea8f4-52b6-dfb0-20be-999be6f9215c"
-        },
-        {
-            "choir": "Al cantar abre los cielos\nY haz llover, muestra tu gloria,\nTe queremos ver\nY al adorarte, exáltate\n/Glorifícate/",
-            "id": "6702afc2-03ba-cd7a-caf7-e87b099788ad"
-        },
-        {
-            "choir": "//Glorifícate\nAbre los cielos\nY haz llover,\nMuestra tu gloria\nTe queremos ver\nY al adorarte, exáltate//\n\n//Glorifícate//",
-            "id": "400c701b-0669-59a9-8432-9c24702f508b"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "107e63ee-8cbb-f190-4f3f-dda08da9bcad",
-            "paragraph": "Que toda nación te adore,\nQue toda la tierra clame a ti.\nQue todos tus santos canten;\n¡Santo es el Señor!",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "7378098b-13ea-54a8-2571-ad647b7f875a",
-            "paragraph": "Declaramos tu grandeza,\nlos cielos cuentan Tu gloria Dios\ny tus redimidos cantan\n¡Santo!, ¡Santo!",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "ae40d2af-d0a5-624b-b2e0-a80f64a1c889",
-            "paragraph": "Que toda nación te adore,\nQue toda la tierra clame a ti.\nQue todos tus santos canten;\n¡Santo es el Señor!",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "90818fc3-84a9-6fb7-bc99-2c566d70dba5",
-            "paragraph": "Declaramos tu grandeza,\nLos cielos cuentan tu gloria oh Dios\ny tus redimidos cantan\n¡Santo!, ¡Santo",
-            "chorusPos": [
-                [
-                    2
-                ]
-            ]
-        },
-        {
-            "id": "d32f3376-f45f-1a4b-c847-511fe59b4000",
-            "paragraph": "/¡Aleluya! te damos gloria vivimos para ti./",
-            "chorusPos": [
-                [
-                    3
-                ]
-            ]
-        }
-    ]
+  "id": "c1656a97-eccd-f3f4-f4c0-58a5d58c18cc",
+  "code": "21",
+  "title": "GLORIFICATE",
+  "musicalNote": "_",
+  "chorus": [
+    {
+      "choir": "Al cantar abre los cielos\nY haz llover, muestra tu gloria,\nTe queremos ver\nY al adorarte, exáltate\nGlorifícate.",
+      "id": "f5bea8f4-52b6-dfb0-20be-999be6f9215c"
+    },
+    {
+      "choir": "Al cantar abre los cielos\nY haz llover, muestra tu gloria,\nTe queremos ver\nY al adorarte, exáltate\n/Glorifícate/",
+      "id": "6702afc2-03ba-cd7a-caf7-e87b099788ad"
+    },
+    {
+      "choir": "//Glorifícate\nAbre los cielos\nY haz llover,\nMuestra tu gloria\nTe queremos ver\nY al adorarte, exáltate//\n\n//Glorifícate//",
+      "id": "400c701b-0669-59a9-8432-9c24702f508b"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "107e63ee-8cbb-f190-4f3f-dda08da9bcad",
+      "paragraph": "Que toda nación te adore,\nQue toda la tierra clame a ti.\nQue todos tus santos canten;\n¡Santo es el Señor!",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "7378098b-13ea-54a8-2571-ad647b7f875a",
+      "paragraph": "Declaramos tu grandeza,\nlos cielos cuentan Tu gloria Dios\ny tus redimidos cantan\n¡Santo!, ¡Santo!",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ae40d2af-d0a5-624b-b2e0-a80f64a1c889",
+      "paragraph": "Que toda nación te adore,\nQue toda la tierra clame a ti.\nQue todos tus santos canten;\n¡Santo es el Señor!",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "90818fc3-84a9-6fb7-bc99-2c566d70dba5",
+      "paragraph": "Declaramos tu grandeza,\nLos cielos cuentan tu gloria oh Dios\ny tus redimidos cantan\n¡Santo!, ¡Santo",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "d32f3376-f45f-1a4b-c847-511fe59b4000",
+      "paragraph": "/¡Aleluya! te damos gloria vivimos para ti./",
+      "chorusPos": [
+        [
+          3
+        ]
+      ]
+    }
+  ]
 }

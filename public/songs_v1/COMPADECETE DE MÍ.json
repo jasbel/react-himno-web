@@ -1,36 +1,36 @@
 {
-    "id": "10b46c7b-b387-8b51-a701-5bf3d0b65618",
-    "code": "4",
-    "title": "COMPADECETE DE MÍ",
-    "musicalNote": "A|La",
-    "chorus": [],
-    "paragraphs": [
-        {
-            "id": "86a99a2d-de0b-b687-c2bd-330a39972433",
-            "paragraph": "Compadécete de mí,\npues oh Dios yo clamo a ti.\nY con noble compasión,\nborra tú mi rebelión.\nY hazme puro en verdad,\nredimiendo mi maldad.",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "bbfe7779-8e24-f821-4d63-9ced861769af",
-            "paragraph": "He pecado contra ti,\ny dolor yo siento en mí.\nPues tu gracia desprecié\ny tus leyes quebranté;\nTú eres justo oh Señor,\nmas yo pobre pecador.",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "805970f7-06ed-ae91-eec4-84269a834c30",
-            "paragraph": "En pecado yo nací,\nnada bueno hay en mí;\nSolo en ti hay salvación,\ntú das luz al corazón.\n/Ven entonces a mi ser,\ny hazlo tu resplandecer./",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        }
-    ]
+  "id": "10b46c7b-b387-8b51-a701-5bf3d0b65618",
+  "code": "4",
+  "title": "COMPADECETE DE MÍ",
+  "musicalNote": "A|La",
+  "chorus": [],
+  "paragraphs": [
+    {
+      "id": "86a99a2d-de0b-b687-c2bd-330a39972433",
+      "paragraph": "Compadécete de mí,\npues oh Dios yo clamo a ti.\nY con noble compasión,\nborra tú mi rebelión.\nY hazme puro en verdad,\nredimiendo mi maldad.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "bbfe7779-8e24-f821-4d63-9ced861769af",
+      "paragraph": "He pecado contra ti,\ny dolor yo siento en mí.\nPues tu gracia desprecié\ny tus leyes quebranté;\nTú eres justo oh Señor,\nmas yo pobre pecador.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "805970f7-06ed-ae91-eec4-84269a834c30",
+      "paragraph": "En pecado yo nací,\nnada bueno hay en mí;\nSolo en ti hay salvación,\ntú das luz al corazón.\n/Ven entonces a mi ser,\ny hazlo tu resplandecer./",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    }
+  ]
 }

@@ -1,68 +1,68 @@
 {
-    "id": "10d45d36-aa2f-9875-fd84-0772644bff46",
-    "code": "25",
-    "title": "LA GLORIA DE LA CRUZ",
-    "musicalNote": "E|Mi",
-    "chorus": [
-        {
-            "choir": "Oh, la Gloria de la Cruz,\nTu Hijo enviaste a morir.\nMi vida dejaré atrás, para conocer\nla gloria de, la gloria de la cruz.",
-            "id": "e9b35b98-748a-3638-044e-c1582a48bff1"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "9817217a-a0f4-f395-4b5c-2c353b6348a9",
-            "paragraph": "¿Cómo es que en Su perfecto\nplan mi pecado perdonó,\ncuando al morir mi culpa,\n¿el Cordero la llevó?",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "fd03b4b7-7f1d-c2e2-8513-f5ef2a765ace",
-            "paragraph": "¿Cuán Sabio y Soberano Dios\nSu gloria mostrará,\ncuando en Su trono,\nel pecador se regocijará?",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "b6041dc2-dd4f-866a-8032-71403bec68be",
-            "paragraph": "Qué rectitud Él reveló,\nlibrando al pecador,\ny al culpable perdonó,\nsus manchas Él lavó.",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "27a0a508-b0d7-c295-e862-cee0d504e360",
-            "paragraph": "Tu sacrificio propició,\nla ira del Señor,\ny por tu muerte y expiación,\nhoy tengo redención.",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "e5b1c0fd-857c-e902-d820-35e2d4fb5d12",
-            "paragraph": "Que gracia para aquellos que,\nhabrían de creer,\namor inagotable que\nno puedo comprende",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "7e72a0eb-4286-d6d2-e6c1-2ce3c6f5b63f",
-            "paragraph": "La gracia que me perdonó,\nTu hijo ahora soy\nAmado por la eternidad\nPor lo que hiciste oh Dios",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        }
-    ]
+  "id": "10d45d36-aa2f-9875-fd84-0772644bff46",
+  "code": "25",
+  "title": "LA GLORIA DE LA CRUZ",
+  "musicalNote": "E|Mi",
+  "chorus": [
+    {
+      "choir": "Oh, la Gloria de la Cruz,\nTu Hijo enviaste a morir.\nMi vida dejaré atrás, para conocer\nla gloria de, la gloria de la cruz.",
+      "id": "e9b35b98-748a-3638-044e-c1582a48bff1"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "9817217a-a0f4-f395-4b5c-2c353b6348a9",
+      "paragraph": "¿Cómo es que en Su perfecto\nplan mi pecado perdonó,\ncuando al morir mi culpa,\n¿el Cordero la llevó?",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "fd03b4b7-7f1d-c2e2-8513-f5ef2a765ace",
+      "paragraph": "¿Cuán Sabio y Soberano Dios\nSu gloria mostrará,\ncuando en Su trono,\nel pecador se regocijará?",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "b6041dc2-dd4f-866a-8032-71403bec68be",
+      "paragraph": "Qué rectitud Él reveló,\nlibrando al pecador,\ny al culpable perdonó,\nsus manchas Él lavó.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "27a0a508-b0d7-c295-e862-cee0d504e360",
+      "paragraph": "Tu sacrificio propició,\nla ira del Señor,\ny por tu muerte y expiación,\nhoy tengo redención.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "e5b1c0fd-857c-e902-d820-35e2d4fb5d12",
+      "paragraph": "Que gracia para aquellos que,\nhabrían de creer,\namor inagotable que\nno puedo comprende",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "7e72a0eb-4286-d6d2-e6c1-2ce3c6f5b63f",
+      "paragraph": "La gracia que me perdonó,\nTu hijo ahora soy\nAmado por la eternidad\nPor lo que hiciste oh Dios",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
 }

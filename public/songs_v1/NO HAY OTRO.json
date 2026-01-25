@@ -1,54 +1,54 @@
 {
-    "id": "f4669fbe-9086-7577-a64d-87d181bdabab",
-    "code": "34",
-    "title": "NO HAY OTRO",
-    "musicalNote": "C|Do",
-    "chorus": [
-        {
-            "choir": "Confesamos que tú eres nuestro Dios\nNo hay otro, no hay otro\nSeguiremos el llamado de tu voz\nNo hay otro, no hay otro",
-            "id": "ffc4adc1-3d47-82b3-7dfd-9f66acdccd3c"
-        },
-        {
-            "choir": "/Confesamos que tú eres nuestro Dios\nNo hay otro, no hay otro\nSeguiremos el llamado de tu voz\nNo hay otro, no hay otro./",
-            "id": "0b99dbf9-2b84-f767-c9c3-8fae68343afe"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "d801b2a1-b19f-1b0e-257f-d4dd82e66ffb",
-            "paragraph": "Un pueblo que nunca se postran\nQue no se conforman al mundo y su placer.\n\nUn pueblo de vida consagrada\nY corazón que busca tu gloria conocer.",
-            "chorusPos": [
-                [
-                    0
-                ]
-            ]
-        },
-        {
-            "id": "13d1383e-5db9-42bd-8504-bd66157a9a72",
-            "paragraph": "Un pueblo creen tu palabra llenos de valor\nY profunda convicción\n\nUn pueblo firmes en la roca que tu\nVerdad proclaman con gran pasión",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "27a86c81-fa06-b28b-5820-64f279d3ef7d",
-            "paragraph": "Fieles discípulos de Cristo\nQue al reino de los cielos le dieron su lealtad\n\nSiervos que ante él se postran\nY por el evangelio su vida dan",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        },
-        {
-            "id": "30bd6de1-f207-cd4f-59fb-bd97098d72b2",
-            "paragraph": "/Mueve hoy Señor nuestro corazón\nHazlo atento a tu verdad…\nVen renuévanos y confórmanos\nPara hacer tu voluntad/",
-            "chorusPos": [
-                [
-                    2
-                ]
-            ]
-        }
-    ]
+  "id": "f4669fbe-9086-7577-a64d-87d181bdabab",
+  "code": "34",
+  "title": "NO HAY OTRO",
+  "musicalNote": "C|Do",
+  "chorus": [
+    {
+      "choir": "Confesamos que tú eres nuestro Dios\nNo hay otro, no hay otro\nSeguiremos el llamado de tu voz\nNo hay otro, no hay otro",
+      "id": "ffc4adc1-3d47-82b3-7dfd-9f66acdccd3c"
+    },
+    {
+      "choir": "/Confesamos que tú eres nuestro Dios\nNo hay otro, no hay otro\nSeguiremos el llamado de tu voz\nNo hay otro, no hay otro./",
+      "id": "0b99dbf9-2b84-f767-c9c3-8fae68343afe"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "d801b2a1-b19f-1b0e-257f-d4dd82e66ffb",
+      "paragraph": "Un pueblo que nunca se postran\nQue no se conforman al mundo y su placer.\n\nUn pueblo de vida consagrada\nY corazón que busca tu gloria conocer.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "13d1383e-5db9-42bd-8504-bd66157a9a72",
+      "paragraph": "Un pueblo creen tu palabra llenos de valor\nY profunda convicción\n\nUn pueblo firmes en la roca que tu\nVerdad proclaman con gran pasión",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "27a86c81-fa06-b28b-5820-64f279d3ef7d",
+      "paragraph": "Fieles discípulos de Cristo\nQue al reino de los cielos le dieron su lealtad\n\nSiervos que ante él se postran\nY por el evangelio su vida dan",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "30bd6de1-f207-cd4f-59fb-bd97098d72b2",
+      "paragraph": "/Mueve hoy Señor nuestro corazón\nHazlo atento a tu verdad…\nVen renuévanos y confórmanos\nPara hacer tu voluntad/",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    }
+  ]
 }

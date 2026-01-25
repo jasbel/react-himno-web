@@ -1,23 +1,23 @@
 {
-    "id": "b5551eaf-7519-baa9-0f67-22aaf0c98974",
-    "code": "10",
-    "title": "DIOS SUPREMO ERES",
-    "musicalNote": "G|Sol",
-    "chorus": [
-        {
-            "choir": "/No hay otro Dios como Jehová\nNo hay otro Dios como el Señor\nNo hay en los cielos,\nNo hay en la tierra, no hay en el mar/\nDios como el Señor.",
-            "id": "1c59c06a-f878-576d-cdf4-faa7d49daf32"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "a994c68a-f511-baf1-91d1-da302f0c7021",
-            "paragraph": "/Dios supremo eres,\nSoberano en gloria.\nEres incomparable, en tu hermosura\nEres incomparable en tu majestad/",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        }
-    ]
+  "id": "b5551eaf-7519-baa9-0f67-22aaf0c98974",
+  "code": "10",
+  "title": "DIOS SUPREMO ERES",
+  "musicalNote": "G|Sol",
+  "chorus": [
+    {
+      "choir": "/No hay otro Dios como Jehová\nNo hay otro Dios como el Señor\nNo hay en los cielos,\nNo hay en la tierra, no hay en el mar/\nDios como el Señor.",
+      "id": "1c59c06a-f878-576d-cdf4-faa7d49daf32"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "a994c68a-f511-baf1-91d1-da302f0c7021",
+      "paragraph": "/Dios supremo eres,\nSoberano en gloria.\nEres incomparable, en tu hermosura\nEres incomparable en tu majestad/",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
 }

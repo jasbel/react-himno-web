@@ -1,23 +1,23 @@
 {
-    "id": "ea0dea0f-c4b5-a2e0-73c3-f4a2c67c031d",
-    "code": "8",
-    "title": "DE GLORIA EN GLORIA",
-    "musicalNote": "D|Re",
-    "chorus": [
-        {
-            "choir": "//Quiero ser más como tú,\nver la vida como tú\nSatúrame de tu espíritu\nY reflejar al mundo tu amor. //",
-            "id": "d83bebbd-f995-76d3-edaf-ee4ce9e49b2c"
-        }
-    ],
-    "paragraphs": [
-        {
-            "id": "d2fe3ba3-3676-326c-49cd-5e8792bd29a2",
-            "paragraph": "/De gloria en gloria te veo,\nCuanto más te conozco;\nquiero saber más de ti.\nMi Dios cuán buen alfarero,\nLevántame y transfórmame;\nMoldéame a tu imagen Señor./",
-            "chorusPos": [
-                [
-                    1
-                ]
-            ]
-        }
-    ]
+  "id": "ea0dea0f-c4b5-a2e0-73c3-f4a2c67c031d",
+  "code": "8",
+  "title": "DE GLORIA EN GLORIA",
+  "musicalNote": "D|Re",
+  "chorus": [
+    {
+      "choir": "//Quiero ser más como tú,\nver la vida como tú\nSatúrame de tu espíritu\nY reflejar al mundo tu amor. //",
+      "id": "d83bebbd-f995-76d3-edaf-ee4ce9e49b2c"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "d2fe3ba3-3676-326c-49cd-5e8792bd29a2",
+      "paragraph": "/De gloria en gloria te veo,\nCuanto más te conozco;\nquiero saber más de ti.\nMi Dios cuán buen alfarero,\nLevántame y transfórmame;\nMoldéame a tu imagen Señor./",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
 }
