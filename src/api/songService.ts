@@ -1,24 +1,14 @@
 import { ID, ISongModel, ISongCreate } from '@/types/types';
-import { axiosClientLocal } from './axiosClient';
 import { supabase } from '@/lib/supabaseClient';
-
-export const getListsSong = async () => {
-  try {
-    const response = await axiosClientLocal.get<ISongModel[]>('index.json');
-    return response.data;
-  } catch (error) {
-    throw error;
-  }
-};
 
 export const getListSong = async () => {
   try {
     const { data, error } = await supabase
       .from('himnos')
       .select('*');
-    
+
     if (error) throw error;
-    
+
     // Map database fields to ISongModel
     return data.map((item: any) => ({
       id: item.id,
@@ -63,17 +53,17 @@ export const createSong = async (songData: ISongCreate) => {
     const { title, musicalNote, paragraphs, chorus } = songData;
     // We don't have description in ISongCreate but ISongModel has it. 
     // Assuming songData might have it or we default to empty.
-    const description = (songData as any).description || ''; 
-    
+    const description = (songData as any).description || '';
+
     const { data, error } = await supabase
       .from('himnos')
       .insert([
-        { 
-          title, 
-          musical_note: musicalNote, 
-          paragraphs, 
+        {
+          title,
+          musical_note: musicalNote,
+          paragraphs,
           chorus,
-          description 
+          description
         }
       ])
       .select()
@@ -98,13 +88,13 @@ export const createSong = async (songData: ISongCreate) => {
 export const updateSong = async (songData: ISongModel) => {
   try {
     const { id, title, musicalNote, paragraphs, chorus, description, filename } = songData;
-    
+
     const { data, error } = await supabase
       .from('himnos')
-      .update({ 
-        title, 
-        musical_note: musicalNote, 
-        paragraphs, 
+      .update({
+        title,
+        musical_note: musicalNote,
+        paragraphs,
         chorus,
         description,
         filename
@@ -130,15 +120,15 @@ export const updateSong = async (songData: ISongModel) => {
 };
 
 export const deleteSong = async (id: ID) => {
-    try {
-      const { error } = await supabase
-        .from('himnos')
-        .delete()
-        .eq('id', id);
+  try {
+    const { error } = await supabase
+      .from('himnos')
+      .delete()
+      .eq('id', id);
 
-      if (error) throw error;
-      return true;
-    } catch (error) {
-      throw error;
-    }
-  };
+    if (error) throw error;
+    return true;
+  } catch (error) {
+    throw error;
+  }
+};

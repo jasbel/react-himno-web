@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 .env
 scripts/__pycache__/*.pyc
+dev-dist/sw.js
+dev-dist/workbox-c5f6b949.js

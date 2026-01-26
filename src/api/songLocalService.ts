@@ -1,28 +1,28 @@
 import { ID, ISongModel, ISongCreate, ISongItem, ISongListV1, ISongV1Model } from '@/types/types';
 import axiosClient from './axiosClient';
 
-export const getSongV1Item = async (fn: string):  Promise<ISongItem> => {
+export const getSongV1Item = async (fn: string): Promise<ISongItem> => {
   try {
-    console.log({fn})
-        const response = await fetch(`/songs_v1/${fn}`)
-        if (!response.ok) {
-          throw new Error('Failed to fetch config')
-        }
-        const configData: ISongItem = await response.json()
-        console.log({ configData });
+    console.log({ fn })
+    const response = await fetch(`/songs_v1/${fn}`)
+    if (!response.ok) {
+      throw new Error('Failed to fetch config')
+    }
+    const configData: ISongItem = await response.json()
+    console.log({ configData });
 
-        return configData
-      
-    
+    return configData
+
+
   } catch (error) {
     throw error;
   }
 };
-export const getListV1SongLocal = async ():  Promise<ISongListV1[]> => {
+export const getListV1SongLocal = async (): Promise<ISongListV1[]> => {
   try {
     const fetchData = async () => {
       try {
-        const response = await fetch('/songs_v1/index.json')
+        const response = await fetch('/songs.json')
         if (!response.ok) {
           throw new Error('Failed to fetch config')
         }
@@ -43,7 +43,7 @@ export const getListV1SongLocal = async ():  Promise<ISongListV1[]> => {
   }
 };
 
-export const getListSongQuechuaLocal = async ():  Promise<ISongV1Model[]> => {
+export const getListSongQuechuaLocal = async (): Promise<ISongV1Model[]> => {
   try {
     const fetchData = async () => {
       try {
