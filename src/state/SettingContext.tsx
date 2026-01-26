@@ -31,15 +31,20 @@ export const SettingProvider = ({ children }: { children: ReactNode }) => {
     const newFontSize = responsiveCalc(50+ unit, 24+ unit);
     console.log({newFontSize})
     setCustomFontSize(newFontSize);
-    setItem("@customFontSize", newFontSize.toString());
   }
 
-  const incrementFontSize = () => {
-    changeFontSize(unitFontSize);
+   const incrementFontSize = async () => {
+    const fz =await getItem("@customFontSize") ;
+    const newFz = parseInt(fz||'12')+unitFontSize;
+    setItem("@customFontSize",`${newFz}`);
+    changeFontSize(newFz);
   };
 
-  const decrementFontSize = () => {
-    changeFontSize(-unitFontSize);
+  const decrementFontSize = async () => {
+    const fz =await getItem("@customFontSize") ;
+    const newFz = (parseInt(fz||'12') || 12)-unitFontSize;
+    setItem("@customFontSize",`${newFz}`);
+    changeFontSize(newFz);
   };
 
   useEffect(() => {

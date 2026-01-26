@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Colors from "@/utils/colors";
 import { Box } from "@components/ui";
-import { responsive } from "../utils/responsive";
+import { responsiveCalc } from "../utils/responsive";
 import StarIcon from "../assets/icons/star";
 
 export type TypeStar = "star" | "unstar";
@@ -52,9 +52,9 @@ const styles: { [key in any]: React.CSSProperties } = {
     borderRadius: 50,
   },
   iconStar: {
-    margin: responsive(6, 4),
-    width: responsive(30, 25),
-    height: responsive(30, 25),
+    margin: responsiveCalc(6, 4),
+    width: responsiveCalc(30, 25),
+    height: responsiveCalc(30, 25),
     display: 'inline-flex',
     justifyContent: 'center',
     alignItems: 'center',

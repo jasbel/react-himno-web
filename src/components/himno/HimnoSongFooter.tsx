@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import { Box, Flex } from "@components/ui";
 import ButtonSingle from "@/components/elements/ButtonSingle";
-import { responsiveStr } from "@/utils/responsive";
 import { ID } from "@/types/types";
 import { SettingContext } from "@/state/SettingContext";
 import ButtonStar, { TypeStar } from "../ButtonStar";

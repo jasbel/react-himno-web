@@ -2,7 +2,6 @@ import { Flex, Input } from '@components/ui';
 import React, { useEffect, useState } from 'react';
 import { opacityColor } from '../../utils/helper';
 import Colors from '@/utils/colors';
-import { responsive } from '../../utils/responsive';
 
 interface Props {
   onChange: (query: string) => void;

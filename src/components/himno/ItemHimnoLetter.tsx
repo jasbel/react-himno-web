@@ -1,7 +1,7 @@
 import React from "react";
 import Colors from "@/utils/colors";
 import iconChoir from "../../assets/images/verse.png";
-import { responsive } from "../../utils/responsive";
+import { responsiveCalc } from "../../utils/responsive";
 import { Box } from "@components/ui";
 import { useSetting } from "../../hooks/useSetting";
 const Separe = ({ isSmall = false }: { isSmall: boolean }) => {
@@ -35,7 +35,7 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
         style={{
           marginBottom: 24,
           ...styles.paragraph,
-          fontSize: isSmall ? fontsmall : customFontSize,
+          fontSize: customFontSize,
         }}
       >
         <span style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}>{item.paragraph}</span>
@@ -83,12 +83,12 @@ const styles: { [key in any]: React.CSSProperties } = {
   containerIconChoir: {
     marginLeft: "auto",
     marginRight: "auto",
-    marginTop: responsive(15, 10),
-    marginBottom: responsive(15, 10),
+    marginTop: responsiveCalc(15, 10),
+    marginBottom: responsiveCalc(15, 10),
   },
   iconChoir: {
-    width: responsive(350, 70),
-    height: responsive(20, 11),
+    width: responsiveCalc(350, 70),
+    height: responsiveCalc(20, 11),
     margin: "auto",
   },
   iconChoirSmall: {
