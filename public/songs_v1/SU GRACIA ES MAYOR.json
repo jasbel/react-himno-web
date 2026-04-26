@@ -1,0 +1,48 @@
+{
+  "id": "d2e65938-1ea0-637d-f37e-ab83e0864275",
+  "code": "101",
+  "title": "SU GRACIA ES MAYOR",
+  "musicalNote": "E",
+  "chorus": [
+    {
+      "choir": "Gloria a Dios, \n Su gracia es mayor, \n Sus misericordias hoy nuevas son, \n mis faltas son muchas, Su gracia es mayor",
+      "id": "85fbe665-87b2-0c64-c00a-a23f83e534f1"
+    },
+    {
+      "choir": "mis faltas son muchas, Su gracia es mayor.",
+      "id": "85fbe665-87b2-0c64-c00a-t23f83e534f1"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "af3ffba5-526e-d52d-4ae9-acb1121y5e32",
+      "paragraph": "¿Qué amor mis pecados decide olvidar? \n Lanzados al mar no los quiere contar. \n Él siendo omnisciente olvida mi error, \n mis faltas son muchas, Su gracia es mayor.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "943c1bcd-32a0-0775-19e2-a70b7bf896d7",
+      "paragraph": "Paciente me aguarda en mi desviar, \n Un padre que tierno me llama al hogar. \n Recibe al débil y vil pecador, \n mis faltas son muchas, Su gracia es mayor.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+     {
+      "id": "943c1bcd-32a0-0775-19e2-b70b7bf896d7",
+      "paragraph": "Que grandes riquezas, Él nos otorgó, \n Su sangre fue el pago, su vida entregó. \n Pagó esa deuda y la canceló, \n mis faltas son muchas, Su gracia es mayor.",
+      "chorusPos": [
+        [
+          1, 2
+        ],
+        [
+          2, 2
+        ]
+      ]
+    }
+  ]
+}

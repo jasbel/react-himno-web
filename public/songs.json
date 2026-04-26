@@ -4149,5 +4149,90 @@
             }
         ],
         "description": "Día a día Tú has sido fiel, no has cambiado y no"
+    },
+    {
+        "filename": "CORDERO.json",
+        "id": "d2e65938-1ea0-637d-f37e-ab83e0864274",
+        "code": "100",
+        "title": "CORDERO",
+        "musicalNote": "_",
+        "chorus": [
+            {
+            "choir": "Hoy yo te alabo, Señor, \n con todo mi corazón, \n Cordero, porque eres mi Dios \n y mi buen Salvador \n que moriste por mí.",
+            "id": "85fbe665-87b2-0c64-c00a-c23f83e534c1"
+            }
+        ],
+        "paragraphs": [
+            {
+            "id": "af3ffba5-526e-d52d-4ae9-bcb1121y5e32",
+            "paragraph": "Cordero, que bajaste del cielo \n a morir en la cruz \n Para darme la luz \n y tu gran salvación, \n \n vertiste sangre inmaculada \n Con la cual mi maldad, \n al morir en la cruz, \n perdonaste Jesús. \n",
+            "chorusPos": [
+                [
+                1
+                ]
+            ]
+            },
+            {
+            "id": "943c1bcd-32a0-0775-19e2-d70b7bf896d7",
+            "paragraph": "Tú eres el que diste a mi vida \n esa paz sin igual, \n Que en el mundo falaz, \n no la pude encontrar. \n  \n Por eso mi alma alegre te canta, \n disfrutando el amor \n Que en la cruz de dolor \n me extendiste, Jesús.",
+            "chorusPos": [
+                [
+                1
+                ]
+            ]
+            }
+        ],
+        "description": "Cordero, que bajaste del cielo"
+    },
+    {
+        "filename": "SU GRACIA ES MAYOR.json",
+        "id": "d2e65938-1ea0-637d-f37e-ab83e0864275",
+        "code": "101",
+        "title": "SU GRACIA ES MAYOR",
+        "musicalNote": "E",
+        "chorus": [
+            {
+            "choir": "Gloria a Dios, \n Su gracia es mayor, \n Sus misericordias hoy nuevas son, \n mis faltas son muchas, Su gracia es mayor",
+            "id": "85fbe665-87b2-0c64-c00a-a23f83e534f1"
+            },
+            {
+            "choir": "mis faltas son muchas, Su gracia es mayor.",
+            "id": "85fbe665-87b2-0c64-c00a-t23f83e534f1"
+            }
+        ],
+        "paragraphs": [
+            {
+            "id": "af3ffba5-526e-d52d-4ae9-acb1121y5e32",
+            "paragraph": "¿Qué amor mis pecados decide olvidar? \n Lanzados al mar no los quiere contar. \n Él siendo omnisciente olvida mi error, \n mis faltas son muchas, Su gracia es mayor.",
+            "chorusPos": [
+                [
+                1
+                ]
+            ]
+            },
+            {
+            "id": "943c1bcd-32a0-0775-19e2-a70b7bf896d7",
+            "paragraph": "Paciente me aguarda en mi desviar, \n Un padre que tierno me llama al hogar. \n Recibe al débil y vil pecador, \n mis faltas son muchas, Su gracia es mayor.",
+            "chorusPos": [
+                [
+                1
+                ]
+            ]
+            },
+            {
+            "id": "943c1bcd-32a0-0775-19e2-b70b7bf896d7",
+            "paragraph": "Que grandes riquezas, Él nos otorgó, \n Su sangre fue el pago, su vida entregó. \n Pagó esa deuda y la canceló, \n mis faltas son muchas, Su gracia es mayor.",
+            "chorusPos": [
+                [
+                1, 2
+                ],
+                [
+                2, 2
+                ]
+            ]
+            }
+        ],
+        "description": "¿Qué amor mis pecados decide olvidar?"
     }
+    
 ]

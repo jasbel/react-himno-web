@@ -49,8 +49,8 @@ const HimnoList = ({ changeSongBySearch, songsSearch, handlePress }: Props) => {
               title={item.title}
               num={null}
               note={item.musicalNote}
-              description={item.paragraphs[0]?.paragraph ||
-                item.description || ""}
+              description={item.description ||
+                item.paragraphs[0]?.paragraph || ""}
               onClick={() => handlePress(item)}
             />
           ))}

@@ -23,24 +23,38 @@ const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
   const verses: ILetter[] = paragraphs.map((item) => {
     let choirs = [] as string[];
 
-    let filters: IChoir[] = [];
+    let choirRepetitions: { choir: string; repeat: number }[] = [];
     if (chorus) {
       // Ensure chorusPos is an array before mapping
-      const chorusPosArray = Array.isArray(item.chorusPos) 
-        ? item.chorusPos 
+      const chorusPosArray = Array.isArray(item.chorusPos)
+        ? item.chorusPos
         : (item.chorusPos ? [item.chorusPos] : []);
 
-      filters = chorusPosArray.map((cp: any) => {
+      choirRepetitions = chorusPosArray.map((cp: any) => {
         // Handle tuple [id, repeat] or simple id
-         const id = Array.isArray(cp) ? cp[0] : cp;
-         
+        const id = Array.isArray(cp) ? cp[0] : cp;
+        const repeat = Array.isArray(cp) && cp[1] ? cp[1] : 1;
+
+        let choirText = '';
         if(typeof id === 'number') {
-         return chorus[id - 1]
+          choirText = chorus[id - 1]?.choir || '';
+        } else {
+          const foundChoir = chorus.find(c => c.id === id);
+          choirText = foundChoir?.choir || '';
         }
-        return chorus.find(c => c.id === id)!;
-      }).filter(Boolean); // Filter out undefineds
-      
-      choirs = filters.length ? joinChoirs(filters) : [];
+
+        return { choir: choirText, repeat };
+      }).filter(item => item.choir); // Filter out empty choirs
+
+      // Join choirs with repetitions - add "/" for each repeat at start and end
+      if (choirRepetitions.length > 0) {
+        choirs = choirRepetitions.map(item => {
+          if (item.repeat > 1) {
+            return '/'.repeat(item.repeat - 1) + item.choir + '/'.repeat(item.repeat - 1);
+          }
+          return item.choir;
+        });
+      }
     }
 
     choirs = choirs || [];

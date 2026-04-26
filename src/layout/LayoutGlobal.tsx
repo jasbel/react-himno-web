@@ -17,7 +17,7 @@ const LayoutGlobal = ({children}: Props) => {
     <div className={`min-h-screen bg-background flex flex-col font-sans antialiased text-foreground ${isHomePage ? 'pb-0 md:pb-0' : !isHomePage ? 'pb-16 md:pb-0' : ''}`}>
       <Header />
 
-      <main className="flex-1 w-full max-w-6xl mx-auto sm:px-6 lg:px-8 sm:py-10">
+      <main className="flex-1 w-full max-w-6xl mx-auto">
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 ease-out">
           {children}
         </div>
