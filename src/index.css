@@ -9,6 +9,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Mobile touch targets improvement */
+@media (max-width: 768px) {
+  button,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Better text rendering on mobile */
+@media (max-width: 768px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+/* Safe area support for notched devices */
+.safe-area-inset-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Smooth transitions for bottom navigation */
+nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Better backdrop blur support for iOS */
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
 @layer base {
   :root {
     --background: 194 51% 98%;

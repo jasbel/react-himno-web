@@ -60,9 +60,9 @@ const HimnoList = ({ changeSongBySearch, songsSearch, handlePress }: Props) => {
         style={{
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between",
+          justifyContent: "center",
           gap: 12,
-          margin: 12,
+          margin: "16px 12px",
         }}
       >
         <button
@@ -71,15 +71,18 @@ const HimnoList = ({ changeSongBySearch, songsSearch, handlePress }: Props) => {
           onClick={() =>
             setPaginate({ ...paginate, page: paginate.page - 1 })}
         >
-          Anterior
+          ← Anterior
         </button>
+        <span style={{ fontSize: 14, color: Colors.txtPrimary }}>
+          {paginate.page}
+        </span>
         <button
           style={styles.btnStyle}
           disabled={paginate.page * paginate.length > songsSearch.length}
           onClick={() =>
             setPaginate({ ...paginate, page: paginate.page + 1 })}
         >
-          Siguiente
+          Siguiente →
         </button>
       </div>
     </div>
@@ -92,13 +95,17 @@ const styles: { [key in any]: React.CSSProperties } = {
   container: {
     flex: 1,
     backgroundColor: Colors.bkgWhite,
-    paddingLeft: 12,
-    paddingRight: 12,
+    paddingLeft: 8,
+    paddingRight: 8,
+    paddingBottom: 16,
   },
   btnStyle: {
     backgroundColor: Colors.bkgPrimary,
     color: Colors.white,
-    padding: "6px 12px",
-    borderRadius: 25,
+    padding: "10px 16px",
+    borderRadius: 8,
+    fontSize: 14,
+    fontWeight: 600,
+    minWidth: 100,
   },
 };

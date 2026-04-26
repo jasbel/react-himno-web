@@ -28,8 +28,8 @@ const HimnoSongQuechuaScreen: FC<Props> = () => {
     <>
       <Hero title={title} hrefBefore={'/' + ERoutes.homeQuechua} />
       
-      <Box style={{ padding: 1, paddingTop: 6,paddingBottom: 6, backgroundColor: Colors.bkgWhite}}>
-        <div style={{ minHeight: "calc(100vh - 110px)" }}>
+      <Box style={{ padding: "8px 4px", paddingTop: 8, paddingBottom: 8, backgroundColor: Colors.bkgWhite}}>
+        <div style={{ minHeight: "calc(100vh - 110px)", padding: "0 4px" }}>
           <WrapItemHimno paragraphs={paragraphs} chorus={chorus || []} />
         </div>
       </Box>

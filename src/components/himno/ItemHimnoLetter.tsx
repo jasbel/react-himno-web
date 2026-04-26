@@ -99,13 +99,13 @@ const styles: { [key in any]: React.CSSProperties } = {
   paragraph: {
     textAlign: "center",
     color: Colors.txtBlack,
-    lineHeight: 1,
+    lineHeight: 1.4,
   },
   choir: {
     textAlign: "center",
     fontWeight: "bold",
     fontStyle: "italic",
     color: Colors.txtDark,
-    lineHeight: 1,
+    lineHeight: 1.3,
   },
 };

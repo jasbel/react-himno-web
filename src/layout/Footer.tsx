@@ -1,6 +1,10 @@
-const Footer = () => {
+interface Props {
+  className?: string;
+}
+
+const Footer = ({ className = "" }: Props) => {
   return (
-    <footer className="w-full border-t py-6 md:py-0 bg-card">
+    <footer className={`w-full border-t py-6 md:py-0 bg-card ${className}`}>
       <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
           Built by{" "}

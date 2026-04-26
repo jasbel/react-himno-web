@@ -81,6 +81,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     flex: 1,
     width: "100%",
     overflowX: "hidden",
+    padding: 4,
   },
   content: {
     display: "flex",
@@ -90,18 +91,20 @@ const styles: { [key in any]: React.CSSProperties } = {
     flexDirection: "row",
     justifyContent: "space-between",
     flex: 1,
+    padding: 4,
   },
   title: {
     fontWeight: "bold",
-    fontSize: responsiveCalc(20, 18),
+    fontSize: responsiveCalc(20, 16),
     color: Colors.txtPrimary,
     textTransform: "uppercase",
-    lineHeight: 1,
+    lineHeight: 1.2,
   },
   description: {
-    fontSize: responsiveCalc(17, 16),
+    fontSize: responsiveCalc(17, 14),
     color: Colors.txtBlack,
     paddingLeft: 8,
+    lineHeight: 1.3,
   },
 };
 

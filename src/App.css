@@ -6,3 +6,16 @@
     cursor: pointer;
   }
 }
+
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+  .form-choir__content {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .btn-wrap {
+    padding: 8px;
+    gap: 6px;
+  }
+}
