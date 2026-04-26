@@ -45,7 +45,7 @@ const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
 
     choirs = choirs || [];
 
-    return { ...item, choirs };
+    return { ...item, choirs: choirs };
   });
 
   return (

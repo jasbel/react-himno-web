@@ -37,10 +37,10 @@ Misiones
 
 marchemos a la unidad
 He Decidido Seguir a Cristo
+Consagrarme Todo Entero #462" (129) - Consagrarme Todo Entero  
 heme aqui senior
 cordero
 
 DE GLORIA EN GLORIA
 
 DESDE QUE TE CONOCÍ" (Código 7)
-Consagrarme Todo Entero #462" (129) - Consagrarme Todo Entero  

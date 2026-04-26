@@ -19,6 +19,10 @@ export interface ILetter {
   choirs: string[];
   paragraph: string;
 }
+export interface ILetterExpand {
+  chorusPos: string[];
+  paragraph: string;
+}
 
 interface Props {
   item: ILetter;
@@ -47,7 +51,7 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
          </>
       }
 
-      {item.choirs.map((choir) => (
+      {(item.choirs).map((choir) => (
         <>
           {choir !== "" && (
             <>
@@ -57,7 +61,7 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
                   fontSize: isSmall ? fontsmall : customFontSize,
                 }}
               >
-                <span className="whitespace-pre-wrap break-words">{item.choirs}</span>
+                <span className="whitespace-pre-wrap break-words">{choir}</span>
               </p>
               {
                 (!hiddenSepare && item.choirs.length > 0) && (
