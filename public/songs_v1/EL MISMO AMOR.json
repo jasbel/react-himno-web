@@ -1,0 +1,60 @@
+{
+  "id": "bb02cd79-874f-a8f9-5523-5e8489470fad",
+  "code": "15",
+  "title": "EL MISMO AMOR",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "El mismo que trae libertad.\nEl mismo amor que al ciego vista da.\nNos llamas con nombre hoy.\nTu nos llamas por nombre hoy.\n\nEl mismo Dios que los cielos formo.\nEl mismo Dios que en la cruz murió.\nNos llama con nombre hoy.\nTu nos llamas por nombre hoy.",
+      "id": "e47f3bae-b9c2-219c-5574-c5a18e5a1593"
+    },
+    {
+      "choir": "//Oohh….. Oohh… oohh…//",
+      "id": "dc17c1ae-f11e-0559-cd71-15ffa6c38e47"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "4fe2442f-7f6c-d365-df5b-cb0307c0e27f",
+      "paragraph": "Tú al humilde levantaras,\nAl débil tu fuerzas le das.\nNuestras heridas sanaras,\nVida nos das.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "00da77a0-7ff9-7b3e-e5fc-5a355a501617",
+      "paragraph": "Al que o cree lo llamas tu,\nPara decirle mío eres tú.\nAl orgulloso llamas y al infeliz,\nVengan a mi.",
+      "chorusPos": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "ee6ece23-6953-e064-1859-db3f6f7d8edd",
+      "paragraph": "//Nos llamas, nos llamas, nos llamas\nhacia Cruz//.",
+      "chorusPos": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "e57dbf22-124e-55ca-029f-f8080b009d30",
+      "paragraph": "//Nos llamas, nos llamas, nos llamas\nhacia Cruz//.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    }
+  ]
+}

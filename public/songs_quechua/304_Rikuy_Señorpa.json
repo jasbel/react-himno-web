@@ -1,0 +1,49 @@
+{
+    "id": "304",
+    "code": "304",
+    "title": " 304  Rikuy Señorpa",
+    "musicalNote": " (Re Mayor)",
+    "chorus": [],
+    "paragraphs": [
+        {
+            "id": "3000",
+            "chorusPos": [],
+            "paragraph": " /Rikuy Señorpa ruwasqanta./\n/Kawsachiwanña, phaskarawanña,\nRikuy Señorpa ruwasqanta./"
+        },
+        {
+            "id": "3001",
+            "chorusPos": [],
+            "paragraph": " /Kay pachapi purisqasniypi/\n/Llakiyllapuni, nanayllapuni,\nKay pachapi purisqasniypi./"
+        },
+        {
+            "id": "3002",
+            "chorusPos": [],
+            "paragraph": " /Atipasqañamin Supayqa/\n/Cruzpi wañuspa Jesús atipan.\nAtipasqañamin Supayqa./"
+        },
+        {
+            "id": "3003",
+            "chorusPos": [],
+            "paragraph": " /Mira lo que hizo mi Señor./\n/Me levantó y me libertó.\nMira lo que hizo mi Señor./"
+        },
+        {
+            "id": "3004",
+            "chorusPos": [],
+            "paragraph": " /Caminando por la senda voy./ \n /De prueba en prueba, victoria tras victoria, \n Caminando por la senda voy./"
+        },
+        {
+            "id": "3005",
+            "chorusPos": [],
+            "paragraph": " /El enemigo ya vencido está./ \n /Jesús lo venció muriendo en la cruz. \n El enemigo ya vencido está./"
+        },
+        {
+            "id": "3006",
+            "chorusPos": [],
+            "paragraph": " /Las cadenas rotas ya están/ \n /Jesús las rompió cuando El resucitó \n Las cadenas rotas ya están/"
+        },
+        {
+            "id": "3007",
+            "chorusPos": [],
+            "paragraph": " /Alabando a mi Salvador/ \n /Yo tengo gozo, yo tengo paz \n Alabando a mi Salvador/"
+        }
+    ]
+}

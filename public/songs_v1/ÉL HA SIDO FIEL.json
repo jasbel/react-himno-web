@@ -1,0 +1,50 @@
+{
+  "id": "e0e52894-0bb4-5124-a726-641273fc4783",
+  "code": "14",
+  "title": "ÉL HA SIDO FIEL",
+  "musicalNote": "D|Re",
+  "chorus": [
+    {
+      "choir": "Te alabaré, te glorificaré\nPorque agradecido estoy\npor tu inmenso amor\nTe alabaré, te glorificaré\nPorque tu hijo soy, te alabaré",
+      "id": "7ea5eaf9-7524-e8a3-2574-3e9ad3e03ade"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "feadc331-5ec3-d5ee-eea6-3af1b1bcbcad",
+      "paragraph": "Día a día Tú has sido fiel, no has cambiado\ny no cambiarás\nMaravillado estoy con tu amor porque me\namaste siendo un pecador",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "75de8fe2-1b63-032e-a7a1-3aeee24a01c8",
+      "paragraph": "Cuando recuerdo mi vida sin ti, sin\nesperanza en sombras viví\nMás hoy reboso en gracia y perdón, porque\nadoptaste a un vil pecador",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "4373f22b-63d9-068d-8181-0e4f26e47a32",
+      "paragraph": "Cuando en prueba te exaltaré,\ny cuando duela en ti confiaré\nPorque conozco tu inmensa bondad y sé\nque nunca me abandonarás",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "4f6dc50f-d595-1e28-857e-27a047d7f4ca",
+      "paragraph": "Toda mi vida la pongo a tus pies, has lo\nque quieras con ella mi Rey\nHasta que vuelvas con fe cantaré,\n“Día a día tú has sido fiel”",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

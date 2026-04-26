@@ -1,0 +1,49 @@
+{
+  "id": "bf12719d-6be3-b7da-917d-b02ed7df98df",
+  "code": "42",
+  "title": "TENGO UN REFUGIO",
+  "musicalNote": "C|Do",
+  "chorus": [
+    {
+      "choir": "Oh Cristo, en ti me esconderé\n        Mi paz y mi consuelo\n        Nada es más grande que tu amor\n        Confortas mi tristeza",
+      "id": "b2a4652f-efcb-476f-bb91-a10c21c04684"
+    },
+    {
+      "choir": "Oh Cristo, en ti me esconderé\n        Ya no soy condenado\n        Refugio tengo en tu cruz\n        Y salvación encuentro",
+      "id": "4908a4f9-9b8b-3423-7e27-5efee8c68eff"
+    },
+    {
+      "choir": "/ Oh cristo, en ti me esconderé\n        Pues llevas tú mis cargas\n        Tus manos firmes me guiarán\n        Hasta llevarme al cielo /",
+      "id": "5a5321b2-3dae-d0c5-ad22-b225b561a164"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "91a94ef0-2cd2-fcc5-97fd-5706963a7faf",
+      "paragraph": "Tengo un refugio en tempestad cuando aflicciones tengo\nCuando me llena mi temor mi alma en Ti descansa",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "d16eb3e9-a7ad-8e2a-35e2-fe47915d5b85",
+      "paragraph": "Tengo un refugio en tempestad\nsi mi pecado acusa\nCulpable soy de mi maldad,\nTu gracia aún me acepta",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "390b9087-c4e7-9bd2-69fe-eb77dcf76dc1",
+      "paragraph": "Tengo un refugio en tempestad\nsi temo a la tormenta\nEn mi debilidad yo sé\nTu fuerza me sustenta",
+      "chorusPos": [
+        [
+          3
+        ]
+      ]
+    }
+  ]
+}

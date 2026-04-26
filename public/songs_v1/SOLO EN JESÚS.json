@@ -1,0 +1,62 @@
+{
+  "id": "78584873-d702-0489-5ac1-7dffae419280",
+  "code": "39",
+  "title": "SOLO EN JESÚS",
+  "musicalNote": "D|Re",
+  "chorus": [
+    {
+      "choir": "Cuán grande amor inmensa paz\nen el temor o adversidad.\nConsolador amigo fiel\nyo en su amor me sostendré.",
+      "id": "fa7bd1e4-2c1a-8d4f-3e65-e69e84fb12c7"
+    },
+    {
+      "choir": "En una cruz fue a morir\nY Dios mostro su gracia ahí\npues mi pecado Él llevo\nen su aflicción vida me dio.",
+      "id": "a711861c-e1ce-c161-a705-2a2f72bf684b"
+    },
+    {
+      "choir": "Y al triunfar sobre el mal\nperdió el pecado potestad\nDe Él suyo soy, Él mío es.\nPues con su sangre me compró.",
+      "id": "077f0028-b478-ad3f-8704-37ee6275b796"
+    },
+    {
+      "choir": "/Ningún poder ningún afán\nde Él me arrebatara.\nHasta que Él venga otra vez\nen su poder me sostendré/.",
+      "id": "d7bd9ecd-e406-d661-17b4-323ed0eba145"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "8013ccb8-8aa5-bfe8-9755-5e7c28b1c199",
+      "paragraph": "Solo en Jesús esta mi fe,\nmi esperanza y mi canción.\nPiedra angular firme y sostén\ninconmovible en la aflicción.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "03be6167-b2bb-5818-6952-d2b5063bad1b",
+      "paragraph": "Solo en Jesús hijo de Dios\nquien se humilló por nuestro bien.\nCordero de mi salvación\npor este mundo herido fue.",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "56e731fb-42ed-52a5-f611-1320aa05cc09",
+      "paragraph": "En un sepulcro el yació,\nel cuerpo inerte del Señor.\nMas el tercer día llegó\nresucitó en gloriosa luz",
+      "chorusPos": [
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "a3362ff4-b58c-4f11-22f0-ba653dcef9f2",
+      "paragraph": "Desde al nacer hasta el morir\nSea el poder de Cristo en mi.\nNo temeré seguro estoy\nmi vida yo a Él le doy.",
+      "chorusPos": [
+        [
+          4
+        ]
+      ]
+    }
+  ]
+}

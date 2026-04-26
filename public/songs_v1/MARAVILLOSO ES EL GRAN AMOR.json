@@ -1,0 +1,59 @@
+{
+  "id": "e4f46615-fdb2-31c2-b1fc-d4977bc9835d",
+  "code": "29",
+  "title": "MARAVILLOSO ES EL GRAN AMOR",
+  "musicalNote": "_",
+  "chorus": [
+    {
+      "choir": "¡Oh, maravilla de su amor,\npor mí murió el Salvador!",
+      "id": "45ec4505-9d59-123c-838e-4ed71fd7fcd9"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "72e778f9-b973-0fdc-9293-839f5a697b27",
+      "paragraph": "Maravilloso es el gran amor que Cristo el Salvador\nderramó en mí; Siendo rebelde y pecador,\nyo de su muerte causa fui. ¡Grande, sublime,\ninmensurable amor! Por mí murió el Salvador.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "f77d4c2c-f56b-c515-a55f-d8c1650d52b7",
+      "paragraph": "El su celeste hogar abandonó, dejando posición,\ngloria y honor; De todo ello se despojó.\npor rescatar al pecador. Misericordia inmensa\nél mostró; su gran amor me alcanzó.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "e8b1c2de-e4a3-c382-394a-efac3a685771",
+      "paragraph": "¡Grande misterio! Dios el inmortal muriendo en la\ncruz entregó su ser; ni mente humana ni angelical\njamás lo puede comprender. Inexplicable\nes el infinito amor que demostró mi Salvador.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "501b7168-aa9e-1d8e-06c9-64c75841295c",
+      "paragraph": "En vil prisión mi alma padeció, atada en pecado\ny oscuridad; pronto en mi celda resplandeció\nla clara luz de su verdad. Cristo las férreas\ncadenas destruyó; Quedó ya libre, ¡Gloria a Dios!",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "088df862-22ea-4219-ae28-2a82d85bff65",
+      "paragraph": "Hoy ya no temo la condenación; Jesús\nes mi Señor, y yo suyo soy.\nVivo en élque es mi salvación,\nvestido en su justicia voy.\nLibre acceso al Padre gozo ya\ny entrada al trono celestial.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

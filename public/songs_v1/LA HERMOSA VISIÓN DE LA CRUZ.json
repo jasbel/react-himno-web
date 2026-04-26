@@ -1,0 +1,41 @@
+{
+  "id": "0419cc77-146f-de73-460d-e3696f9a9cd8",
+  "code": "27",
+  "title": "LA HERMOSA VISIÓN DE LA CRUZ",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "A mis pies el infierno se abrió,\ny clamé con el alma a Jesús.\nY al instante la escena cambió,\nen la hermosa visión de la cruz.",
+      "id": "b6178953-51f2-dc81-1aab-5dd55b2f2a5a"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "f87d0cd9-9269-720f-325d-1e3c5e6288d6",
+      "paragraph": "Largos años vague\npor el valle del mal,\nsin consuelo, sin fe, sin amor\n\nY la sombra fatal\nde la senda que hollé,\npuso en mi alma la hiel del dolor.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "7fe5a351-f02e-f39c-9c71-ab3400d14bc3",
+      "paragraph": "Desde entonces, por Él,\nya no soy lo que fui,\nuna sombra sin Dios y sin ley.\n\nMi existencia le di,\ny le quiero ser fiel;\nme constriñe el amor de mi Rey.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "b921f8d6-ec35-283f-732c-cb5b687926dc",
+      "paragraph": "Peregrino que vais\npor el valle del mal,\nvuestra senda solo es de dolor\n\nEsa carga fatal\nque en el alma lleváis,\nven y ponla a los pies del Señor.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

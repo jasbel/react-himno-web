@@ -1,0 +1,32 @@
+{
+  "id": "e4d393b2-74fa-ad36-4d43-57efd15579df",
+  "code": "0",
+  "title": "FUI HECHO JUSTO",
+  "musicalNote": "G|Sol",
+  "chorus": [
+    {
+      "choir": "Salvación, camino angosto,\n          Plenitud incomparable don de Dios.\n          Una cruz cubierta en sangre.\n          Fue necesaria para nuestra redención.",
+      "id": "7990fd50-d0b5-b7ab-f402-5fff281110fa"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "049c564e-eeea-f894-5a91-1caa805b336c",
+      "paragraph": "Fui hecho justo sin merecerlo\ntoda mi culpa ya cubierta esta.\nToda mi deuda quedó saldada,\npor la persona del cordero inmortal.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "7abf7533-4b7f-be97-0603-bcaf6191d69f",
+      "paragraph": "Regenerado y transformado,\n          Cambio mi mente y mi forma de actuar.\n          Hoy solo quiero servir a Cristo,\n          Y ser la luz la sal de un claro manantial.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

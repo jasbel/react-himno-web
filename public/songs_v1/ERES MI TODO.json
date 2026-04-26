@@ -1,0 +1,41 @@
+{
+  "id": "5ccece97-9d6a-fd8c-bf1d-36af29cc57af",
+  "code": "20",
+  "title": "ERES MI TODO",
+  "musicalNote": "_",
+  "chorus": [
+    {
+      "choir": "Cristo salvador, digno de adorar,\nCristo redentor digno de adorar.",
+      "id": "041a1f83-e61f-effa-21f8-fc3ecb58cbe7"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "64721e9e-c7bb-f3a3-5ea6-99a943002a5d",
+      "paragraph": "Tu eres mi fuerza y mi poder,\nel gran tesoro que busqué,\n¡Eres mi todo, Oh Dios!\nPerla de precio sin igual,\nnunca tu amor podré dejar,\n¡Eres mi todo, Oh Dios!",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "80a92b21-331d-fbd3-a887-70b49cdb5daf",
+      "paragraph": "Diste tu vida allá en la cruz,\nresucitaste mi Jesús\n¡Eres mi todo, Oh Dios!",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "ce468e83-6828-d148-3b61-065526d5c169",
+      "paragraph": "En sequedad o en tentación,\ntu me sostienes mi Señor,\n¡Eres mi todo, Oh Dios!",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

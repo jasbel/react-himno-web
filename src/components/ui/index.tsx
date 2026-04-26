@@ -1,5 +1,5 @@
-import Colors from "@/res/colors";
-import { responsive } from "@/utils/responsive";
+import Colors from "@/utils/colors";
+import { responsiveCalc } from "@/utils/responsive";
 
 interface GenericStyledProps<T extends React.ElementType> {
   as?: T;
@@ -17,7 +17,7 @@ const Input = (props: InputProps) => (
       marginBottom: 22,
       backgroundColor: Colors.grayLight,
       borderRadius: 50,
-      fontSize: responsive(20, 16),
+      fontSize: responsiveCalc(20, 16),
       padding: 22,
       paddingTop: 12,
       paddingBottom: 12,

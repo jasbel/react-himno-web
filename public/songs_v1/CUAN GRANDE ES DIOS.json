@@ -1,0 +1,43 @@
+{
+  "id": "a5f199f0-d6c4-5f89-8665-2458b10b0067",
+  "code": "6",
+  "title": "CUAN GRANDE ES DIOS",
+  "musicalNote": "E|Mi",
+  "chorus": [
+    {
+      "choir": "Cuán grande es Dios, sin igual,\ncuán grande eres Dios,\ntodos cantarán\ncuán grande eres Dios.",
+      "id": "452239b8-95da-ee5f-c017-5b1ff62f24b0"
+    },
+    {
+      "choir": "//Cuán grande es Dios, sin igual,\nCuán grande eres Dios, todos cantarán cuán grande eres Dios.//",
+      "id": "2aade3ec-7557-512f-a8ef-d08475571341"
+    },
+    {
+      "choir": "Nombre sin igual\neres digno de adorar\nsiempre cantare\ncuán grande eres Dios.",
+      "id": "551e0193-7fc5-5950-8d00-19d544193fc4"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "b3eb6b4a-a754-673d-055d-a457912ff704",
+      "paragraph": "Cuan esplendor de un rey\nvestido de majestad la tierra adorará, la tierra adorará.\nRodeado por su luz. tinieblas oscuridad tiembla con su voz.\nTiembla con su voz.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "505fb03e-bd38-ffdb-cf9c-b2d1c9432a75",
+      "paragraph": "Perfecto solo es Él,\nel tiempo suyo es\nprincipio y final, principio y final.\nHermosa trinidad\nsu esencia en tres está.\nCordero vive hoy, cordero vive hoy.",
+      "chorusPos": [
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    }
+  ]
+}

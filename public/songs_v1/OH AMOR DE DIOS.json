@@ -1,0 +1,72 @@
+{
+  "id": "8a497abe-e1ac-725a-1e37-b848c4298657",
+  "code": "36",
+  "title": "OH AMOR DE DIOS",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "¡Oh amor de Dios!\nBrotando está,\nInmensurable eternal;\nPor las edades durará\nInagotable raudal.",
+      "id": "5efeec57-7981-9263-2f08-06650b4039a2"
+    },
+    {
+      "choir": "/¡Oh amor de Dios!\nBrotando está,\nInmensurable eternal;\nPor las edades durará\nInagotable raudal./",
+      "id": "fae03991-b514-9674-e352-62691b214fcd"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "054b9848-9090-5c83-4185-40de9a5f970f",
+      "paragraph": "¡Oh amor de Dios! Su inmensidad\nEl hombre no podría contar,\nNi comprender la gran verdad,\nQue Dios al hombre pudo amar.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "47abdab6-a327-5577-e325-aaeec8f70133",
+      "paragraph": "Cuando el pecado entró al hogar\nDe Adán y Eva en Edén;\nDios les sacó, más prometió\nUn Salvador también.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "599f6e11-112f-8a41-322c-f77499158ab0",
+      "paragraph": "Si fuera tinta todo el mar,\nY todo el cielo un gran papel,\nY cada hombre un escritor,\nY cada hoja un pincel.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "8442af36-b655-59f1-aed3-01c99479e081",
+      "paragraph": "Nunca podría describir\nEl gran amor de Dios;\nQue al hombre pudo redimir\nDe su pecado atroz",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "e346872b-8d07-1674-cf35-e7e6fa226b7a",
+      "paragraph": "Y cuando el tiempo pasara\nCon cada reino mundanal\nY cada reino caerá\nCon cada trama y plan carnal",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "ca7126a7-5711-fc6d-0977-382521f0ef64",
+      "paragraph": "El gran amor del redentor\nPor siempre durara\nLa gran canción de salvación\nTu pueblo cantara",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    }
+  ]
+}

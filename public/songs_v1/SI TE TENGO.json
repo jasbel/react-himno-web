@@ -1,0 +1,32 @@
+{
+  "id": "fe05a778-6506-2da7-631a-c1338c232fe8",
+  "code": "38",
+  "title": "SI TE TENGO",
+  "musicalNote": "G|Sol",
+  "chorus": [
+    {
+      "choir": "Eres todo lo que anhelo,\nTu voluntad es lo que quiero.\nTú satisfaces mi vida entera,\nTú, mi porción y mi roca eterna.\nLo que yo tengo lo doy por perdido,\nSi te tengo a Ti.",
+      "id": "251db946-ae87-aeff-0add-55a76c54647b"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "488f1d7c-476b-a4e9-e9d8-11c51984b71c",
+      "paragraph": "No hay nada para mí que sea mejor,\nQue conocerte, mi Jesús.\nPues en Tí encuentro paz´, Y el amor,\nQue me has dado en la cruz.\nPor eso yo quiero cantar.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "0028fca1-bba8-0159-c428-9124ead01a1d",
+      "paragraph": "Puedo amarte por que Tú Me amaste a mí,\nSiendo yo un pecador.\nNo merecía Tu perdón Menos aún,\nSer llamado hijo de Dios.\nPor eso yo quiero cantar.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

@@ -1,34 +1,47 @@
-import { useCallback } from "react";
-import { titleApp } from "../res/constant";
-import { ISong } from "../types/types";
+import { useCallback, useContext } from "react";
+import { titleApp } from "@/utils/constant";
+import { ISongModel } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
-import { useSong } from "../hooks/useNewSong";
-import { ERoutes } from "../res/enum";
+import { ERoutes } from "@/utils/enum";
 import HimnoList from "@/components/HimnoList";
+import { SongNewContext } from "@/state/SongNewContext";
+import { getSongV1Item } from "@/api/songLocalService";
+import { uuid } from "@/utils/helpers";
 
 const HimnoNewScreen = () => {
   const navigate = useNavigate();
-  const { songFavorites, changeSongBySearch, songsSearch } = useSong();
+  const { changeSongBySearch, songAllFilter} = useContext(SongNewContext)
 
   const handlePress = useCallback(
-    (himno: ISong) => {
+    (himno: ISongModel) => {
       navigate('/' + ERoutes.item, { state: { himno } });
     },
     [navigate]
   );
 
+  const handlePressPre = 
+    async (himno: ISongModel) => {
+      let item: ISongModel = himno
+      if (himno.filename) {
+        // debugger
+        const _item = await getSongV1Item(himno.filename)
+        item = {..._item, paragraphs:  _item.paragraphs.map(it =>  ({...it, id: uuid(), chorusPos: []}))}
+      }
+      handlePress(item) 
+      
+    }
+
   return (
-    <>
+    <div className="himnonewscreen">
       <Hero title={titleApp} hrefBefore={"/"} hiddenFS />
 
       <HimnoList
         changeSongBySearch={changeSongBySearch}
-        hasFavorite={!!songFavorites.length}
-        songsSearch={songsSearch}
-        handlePress={handlePress}
+        songsSearch={songAllFilter}
+        handlePress={handlePressPre}
       />
-    </>
+    </div>
   );
 };
 

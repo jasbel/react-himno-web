@@ -1,0 +1,49 @@
+{
+  "id": "15a9ab4e-7572-bad3-4db2-210aca8d3c05",
+  "code": "3",
+  "title": "ANTE EL TRONO CELESTIAL",
+  "musicalNote": "C/D|Do-Re",
+  "chorus": [
+    {
+      "choir": "Y en Sus manos por Su amor\nMi nombre ya grabado está\nY mientras en el cielo esté\n/ Nadie de Él me apartará /",
+      "id": "32e31207-bd59-e62d-9665-d249cfaf0063"
+    },
+    {
+      "choir": "Y por su muerte el Salvador\nYa mi pecado perdonó\nPues Dios, el Justo, aceptó\n/ Su sacrificio hecho por mí /",
+      "id": "62f1cc91-2ad2-b73e-aa96-b7671cb1de43"
+    },
+    {
+      "choir": "/ Unido a Él no moriré\nPues con Su sangre me compró\nMi vida escondida está\nEn Cristo Dios, mi Salvador/\n\n/En Cristo Dios, mi Salvador/",
+      "id": "400f9e28-1fbf-d2e7-fb40-3b76a3dd147d"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "c523100f-be39-be89-415b-ea33f3adcc6f",
+      "paragraph": "Ante el trono celestial\nÉl intercede hoy por mí\nGran Sacerdote es Jesús\nQuien por siempre vivirá",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "61dfe5b1-a86c-60e4-d42c-d0e07b6129d0",
+      "paragraph": "Cuando he caído en tentación\nY al sentir condenación\nAl ver al cielo encontraré\nAl inocente quien murió.",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "02dc7fd4-e32e-d20f-5e86-bf82abce9408",
+      "paragraph": "Ante el Cordero Redentor\nQuién al morir resucitó\nEl inmutable gran Yo Soy\nEl Rey de gloria y majestad",
+      "chorusPos": [
+        [
+          3
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "947fcfc6-d732-fa7a-9e0c-026c9f8558a3",
+  "code": "5",
+  "title": "CONTEMPLA A DIOS",
+  "musicalNote": "C|Do",
+  "chorus": [
+    {
+      "choir": "//¡Reinaras por siempre!//\n//¡Que tu gloria brille hoy!//",
+      "id": "366284fd-9fb2-92c8-acc8-ddafa728b212"
+    },
+    {
+      "choir": "Contempla a Dios, en su trono está venid y adoradle.\nContempla al Rey, nadie es como Él venid y adoradle.",
+      "id": "d99a0ab5-8c18-9106-af1e-d0b8b90ad2cb"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "28a32dea-1203-984f-7446-8d5b642568ac",
+      "paragraph": "¿Quién formó las olas al hablar?,\n¿Quién contó la arena en el mar?\nReyes, pueblos, tiemblan a su voz,\nla creación le rinde adoración.",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "3eb8453e-5e2f-6e88-4d95-32bd1a42469c",
+      "paragraph": "¿Quién le dio consejo al Señor?,\n¿Quién cuestiona lo que Él habló?\nQuién al sabio Dios puede enseñar,\n¿Quién comprende su gran majestad?",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "92ad8b90-3ed9-4d52-6087-75a69475312d",
+      "paragraph": "¿Quién sufrió los clavos en dolor?\n¿Quién llevo el mal del pecador?\nJesucristo, humilde al perecer,\nHa triunfado y reina con poder.",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "0e7856ee-23c5-0c10-01bc-b409b9a9c96f",
+      "paragraph": "",
+      "chorusPos": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    }
+  ]
+}

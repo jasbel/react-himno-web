@@ -1,0 +1,41 @@
+{
+  "id": "88cdc5ce-ff16-12ed-aa06-aa19bd141424",
+  "code": "19",
+  "title": "EN TERNURA",
+  "musicalNote": "G|Sol",
+  "chorus": [
+    {
+      "choir": "Oh oh oh su amor me busco\nOh oh oh su sangre me compro\nOh la gracia que me trajo a su redil\nGracia que me trajo a su redil",
+      "id": "b9e908c6-e7a3-0e45-f7b8-5c18a8942041"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "86c4b4b2-5959-cbf2-9d60-3af4f2b69ed7",
+      "paragraph": "En ternura me busco\nperdido e infeliz\nY en sus hombros el me trajo\nDe vuelta a su redil\nMientras los ángeles cantaban\nLa corte celestial sonó",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ffdfe6ff-41e8-2283-c5ec-50ef7448893a",
+      "paragraph": "Murió por mi mientras pecaba\nPobre y ciego fui\nMe hablo para decirme\nSoy suyo me compro\nJamás oi tan dulce voz\nHizo feliz mi corazón",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "56532f48-17de-df8b-a7c1-7a25cb605c2c",
+      "paragraph": "Su gracia yo meditare\nY te alabare\nCon asombro te adorare\nY te bendeciré\nParece la eternidad\nMuy corta para adorar",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

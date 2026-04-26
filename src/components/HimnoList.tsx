@@ -1,67 +1,91 @@
 import React, { useState } from "react";
-import Colors from "../res/colors";
+import Colors from "@/utils/colors";
 import HimnoSearch from "./himno/HimnoSearch";
 import HimnoItem from "./himno/HimnoItemNew";
-import { ISong } from "../types/types";
+import { ISongModel } from "../types/types";
 import FavoriteEmptyState from "./favorite/FavoriteEmptyState";
 
 const initPaginate = {
   length: 40,
   page: 1,
-}
+};
 
 interface Props {
   changeSongBySearch: (q: string) => void;
-  hasFavorite: boolean;
-  songsSearch: ISong[];
-  handlePress: Function
+  songsSearch: ISongModel[];
+  handlePress: Function;
 }
 
-const HimnoList = ({ changeSongBySearch, hasFavorite: hasFavorite, songsSearch, handlePress }: Props) => {
+const HimnoList = ({ changeSongBySearch, songsSearch, handlePress }: Props) => {
   const [paginate, setPaginate] = useState(initPaginate);
 
   const resetPaginate = () => {
-    if(paginate.page === 1) return;
+    if (paginate.page === 1) return;
 
-    setPaginate(initPaginate)
+    setPaginate(initPaginate);
   };
 
   const handleSearch = (query: string) => {
     changeSongBySearch(query);
-    resetPaginate()
+    resetPaginate();
   };
 
   return (
-    <>
-      <div style={styles.container}>
-        <HimnoSearch onChange={handleSearch} />
+    <div style={styles.container} data-testid="himnolist">
+      <HimnoSearch onChange={handleSearch} />
 
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
-          {!hasFavorite && <FavoriteEmptyState />}
-
-          <>
-            {songsSearch
-              .filter((_, i) => (i >= paginate.length * (paginate.page - 1) && i < paginate.length * paginate.page))
-              .map((item) => {
-                return <HimnoItem
-                  key={item.code}
-                  id={item.id}
-                  title={item.title}
-                  num={item.code}
-                  note={item.musicalNote}
-                  description={item.paragraphs[0].paragraph}
-                  onClick={() => handlePress(item)}
-                />;
-              })}
-          </>
-        </div>
-
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, margin: 12 }}>
-          <button style={styles.btnStyle} disabled={paginate.page <= 1} onClick={() => setPaginate({ ...paginate, page: paginate.page - 1 })} >Anterior</button>
-          <button style={styles.btnStyle} disabled={paginate.page * paginate.length > songsSearch.length} onClick={() => setPaginate({ ...paginate, page: paginate.page + 1 })} >Siguiente</button>
-        </div>
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        {songsSearch
+          .filter((
+            _,
+            i,
+          ) => (i >= paginate.length * (paginate.page - 1) &&
+            i < paginate.length * paginate.page)
+          )
+          .map((item) => (
+            <HimnoItem
+              key={item.id}
+              id={item.id}
+              title={item.title}
+              num={null}
+              note={item.musicalNote}
+              description={item.paragraphs[0]?.paragraph ||
+                item.description || ""}
+              onClick={() => handlePress(item)}
+            />
+          ))}
       </div>
-    </>
+
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 12,
+          margin: "16px 12px",
+        }}
+      >
+        <button
+          style={styles.btnStyle}
+          disabled={paginate.page <= 1}
+          onClick={() =>
+            setPaginate({ ...paginate, page: paginate.page - 1 })}
+        >
+          ← Anterior
+        </button>
+        <span style={{ fontSize: 14, color: Colors.txtPrimary }}>
+          {paginate.page}
+        </span>
+        <button
+          style={styles.btnStyle}
+          disabled={paginate.page * paginate.length > songsSearch.length}
+          onClick={() =>
+            setPaginate({ ...paginate, page: paginate.page + 1 })}
+        >
+          Siguiente →
+        </button>
+      </div>
+    </div>
   );
 };
 
@@ -71,13 +95,17 @@ const styles: { [key in any]: React.CSSProperties } = {
   container: {
     flex: 1,
     backgroundColor: Colors.bkgWhite,
-    paddingLeft: 12,
-    paddingRight: 12,
+    paddingLeft: 8,
+    paddingRight: 8,
+    paddingBottom: 16,
   },
   btnStyle: {
     backgroundColor: Colors.bkgPrimary,
     color: Colors.white,
-    padding: '6px 12px',
-    borderRadius: 25,
-  }
+    padding: "10px 16px",
+    borderRadius: 8,
+    fontSize: 14,
+    fontWeight: 600,
+    minWidth: 100,
+  },
 };

@@ -1,0 +1,63 @@
+{
+  "id": "df5ed335-aea4-9ea0-beee-1164c79010cc",
+  "code": "1",
+  "title": "VIVIR POR FE",
+  "musicalNote": "A|La",
+  "chorus": [
+    {
+      "choir": "Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en Él\nVivir por fe y no por ver",
+      "id": "791b4631-0c11-ad2a-2ab0-d470a12773aa"
+    },
+    {
+      "choir": "/Sus promesas como rocas son,\nSus promesas cumple nuestro Dios\nNos movemos solo por la fe en él\nVivir por fe y no por ver./\n/Vivir por fe y no por ver./",
+      "id": "4cf7bb7c-b1d1-fb75-88c6-716f4100977c"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "74347f40-3670-ce6d-aaa5-a20738931c65",
+      "paragraph": "Por fe, veremos a nuestro Dios\nEn el plan que creó en la eternidad.\nEn la vida de los fieles que llamó\nA vivir por fe y no por ver.",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "a846a9d8-be44-b1be-5d59-26336cc8fb69",
+      "paragraph": "Por fe, el justo vivirá\nPor la fe, caminamos junto a el\nComo viendo al invisible protector\nVivir por fe y no por ver",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "95d408d3-9afb-5ee1-dbbe-076e9674afc2",
+      "paragraph": "Por fe, profetas hablaron bien\nPor la fe, proclamaron la verdad\nEl Mesías prometido en edén\nEl que la muerte venció en la cruz",
+      "chorusPos": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "94e202d4-ae52-df8d-20ac-c6fd215f4f46",
+      "paragraph": "Por fe, la iglesia se moverá\nCon poder del espíritu de Dios\nY las fuerzas del infierno no podrán\nDañar la obra de nuestro Dios.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "e55c5c63-949e-92cc-f20b-e7ec65fbc3ed",
+      "paragraph": "Por fe los montes se moverán\nSi la fe permanece en Jesús\nEl poder del evangelio librara\nA todo aquel que confía en él",
+      "chorusPos": [
+        [
+          2
+        ]
+      ]
+    }
+  ]
+}

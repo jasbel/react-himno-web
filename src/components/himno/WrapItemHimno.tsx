@@ -1,8 +1,8 @@
 import ItemHimnoLetter, { ILetter } from "./ItemHimnoLetter";
-import { ISong } from "../../types/types";
+import { ISongModel } from "../../types/types";
 import { IChoir } from "../../types/types";
 
-interface Props extends Pick<ISong, "paragraphs" | "chorus"> {
+interface Props extends Pick<ISongModel, "paragraphs" | "chorus"> {
   isSmall?: boolean;
 }
 
@@ -12,25 +12,34 @@ const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
       filter.length >= 2
         ? filter.reduce(
             (accumulatorChoir, _choir, idx) =>
-              accumulatorChoir + _choir?.choir + (filter.length !== idx + 1 ? "\n\n" : ""),
+              accumulatorChoir + (_choir?.choir || '') + (filter.length !== idx + 1 ? "\n\n" : ""),
             ""
           )
-        : filter[0]?.choir;
+        : filter[0]?.choir || '';
 
     return [filterChoir];
   };
 
-  const verses: ILetter[] = paragraphs.map((item, i) => {
+  const verses: ILetter[] = paragraphs.map((item) => {
     let choirs = [] as string[];
 
-    let filters: IChoir[];
+    let filters: IChoir[] = [];
     if (chorus) {
-      filters = item.chorusPos.map((cp) => {
-        if(typeof cp[0] === 'number') {
-         return chorus[cp[0] - 1]
+      // Ensure chorusPos is an array before mapping
+      const chorusPosArray = Array.isArray(item.chorusPos) 
+        ? item.chorusPos 
+        : (item.chorusPos ? [item.chorusPos] : []);
+
+      filters = chorusPosArray.map((cp: any) => {
+        // Handle tuple [id, repeat] or simple id
+         const id = Array.isArray(cp) ? cp[0] : cp;
+         
+        if(typeof id === 'number') {
+         return chorus[id - 1]
         }
-        return chorus.find(c => c.id === cp[0])!;
-      });
+        return chorus.find(c => c.id === id)!;
+      }).filter(Boolean); // Filter out undefineds
+      
       choirs = filters.length ? joinChoirs(filters) : [];
     }
 
@@ -41,8 +50,8 @@ const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
 
   return (
     <>
-      {verses.map((v, i) => {
-        return <ItemHimnoLetter key={i} item={v} isSmall={isSmall} />;
+      {verses.map((it, i) => {
+        return <ItemHimnoLetter key={i} item={it} isSmall={isSmall} hiddenSepare={verses.length <= i + 1} />;
       })}
     </>
   );

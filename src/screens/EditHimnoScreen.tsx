@@ -5,35 +5,69 @@ import FormParagraphs from "../components/FormParagraphs";
 import ViewSong from "../components/ViewSong";
 import LayoutMain from "../layout/LayoutMain";
 import ChoirList from "@/components/ChoirList";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useContext, useEffect } from "react";
 import { AddContext } from "@/state/AddContext";
 import { useDinamicSong } from "@/hooks/useDinamicSong";
 import { ID } from "@/types/types";
+import { updateSong } from "@/api/songService";
 
 
 const EditHimnoScreen = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const { state, updateState } = useContext(AddContext);
-  const { changeSongBySearch, song, getSong } = useDinamicSong();
+  const { getSong } = useDinamicSong();
 
   const getSongEdit = async () => {
-    debugger
-    const _song =    await getSong(id as ID)
-    updateState(_song)      
-
-    // setTimeout(() => {
-    // }, 50);
+    if (!id) return;
+    try {
+      const _song = await getSong(id as ID);
+      if (_song) {
+        updateState(_song);
+      }
+    } catch (error) {
+      console.error(error);
+    }
   }
+
+  const handleUpdate = async () => {
+    try {
+      await updateSong(state);
+      alert('Himno actualizado correctamente');
+      navigate(-1);
+    } catch (error) {
+      console.error(error);
+      alert('Error al actualizar el himno');
+    }
+  };
 
   useEffect(() => {
     getSongEdit();
   }, [])
+  useEffect(() => {
+    console.log(state)
+  }, [state])
   
 
   return (
       <Layout>
-        <h1>{id}</h1>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px 20px' }}>
+          <h1 style={{ fontSize: 24, fontWeight: 'bold' }}>Editar Himno</h1>
+          <button 
+            onClick={handleUpdate}
+            style={{
+              padding: '10px 20px',
+              backgroundColor: '#2196F3',
+              color: 'white',
+              border: 'none',
+              borderRadius: 4,
+              cursor: 'pointer'
+            }}
+          >
+            Actualizar
+          </button>
+        </div>
         <div style={{ minHeight: "calc(100vh - 193px)" }}>
           <Flex>
             <Box style={{flex: 3}}>

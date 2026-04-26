@@ -1,8 +1,8 @@
 import { Flex, TextSingle } from "@components/ui";
 import React, { useEffect, useState } from "react";
-import { findFav } from "../../libs/storage";
-import Colors from "../../res/colors";
-import { responsive } from "../../res/responsive";
+import { findFav } from "../../lib/storage";
+import Colors from "@/utils/colors";
+import { responsiveCalc } from "@/utils/responsive";
 import { type ID } from "../../types/types";
 import ImageItem from "./elements/ImageItem";
 import StarNote from "./elements/StarNoteNew";
@@ -12,7 +12,7 @@ import StarNote from "./elements/StarNoteNew";
 interface Props {
   id: ID,
   title: string,
-  num: string,
+  num: string | null,
   note: string,
   description: string,
   style?: React.CSSProperties;
@@ -35,7 +35,7 @@ const HimnoItem = ({
       const inFav = findFav(id);
       setIsFavorite(!!inFav);
     } catch (error) {
-      console.log(" Get Favorite Error:  ", error);
+      console.error(" Get Favorite Error:  ", error);
     }
   };
 
@@ -47,7 +47,7 @@ const HimnoItem = ({
   return (
     <Flex style={{ ...style, order: isFavorite ? -1 : undefined }}>
       <button style={styles.container} onClick={onClick}>
-        <ImageItem num={num} select={isFavorite} />
+        <ImageItem num={num} select={isFavorite}  />
 
         <div style={styles.content}>
           <Flex
@@ -67,7 +67,7 @@ const HimnoItem = ({
           </Flex>
         </div>
       </button>
-      <StarNote isFavorite={isFavorite} musicalNote={note} songId={id} />
+      <StarNote isFavorite={isFavorite} musicalNote={note} songId={id} refresh={() => getFavorite()} />
     </Flex>
   );
 };
@@ -81,6 +81,7 @@ const styles: { [key in any]: React.CSSProperties } = {
     flex: 1,
     width: "100%",
     overflowX: "hidden",
+    padding: 4,
   },
   content: {
     display: "flex",
@@ -90,18 +91,20 @@ const styles: { [key in any]: React.CSSProperties } = {
     flexDirection: "row",
     justifyContent: "space-between",
     flex: 1,
+    padding: 4,
   },
   title: {
     fontWeight: "bold",
-    fontSize: responsive(20, 18),
+    fontSize: responsiveCalc(20, 16),
     color: Colors.txtPrimary,
     textTransform: "uppercase",
-    lineHeight: 1,
+    lineHeight: 1.2,
   },
   description: {
-    fontSize: responsive(17, 16),
+    fontSize: responsiveCalc(17, 14),
     color: Colors.txtBlack,
     paddingLeft: 8,
+    lineHeight: 1.3,
   },
 };
 

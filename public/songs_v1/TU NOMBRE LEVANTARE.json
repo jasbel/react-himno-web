@@ -1,0 +1,23 @@
+{
+  "id": "dab8372e-87b2-7802-cf4e-c2c7ba899ac4",
+  "code": "45",
+  "title": "TU NOMBRE LEVANTARE",
+  "musicalNote": "G|Sol",
+  "chorus": [
+    {
+      "choir": "//Dejaste el trono para,\nmostrarnos la luz\nDe Tú trono a la cruz,\ny mi deuda pagar.\nDe la cruz a morir,\nde la muerte a tú trono;\nTú nombre levantaré//.",
+      "id": "663e9947-17f3-73ad-9143-5b3d3862b13e"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "303e50ea-904f-017b-f73f-50f8ed430502",
+      "paragraph": "//Tú nombre levantaré,\nme deleito en adorarte.\nTe agradezco que en mi vida estés,\nque vinieras a salvarme//.",
+      "chorusPos": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}
