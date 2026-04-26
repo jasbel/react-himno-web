@@ -14,7 +14,7 @@ const LayoutGlobal = ({children}: Props) => {
   const isHomePage = location.pathname === '/' || location.pathname === `/${ERoutes.principal}`
 
   return (
-    <div className={`min-h-screen bg-background flex flex-col font-sans antialiased text-foreground ${!isHomePage ? 'pb-16 md:pb-0' : ''}`}>
+    <div className={`min-h-screen bg-background flex flex-col font-sans antialiased text-foreground ${isHomePage ? 'pb-0 md:pb-0' : !isHomePage ? 'pb-16 md:pb-0' : ''}`}>
       <Header />
 
       <main className="flex-1 w-full max-w-6xl mx-auto sm:px-6 lg:px-8 sm:py-10">
