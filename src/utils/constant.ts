@@ -18,6 +18,8 @@ export const initSong: () => ISongModel = () =>  ({
 
 export const routeList = {
     edit: (id: ID) => '/' + ERoutes.editHimno + '/' + id,
+    song: (id: ID) => '/' + ERoutes.item + '/' + id,
+    songQuechua: (id: ID) => '/' + ERoutes.itemQuechua + '/' + id,
 }
 export const defaultSize = {
   widthMax: 1440,

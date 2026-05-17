@@ -4,6 +4,7 @@ import iconChoir from "../../assets/images/verse.png";
 import { responsiveCalc } from "../../utils/responsive";
 import { Box } from "@components/ui";
 import { useSetting } from "../../hooks/useSetting";
+import ChordLyrics from "./ChordLyrics";
 const Separe = ({ isSmall = false }: { isSmall: boolean }) => {
   return (
     <div style={styles.containerIconChoir}>
@@ -33,6 +34,8 @@ interface Props {
 const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
   const fontsmall = 12;
   const { customFontSize } = useSetting();
+  const hasChords = item.paragraph.includes('[') && item.paragraph.includes(']');
+
   return (
     <Box>
       <p
@@ -42,7 +45,11 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
           fontSize: customFontSize,
         }}
       >
-        <span style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}>{item.paragraph}</span>
+        {hasChords ? (
+          <ChordLyrics text={item.paragraph} fontSize={customFontSize} />
+        ) : (
+          <span style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}>{item.paragraph}</span>
+        )}
       </p>
       {
          !hiddenSepare && <>
@@ -51,18 +58,24 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
          </>
       }
 
-      {(item.choirs).map((choir) => (
-        <>
-          {choir !== "" && (
-            <>
-              <p
-                style={{
-                  ...styles.choir,
-                  fontSize: isSmall ? fontsmall : customFontSize,
-                }}
-              >
-                <span className="whitespace-pre-wrap break-words">{choir}</span>
-              </p>
+      {(item.choirs).map((choir, idx) => {
+        const hasChordChoir = choir.includes('[') && choir.includes(']');
+        return (
+          <React.Fragment key={idx}>
+            {choir !== "" && (
+              <>
+                <p
+                  style={{
+                    ...styles.choir,
+                    fontSize: isSmall ? fontsmall : customFontSize,
+                  }}
+                >
+                  {hasChordChoir ? (
+                    <ChordLyrics text={choir} fontSize={isSmall ? fontsmall : customFontSize} />
+                  ) : (
+                    <span className="whitespace-pre-wrap break-words">{choir}</span>
+                  )}
+                </p>
               {
                 (!hiddenSepare && item.choirs.length > 0) && (
                   <>
@@ -73,9 +86,10 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
               }
 
             </>
-          )}
-        </>
-      ))}
+            )}
+          </React.Fragment>
+        )
+      })}
 
     </Box>
   );
@@ -91,8 +105,8 @@ const styles: { [key in any]: React.CSSProperties } = {
     marginBottom: responsiveCalc(15, 10),
   },
   iconChoir: {
-    width: responsiveCalc(350, 70),
-    height: responsiveCalc(20, 11),
+    width: responsiveCalc(200, 100),
+    height: "auto",
     margin: "auto",
   },
   iconChoirSmall: {

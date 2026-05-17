@@ -6,8 +6,8 @@ export const ERoutes = {
   homeQuechua : "himnos-quechua",
   homeOld : "himno",
   itemOld : "himno-song",
-  item : "himno-song-new",
-  itemQuechua : "himno-song-quechua",
+  item : "himnos/view",
+  itemQuechua : "himnos-quechua/view",
   addHimno : "create",
   editHimno : "edit"
 }

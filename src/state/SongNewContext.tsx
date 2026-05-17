@@ -10,6 +10,7 @@ interface InitialValues {
   addToFav: (favId: ID) => void;
   changeSongBySearch: (q: string) => void;
   rmToFav: (favId: ID) => void;
+  getSongById: (id: ID) => ISong | undefined;
 }
 
 const defaultValue: InitialValues = {
@@ -17,6 +18,7 @@ const defaultValue: InitialValues = {
   addToFav: () => {},
   changeSongBySearch: () => {},
   rmToFav: () => {},
+  getSongById: () => undefined,
 };
 
 export const SongNewContext = React.createContext<InitialValues>(defaultValue);
@@ -93,6 +95,10 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
     setSongAllFilter(himnosFiltered);
   };
 
+  const getSongById = (id: ID): ISong | undefined => {
+    return songAllRef.current.find((song) => song.id === id);
+  };
+
   useEffect(() => {
     getSongs();
     changeSongBySearch("");
@@ -105,6 +111,7 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
         addToFav,
         rmToFav,
         changeSongBySearch,
+        getSongById,
       }}
     >
       {children}

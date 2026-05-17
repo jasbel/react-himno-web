@@ -1,5 +1,5 @@
 import { useCallback, useContext } from "react";
-import { titleApp } from "@/utils/constant";
+import { titleApp, routeList } from "@/utils/constant";
 import { ISongModel } from "../types/types";
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
@@ -15,7 +15,7 @@ const HimnoNewScreen = () => {
 
   const handlePress = useCallback(
     (himno: ISongModel) => {
-      navigate('/' + ERoutes.item, { state: { himno } });
+      navigate(routeList.song(himno.id), { state: { himno } });
     },
     [navigate]
   );

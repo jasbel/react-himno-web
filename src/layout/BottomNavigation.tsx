@@ -17,8 +17,6 @@ const BottomNavigation = () => {
   // Detectamos si estamos en una vista de canción de manera más robusta
   const isSongView = location.pathname.includes(`/${ERoutes.item}`) ||
                        location.pathname.includes(`/${ERoutes.itemQuechua}`) ||
-                       location.pathname.includes("/himno-song-new") ||
-                       location.pathname.includes("/himno-song-quechua") ||
                        location.pathname.includes("/edit-himno");
 
   const toggleFavorite = (star: TypeStar) => {

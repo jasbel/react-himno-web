@@ -29,8 +29,8 @@ const HimnoStack = () => {
           <Route path={ERoutes.homeQuechua} element={<HimnoNewQuechuaScreen />} />
           <Route path={ERoutes.homeList} element={<HimnoListScreen />} />
           <Route path={ERoutes.homeLists} element={<HimnoListsScreen />} />
-          <Route path={ERoutes.item}  element={<HimnoSongScreen />} />
-          <Route path={ERoutes.itemQuechua}  element={<HimnoSongQuechuaScreen />} />
+          <Route path={ERoutes.item + '/:id'}  element={<HimnoSongScreen />} />
+          <Route path={ERoutes.itemQuechua + '/:id'}  element={<HimnoSongQuechuaScreen />} />
           
           <Route element={<ProtectedRoute />}>
             <Route path={ERoutes.addHimno}  element={<AddHimnoScreen />} />
