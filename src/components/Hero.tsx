@@ -8,9 +8,10 @@ interface Props {
   title: string;
   hiddenFS?: boolean;
   hrefBefore: string;
+  extraContent?: React.ReactNode;
 }
 
-const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
+const Hero = ({ title, hiddenFS, hrefBefore, extraContent }: Props) => {
   const navigate = useNavigate();
 
   const onPreBefore = () => {
@@ -24,9 +25,12 @@ const Hero = ({ title, hiddenFS, hrefBefore }: Props) => {
       </Box>
 
       <Box style={{ backgroundColor:Colors.orangeDark, justifyContent: "center" , padding: "8px 4px"}}  >
-        <Heading style={{fontSize: responsiveCalc(36, 20), color: Colors.txtWhite,textAlign: "center", padding: "0 8px"}}>
-          {title}
-        </Heading>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "8px" }}>
+          <Heading style={{fontSize: responsiveCalc(36, 20), color: Colors.txtWhite,textAlign: "center", padding: "0 8px"}}>
+            {title}
+          </Heading>
+          {extraContent}
+        </div>
       </Box>
     </>
   );

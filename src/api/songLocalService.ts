@@ -1,10 +1,10 @@
 import { ID, ISongModel, ISongCreate, ISongItem, ISongListV1, ISongV1Model } from '@/types/types';
 import axiosClient from './axiosClient';
 
-export const getSongV1Item = async (fn: string): Promise<ISongItem> => {
+export const getSongV1Item = async (fn: string, bustCache: boolean = false): Promise<ISongItem> => {
   try {
-    console.log({ fn })
-    const response = await fetch(`/songs_v1/${fn}`)
+    const cacheParam = bustCache ? `?_cache=${Date.now()}` : '';
+    const response = await fetch(`/songs_v1/${fn}${cacheParam}`)
     if (!response.ok) {
       throw new Error('Failed to fetch config')
     }

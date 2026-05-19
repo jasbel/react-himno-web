@@ -48,7 +48,7 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
         {hasChords ? (
           <ChordLyrics text={item.paragraph} fontSize={customFontSize} />
         ) : (
-          <span style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}>{item.paragraph}</span>
+          <span className="whitespace-pre-wrap break-words">{item.paragraph}</span>
         )}
       </p>
       {

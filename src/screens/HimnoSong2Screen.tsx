@@ -9,6 +9,7 @@ import { Box } from "@components/ui";
 import WrapItemHimno from "../components/himno/WrapItemHimno";
 import { ERoutes } from "@/utils/enum";
 import HimnoSongFooter from "@/components/himno/HimnoSongFooter";
+import HimnoHeaderRefresh from "@/components/himno/HimnoHeaderRefresh";
 import { SongNewContext } from "@/state/SongNewContext";
 import { getSongV1Item } from "@/api/songLocalService";
 import { uuid } from "@/utils/helpers";
@@ -26,8 +27,51 @@ const HimnoSongScreen: FC<Props> = () => {
   const { id } = useParams();
   const { addToFav, rmToFav, getSongById } = useContext(SongNewContext);
   const [himno, setHimno] = useState<ISongModel>(state?.himno);
+  const [loading, setLoading] = useState(false);
+  const [refreshKey, setRefreshKey] = useState(0);
 
   const himnoId = id || state?.himno?.id;
+
+  const loadHimnoFromJson = async (filename?: string, bustCache: boolean = false) => {
+    if (!filename) return null;
+
+    try {
+      const item = await getSongV1Item(filename, bustCache);
+      const loadedHimno = {
+        ...item,
+        paragraphs: item.paragraphs.map(it => ({
+          ...it,
+          id: it.id || uuid(),
+          chorusPos: it.chorusPos || []
+        }))
+      };
+      return loadedHimno;
+    } catch (error) {
+      console.error('Error loading hymn from JSON:', error);
+      return null;
+    }
+  };
+
+  const refreshHymn = async () => {
+    if (!himnoId) return;
+
+    setLoading(true);
+    try {
+      const songFromContext = getSongById(himnoId);
+      if (songFromContext?.filename) {
+        const reloadedHimno = await loadHimnoFromJson(songFromContext.filename, true); // true = bust cache
+        if (reloadedHimno) {
+          setHimno(reloadedHimno);
+          setRefreshKey(prev => prev + 1); // Force re-render
+        }
+      } else if (songFromContext) {
+        setHimno(songFromContext);
+        setRefreshKey(prev => prev + 1);
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
     const loadHimno = async () => {
@@ -35,16 +79,10 @@ const HimnoSongScreen: FC<Props> = () => {
         const songFromContext = getSongById(himnoId);
         if (songFromContext) {
           if (songFromContext.filename) {
-            const item = await getSongV1Item(songFromContext.filename);
-            const loadedHimno = {
-              ...item,
-              paragraphs: item.paragraphs.map(it => ({
-                ...it,
-                id: it.id || uuid(),
-                chorusPos: it.chorusPos || []
-              }))
-            };
-            setHimno(loadedHimno);
+            const loadedHimno = await loadHimnoFromJson(songFromContext.filename);
+            if (loadedHimno) {
+              setHimno(loadedHimno);
+            }
           } else {
             setHimno(songFromContext);
           }
@@ -63,11 +101,15 @@ const HimnoSongScreen: FC<Props> = () => {
 
   return (
     <div>
-      <Hero title={title} hrefBefore={'/' + ERoutes.himnos} />
+      <Hero
+        title={title}
+        hrefBefore={'/' + ERoutes.himnos}
+        extraContent={<HimnoHeaderRefresh onRefresh={refreshHymn} loading={loading} />}
+      />
 
       <Box style={{ padding: "8px 4px", paddingTop: 8, paddingBottom: 8, backgroundColor: Colors.bkgWhite}}>
         <div style={{ minHeight: "calc(100vh - 110px)", padding: "0 4px" }}>
-          <WrapItemHimno paragraphs={paragraphs} chorus={chorus || []} />
+          <WrapItemHimno key={refreshKey} paragraphs={paragraphs} chorus={chorus || []} />
         </div>
       </Box>
 
