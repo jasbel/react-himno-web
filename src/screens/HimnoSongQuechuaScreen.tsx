@@ -1,4 +1,4 @@
-import { FC, useContext, useEffect, useState } from "react";
+import { FC, useContext, useEffect, useState, useMemo } from "react";
 import Colors from "@/utils/colors";
 import { responsiveCalc } from "@/utils/responsive";
 import { ISongModel } from "../types/types";
@@ -11,6 +11,7 @@ import { SongQchContext } from "../state/SongQchContext";
 import { ERoutes } from "@/utils/enum";
 import HimnoSongFooter from "@/components/himno/HimnoSongFooter";
 import HimnoHeaderRefresh from "@/components/himno/HimnoHeaderRefresh";
+import ChordToggleButton from "@/components/himno/ChordToggleButton";
 import { getSongV1Item } from "@/api/songLocalService";
 import { uuid } from "@/utils/helpers";
 
@@ -29,8 +30,23 @@ const HimnoSongQuechuaScreen: FC<Props> = () => {
   const [himno, setHimno] = useState<ISongModel>(state?.himno);
   const [loading, setLoading] = useState(false);
   const [refreshKey, setRefreshKey] = useState(0);
+  const [showChords, setShowChords] = useState(false); // Por defecto oculto
 
   const himnoId = id || state?.himno?.id;
+
+  // Detectar si el himno tiene acordes
+  const hasChords = useMemo(() => {
+    if (!himno) return false;
+
+    const checkForChords = (texts: string[]) => {
+      return texts.some(text => text.includes('[') && text.includes(']'));
+    };
+
+    const paragraphTexts = himno.paragraphs.map(p => p.paragraph);
+    const chorusTexts = (himno.chorus || []).map(c => c.choir || '');
+
+    return checkForChords(paragraphTexts) || checkForChords(chorusTexts);
+  }, [himno]);
 
   const loadHimnoFromJson = async (filename?: string, bustCache: boolean = false) => {
     if (!filename) return null;
@@ -104,12 +120,22 @@ const HimnoSongQuechuaScreen: FC<Props> = () => {
       <Hero
         title={title}
         hrefBefore={'/' + ERoutes.homeQuechua}
-        extraContent={<HimnoHeaderRefresh onRefresh={refreshHymn} loading={loading} />}
+        extraContent={
+          <>
+            {hasChords && (
+              <ChordToggleButton
+                showChords={showChords}
+                onToggle={() => setShowChords(!showChords)}
+              />
+            )}
+            <HimnoHeaderRefresh onRefresh={refreshHymn} loading={loading} />
+          </>
+        }
       />
 
       <Box style={{ padding: "8px 4px", paddingTop: 8, paddingBottom: 8, backgroundColor: Colors.bkgWhite}}>
         <div style={{ minHeight: "calc(100vh - 110px)", padding: "0 4px" }}>
-          <WrapItemHimno key={refreshKey} paragraphs={paragraphs} chorus={chorus || []} />
+          <WrapItemHimno key={refreshKey} paragraphs={paragraphs} chorus={chorus || []} showChords={showChords} />
         </div>
       </Box>
 

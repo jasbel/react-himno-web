@@ -9,9 +9,10 @@ interface ChordSegment {
 interface ChordLyricsProps {
   text: string;
   fontSize: number | string;
+  showChords?: boolean;
 }
 
-const ChordLyrics: React.FC<ChordLyricsProps> = ({ text, fontSize }) => {
+const ChordLyrics: React.FC<ChordLyricsProps> = ({ text, fontSize, showChords = true }) => {
   const parseChords = (text: string): ChordSegment[] => {
     const segments: ChordSegment[] = [];
     const chordRegex = /\[([a-zA-Z0-9#\/]+)\]/g;
@@ -94,7 +95,7 @@ const ChordLyrics: React.FC<ChordLyricsProps> = ({ text, fontSize }) => {
   const numericFontSize = getNumericFontSize(fontSize);
   const chordFontSize = Math.max(12, numericFontSize * 0.65); // 65% del tamaño del texto, mínimo 12px
   const chordLineHeight = numericFontSize * 0.8; // Espaciado proporcional para acordes
-  const lineHeight = numericFontSize * 2.1; // lineHeight proporcional
+  const lineHeight = showChords ? numericFontSize * 2.1 : numericFontSize * 1.4; // lineHeight dinámico según si hay acordes visibles
 
   // If no chords, render as normal text with line breaks
   if (!segments.some(s => s.chord)) {
@@ -127,11 +128,11 @@ const ChordLyrics: React.FC<ChordLyricsProps> = ({ text, fontSize }) => {
               style={{
                 display:  'inline-block',
                 marginRight: hasChord ? '0px' : '0px',
-                position: hasChord ? 'relative' : 'static',
+                position: (hasChord && showChords) ? 'relative' : 'static',
                 verticalAlign: 'top',
               }}
             >
-              {segment.chord && (
+              {segment.chord && showChords && (
                 <span
                   style={{
                     position: 'absolute',

@@ -29,9 +29,10 @@ interface Props {
   item: ILetter;
   isSmall?: boolean;
   hiddenSepare?: boolean;
+  showChords?: boolean;
 }
 
-const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
+const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare, showChords }: Props) => {
   const fontsmall = 12;
   const { customFontSize } = useSetting();
   const hasChords = item.paragraph.includes('[') && item.paragraph.includes(']');
@@ -46,7 +47,7 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
         }}
       >
         {hasChords ? (
-          <ChordLyrics text={item.paragraph} fontSize={customFontSize} />
+          <ChordLyrics text={item.paragraph} fontSize={customFontSize} showChords={showChords} />
         ) : (
           <span className="whitespace-pre-wrap break-words">{item.paragraph}</span>
         )}
@@ -71,7 +72,7 @@ const ItemHimnoLetter = ({ item, isSmall = false, hiddenSepare }: Props) => {
                   }}
                 >
                   {hasChordChoir ? (
-                    <ChordLyrics text={choir} fontSize={isSmall ? fontsmall : customFontSize} />
+                    <ChordLyrics text={choir} fontSize={isSmall ? fontsmall : customFontSize} showChords={showChords} />
                   ) : (
                     <span className="whitespace-pre-wrap break-words">{choir}</span>
                   )}

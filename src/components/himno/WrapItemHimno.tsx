@@ -4,9 +4,10 @@ import { IChoir } from "../../types/types";
 
 interface Props extends Pick<ISongModel, "paragraphs" | "chorus"> {
   isSmall?: boolean;
+  showChords?: boolean;
 }
 
-const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
+const WrapItemHimno = ({ chorus, paragraphs, isSmall, showChords }: Props) => {
   function joinChoirs(filter: IChoir[]): string[] {
     const filterChoir =
       filter.length >= 2
@@ -65,7 +66,7 @@ const WrapItemHimno = ({ chorus, paragraphs, isSmall }: Props) => {
   return (
     <>
       {verses.map((it, i) => {
-        return <ItemHimnoLetter key={i} item={it} isSmall={isSmall} hiddenSepare={verses.length <= i + 1} />;
+        return <ItemHimnoLetter key={i} item={it} isSmall={isSmall} hiddenSepare={verses.length <= i + 1} showChords={showChords} />;
       })}
     </>
   );
