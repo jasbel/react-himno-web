@@ -132,3 +132,26 @@ export const deleteSong = async (id: ID) => {
     throw error;
   }
 };
+
+export const syncSongsFromSupabase = async () => {
+  try {
+    const { data, error } = await supabase
+      .from('himnos')
+      .select('*')
+      .order('title', { ascending: true });
+
+    if (error) throw error;
+
+    return data.map((item: any) => ({
+      id: item.id,
+      title: item.title,
+      description: item.description || '',
+      musicalNote: item.musical_note,
+      paragraphs: item.paragraphs,
+      chorus: item.chorus,
+      filename: item.filename || ''
+    }));
+  } catch (error) {
+    throw error;
+  }
+};

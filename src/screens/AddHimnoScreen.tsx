@@ -9,6 +9,7 @@ import { createSong } from "@/api/songService";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Save } from "lucide-react";
+import { validateSong } from "@/utils/validation";
 
 const AddHimnoScreen = () => {
   const { state } = useContext(AddContext);
@@ -16,17 +17,19 @@ const AddHimnoScreen = () => {
 
   const handleSave = async () => {
     try {
-      // Validate minimal fields
-      if (!state.title) {
-        alert("El título es requerido");
+      // Validate before sending to Supabase
+      const validation = validateSong(state);
+      if (!validation.isValid) {
+        alert('Errores de validación:\n' + validation.errors.join('\n'));
         return;
       }
+
       await createSong(state);
       alert('Himno creado correctamente');
       navigate(-1);
     } catch (error) {
       console.error(error);
-      alert('Error al crear el himno');
+      alert('Error al crear el himno: ' + (error as Error).message);
     }
   };
 
