@@ -4,6 +4,7 @@ import { addFav, deleteFav, findFav } from "../lib/storage";
 import { rmAccents } from "@/utils/removeAccents";
 import { getListSongQuechuaLocal } from "@/api/songLocalService";
 import { songDTOQchJson } from "@/utils/helper";
+import { syncSongsQuechuaFromSupabase } from "@/api/songService";
 
 interface InitialValues {
   songAllFilter: ISong[];
@@ -11,6 +12,8 @@ interface InitialValues {
   changeSongBySearch: (q: string) => void;
   rmToFav: (favId: ID) => void;
   getSongById: (id: ID) => ISong | undefined;
+  syncFromSupabase: () => Promise<void>;
+  isSyncing: boolean;
 }
 
 const defaultValue: InitialValues = {
@@ -19,6 +22,8 @@ const defaultValue: InitialValues = {
   changeSongBySearch: () => {},
   rmToFav: () => {},
   getSongById: () => undefined,
+  syncFromSupabase: async () => {},
+  isSyncing: false,
 };
 
 export const SongQchContext = React.createContext<InitialValues>(defaultValue);
@@ -26,6 +31,7 @@ export const SongQchContext = React.createContext<InitialValues>(defaultValue);
 export const SongQchProvider = ({ children }: { children: ReactNode }) => {
   const songAllRef = useRef<ISong[]>([]);
   const [songAllFilter, setSongAllFilter] = useState<ISong[]>([]);
+  const [isSyncing, setIsSyncing] = useState(false);
 
   const fetchData = async () => {
     try {
@@ -100,6 +106,25 @@ export const SongQchProvider = ({ children }: { children: ReactNode }) => {
     return songAllRef.current.find((song) => song.id === id);
   };
 
+  const syncFromSupabase = async () => {
+    try {
+      setIsSyncing(true);
+      const supabaseSongs = await syncSongsQuechuaFromSupabase();
+
+      songAllRef.current = supabaseSongs.map((it) => ({
+        ...it,
+        favorite: !!findFav(it.id),
+      })).sort((a, b) => a.title.localeCompare(b.title));
+
+      setSongs();
+    } catch (error) {
+      console.error("Sync from Supabase error:", error);
+      throw error;
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
   useEffect(() => {
     getSongs();
     changeSongBySearch("");
@@ -113,6 +138,8 @@ export const SongQchProvider = ({ children }: { children: ReactNode }) => {
         rmToFav,
         changeSongBySearch,
         getSongById,
+        syncFromSupabase,
+        isSyncing,
       }}
     >
       {children}

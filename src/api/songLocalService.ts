@@ -22,7 +22,7 @@ export const getListV1SongLocal = async (): Promise<ISongListV1[]> => {
   try {
     const fetchData = async () => {
       try {
-        const response = await fetch('/songs.json?v=1')
+        const response = await fetch('/songs.json')
         if (!response.ok) {
           throw new Error('Failed to fetch config')
         }

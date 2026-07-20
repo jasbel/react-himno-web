@@ -11,6 +11,7 @@ import { AddContext } from "@/state/AddContext";
 import { useDinamicSong } from "@/hooks/useDinamicSong";
 import { ID } from "@/types/types";
 import { updateSong } from "@/api/songService";
+import { validateSong } from "@/utils/validation";
 
 
 const EditHimnoScreen = () => {
@@ -33,12 +34,19 @@ const EditHimnoScreen = () => {
 
   const handleUpdate = async () => {
     try {
+      // Validate before sending to Supabase
+      const validation = validateSong(state);
+      if (!validation.isValid) {
+        alert('Errores de validación:\n' + validation.errors.join('\n'));
+        return;
+      }
+
       await updateSong(state);
       alert('Himno actualizado correctamente');
       navigate(-1);
     } catch (error) {
       console.error(error);
-      alert('Error al actualizar el himno');
+      alert('Error al actualizar el himno: ' + (error as Error).message);
     }
   };
 

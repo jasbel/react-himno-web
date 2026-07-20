@@ -3,11 +3,9 @@ export type IDPos = ID|number;
 export type TNote = '_' | 'G|Sol' | 'A|La' | 'C|Do' | 'D|Re' | 'E|Mi' | 'B|Si' | 'F|Fa' | 'F#|Fa#' | 'C/D|Do-Re'
 ;
 
-export interface ISongListV1 {
+export interface ISongListV1 extends ISongBase {
   id: ID,
-  title: string,
   description: string,
-  musicalNote: TNote,
   filename: string,
 }
 export type IChorusPos = ([positionOrId: IDPos, repeat?: number]|(IDPos))[] | (IDPos)

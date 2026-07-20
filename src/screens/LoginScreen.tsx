@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { Box, Heading, Input } from '@/components/ui';
 import LayoutMain from '@/layout/LayoutMain';
 import Layout from '@/layout/Layout';
@@ -11,7 +11,7 @@ const LoginScreen = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const { login } = useAuth();
+  const { login, user } = useAuth();
 
   const handleLogin = async () => {
     setError('');
@@ -38,6 +38,28 @@ const LoginScreen = () => {
               {error}
             </div>
           )}
+
+          {user && (
+            <div style={{ marginBottom: 20, padding: 12, backgroundColor: '#f0fdf4', borderRadius: 4, border: '1px solid #bbf7d0' }}>
+              <p style={{ fontSize: 14, color: '#166534', marginBottom: 8 }}>
+                Ya estás logueado como <strong>{user.email}</strong>
+              </p>
+              <button
+                onClick={() => navigate('/change-password')}
+                style={{
+                  padding: '8px 16px',
+                  backgroundColor: '#1f2937',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: 4,
+                  cursor: 'pointer',
+                  fontSize: 14,
+                }}
+              >
+                Cambiar Contraseña
+              </button>
+            </div>
+          )}
           <Input 
             placeholder="Correo electrónico" 
             type="email"
@@ -52,7 +74,7 @@ const LoginScreen = () => {
             onChange={(e) => setPassword(e.target.value)}
             style={{ marginBottom: 20 }}
           />
-          <button 
+          <button
             onClick={handleLogin}
             disabled={loading}
             style={{
@@ -68,6 +90,15 @@ const LoginScreen = () => {
           >
             {loading ? 'Iniciando sesión...' : 'Ingresar'}
           </button>
+
+          <div style={{ display: 'flex', justifyContent: 'space-between', gap: 16, marginTop: 16, fontSize: 14 }}>
+            <Link to="/forgot-password" style={{ color: '#333', textDecoration: 'none' }}>
+              ¿Olvidaste tu contraseña?
+            </Link>
+            <Link to="/register" style={{ color: '#333', textDecoration: 'none' }}>
+              Crear cuenta
+            </Link>
+          </div>
         </Box>
       </LayoutMain>
     </Layout>

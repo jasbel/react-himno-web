@@ -28,3 +28,4 @@ dev-dist/sw.js
 dev-dist/workbox-c5f6b949.js
 apidoc.md
 .kilocode/
+.mcp.json

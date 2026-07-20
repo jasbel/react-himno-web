@@ -12,6 +12,9 @@ import { routeList } from "@/utils/constant";
 import HimnoListsScreen from "@/screens/HimnoListsScreen";
 import LayoutGlobal from "@/layout/LayoutGlobal";
 import LoginScreen from "./screens/LoginScreen";
+import RegisterScreen from "./screens/RegisterScreen";
+import ForgotPasswordScreen from "./screens/ForgotPasswordScreen";
+import ChangePasswordScreen from "./screens/ChangePasswordScreen";
 import ProtectedRoute from "@/components/ProtectedRoute";
 
 const HimnoStack = () => {
@@ -25,6 +28,9 @@ const HimnoStack = () => {
             <Route path={ERoutes.principal} element={<HimnoHomeScreen admin={false} />} />
           </Route>
           <Route path="/login" element={<LoginScreen />} />
+          <Route path={ERoutes.register} element={<RegisterScreen />} />
+          <Route path={ERoutes.forgotPassword} element={<ForgotPasswordScreen />} />
+          <Route path={ERoutes.changePassword} element={<ChangePasswordScreen />} />
           <Route path={ERoutes.himnos} element={<HimnoNewScreen />} />
           <Route path={ERoutes.homeQuechua} element={<HimnoNewQuechuaScreen />} />
           <Route path={ERoutes.homeList} element={<HimnoListScreen />} />

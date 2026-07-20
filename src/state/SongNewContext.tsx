@@ -4,6 +4,7 @@ import { addFav, deleteFav, findFav } from "../lib/storage";
 import { rmAccents } from "@/utils/removeAccents";
 import { getListV1SongLocal } from "@/api/songLocalService";
 import { songDTOJson } from "@/utils/helper";
+import { syncSongsFromSupabase } from "@/api/songService";
 
 interface InitialValues {
   songAllFilter: ISong[];
@@ -11,6 +12,8 @@ interface InitialValues {
   changeSongBySearch: (q: string) => void;
   rmToFav: (favId: ID) => void;
   getSongById: (id: ID) => ISong | undefined;
+  syncFromSupabase: () => Promise<void>;
+  isSyncing: boolean;
 }
 
 const defaultValue: InitialValues = {
@@ -19,6 +22,8 @@ const defaultValue: InitialValues = {
   changeSongBySearch: () => {},
   rmToFav: () => {},
   getSongById: () => undefined,
+  syncFromSupabase: async () => {},
+  isSyncing: false,
 };
 
 export const SongNewContext = React.createContext<InitialValues>(defaultValue);
@@ -26,6 +31,7 @@ export const SongNewContext = React.createContext<InitialValues>(defaultValue);
 export const SongNewProvider = ({ children }: { children: ReactNode }) => {
   const songAllRef = useRef<ISong[]>([]);
   const [songAllFilter, setSongAllFilter] = useState<ISong[]>([]);
+  const [isSyncing, setIsSyncing] = useState(false);
 
   const fetchData = async (): Promise<ISong[]> => {
     try {
@@ -99,6 +105,25 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
     return songAllRef.current.find((song) => song.id === id);
   };
 
+  const syncFromSupabase = async () => {
+    try {
+      setIsSyncing(true);
+      const supabaseSongs = await syncSongsFromSupabase();
+
+      songAllRef.current = supabaseSongs.map((it) => ({
+        ...it,
+        favorite: !!findFav(it.id),
+      })).sort((a, b) => a.title.localeCompare(b.title));
+
+      setSongs();
+    } catch (error) {
+      console.error("Sync from Supabase error:", error);
+      throw error;
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
   useEffect(() => {
     getSongs();
     changeSongBySearch("");
@@ -112,6 +137,8 @@ export const SongNewProvider = ({ children }: { children: ReactNode }) => {
         rmToFav,
         changeSongBySearch,
         getSongById,
+        syncFromSupabase,
+        isSyncing,
       }}
     >
       {children}

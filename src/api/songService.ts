@@ -132,3 +132,48 @@ export const deleteSong = async (id: ID) => {
     throw error;
   }
 };
+
+export const syncSongsFromSupabase = async () => {
+  try {
+    const { data, error } = await supabase
+      .from('himnos')
+      .select('*')
+      .order('title', { ascending: true });
+
+    if (error) throw error;
+
+    return data.map((item: any) => ({
+      id: item.id,
+      title: item.title,
+      description: item.description || '',
+      musicalNote: item.musical_note,
+      paragraphs: item.paragraphs,
+      chorus: item.chorus,
+      filename: item.filename || ''
+    }));
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const syncSongsQuechuaFromSupabase = async () => {
+  try {
+    const { data, error } = await supabase
+      .from('himnos_quechua')
+      .select('*')
+      .order('title', { ascending: true });
+
+    if (error) throw error;
+
+    return data.map((item: any) => ({
+      id: item.id,
+      title: item.title,
+      description: item.paragraphs[0]?.paragraph || '',
+      musicalNote: item.musical_note,
+      paragraphs: item.paragraphs,
+      chorus: item.chorus
+    }));
+  } catch (error) {
+    throw error;
+  }
+};

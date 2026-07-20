@@ -73,8 +73,6 @@ export const getIdPosByChoir = (chorusIdOrPos: IChorusPos) => {
 export const songDTOJson = (data: ISongListV1): ISong => {
   return {
     ...data,
-    paragraphs: [],
-    chorus: [],
     favorite: false,
   };
 };

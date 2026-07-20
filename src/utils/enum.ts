@@ -9,5 +9,9 @@ export const ERoutes = {
   item : "himnos/view",
   itemQuechua : "himnos-quechua/view",
   addHimno : "create",
-  editHimno : "edit"
+  editHimno : "edit",
+  changePassword : "change-password",
+  login : "login",
+  register : "register",
+  forgotPassword : "forgot-password"
 }

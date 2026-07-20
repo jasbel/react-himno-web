@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ERoutes } from "@/utils/enum";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { SyncButton } from "@/components/SyncButton";
   
 interface Props {
   admin: boolean
@@ -25,6 +26,11 @@ const HimnoHomeScreen = ({admin}: Props) => {
         <p className="text-muted-foreground text-sm sm:text-base md:text-lg max-w-md mx-auto px-4">
           Accede a todos los himnos y coros de nuestra iglesia en un solo lugar.
         </p>
+
+        {/* Sync Button */}
+        <div className="w-full max-w-xs px-2">
+          <SyncButton />
+        </div>
       </div>
 
       {/* Navigation Cards */}
