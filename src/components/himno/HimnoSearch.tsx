@@ -18,8 +18,11 @@ const HimnoSearch = ({ onChange, modeSearch }: Props) => {
   };
 
   useEffect(() => {
-    !modeSearch && setQuery('');
-  }, [modeSearch]);
+    if (modeSearch) return;
+    setQuery('');
+    onChange?.('');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <Flex style={{backgroundColor: opacityColor(Colors.bkgWhite, 0.5)}}>
