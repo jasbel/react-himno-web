@@ -1283,49 +1283,6 @@
     "chorus": []
   },
   {
-    "filename": "Salmos - La Ley de Jehova.json",
-    "id": "f0d8cd73-35f9-4ac6-86a7-6064fb46543c",
-    "code": "51",
-    "title": "Salmos 19 - La Ley de Jehova",
-    "musicalNote": "C|Do",
-    "chorus": [
-      {
-        "choir": "Deseables son más que el oro,\n        y más que mucho oro afinado;\n        y dulces más que la miel,\n        la que destila del panal.",
-        "id": "85d944f8-64f6-6f05-b892-50ae33e12509"
-      }
-    ],
-    "paragraphs": [
-      {
-        "id": "37af71ea-9f96-fa70-c851-43d744e8d909",
-        "paragraph": "La ley de Jehová es perfecta,\n        que convierte el alma;\n        El testimonio de Jehová es fiel,\n        que hace sabio al sencillo.",
-        "chorusPos": [
-          [
-            1
-          ]
-        ]
-      },
-      {
-        "id": "ab6a1f53-a7d8-28b7-b0c6-71a8402fd0b9",
-        "paragraph": "Los mandamientos de Jehová son rectos,\n        que alegran el corazón;\n        El precepto de Jehová es puro,\n        que alumbra los ojos.",
-        "chorusPos": [
-          [
-            1
-          ]
-        ]
-      },
-      {
-        "id": "8c8b92be-2295-34db-fc09-2f571d62a507",
-        "paragraph": "El temor de Jehová es limpio,\n        que permanece para siempre;\n        Los juicios de Jehová son verdad,\n        todos justos.",
-        "chorusPos": [
-          [
-            1
-          ]
-        ]
-      }
-    ],
-    "description": "La ley de Jehová es perfecta,         que convie"
-  },
-  {
     "filename": "AUNQUE NO ENCUENTRE UNA PUERTA.json",
     "id": "fa938d97-7ec6-409f-85fe-62512581459c",
     "num_song": "105",
