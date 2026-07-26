@@ -5,6 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path';
 
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
+
 const pwaOptions: Partial<VitePWAOptions> = {
   // mode: "development",
   registerType: 'autoUpdate',
@@ -87,7 +90,7 @@ export default defineConfig({
   build: {
     sourcemap: process.env.SOURCE_MAP === "true",
   },
-  plugins: [react(), tailwindcss(), VitePWA(pwaOptions)],
+  plugins: [react(), tailwindcss(), VitePWA(pwaOptions), cloudflare()],
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),

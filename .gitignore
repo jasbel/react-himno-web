@@ -29,3 +29,9 @@ dev-dist/workbox-c5f6b949.js
 apidoc.md
 .kilocode/
 .mcp.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
